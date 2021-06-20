@@ -1,7 +1,4 @@
-# TTRPG Template
+# 52 First Dates
 
-This is a template for tabletop roleplaying game projects created by Cadera Spindrift.
+A rules-light tabletop roleplaying game about going on 52 blind dates while plural.
 
-To use it, create a project named `projname` then do this:
-
-`cp -r ttrpg/* projname`
