@@ -25,12 +25,12 @@ the players agree they've enjoyed playing and are ready to stop for the day.
 Okay, you need to get the following together:
 
 - At least 3 players, preferably 4 to 6
-- Two decks of standard poker cards, probably with different backs
+- Two decks of standard poker cards, they should have different backs
 - A copy of the System Sheet
 - One Date Sheet per player
 - Several copies (see below for an exact number) of the Headmate Sheets
 - Pencils
-- *optional* extra paper to take notes
+- *optional* extra paper for notetaking
 
 The number of players determines the system size, and thus the number of
 headmate sheets you'll need.
@@ -878,7 +878,7 @@ the issues going forward.
 
 []{.lorem}
 [The title of that song is ableist.]{.carline}
-[Oh c'mon Carline, you know it's joke]{.ora}
+[Oh c'mon Carline, you know it's a joke]{.ora}
 [... an *ableist* joke.]{.carline}
 [She's right, you know.]{.dera}
 [wait, *who* is right?]{.ora}
