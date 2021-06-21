@@ -7,6 +7,14 @@ header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
 
+@page:left { margin-left: 196pt; margin-right: 96pt; }
+@page:right { margin-right: 196pt; margin-left: 96pt; }
+
+@page { @footnote { position: absolute; width: 168pt; } }
+
+@page:left { @footnote { left: 24pt; } }
+@page:right { @footnote { right: 24pt; } }
+
 @prince-pdf {
   -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
 /*
@@ -28,19 +36,22 @@ header h1     { string-set: gamename content()       }
 }
 
 :root {
-  --font: "Marcellus";
-  --font-header: "Marcellus SC";
+  --font: "Bellefair";
+  --font-header: "Cherry Swash";
   --font-toolkit: "Montserrat";
+  --font-morethanone: "Source Sans Pro";
 
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
   --icon-game: 'game-icons';
+  --font-emoji: 'Noto Color Emoji';
 
-  --body:      10pt;
-  --larger:    11pt;
-  --smaller:    9pt;
-  --small:      8pt;
-  --large:     12pt;
+  --body:      12pt;
+  --larger:    13pt;
+  --smaller:   11pt;
+  --small:     10pt;
+  --large:     14pt;
+
   --title:     54pt;
   --subtitle:  36pt;
   --h1:        24pt; 
@@ -50,7 +61,8 @@ header h1     { string-set: gamename content()       }
   --h5:        14pt;
   --h6:        12pt;
   --th:        11pt;
-  --toolkit:    8pt; 
+  --toolkit:    9pt; 
+  --morethanone: 11pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -59,7 +71,7 @@ header h1     { string-set: gamename content()       }
   --bgcolor-sidebar: #EEEEEE;
   --bgcolor-toolkit: #F8FFF8;
 
-  counter-reset: table figure sidebar;
+  counter-reset: table figure sidebar footnote;
 }
 
 body               { font-family: var(--font); font-size: var(--body);      }
@@ -71,7 +83,7 @@ h3                 { font-family: var(--font-header); font-size: var(--h3); }
 h4                 { font-family: var(--font-header); font-size: var(--h4); }
 h5                 { font-family: var(--font-header); font-size: var(--h5); }
 h6                 { font-family: var(--font-header); font-size: var(--h6); }
-body               { column-count: 2; column-width: auto; column-gap: 36pt; }
+/* body               { column-count: 2; column-width: auto; column-gap: 36pt; } */
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
 h1                 { column-span: all; text-align: center;                  }
@@ -89,6 +101,7 @@ table thead        { border-bottom: 0.5pt solid var(--color-line);          }
 table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
+table              { width: 100%;                                           }
 
 #cover + h1   { counter-reset: page; counter-increment: page; break-before: right; }
 
@@ -124,7 +137,7 @@ p, li { orphans: 3; line-height: 1.40; }
   font-size:       var(--big);
   margin-top:      18pt;
   margin-bottom:   18pt;
-  text-align:      center;
+  text-align:      outside;
 } }
 
 @page { @top-left {
@@ -171,10 +184,7 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 .section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
 .chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
 
-#toc {
-  /*column-span: all; float: top;*/
-  /*column-count: 4; column-width: auto; column-gap: 12pt;*/
-}
+#toc { float: page bottom; }
 #toc a:before    { content: target-content(attr(href)) ' ';                        }
 #toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
 #toc ul          { margin-left: 0;                                                 }
@@ -295,4 +305,49 @@ a:hover   { text-decoration: none; color: red;    }
 @page charsheet { @top-left      { content: normal; } }
 @page charsheet { @bottom-center { content: normal; } }
 
+.lexicon ul li { list-style-type: none; margin-left: 0; }
+.lexicon ul { margin-left: 9pt; }
+.lexicon ul li strong:first-of-type { font-family: var(--font-header); display: inline-block; margin-left: -9pt; }
+.systemlist ul li { list-style-type: none; margin-left: 0; }
+.systemlist ul { margin-left: 24pt; }
+.systemlist ul li span { display: inline-block; margin-left: -24pt; }
+.systemlist ul li span:before { width: 24pt; text-align: center; }
+
+span:matches(.spin, .dera, .carline, .ora, .val, .fox):empty:before { display: inline-block; font-family: var(--font-emoji); }
+
+span.spin:before { content: '\1f300'; }
+span.dera:before { content: '\1f4e1'; }
+span.carline:before { content: '\1f343'; }
+span.ora:before { content: '\1f339'; }
+span.val:before { content: '\1f517'; }
+span.fox:before { content: '\1f98a'; }
+
+.morethanone :matches(h1, h2, h3, h4, h5, h6) { 
+  font-family: var(--font-morethanone); 
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.morethanone p { margin-top: 9pt; margin-bottom: 9pt; }
+
+.morethanone h4 + p { margin-top: 0; }
+
+.morethanone h3:first-of-type { margin-top: 0; }
+.morethanone h3 { margin-top: 12pt; }
+.morethanone h3 + h4 { margin-top: 6pt; }
+.morethanone strong { font-weight: 500; }
+
+.morethanone h2 { font-weight: 300; text-transform: lowercase; text-align: center; }
+.morethanone h3 { font-size: var(--larger); border: 0.5pt solid var(--color-light); border-radius: 12pt; padding: 4pt 16pt; width: auto; display: inline-block; }
+.morethanone h4 { font-size: var(--body); font-weight: 400; }
+.morethanone .bigpara { font-size: var(--large); }
+
+.morethanone { 
+  border: 0.5pt solid var(--color-light); 
+  border-radius: 6pt;
+  padding: 3pt 9pt; 
+  font-size: var(--morethanone); 
+  font-family: var(--font-morethanone);
+  font-weight: 300;
+}
 

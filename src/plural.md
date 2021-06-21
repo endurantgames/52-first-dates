@@ -1,13 +1,14 @@
 # What is plurality?
 
-################ ccnotice ######################################################
 The following section contains information about plurality that should be read
 and understood by the players before playing *52 First Dates.* It's adapted
-from [MoreThanOne.info](https://morethanone.info/) and is used under a
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. (Retrieved June 21, 2021.)
-################################################################################
+from [MoreThanOne.info](https://morethanone.info/).
 
-[**Plurality** (or multiplicity) is the existence of multiple self-aware entities 
+:::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# More Than One: A Plural 101
+
+[Plurality (or multiplicity) is the existence of multiple self-aware entities 
 inside one physical brain.]{.bigpara}
 
 You could think of a plural collective as a group of lifelong roommates, but with a 
@@ -17,9 +18,6 @@ It's a concept that fascinates many, the idea of always sharing your life with o
 never being alone no matter where you go. Yet, for all that, there's a lack of 
 understanding and a great deal of stigma surrounding plurality, and many plurals 
 hide as a result.
-
-<!-- There are many dimensions to being plural. This site only scratches the surface of the 
-topic, but we hope that it can go some way towards building understanding, regardless. -->
 
 ## Terms
 
@@ -135,8 +133,8 @@ each other to achieve things they couldn't alone.
 
 See also:
 
-– [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
-– [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
+- [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
+- [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
 
 ## What is it like?
 
@@ -237,12 +235,12 @@ is vital to successfully living together.
 
 See also:
 
-– [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
-– [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
-– [Non-Binary Plural: Language/Concepts for OSDD and Median Experience](https://smallcedarforest.org/non-binary-plural-language-and-concepts-for-osdd-and-median-experience/) by cedars
-– [I am Mr. Robot](https://medium.com/@pluraldoxa/i-am-mr-robot-defe6ee93edf) by pluraldoxa
-– [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
-– [The Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
+- [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
+- [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
+- [Non-Binary Plural: Language/Concepts for OSDD and Median Experience](https://smallcedarforest.org/non-binary-plural-language-and-concepts-for-osdd-and-median-experience/) by cedars
+- [I am Mr. Robot](https://medium.com/@pluraldoxa/i-am-mr-robot-defe6ee93edf) by pluraldoxa
+- [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
+- [The Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
 
 ## Etiquette
 
@@ -280,9 +278,10 @@ one person with multiple personalities. Or a troupe putting on a show of singlet
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
 See also:
-– [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
-– [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
-– [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
+
+- [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
+- [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
+- [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
 
 ## Am I plural?
 
@@ -290,6 +289,8 @@ See also:
 
 See also:
 
-– [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
-– [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
-– [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
+- [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
+- [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
+- [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

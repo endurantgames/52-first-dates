@@ -2,23 +2,22 @@
 
 A rules-light tabletop roleplaying game about going on 52 blind dates while plural.
 
-Well.
+*Well.*
 
-You probably won't play out 52 dates.
-
-More like a few, until you're all satisfied with the game.
+You probably won't play out 52 dates in one session.  
+More like a few, until all the players agree they've enjoyed playing.
 
 ## What You Need
 
 Okay, you need to get the following together:
 
-- At least 3 players, preferably 4 or more
+- At least 3 players, preferably 4 to 6
 - Two decks of standard poker cards, probably with different backs
 - A copy of the System Sheet
 - One Date Sheet per player
 - Several copies (see below for an exact number) of the Headmate Sheets
 - Pencils
-- (optional) extra paper to take notes
+- *optional* extra paper to take notes
 
 The number of players determines the system size, and thus the number of
 headmate sheets you'll need.
