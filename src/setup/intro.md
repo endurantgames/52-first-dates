@@ -1,29 +1,29 @@
 # Part 1: The Set-Up {#setup}
 
-beep
+[]{.lorem}
 
 ## Game Safely {#setup-safely}
 
-beep
+[]{.lorem}
 
 ## Setting and Themes {#setup-setting}
 
-beep
+[]{.lorem}
 
 ## Creating the System {#setup-system}
 
-beep
+[]{.lorem}
 
 ### Gender and Sexuality {#setup-gender}
 
-beep
+[]{.lorem}
 
 ### Memory, All Alone in the Moonlight {#setup-memory}
 
-beep
+[]{.lorem}
 
 ## Creating the Headmates {#setup-headmates}
 
-beep
+[]{.lorem}
 
 

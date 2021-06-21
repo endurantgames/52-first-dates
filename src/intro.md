@@ -2,10 +2,9 @@
 
 A rules-light tabletop roleplaying game about going on 52 blind dates while plural.
 
-*Well.*
-
-You probably won't play out 52 dates in one session.  
-More like a few, until all the players agree they've enjoyed playing.
+*Well.* 
+You probably won't play out 52 dates in one session. More like a few, until all 
+the players agree they've enjoyed playing and are ready to stop for the day.
 
 ## What You Need
 

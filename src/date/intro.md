@@ -1,76 +1,76 @@
 # Part 2: Date Night {#date}
 
-beep
+[]{.lorem}
 
 ## Setting the Scene {#date-scene}
 
-beep
+[]{.lorem}
 
 ### Who's Fronting? {#date-front}
 
-beep
+[]{.lorem}
 
 #### Co-Fronting {#date-cofront}
 
-beep
+[]{.lorem}
 
 ## Playing as the Date {#date-date}
 
-beep
+[]{.lorem}
 
 ### Cards Close to the Vest {#date-vest}
 
-beep
+[]{.lorem}
 
 ## Play Your Cards Right {#date-play}
 
-beep
+[]{.lorem}
 
 ### Cards and Moves {#date-cards}
 
-beep
+[]{.lorem}
 
 ### Gauging the Mood {#date-mood}
 
-beep
+[]{.lorem}
 
 ### Switching Fronter {#date-switch}
 
-beep
+[]{.lorem}
 
 ## Outside Interference {#date-outside}
 
-beep
+[]{.lorem}
 
 ### Named NPCs {#date-npcs}
 
-beep
+[]{.lorem}
 
 #### Recurring NPCs {#date-recurring}
 
-beep
+[]{.lorem}
 
 #### I Just Met You and This Is Crazy {#date-maybe}
 
-beep
+[]{.lorem}
 
 ## Ending the Date {#date-end}
 
-beep
+[]{.lorem}
 
 ### You Gotta Know When to Fold 'Em {#date-fold}
 
-beep
+[]{.lorem}
 
 ### You've Lost that Loving Feeling {#date-lost}
 
-beep
+[]{.lorem}
 
 ### Voulez-Vous Coucher Avec Moi? {#date-cesoir}
 
-beep
+[]{.lorem}
 
 ### A Second Date? {#date-second}
 
-beep
+[]{.lorem}
 

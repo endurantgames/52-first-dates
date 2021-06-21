@@ -1,4 +1,4 @@
-# Appendix B: Plural Resources {#resources}
+# Appendix: Plural Resources {#resources}
 
-beep
 
+[]{.lorem}

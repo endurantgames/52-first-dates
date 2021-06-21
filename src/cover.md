@@ -1,6 +1,7 @@
 :::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/placeholder.png "Cover Image")
+![Cover Image](art/cover.jpg "Cover Image")
 
-<h1>This is a cover</h1>
-# []{.gamename} by Cadera Spindrift 
+<h1>[]{.gamename}</h1>
+# A Plural Dating Game
+## By the Spindrift Crew
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

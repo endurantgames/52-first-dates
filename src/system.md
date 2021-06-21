@@ -11,7 +11,7 @@ for []{.gamename} because we think it's important for this game, and thematicall
 sound.
 
 Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each signed with an emoji[Like this.]{.dera} so you know you who's speaking.
+sidenotes in the gutters, each signed with an emoji so you know you who's speaking.
 
 This is who we are:
 

@@ -1,7 +1,7 @@
 # What is plurality?
 
 The following section contains information about plurality that should be read
-and understood by the players before playing *52 First Dates.* It's adapted
+and understood by the players before playing []{.gamename}. It's adapted
 from [MoreThanOne.info](https://morethanone.info/).
 
 :::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -5,20 +5,20 @@ title: 52 First Dates
 ...
 
 :::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/placeholder.png "Cover Image")
+![Cover Image](art/cover.jpg "Cover Image")
 
-<h1>This is a cover</h1>
-## []{.gamename} by Cadera Spindrift 
+<h1>[]{.gamename}</h1>
+## A Plural Dating Game
+### By the Spindrift Crew
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # 52 First Dates
 
 A rules-light tabletop roleplaying game about going on 52 blind dates while plural.
 
-*Well.*
-
-You probably won't play out 52 dates in one session.  
-More like a few, until all the players agree they've enjoyed playing.
+*Well.* 
+You probably won't play out 52 dates in one session. More like a few, until all 
+the players agree they've enjoyed playing and are ready to stop for the day.
 
 ## What You Need
 
@@ -97,11 +97,38 @@ headmate sheets you'll need.
 - <a href="#anchor-license"></a>
 - <a href="#sheets"></a>
   - <a href="#sheet-system"></a>
-  - <a href="#sheet-headmate"></a>
   - <a href="#sheet-date"></a>
+  - <a href="#sheet-headmate"></a>
   - <a href="#sheet-reference"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## A System Introduction
+
+Like many tabletop roleplaying games, []{.gamename} is a collaboration between
+a group of people.  Unlike many, that group are all in the same body.
+
+Hello! We're the Spindrift Crew!
+
+This is a departure from the way we normally write TTRPGs, which is to try and
+maintain a consistent voice throughout. We're purposely doing things differently
+for []{.gamename} because we think it's important for this game, and thematically
+sound.
+
+Rather than interjecting comments into the flow of the text, we decided to use
+sidenotes in the gutters, each signed with an emoji so you know you who's speaking.
+
+This is who we are:
+
+:::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
+- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
+- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
+- []{.ora} **Aura**, flirty lesbian disaster (she/her)
+- []{.val} **Valorie**, generally quiet protector (she/her)
+- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 [No Fascists]{.sidehead .inclu}
@@ -118,33 +145,6 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## A System Introduction
-
-Like many tabletop roleplaying games, []{.gamename} is a collaboration between
-a group of people.  Unlike many, that group are all in the same body.
-
-Hello! We're the Spindrift Crew!
-
-This is a departure from the way we normally write TTRPGs, which is to try and
-maintain a consistent voice throughout. We're purposely doing things differently
-for []{.gamename} because we think it's important for this game, and thematically
-sound.
-
-Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each signed with an emoji[Like this.]{.dera} so you know you who's speaking.
-
-This is who we are:
-
-:::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
-- []{.ora} **Aura**, flirty lesbian disaster (she/her)
-- []{.val} **Valorie**, generally quiet protector (she/her)
-- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 ## Credits
 
 []{.gamename} was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>
@@ -152,7 +152,7 @@ as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
 hosted by [Metaparadox](https://metaparadox.itch.io/).
 
 The contents of the game are covered by the
-*Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
+*Anti-Capitalist Attirbution Cooperative License*[By <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>!]{.spin} found at the end of the rules.
 
 
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
@@ -199,7 +199,7 @@ and are used under a
 ## What is plurality?
 
 The following section contains information about plurality that should be read
-and understood by the players before playing *52 First Dates.* It's adapted
+and understood by the players before playing []{.gamename}. It's adapted
 from [MoreThanOne.info](https://morethanone.info/).
 
 :::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -794,138 +794,138 @@ the issues going forward.
 
 ## Part 1: The Set-Up {#setup}
 
-beep
+[]{.lorem}
 
 ### Game Safely {#setup-safely}
 
-beep
+[]{.lorem}
 
 ### Setting and Themes {#setup-setting}
 
-beep
+[]{.lorem}
 
 ### Creating the System {#setup-system}
 
-beep
+[]{.lorem}
 
 #### Gender and Sexuality {#setup-gender}
 
-beep
+[]{.lorem}
 
 #### Memory, All Alone in the Moonlight {#setup-memory}
 
-beep
+[]{.lorem}
 
 ### Creating the Headmates {#setup-headmates}
 
-beep
+[]{.lorem}
 
 
 
 ## Part 2: Date Night {#date}
 
-beep
+[]{.lorem}
 
 ### Setting the Scene {#date-scene}
 
-beep
+[]{.lorem}
 
 #### Who's Fronting? {#date-front}
 
-beep
+[]{.lorem}
 
 ##### Co-Fronting {#date-cofront}
 
-beep
+[]{.lorem}
 
 ### Playing as the Date {#date-date}
 
-beep
+[]{.lorem}
 
 #### Cards Close to the Vest {#date-vest}
 
-beep
+[]{.lorem}
 
 ### Play Your Cards Right {#date-play}
 
-beep
+[]{.lorem}
 
 #### Cards and Moves {#date-cards}
 
-beep
+[]{.lorem}
 
 #### Gauging the Mood {#date-mood}
 
-beep
+[]{.lorem}
 
 #### Switching Fronter {#date-switch}
 
-beep
+[]{.lorem}
 
 ### Outside Interference {#date-outside}
 
-beep
+[]{.lorem}
 
 #### Named NPCs {#date-npcs}
 
-beep
+[]{.lorem}
 
 ##### Recurring NPCs {#date-recurring}
 
-beep
+[]{.lorem}
 
 ##### I Just Met You and This Is Crazy {#date-maybe}
 
-beep
+[]{.lorem}
 
 ### Ending the Date {#date-end}
 
-beep
+[]{.lorem}
 
 #### You Gotta Know When to Fold 'Em {#date-fold}
 
-beep
+[]{.lorem}
 
 #### You've Lost that Loving Feeling {#date-lost}
 
-beep
+[]{.lorem}
 
 #### Voulez-Vous Coucher Avec Moi? {#date-cesoir}
 
-beep
+[]{.lorem}
 
 #### A Second Date? {#date-second}
 
-beep
+[]{.lorem}
 
 
 ## Part 3: The Wrap-Up {#wrap}
 
-beep
+[]{.lorem}
 
 ### Aftercare {#wrap-after}
 
-beep
+[]{.lorem}
 
 ### Discussion {#wrap-discuss}
 
-beep
+[]{.lorem}
 
 ### On to the Next? {#wrap-next}
 
-beep
+[]{.lorem}
 
 ### Wait, Am *I* Plural? {#wrap-wait}
 
-beep
+[]{.lorem}
 
 
 ## Variants and Hacks {#variant}
 
-beep
+[]{.lorem}
 
 
-## Appendix A: A Plural Lexicon {#lexicon}
+## Appendix: A Plural Lexicon {#lexicon}
 
 These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from
@@ -1161,10 +1161,10 @@ order to play the game. These definitions are adapted from
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Appendix B: Plural Resources {#resources}
+## Appendix: Plural Resources {#resources}
 
-beep
 
+[]{.lorem}
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1480,10 +1480,10 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[Character Sheets]{#sheets .anchor}
+
 
 ::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[System Sheet]{#sheet-system .anchor}
+[Handouts]{#sheets .anchor} [System Sheet]{#sheet-system .anchor}
 
 Here's the system sheet.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
