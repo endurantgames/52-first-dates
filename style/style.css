@@ -12,7 +12,7 @@ header h1     { string-set: gamename content()       }
 
 @page { @footnote { position: absolute; width: 138pt; } }
 
-@page :left  { @footnote { left: -168pt; } }
+@page :left  { @footnote { left: -150pt; } }
 @page :right { @footnote { right: -168pt; } }
 
 *::footnote-marker {

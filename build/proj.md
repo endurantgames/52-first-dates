@@ -35,14 +35,14 @@ Okay, you need to get the following together:
 The number of players determines the system size, and thus the number of
 headmate sheets you'll need.
 
- Number of Players   System Size
-------------------- --------------
-          3               3
-          4               6
-          5              10
-          6              15
-          7              21
-          8              28
+ Players       System Size
+------------- ------------- 
+ 3 players     3 headmates
+ 4 players     6 headmates
+ 5 players    10 headmates
+ 6 players    15 headmates
+ 7 players    21 headmates
+ 8 players    28 headmates
 
 
 :::::::::::::::::::::::::::: { .sidebar #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -877,6 +877,13 @@ the issues going forward.
 ##### I Just Met You and This Is Crazy {#date-maybe}
 
 []{.lorem}
+[The title of that song is ableist.]{.carline}
+[Oh c'mon Carline, you know it's joke]{.ora}
+[... an *ableist* joke.]{.carline}
+[She's right, you know.]{.dera}
+[wait, *who* is right?]{.ora}
+[Not you.]{.dera}
+[:p]{.ora}
 
 ### Ending the Date {#date-end}
 
@@ -1165,6 +1172,11 @@ order to play the game. These definitions are adapted from
 
 
 []{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
