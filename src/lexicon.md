@@ -1,6 +1,6 @@
-# Lexicon
+# Appendix A: A Plural Lexicon {#lexicon}
 
-These are important terms about plural systems that you need to understand in
+These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from
 [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
 

@@ -6,7 +6,7 @@ from [MoreThanOne.info](https://morethanone.info/).
 
 :::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# More Than One: A Plural 101
+# More Than One: A Plural 101 {#more}
 
 [Plurality (or multiplicity) is the existence of multiple self-aware entities 
 inside one physical brain.]{.bigpara}
@@ -19,7 +19,7 @@ never being alone no matter where you go. Yet, for all that, there's a lack of
 understanding and a great deal of stigma surrounding plurality, and many plurals 
 hide as a result.
 
-## Terms
+## Terms {#more-terms}
 
 [There are many terms related to plurality. These are only the most common ones.]{.bigpara}
 
@@ -36,7 +36,7 @@ starting point.
 
 **Switching:** When collective members exchange control over the front.
 
-## Causes
+## Causes {#more-causes}
 
 [It is not fully known what causes plurality, and it is likely there is not a single cause.]{.bigpara}
 
@@ -59,7 +59,7 @@ numerous PTSD-related difficulties that many non-trauma plurals do not.
 
 However, they all share the common thread of being more than one.
 
-## Myths
+## Myths {#more-myths}
 
 ### Myth: Plurality is ultra-rare.
 
@@ -131,12 +131,12 @@ All of this is true for plural collectives as well. It can be challenging to mak
 every member is heard and taken care of. It can also be rewarding, when everyone supports 
 each other to achieve things they couldn't alone.
 
-See also:
+[][]{.seealso}
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
 
-## What is it like?
+## What is it like? {#more-what}
 
 [There are many ways to be plural, and many dimensions to living as plural.]{.bigpara}
 
@@ -233,7 +233,7 @@ Very few collectives run themselves without any rules at all — some degree of 
 even if it's as simple as a shared agreement to harm none outside or inside, 
 is vital to successfully living together.
 
-See also:
+[]{.seealso}
 
 - [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
 - [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
@@ -242,7 +242,7 @@ See also:
 - [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
 - [The Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
 
-## Etiquette
+## Etiquette {#more-etiquette}
 
 [Every system has their own preferences on how they would like to be treated, but the 
 following tend to be common rules of thumb.]{.bigpara}
@@ -277,17 +277,17 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
-See also:
+[]{.seealso}
 
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
 - [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
 - [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
 
-## Am I plural?
+## Am I plural? {#more-ami}
 
 (There will be an article of our own writing here at some point in time. In the meantime, please refer to the following excellent links.)
 
-See also:
+[]{.seealso}
 
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece

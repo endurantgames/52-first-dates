@@ -11,16 +11,16 @@ for []{.gamename} because we think it's important for this game, and thematicall
 sound.
 
 Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each marked with an emoji so you know you who's speaking.
+sidenotes in the gutters, each signed with an emoji[Like this.]{.dera} so you know you who's speaking.
 
 This is who we are:
 
 :::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader
-- []{.ora} **Aura**, flirty lesbian disaster
-- []{.val} **Valorie**, generally quiet protector
-- []{.fox}, who doesn't speak or write except in emojis; not a fox
+- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
+- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
+- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
+- []{.ora} **Aura**, flirty lesbian disaster (she/her)
+- []{.val} **Valorie**, generally quiet protector (she/her)
+- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

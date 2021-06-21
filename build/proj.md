@@ -52,12 +52,71 @@ headmate sheets you'll need.
 - <a href="#a-system-introduction"></a>
 - <a href="#credits"></a>
 - <a href="#what-is-plurality"></a>
-  - <a href="#more-than-one-a-plural-101"></a>
+  - <a href="#more"></a>
+    - <a href="#more-terms"></a>
+    - <a href="#more-causes"></a>
+    - <a href="#more-myths"></a>
+    - <a href="#more-what"></a>
+    - <a href="#more-etiquette"></a>
+    - <a href="#more-ami"></a>
 - <a href="#safety"></a>
+- <a href="#setup"></a>
+  - <a href="#setup-safely"></a>
+  - <a href="#setup-setting"></a>
+  - <a href="#setup-system"></a>
+    - <a href="#setup-gender"></a>
+    - <a href="#setup-memory"></a>
+  - <a href="#setup-headmates"></a>
+- <a href="#date"></a>
+  - <a href="#date-scene"></a>
+    - <a href="#date-front"></a>
+    - <a href="#date-cofront"></a>
+  - <a href="#date-date"></a>
+    - <a href="#date-vest"></a>
+  - <a href="#date-play"></a>
+    - <a href="#date-cards"></a>
+    - <a href="#date-mood"></a>
+    - <a href="#date-switch"></a>
+  - <a href="#date-outside"></a>
+    - <a href="#date-npcs"></a>
+      - <a href="#date-recurring"></a>
+      - <a href="#date-maybe"></a>
+  - <a href="#date-end"></a>
+    - <a href="#date-fold"></a>
+    - <a href="#date-lost"></a>
+    - <a href="#date-cesoir"></a>
+    - <a href="#date-second"></a>
+- <a href="#wrap"></a>
+  - <a href="#wrap-after"></a>
+  - <a href="#wrap-discuss"></a>
+  - <a href="#wrap-next"></a>
+  - <a href="#wrap-wait"></a>
+- <a href="#variant"></a>
+- <a href="#lexicon"></a>
+- <a href="#resources"></a>
 - <a href="#anchor-license"></a>
-- <a href="#anchor-charsheet"></a>
+- <a href="#sheets"></a>
+  - <a href="#sheet-system"></a>
+  - <a href="#sheet-headmate"></a>
+  - <a href="#sheet-date"></a>
+  - <a href="#sheet-reference"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[No Fascists]{.sidehead .inclu}
+
+If you're a fascist, you're not welcome to play this game. It's against the rules. 
+[No, really, we mean it. This isn't for fascists.]{.carline}
+
+If you're reading this and thinking, "You just call everyone you disagree with a fascist," 
+then you're probably a fascist, or incapable of drawing inferences from context and 
+acknowledging a dangerous political climate that causes the oppressed to be hyperbolic. 
+
+Don't play this game. Heal yourself. Grow. Learn. 
+Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or something.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## A System Introduction
 
@@ -72,34 +131,28 @@ for []{.gamename} because we think it's important for this game, and thematicall
 sound.
 
 Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each marked with an emoji so you know you who's speaking.
+sidenotes in the gutters, each signed with an emoji[Like this.]{.dera} so you know you who's speaking.
 
 This is who we are:
 
 :::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader
-- []{.ora} **Aura**, flirty lesbian disaster
-- []{.val} **Valorie**, generally quiet protector
-- []{.fox}, who doesn't speak or write except in emojis; not a fox
+- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
+- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
+- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
+- []{.ora} **Aura**, flirty lesbian disaster (she/her)
+- []{.val} **Valorie**, generally quiet protector (she/her)
+- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Credits
 
-This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
-
-
-[]{.gamename} was created as part of the [generator name](https://itch.io/jam/url)
-hosted by [itch username](https://username.itch.io/).
+[]{.gamename} was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>
+as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
+hosted by [Metaparadox](https://metaparadox.itch.io/).
 
 The contents of the game are covered by the
 *Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
-
-
-Special thanks to Meguey and Vincent Baker of Lumpley Games for the *Powered by the Apocalypse* 
-framework upon which this game was built.
 
 
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
@@ -107,18 +160,10 @@ licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode
 >Creative Commons Attribution Share-Alike 4.0</a>.
 
 
-:::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-[No Fascists]{.sidehead .inclu}
 
-If you're a fascist, you're not welcome to play this game. It's against the rules. 
-
-If you're reading this and thinking, "You just call everyone you disagree with a fascist," 
-then you're probably a fascist, or incapable of drawing inferences from context and 
-acknowledging a dangerous political climate that causes the oppressed to be hyperbolic. 
-
-Don't play this game. Heal yourself. Grow. Learn. 
-Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or something.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+"More Than One: A Plural 101" by anonymous at [MoreThanOne.info](https://morethanone.info);
+used under a
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. (Retrieved June 20, 2021.)
 
 
 *The TTRPG Safety Toolkit* is a resource co-curated by Kienna Shaw and Lauren Bryant-Monk. 
@@ -143,6 +188,14 @@ Specific items in the toolkit are credited as follows:
 - *Stars and Wishes* was designed by 
   <a href="https://www.gauntlet-rpg.com/blog/stars-and-wishes">Lu Quade</a>
 
+
+Definitions in the Lexicon are adapted from
+[Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
+and are used under a
+[Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) license.
+(Retrieved 2021-06-20)
+
+
 ## What is plurality?
 
 The following section contains information about plurality that should be read
@@ -151,7 +204,7 @@ from [MoreThanOne.info](https://morethanone.info/).
 
 :::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## More Than One: A Plural 101
+## More Than One: A Plural 101 {#more}
 
 [Plurality (or multiplicity) is the existence of multiple self-aware entities 
 inside one physical brain.]{.bigpara}
@@ -164,7 +217,7 @@ never being alone no matter where you go. Yet, for all that, there's a lack of
 understanding and a great deal of stigma surrounding plurality, and many plurals 
 hide as a result.
 
-### Terms
+### Terms {#more-terms}
 
 [There are many terms related to plurality. These are only the most common ones.]{.bigpara}
 
@@ -181,7 +234,7 @@ starting point.
 
 **Switching:** When collective members exchange control over the front.
 
-### Causes
+### Causes {#more-causes}
 
 [It is not fully known what causes plurality, and it is likely there is not a single cause.]{.bigpara}
 
@@ -204,7 +257,7 @@ numerous PTSD-related difficulties that many non-trauma plurals do not.
 
 However, they all share the common thread of being more than one.
 
-### Myths
+### Myths {#more-myths}
 
 #### Myth: Plurality is ultra-rare.
 
@@ -276,12 +329,12 @@ All of this is true for plural collectives as well. It can be challenging to mak
 every member is heard and taken care of. It can also be rewarding, when everyone supports 
 each other to achieve things they couldn't alone.
 
-See also:
+[][]{.seealso}
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
 
-### What is it like?
+### What is it like? {#more-what}
 
 [There are many ways to be plural, and many dimensions to living as plural.]{.bigpara}
 
@@ -378,7 +431,7 @@ Very few collectives run themselves without any rules at all — some degree of 
 even if it's as simple as a shared agreement to harm none outside or inside, 
 is vital to successfully living together.
 
-See also:
+[]{.seealso}
 
 - [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
 - [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
@@ -387,7 +440,7 @@ See also:
 - [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
 - [The Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
 
-### Etiquette
+### Etiquette {#more-etiquette}
 
 [Every system has their own preferences on how they would like to be treated, but the 
 following tend to be common rules of thumb.]{.bigpara}
@@ -422,17 +475,17 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
-See also:
+[]{.seealso}
 
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
 - [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
 - [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
 
-### Am I plural?
+### Am I plural? {#more-ami}
 
 (There will be an article of our own writing here at some point in time. In the meantime, please refer to the following excellent links.)
 
-See also:
+[]{.seealso}
 
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
@@ -739,9 +792,142 @@ the issues going forward.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Lexicon
+## Part 1: The Set-Up {#setup}
 
-These are important terms about plural systems that you need to understand in
+beep
+
+### Game Safely {#setup-safely}
+
+beep
+
+### Setting and Themes {#setup-setting}
+
+beep
+
+### Creating the System {#setup-system}
+
+beep
+
+#### Gender and Sexuality {#setup-gender}
+
+beep
+
+#### Memory, All Alone in the Moonlight {#setup-memory}
+
+beep
+
+### Creating the Headmates {#setup-headmates}
+
+beep
+
+
+
+## Part 2: Date Night {#date}
+
+beep
+
+### Setting the Scene {#date-scene}
+
+beep
+
+#### Who's Fronting? {#date-front}
+
+beep
+
+##### Co-Fronting {#date-cofront}
+
+beep
+
+### Playing as the Date {#date-date}
+
+beep
+
+#### Cards Close to the Vest {#date-vest}
+
+beep
+
+### Play Your Cards Right {#date-play}
+
+beep
+
+#### Cards and Moves {#date-cards}
+
+beep
+
+#### Gauging the Mood {#date-mood}
+
+beep
+
+#### Switching Fronter {#date-switch}
+
+beep
+
+### Outside Interference {#date-outside}
+
+beep
+
+#### Named NPCs {#date-npcs}
+
+beep
+
+##### Recurring NPCs {#date-recurring}
+
+beep
+
+##### I Just Met You and This Is Crazy {#date-maybe}
+
+beep
+
+### Ending the Date {#date-end}
+
+beep
+
+#### You Gotta Know When to Fold 'Em {#date-fold}
+
+beep
+
+#### You've Lost that Loving Feeling {#date-lost}
+
+beep
+
+#### Voulez-Vous Coucher Avec Moi? {#date-cesoir}
+
+beep
+
+#### A Second Date? {#date-second}
+
+beep
+
+
+## Part 3: The Wrap-Up {#wrap}
+
+beep
+
+### Aftercare {#wrap-after}
+
+beep
+
+### Discussion {#wrap-discuss}
+
+beep
+
+### On to the Next? {#wrap-next}
+
+beep
+
+### Wait, Am *I* Plural? {#wrap-wait}
+
+beep
+
+
+## Variants and Hacks {#variant}
+
+beep
+
+
+## Appendix A: A Plural Lexicon {#lexicon}
+
+These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from
 [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
 
@@ -974,6 +1160,11 @@ order to play the game. These definitions are adapted from
   systems in favor of parogenic.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Appendix B: Plural Resources {#resources}
+
+beep
+
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1289,9 +1480,32 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::: {#charsheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[Character Sheet!]{#anchor-charsheet .anchor}
+[Character Sheets]{#sheets .anchor}
 
-Here's the character sheet.
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[System Sheet]{#sheet-system .anchor}
+
+Here's the system sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Date Sheet]{#sheet-date .anchor}
+
+Here's the date sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Headmate Sheets]{#sheet-headmate .anchor}
+
+Here's the headmate sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Card and Move Reference]{#sheet-reference .anchor}
+
+Here's the reference sheet.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

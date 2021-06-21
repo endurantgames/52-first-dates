@@ -1,2 +1,2 @@
-[]{.gamename} was created as part of the [generator name](https://itch.io/jam/url)
-hosted by [itch username](https://username.itch.io/).
+[]{.gamename} was created as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
+hosted by [Metaparadox](https://metaparadox.itch.io/).

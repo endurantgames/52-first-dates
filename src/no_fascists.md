@@ -2,6 +2,7 @@
 [No Fascists]{.sidehead .inclu}
 
 If you're a fascist, you're not welcome to play this game. It's against the rules. 
+[No, really, we mean it. This isn't for fascists.]{.carline}
 
 If you're reading this and thinking, "You just call everyone you disagree with a fascist," 
 then you're probably a fascist, or incapable of drawing inferences from context and 
