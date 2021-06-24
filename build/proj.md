@@ -28,21 +28,14 @@ Okay, you need to get the following together:
 - Two decks of standard poker cards, they should have different backs
 - A copy of the System Sheet
 - One Date Sheet per player
-- Several copies (see below for an exact number) of the Headmate Sheets
+- Six Headmate Sheets
+- A copy of the Outside Interference Sheet
+- One Game Reference Sheet per player
 - Pencils
 - *optional* extra paper for notetaking
 
 The number of players determines the system size, and thus the number of
 headmate sheets you'll need.
-
- Players       System Size
-------------- ------------- 
- 3 players     3 headmates
- 4 players     6 headmates
- 5 players    10 headmates
- 6 players    15 headmates
- 7 players    21 headmates
- 8 players    28 headmates
 
 
 :::::::::::::::::::::::::::: { .sidebar #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -51,6 +44,12 @@ headmate sheets you'll need.
 - <a href="#what-you-need"></a>
 - <a href="#a-system-introduction"></a>
 - <a href="#credits"></a>
+- <a href="#safety"></a>
+  - <a href="#what-are-safety-tools"></a>
+  - <a href="#the-toolkit"></a>
+    - <a href="#toolkit-before"></a>
+    - <a href="#toolkit-during"></a>
+    - <a href="#toolkit-after"></a>
 - <a href="#what-is-plurality"></a>
   - <a href="#more"></a>
     - <a href="#more-terms"></a>
@@ -58,38 +57,41 @@ headmate sheets you'll need.
     - <a href="#more-myths"></a>
     - <a href="#more-what"></a>
     - <a href="#more-etiquette"></a>
-    - <a href="#more-ami"></a>
-- <a href="#safety"></a>
+- <a href="#game"></a>
+  - <a href="#game-choosing"></a>
+  - <a href="#game-card"></a>
+  - <a href="#game-color"></a>
+  - <a href="#game-test"></a>
 - <a href="#setup"></a>
   - <a href="#setup-safely"></a>
+    - <a href="#setup-safely-intimacy"></a>
   - <a href="#setup-setting"></a>
   - <a href="#setup-system"></a>
     - <a href="#setup-gender"></a>
-    - <a href="#setup-memory"></a>
+    - <a href="#setup-neuro"></a>
   - <a href="#setup-headmates"></a>
 - <a href="#date"></a>
   - <a href="#date-scene"></a>
-    - <a href="#date-front"></a>
-    - <a href="#date-cofront"></a>
+  - <a href="#date-create"></a>
+    - <a href="#date-create-cards"></a>
   - <a href="#date-date"></a>
-    - <a href="#date-vest"></a>
-  - <a href="#date-play"></a>
-    - <a href="#date-cards"></a>
-    - <a href="#date-mood"></a>
+  - <a href="#date-fronter"></a>
     - <a href="#date-switch"></a>
   - <a href="#date-outside"></a>
     - <a href="#date-npcs"></a>
-      - <a href="#date-recurring"></a>
-      - <a href="#date-maybe"></a>
+    - <a href="#date-recurring"></a>
+    - <a href="#date-maybe"></a>
   - <a href="#date-end"></a>
-    - <a href="#date-fold"></a>
-    - <a href="#date-lost"></a>
-    - <a href="#date-cesoir"></a>
+    - <a href="#date-end-events"></a>
+    - <a href="#date-intimacy"></a>
     - <a href="#date-second"></a>
+    - <a href="#date-ghosted"></a>
+  - <a href="#date-next"></a>
+    - <a href="#date-next-same"></a>
+    - <a href="#date-next-steady"></a>
 - <a href="#wrap"></a>
   - <a href="#wrap-after"></a>
   - <a href="#wrap-discuss"></a>
-  - <a href="#wrap-next"></a>
   - <a href="#wrap-wait"></a>
 - <a href="#variant"></a>
 - <a href="#lexicon"></a>
@@ -151,13 +153,13 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
 hosted by [Metaparadox](https://metaparadox.itch.io/).
 
-The contents of the game are covered by the
-*Anti-Capitalist Attirbution Cooperative License*[By <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>!]{.spin} found at the end of the rules.
-
-
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
 licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
 >Creative Commons Attribution Share-Alike 4.0</a>.
+
+
+The contents of the game are covered by the
+*Anti-Capitalist Attirbution Cooperative License*[By <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>!]{.spin} found at the end of the rules.
 
 
 
@@ -195,6 +197,305 @@ and are used under a
 [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) license.
 (Retrieved 2021-06-20)
 
+
+## Safety Tools {#safety}
+
+Playing the []{.gamename} RPG should be enjoyable for everyone.
+
+To ensure that everyone has an enjoyable experience, we recommend the *TTRPG Safety Toolkit*,
+which we've included below. You should not play []{.gamename} without using at least
+one such tool in your game.
+
+In addition, we specifically call out certain points in the rules that need special attention
+from Game Guides and players. These are marked with an [alert symbol]{.cw}.
+
+
+::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
+### What are safety tools? {#what-are-safety-tools}
+
+Sometimes games have content or situations
+where a player or GM may feel stressed out,
+unsafe, or otherwise not having fun. Safety tools
+are a way for players and GMs to communicate
+and check-in before, during, and after a game in
+order to make sure everyone is still having fun, and
+to provide the right support when needed.
+
+Communication, trust, and care
+The key to safety tools is communication and
+trust. There needs to be open and respectful
+communication alongside a culture of trust for
+these to work.
+
+As a GM, player, or organizer, you can create
+this culture by making it clear that the care and
+well-being of everyone at the table comes before
+the game or story. This can be done by actively
+listening to everyone, offering accomodations and
+safety tools, implementing actions when asked
+while not prying (nobody owes you their trauma
+as explanation), and actively checking in before,
+during, and after a game.
+
+### The toolkit {#the-toolkit}
+
+Different safety tools work better for different
+people and games. Finding the ones that best suit
+the needs of everyone at the table is important, and
+should be facilitated through discussion at the start
+of every new game or new group.
+
+This guide provides summaries of some safety
+tools and techniques (with the original designers’
+permission) to add to your own toolkit. This
+includes the **X-card system**, the **Script Change
+RPG Toolbox**, the **Luxton Technique**, and more.
+Sources and links are provided at the end of this
+guide for the full original materials, and the toolkit is
+regularly updated with new tools.
+
+#### Before the Game Begins {#toolkit-before}
+
+##### Session 0 {#toolkit-session-0}
+
+Session 0s are a great way to begin
+communication, set expectations on the kind of
+story and play, and introduce and discuss what
+safety tools will be used at the table.
+
+##### Lines and Veils {#toolkit-lines-veils}
+
+**Lines and veils** are used to set boundaries
+on content in a game. 
+
+**Lines** are hard limits on
+content, things that the GM or the players don’t
+want to engage in. Setting up a line means that
+content won’t show up in the game at all. 
+
+**Veils** are
+soft limits, things that are ok “behind a curtain” or
+when they “cut-to-black.” Setting up a veil means
+that the content might be in the game but not
+spotlighted or described in great detail. 
+
+**Lines and veils** can be adjusted as needed throughout the
+game.
+
+##### Script Change Rating {#toolkit-script-change-rating}
+
+**Script Change** ratings are used to set tone and
+boundaries for your game. Using film ratings (or
+your own), you can outline what audience you’re
+playing for (e.g. PG-13 vs R). 
+
+The **rating** also
+addresses what content players do want to see
+as well as what they don’t want to see. Make sure
+to balance and respect everyone’s do and don’t
+wants. 
+
+**Ratings** and do-and-don’t-want content can
+be adjusted as needed throughout the game.
+
+##### Luxton Technique Discussion {#toolkit-luxton-discussion}
+
+In the **Luxton Technique**, have an open
+discussion between everyone at the table
+about potential trauma triggers. This is with the
+understanding that it’s not possible to identify every
+single possible trigger or trauma, and that there is
+no social pressure to go into details or individual
+justifications for a trigger.
+
+#### During the Game {#toolkit-during}
+
+##### X, N, and O Cards {#toolkit-xno-cards}
+
+**X**, **N**, and **O cards** are check-in tools. They can be
+used by tapping physical cards, typing the letter in
+the chat function of the video conference software
+or virtual tabletop you are using, or using hand
+signals. Before the game begins, remind everyone
+that they are available and how to use them.
+
+The **X card** can be used at any point if a
+participant is uncomfortable with the content
+happening in-game. When the **X card** is used by
+tapping the card or typing an **“X”** in the chat, the
+group can change, rewind, or skip the content.
+
+The **N card** can be used at any point if a participant
+feels like they are headed towards an X. When the
+**N card** is used by tapping the card or typing an
+**“N”** in the chat, the group can change the content
+or have the scene “fade to black.”
+
+The **O card** can be used at any point if a
+participant wants to continue with the content.
+When the **O card** is used by tapping the card
+or typing an **“O”** in the chat, the group is ok to
+continue with the content. They can also regularly
+be prompted by a **“O?”** asked out loud or in the
+chat to check-in if everyone is still ok.
+
+#### Script Change {#toolkit-script-change}
+
+The **Script Change RPG Toolbox** is a collection
+of tools that can be used to adjust play and
+content. They can be used by tapping physical
+cards, typing the letter in the chat function of the
+video conference software or virtual tabletop you
+are using, or using hand signals. Before the game
+begins, remind your players that they are available
+and how to use them.
+
+[Rewind]{.icon .rewind} can be used when something
+has happened in play that makes a participant
+uncomfortable. When [Rewind]{.icon .rewind} is used by
+tapping the card, typing the shorthand in the chat,
+or stating it out loud (“I’d like to rewind...”), be clear
+about what content is being adjusted, rewind to a
+point before it happened, and play starts again.
+
+[Fast Forward]{.icon .ff} can be used when a
+participant would like to skip past uncomfortable
+content or to the next part of the story for pacing.
+When [Fast Forward]{.icon .ff} is used by tapping the
+card, typing the shorthand in the chat, or stating it
+out loud (“I’d like to fast forward...”), skip forward to
+a new spot in the story that everyone agrees on.
+
+[Pause]{.icon .pause} can be used when things are too
+intense, but you still want to continue playing the
+scene. When [Pause]{.icon .pause} is used by tapping the
+card, typing the shorthand in the chat, or stating it
+out loud (“I’d like to pause...”), you can take a break
+and/or discuss the content as needed. After the
+[Pause]{.icon .pause}, you can [Resume]{.icon .resume}, 
+[Rewind]{.icon .rewind}, [Fast Forward]{.icon .ff}.
+
+[Resume]{.icon .resume} can be used when everyone is ready
+to continue play, often after adjusting or discussing
+content. When [Resume]{.icon .resume} is used by tapping the
+card, typing the shorthand in the chat, or stating it
+out loud (“Let’s resume...”), continue with play.
+
+##### Luxton Technique {#toolkit-luxton-technique}
+
+With the **Luxton Technique**, when a participant
+comes across triggering content in play, they can
+choose to discuss it with the other people at the
+table. 
+
+The participant is given complete control
+over that content, expressed as a need or want for
+how play will continue. This can include in-game
+directions for plot and characters, as well as out
+of game needs such as breaks. 
+
+After the need and
+wants are expressed, everyone continues play to
+accomodate the requests.
+
+##### Open Door {#toolkit-open-door}
+
+The **Open Door** is the assurance that someone
+can leave or take a break from the game for their
+own safety and well-being without being judged.
+State this at the beginning and periodically
+throughout the game.
+
+##### Breaks {#toolkit-breaks}
+
+For games longer than 2 hours or games that have
+intense content, having a short built-in break is
+recommended to allow people to stay focused and
+process. Allow for discussion, bio breaks, or any
+other needs during this time.
+
+#### After the Game {#toolkit-after}
+
+##### Bleed {#toolkit-bleed}
+
+Emotions and stress from the game can bleed over
+into post-game life. This can affect the enjoyment
+of the game, as well as out-of-game relationships
+between players and GM if not worked through.
+
+Being open and honest about where the game
+begins and ends, and being conscious of which
+feelings belong to the player and which are just
+bleed, helps to mitigate the effects.
+
+##### Aftercare {#toolkit-aftercare}
+
+Together as a group after the game, check-in with
+everyone to see how they are feeling. This is an
+open way for everyone to emotionally decompress,
+talk through, and process the events of the session
+in a safe environment.
+
+Encourage everyone to practice their own forms of
+self-care and remind them that their mental health
+comes first.
+
+##### DebriefingA {#toolkit-debriefing}
+
+Debriefing as a group is a great way to reflect on
+the game, identify possible issues, highlight the
+fun things to continue, and work through potential
+bleed. Debriefing can happen right after the game
+or in the days following the stream.
+
+##### Stars and Wishes {#toolkit-stars-wishes}
+
+**Stars and wishes** are used to reflect on the
+session and communicate feedback in a positive
+and forward-facing way. At the end of the game, go
+around and get everyone to state a star and wish.
+
+**Stars** are things that the participants really enjoyed
+and loved about the game. This could include a
+particular moment of roleplay, an encounter created
+by the GM, or anything else that stuck out as
+something awesome during the game. 
+
+**Wishes** are things that the participants would like to see
+in future sessions. This could include particular
+interactions between characters, potential story
+moments and development, or anything else that
+could make the game even better in the future.
+
+##### Highlight Reel and Wrap Session {#toolkit-highlight-wrap}
+
+Similar to **stars and wishes**, Script Change
+has **Highlight Reel** and **Wrap Session**. 
+
+The **Highlight Reel** is used to reflect on the session
+and highlight moments participants enjoyed. At
+the end of the game, go around and get everyone
+to state highlight of the game for them. This
+could include a particular moment of roleplay, an
+encounter created by the GM, or anything else
+that stuck out as something awesome during the
+game. 
+
+The **Wrap Session** is an opportunity for the
+group to reflect on the session and discuss what
+could be improved going forward. At the end of the
+game, go around and open up discussion about
+the game. This could include content participants
+didn’t feel comfortable calling pause or rewind at
+the time, or talking about emotional impacts and bleed.
+
+There should be no social pressure to disclose
+the details or trauma to justify why someone felt
+uncomfortable or unsafe during the game, as long
+as the discussion moves towards how to address
+the issues going forward.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## What is plurality?
 
@@ -329,7 +630,7 @@ All of this is true for plural collectives as well. It can be challenging to mak
 every member is heard and taken care of. It can also be rewarding, when everyone supports 
 each other to achieve things they couldn't alone.
 
-[][]{.seealso}
+[]{.seealso}
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
@@ -481,324 +782,46 @@ in order to make ends meet. Being invited backstage is a great act of trust — 
 - [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
 - [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
 
-### Am I plural? {#more-ami}
-
-(There will be an article of our own writing here at some point in time. In the meantime, please refer to the following excellent links.)
-
-[]{.seealso}
-
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
 - [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Safety Tools {#safety}
+## Game Mechanics {#game}
 
-Playing the []{.gamename} RPG should be enjoyable for everyone.
+[]{.lorem}
 
-To ensure that everyone has an enjoyable experience, we recommend the *TTRPG Safety Toolkit*,
-which we've included below. You should not play []{.gamename} without using at least
-one such tool in your game.
+### Choosing a Player {#game-choosing}
 
-In addition, we specifically call out certain points in the rules that need special attention
-from Game Guides and players. These are marked with an [alert symbol]{.cw}.
+[]{.lorem}
 
+### Playing a Card {#game-card}
 
-::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
-### What are safety tools?
+[]{.lorem}
 
-Sometimes games have content or situations
-where a player or GM may feel stressed out,
-unsafe, or otherwise not having fun. Safety tools
-are a way for players and GMs to communicate
-and check-in before, during, and after a game in
-order to make sure everyone is still having fun, and
-to provide the right support when needed.
+### Matching a Color {#game-color}
 
-Communication, trust, and care
-The key to safety tools is communication and
-trust. There needs to be open and respectful
-communication alongside a culture of trust for
-these to work.
+[]{.lorem}
 
-As a GM, player, or organizer, you can create
-this culture by making it clear that the care and
-well-being of everyone at the table comes before
-the game or story. This can be done by actively
-listening to everyone, offering accomodations and
-safety tools, implementing actions when asked
-while not prying (nobody owes you their trauma
-as explanation), and actively checking in before,
-during, and after a game.
+### Testing a Quality {#game-test}
 
-### The toolkit
+[]{.lorem}
 
-Different safety tools work better for different
-people and games. Finding the ones that best suit
-the needs of everyone at the table is important, and
-should be facilitated through discussion at the start
-of every new game or new group.
-
-This guide provides summaries of some safety
-tools and techniques (with the original designers’
-permission) to add to your own toolkit. This
-includes the **X-card system**, the **Script Change
-RPG Toolbox**, the **Luxton Technique**, and more.
-Sources and links are provided at the end of this
-guide for the full original materials, and the toolkit is
-regularly updated with new tools.
-
-#### Before the Game Begins
-
-##### Session 0
-
-Session 0s are a great way to begin
-communication, set expectations on the kind of
-story and play, and introduce and discuss what
-safety tools will be used at the table.
-
-##### Lines and Veils
-
-**Lines and veils** are used to set boundaries
-on content in a game. 
-
-**Lines** are hard limits on
-content, things that the GM or the players don’t
-want to engage in. Setting up a line means that
-content won’t show up in the game at all. 
-
-**Veils** are
-soft limits, things that are ok “behind a curtain” or
-when they “cut-to-black.” Setting up a veil means
-that the content might be in the game but not
-spotlighted or described in great detail. 
-
-**Lines and veils** can be adjusted as needed throughout the
-game.
-
-##### Script Change Rating
-
-**Script Change** ratings are used to set tone and
-boundaries for your game. Using film ratings (or
-your own), you can outline what audience you’re
-playing for (e.g. PG-13 vs R). 
-
-The **rating** also
-addresses what content players do want to see
-as well as what they don’t want to see. Make sure
-to balance and respect everyone’s do and don’t
-wants. 
-
-**Ratings** and do-and-don’t-want content can
-be adjusted as needed throughout the game.
-
-##### Luxton Technique Discussion
-
-In the **Luxton Technique**, have an open
-discussion between everyone at the table
-about potential trauma triggers. This is with the
-understanding that it’s not possible to identify every
-single possible trigger or trauma, and that there is
-no social pressure to go into details or individual
-justifications for a trigger.
-
-#### During the Game
-
-##### X, N, and O Cards
-
-**X**, **N**, and **O cards** are check-in tools. They can be
-used by tapping physical cards, typing the letter in
-the chat function of the video conference software
-or virtual tabletop you are using, or using hand
-signals. Before the game begins, remind everyone
-that they are available and how to use them.
-
-The **X card** can be used at any point if a
-participant is uncomfortable with the content
-happening in-game. When the **X card** is used by
-tapping the card or typing an **“X”** in the chat, the
-group can change, rewind, or skip the content.
-
-The **N card** can be used at any point if a participant
-feels like they are headed towards an X. When the
-**N card** is used by tapping the card or typing an
-**“N”** in the chat, the group can change the content
-or have the scene “fade to black.”
-
-The **O card** can be used at any point if a
-participant wants to continue with the content.
-When the **O card** is used by tapping the card
-or typing an **“O”** in the chat, the group is ok to
-continue with the content. They can also regularly
-be prompted by a **“O?”** asked out loud or in the
-chat to check-in if everyone is still ok.
-
-#### Script Change
-
-The **Script Change RPG Toolbox** is a collection
-of tools that can be used to adjust play and
-content. They can be used by tapping physical
-cards, typing the letter in the chat function of the
-video conference software or virtual tabletop you
-are using, or using hand signals. Before the game
-begins, remind your players that they are available
-and how to use them.
-
-[Rewind]{.icon .rewind} can be used when something
-has happened in play that makes a participant
-uncomfortable. When [Rewind]{.icon .rewind} is used by
-tapping the card, typing the shorthand in the chat,
-or stating it out loud (“I’d like to rewind...”), be clear
-about what content is being adjusted, rewind to a
-point before it happened, and play starts again.
-
-[Fast Forward]{.icon .ff} can be used when a
-participant would like to skip past uncomfortable
-content or to the next part of the story for pacing.
-When [Fast Forward]{.icon .ff} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“I’d like to fast forward...”), skip forward to
-a new spot in the story that everyone agrees on.
-
-[Pause]{.icon .pause} can be used when things are too
-intense, but you still want to continue playing the
-scene. When [Pause]{.icon .pause} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“I’d like to pause...”), you can take a break
-and/or discuss the content as needed. After the
-[Pause]{.icon .pause}, you can [Resume]{.icon .resume}, 
-[Rewind]{.icon .rewind}, [Fast Forward]{.icon .ff}.
-
-[Resume]{.icon .resume} can be used when everyone is ready
-to continue play, often after adjusting or discussing
-content. When [Resume]{.icon .resume} is used by tapping the
-card, typing the shorthand in the chat, or stating it
-out loud (“Let’s resume...”), continue with play.
-
-##### Luxton Technique
-
-With the **Luxton Technique**, when a participant
-comes across triggering content in play, they can
-choose to discuss it with the other people at the
-table. 
-
-The participant is given complete control
-over that content, expressed as a need or want for
-how play will continue. This can include in-game
-directions for plot and characters, as well as out
-of game needs such as breaks. 
-
-After the need and
-wants are expressed, everyone continues play to
-accomodate the requests.
-
-##### Open Door
-
-The **Open Door** is the assurance that someone
-can leave or take a break from the game for their
-own safety and well-being without being judged.
-State this at the beginning and periodically
-throughout the game.
-
-##### Breaks
-
-For games longer than 2 hours or games that have
-intense content, having a short built-in break is
-recommended to allow people to stay focused and
-process. Allow for discussion, bio breaks, or any
-other needs during this time.
-
-#### After the Game
-
-##### Bleed
-
-Emotions and stress from the game can bleed over
-into post-game life. This can affect the enjoyment
-of the game, as well as out-of-game relationships
-between players and GM if not worked through.
-
-Being open and honest about where the game
-begins and ends, and being conscious of which
-feelings belong to the player and which are just
-bleed, helps to mitigate the effects.
-
-##### Aftercare
-
-Together as a group after the game, check-in with
-everyone to see how they are feeling. This is an
-open way for everyone to emotionally decompress,
-talk through, and process the events of the session
-in a safe environment.
-
-Encourage everyone to practice their own forms of
-self-care and remind them that their mental health
-comes first.
-
-##### Debriefing
-
-Debriefing as a group is a great way to reflect on
-the game, identify possible issues, highlight the
-fun things to continue, and work through potential
-bleed. Debriefing can happen right after the game
-or in the days following the stream.
-
-##### Stars and Wishes
-
-**Stars and wishes** are used to reflect on the
-session and communicate feedback in a positive
-and forward-facing way. At the end of the game, go
-around and get everyone to state a star and wish.
-
-**Stars** are things that the participants really enjoyed
-and loved about the game. This could include a
-particular moment of roleplay, an encounter created
-by the GM, or anything else that stuck out as
-something awesome during the game. 
-
-**Wishes** are things that the participants would like to see
-in future sessions. This could include particular
-interactions between characters, potential story
-moments and development, or anything else that
-could make the game even better in the future.
-
-##### Highlight Reel and Wrap Session
-
-Similar to **stars and wishes**, Script Change
-has **Highlight Reel** and **Wrap Session**. 
-
-The **Highlight Reel** is used to reflect on the session
-and highlight moments participants enjoyed. At
-the end of the game, go around and get everyone
-to state highlight of the game for them. This
-could include a particular moment of roleplay, an
-encounter created by the GM, or anything else
-that stuck out as something awesome during the
-game. 
-
-The **Wrap Session** is an opportunity for the
-group to reflect on the session and discuss what
-could be improved going forward. At the end of the
-game, go around and open up discussion about
-the game. This could include content participants
-didn’t feel comfortable calling pause or rewind at
-the time, or talking about emotional impacts and bleed.
-
-There should be no social pressure to disclose
-the details or trauma to justify why someone felt
-uncomfortable or unsafe during the game, as long
-as the discussion moves towards how to address
-the issues going forward.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Part 1: The Set-Up {#setup}
 
 []{.lorem}
 
+
 ### Game Safely {#setup-safely}
 
 []{.lorem}
+
+#### The Meaning of Intimacy {#setup-safely-intimacy}
+
+[]{.lorem}
+
 
 ### Setting and Themes {#setup-setting}
 
@@ -808,61 +831,70 @@ the issues going forward.
 
 []{.lorem}
 
+1. Name
+2. Appearance -> one per player
+3. Pronouns?
+
+[]{.lorem}
+
+
 #### Gender and Sexuality {#setup-gender}
 
 []{.lorem}
 
-#### Memory, All Alone in the Moonlight {#setup-memory}
+#### Neurodiversity, Race, and Disability {#setup-neuro}
 
 []{.lorem}
 
 ### Creating the Headmates {#setup-headmates}
 
-[]{.lorem}
-
+1. Write down a name or nickname for the headmate.
+2. Write down pronouns for the headmate.
+3. Write down a sexuality for the headmate. 
+4. Write down something that interests the headmate.
+5. Write down the general demeanor or personality of the headmate.
+6. Write down one quality the headmate is looking for in a potential partner.
+7. Introduce us to this headmate.
 
 
 ## Part 2: Date Night {#date}
 
 []{.lorem}
 
+
+### Determining Roles {#date-roles}
+
+[]{.lorem}
+
+
 ### Setting the Scene {#date-scene}
 
 []{.lorem}
 
-#### Who's Fronting? {#date-front}
+
+### Creating the Date Character {#date-create}
 
 []{.lorem}
 
-##### Co-Fronting {#date-cofront}
+#### Personality Cards {#date-create-cards}
 
 []{.lorem}
+
 
 ### Playing as the Date {#date-date}
 
 []{.lorem}
 
-#### Cards Close to the Vest {#date-vest}
+
+### Playing the Fronter {#date-fronter}
 
 []{.lorem}
 
-### Play Your Cards Right {#date-play}
+#### Switching Fronters {#date-switch}
 
 []{.lorem}
 
-#### Cards and Moves {#date-cards}
-
-[]{.lorem}
-
-#### Gauging the Mood {#date-mood}
-
-[]{.lorem}
-
-#### Switching Fronter {#date-switch}
-
-[]{.lorem}
-
-### Outside Interference {#date-outside}
+### Playing the Outside Interference {#date-outside}
 
 []{.lorem}
 
@@ -870,11 +902,11 @@ the issues going forward.
 
 []{.lorem}
 
-##### Recurring NPCs {#date-recurring}
+#### Recurring NPCs {#date-recurring}
 
 []{.lorem}
 
-##### I Just Met You and This Is Crazy {#date-maybe}
+#### I Just Met You and This Song is Ableist {#date-maybe}
 
 []{.lorem}
 [The title of that song is ableist.]{.carline}
@@ -885,28 +917,67 @@ the issues going forward.
 [Not you.]{.dera}
 [:p]{.ora}
 
-### Ending the Date {#date-end}
+
+### When the Date Ends {#date-end}
 
 []{.lorem}
 
-#### You Gotta Know When to Fold 'Em {#date-fold}
+#### Date-Ending Events {#date-end-events}
 
 []{.lorem}
 
-#### You've Lost that Loving Feeling {#date-lost}
+#### Achieving Intimacy {#date-intimacy}
 
 []{.lorem}
 
-#### Voulez-Vous Coucher Avec Moi? {#date-cesoir}
+#### A Second Date {#date-second}
 
 []{.lorem}
 
-#### A Second Date? {#date-second}
+#### Getting Ghosted {#date-ghosted}
 
 []{.lorem}
 
+
+### Playing Another Round {#date-next}
+
+[]{.lorem} 
+
+#### The Second Date {#date-next-same}
+
+[]{.lorem}
+
+Despite the name of the game, it's entirely possible to get a second date. 
+If the Date didn't ghost you, and the players reach consensus on going out 
+again, play a second date (amd all subsequent dates) with these changes: 
+
+- **Switch Roles** Select a new player to play the Date role, from the
+  players who didn't play the Date. Then select another player to play 
+  the Outside Interference who hasn't played the Outside Interference
+  in this game.
+
+- **Keep the Date's Personality Cards** You don't have to remove them
+  from the Date Deck, just note them down on the on the Second Date part
+  of the Date Sheet. These serve as guidelines for roleplaying as the
+  Date.
+
+- **Draw Two More Personality Cards for the DAte** In a second date, you're 
+  usually going to be past the initial awkwardness, and you can find out 
+  there's more to your date than you original assumed.
+
+- **Decide What Happened Between Dates** []{.lorem}
+
+#### Going Steady {#date-next-steady}
+
+[]{.lorem}
+
+If the Date is up for a third date, then you are officially Going Steady.  
+Unless the system (or its members) are lesbians -- in which case you're 
+moving in together.
 
 ## Part 3: The Wrap-Up {#wrap}
+
+[]{.lorem}
 
 []{.lorem}
 
@@ -914,15 +985,13 @@ the issues going forward.
 
 []{.lorem}
 
-### Discussion {#wrap-discuss}
+
+### Topics of Discussion {#wrap-discuss}
 
 []{.lorem}
 
-### On to the Next? {#wrap-next}
 
-[]{.lorem}
-
-### Wait, Am *I* Plural? {#wrap-wait}
+### Wait, *Am* I Plural?  {#wrap-wait}
 
 []{.lorem}
 
@@ -930,6 +999,33 @@ the issues going forward.
 ## Variants and Hacks {#variant}
 
 []{.lorem}
+
+### System to System {#variant-system}
+
+[]{.lorem}
+
+### Singlet on Singlet Action {#variant-singlet}
+
+[]{.lorem}
+
+### Queerplatonic Relationships {#variant-platonic}
+
+[]{.lorem}
+
+
+## Appendix: Plural Resources {#resources}
+
+[]{.lorem}
+
+- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
+
+- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
+
+- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
+
+- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
+
+- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
 
 
 ## Appendix: A Plural Lexicon {#lexicon}
@@ -1167,16 +1263,6 @@ order to play the game. These definitions are adapted from
   systems in favor of parogenic.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Appendix: Plural Resources {#resources}
-
-
-[]{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
-
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1512,6 +1598,13 @@ Here's the date sheet.
 [Headmate Sheets]{#sheet-headmate .anchor}
 
 Here's the headmate sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Outside Interference Sheet]{#sheet-outside .anchor}
+
+Here's the outside interference sheet.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

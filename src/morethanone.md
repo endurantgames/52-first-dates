@@ -131,7 +131,7 @@ All of this is true for plural collectives as well. It can be challenging to mak
 every member is heard and taken care of. It can also be rewarding, when everyone supports 
 each other to achieve things they couldn't alone.
 
-[][]{.seealso}
+[]{.seealso}
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
@@ -282,12 +282,6 @@ in order to make ends meet. Being invited backstage is a great act of trust — 
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
 - [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
 - [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
-
-## Am I plural? {#more-ami}
-
-(There will be an article of our own writing here at some point in time. In the meantime, please refer to the following excellent links.)
-
-[]{.seealso}
 
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece

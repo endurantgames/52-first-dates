@@ -30,6 +30,7 @@ header h1     { string-set: gamename content()       }
 }
 
 @prince-pdf {
+  -prince-pdf-page-layout: two-column-right;
   -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
 /*
   -prince-pdf-profile: "PDF/A-1a+PDF/UA-1";
@@ -129,6 +130,9 @@ table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
 table              { width: 100%;                                           }
 h3, h4, h5, h6     { font-weight: normal; }
+
+h2:first-of-type { break-before: avoid; }
+h2 { break-before: page; }
 
 #cover + h1   { counter-reset: page; counter-increment: page; break-before: right; }
 
@@ -235,12 +239,14 @@ a:hover { color: black; text-decoration: none; }
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
 
+/* 
+
 .tstoolkit { 
-  background: var(--bgcolor-toolkit);  
-  border: 0.5pt solid var(--color-toolkit); 
+  background: linear-gradient(to right, white 0, var(--bgcolor-toolkit) white);
+  border: none;
   border-radius: 3pt; 
-  padding-left: 9pt; padding-right: 9pt; 
 }
+
 
 .tstoolkit p { font-family: var(--font-toolkit); font-size: var(--toolkit); text-align: justify; }
 .tstoolkit :matches(h1, h2, h3, h4, h5, h6) { 
@@ -253,6 +259,8 @@ a:hover { color: black; text-decoration: none; }
 .tstoolkit h4 { font-size: var(--h6); border-bottom: none; }
 .tstoolkit h5 { font-size: var(--larger); }
 .tstoolkit h6 { font-size: var(--body); }
+
+*/
 
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
 .tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
@@ -267,7 +275,7 @@ a:hover { color: black; text-decoration: none; }
 
 .anchor { position: absolute; color: transparent; }
 
-.license h2      { font-size: var(--large); column-span: all; margin-bottom: 3pt; color: black; }
+.license h2      { font-size: var(--large); column-span: all; margin-top: 0; margin-bottom: 3pt; color: black; }
 .license h3      { font-size: var(--larger);          }
 .license li      { break-inside: auto;                }
 .license > ol    { margin-left: 9pt;                  }
@@ -276,7 +284,7 @@ a:hover { color: black; text-decoration: none; }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
 
-@page license    { margin: 24pt; padding: 0; }
+@page license    { margin: 48pt 36pt;; padding: 0; }
 @page license { @top-left  { content: normal; }  }
 @page license { @top-right { content: normal; }  }
 
@@ -331,7 +339,7 @@ a:hover { color: black; text-decoration: none; }
 @page charsheet { @top-left      { content: normal; } }
 @page charsheet { @bottom-center { content: normal; } }
 
-.lexicon ul li { list-style-type: none; margin-left: 0; }
+.lexicon ul li { list-style-type: none; margin-left: 0; break-inside: auto; }
 .lexicon ul { margin-left: 9pt; }
 .lexicon ul li strong:first-of-type { font-family: var(--font-header); display: inline-block; margin-left: -9pt; }
 .systemlist { break-before: avoid; break-inside: avoid; }
@@ -344,6 +352,12 @@ a:hover { color: black; text-decoration: none; }
 :matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; font-size: var(--small);}
 :matches(.spin, .dera, .carline, .ora, .val, .fox):empty { float: none; font-size: 100%; }
 
+.spin { prince-tooltip: 'This comment was made by Cadera.'; }
+.dera { prince-tooltip: 'This comment was made by Dera.'; }
+.carline { prince-tooltip: 'This comment was made by Carline Stone.'; }
+.ora { prince-tooltip: 'This comment was made by Aura.'; }
+.val { prince-tooltip: 'This comment was made by Valorie.'; }
+.fox { prince-tooltip: 'This comment was made by 🦊.'; }
 
 .spin:empty:before { content: '\1f300'; }
 .dera:empty:before { content: '\1f4e1'; }
@@ -359,13 +373,14 @@ a:hover { color: black; text-decoration: none; }
 .val:after { content: ' \1f517'; }
 .fox:after { content: ' \1f98a'; }
 
-.spin:empty:after { content: ''; }
-.dera:empty:after { content: ''; }
-.carline:empty:after { content: ''; }
-.ora:empty:after { content: ''; }
-.val:empty:after { content: ''; }
-.fox:empty:after { content: ''; }
+.spin:empty:after { content: normal; }
+.dera:empty:after { content: normal; }
+.carline:empty:after { content: normal; }
+.ora:empty:after { content: normal; }
+.val:empty:after { content: normal; }
+.fox:empty:after { content: normal; }
 
+/*
 .morethanone :matches(h1, h2, h3, h4, h5, h6) { 
   font-family: var(--font-morethanone); 
   font-weight: 300;
@@ -373,9 +388,7 @@ a:hover { color: black; text-decoration: none; }
   margin-bottom: 0;
   color: black;
 }
-.morethanone p { margin-top: 9pt; margin-bottom: 9pt; }
-
-.morethanone h4 + p { margin-top: 0; }
+.morethanone p { margin: 9pt; }
 
 .morethanone h3:first-of-type { margin-top: 0; }
 .morethanone h3 { margin-top: 12pt; }
@@ -385,21 +398,27 @@ a:hover { color: black; text-decoration: none; }
 .morethanone h2 { font-weight: 300; text-transform: lowercase; text-align: center; margin-top: 6pt; }
 .morethanone h3 { font-size: var(--larger); border: 0.5pt solid var(--color-light); border-radius: 12pt; padding: 4pt 16pt; width: auto; display: inline-block; margin-left: auto; margin-right: auto; }
 .morethanone h4 { font-size: var(--body); font-weight: 400; border-bottom: none; }
-.morethanone .bigpara { font-size: var(--large); }
+*/
+.morethanone .bigpara { font-size: var(--h4); }
+
 .morethanone ul { margin-top: 6pt; margin-bottom: 6pt; font-style: italic; }
 .morethanone .seealso { content: 'See also:'; font-style: italic; }
 .morethanone ul li { list-style-type: '-'; }
 
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
+/*
 .morethanone { 
   border: 0.5pt solid var(--color-light); 
   border-radius: 12pt;
-  padding: 3pt 9pt; 
+  padding: 3pt 0; 
+  margin-left: -9pt;
+  margin-right: -9pt;
   font-size: var(--morethanone); 
   font-family: var(--font-morethanone);
   font-weight: 300;
 }
+*/
 
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ' 
 	          'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '

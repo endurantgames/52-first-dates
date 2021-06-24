@@ -1,5 +1,5 @@
 ::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
-# What are safety tools?
+# What are safety tools? {#what-are-safety-tools}
 
 Sometimes games have content or situations
 where a player or GM may feel stressed out,
@@ -25,7 +25,7 @@ while not prying (nobody owes you their trauma
 as explanation), and actively checking in before,
 during, and after a game.
 
-# The toolkit
+# The toolkit {#the-toolkit}
 
 Different safety tools work better for different
 people and games. Finding the ones that best suit
@@ -42,16 +42,16 @@ Sources and links are provided at the end of this
 guide for the full original materials, and the toolkit is
 regularly updated with new tools.
 
-## Before the Game Begins
+## Before the Game Begins {#toolkit-before}
 
-### Session 0
+### Session 0 {#toolkit-session-0}
 
 Session 0s are a great way to begin
 communication, set expectations on the kind of
 story and play, and introduce and discuss what
 safety tools will be used at the table.
 
-### Lines and Veils
+### Lines and Veils {#toolkit-lines-veils}
 
 **Lines and veils** are used to set boundaries
 on content in a game. 
@@ -70,7 +70,7 @@ spotlighted or described in great detail.
 **Lines and veils** can be adjusted as needed throughout the
 game.
 
-### Script Change Rating
+### Script Change Rating {#toolkit-script-change-rating}
 
 **Script Change** ratings are used to set tone and
 boundaries for your game. Using film ratings (or
@@ -86,7 +86,7 @@ wants.
 **Ratings** and do-and-don’t-want content can
 be adjusted as needed throughout the game.
 
-### Luxton Technique Discussion
+### Luxton Technique Discussion {#toolkit-luxton-discussion}
 
 In the **Luxton Technique**, have an open
 discussion between everyone at the table
@@ -96,9 +96,9 @@ single possible trigger or trauma, and that there is
 no social pressure to go into details or individual
 justifications for a trigger.
 
-## During the Game
+## During the Game {#toolkit-during}
 
-### X, N, and O Cards
+### X, N, and O Cards {#toolkit-xno-cards}
 
 **X**, **N**, and **O cards** are check-in tools. They can be
 used by tapping physical cards, typing the letter in
@@ -127,7 +127,7 @@ continue with the content. They can also regularly
 be prompted by a **“O?”** asked out loud or in the
 chat to check-in if everyone is still ok.
 
-## Script Change
+## Script Change {#toolkit-script-change}
 
 The **Script Change RPG Toolbox** is a collection
 of tools that can be used to adjust play and
@@ -169,7 +169,7 @@ content. When [Resume]{.icon .resume} is used by tapping the
 card, typing the shorthand in the chat, or stating it
 out loud (“Let’s resume...”), continue with play.
 
-### Luxton Technique
+### Luxton Technique {#toolkit-luxton-technique}
 
 With the **Luxton Technique**, when a participant
 comes across triggering content in play, they can
@@ -186,7 +186,7 @@ After the need and
 wants are expressed, everyone continues play to
 accomodate the requests.
 
-### Open Door
+### Open Door {#toolkit-open-door}
 
 The **Open Door** is the assurance that someone
 can leave or take a break from the game for their
@@ -194,7 +194,7 @@ own safety and well-being without being judged.
 State this at the beginning and periodically
 throughout the game.
 
-### Breaks
+### Breaks {#toolkit-breaks}
 
 For games longer than 2 hours or games that have
 intense content, having a short built-in break is
@@ -202,9 +202,9 @@ recommended to allow people to stay focused and
 process. Allow for discussion, bio breaks, or any
 other needs during this time.
 
-## After the Game
+## After the Game {#toolkit-after}
 
-### Bleed
+### Bleed {#toolkit-bleed}
 
 Emotions and stress from the game can bleed over
 into post-game life. This can affect the enjoyment
@@ -216,7 +216,7 @@ begins and ends, and being conscious of which
 feelings belong to the player and which are just
 bleed, helps to mitigate the effects.
 
-### Aftercare
+### Aftercare {#toolkit-aftercare}
 
 Together as a group after the game, check-in with
 everyone to see how they are feeling. This is an
@@ -228,7 +228,7 @@ Encourage everyone to practice their own forms of
 self-care and remind them that their mental health
 comes first.
 
-### Debriefing
+### DebriefingA {#toolkit-debriefing}
 
 Debriefing as a group is a great way to reflect on
 the game, identify possible issues, highlight the
@@ -236,7 +236,7 @@ fun things to continue, and work through potential
 bleed. Debriefing can happen right after the game
 or in the days following the stream.
 
-### Stars and Wishes
+### Stars and Wishes {#toolkit-stars-wishes}
 
 **Stars and wishes** are used to reflect on the
 session and communicate feedback in a positive
@@ -255,7 +255,7 @@ interactions between characters, potential story
 moments and development, or anything else that
 could make the game even better in the future.
 
-### Highlight Reel and Wrap Session
+### Highlight Reel and Wrap Session {#toolkit-highlight-wrap}
 
 Similar to **stars and wishes**, Script Change
 has **Highlight Reel** and **Wrap Session**. 
@@ -283,4 +283,4 @@ uncomfortable or unsafe during the game, as long
 as the discussion moves towards how to address
 the issues going forward.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
