@@ -1,7 +1,6 @@
-# Creating the Headmates {#setup-headmates}
+# Creating the Headmates {#setup-headmates .breakbefore}
 
 Once you've created the System, you need to create Headmates.
-
 
 1. Write down a name or nickname for the headmate.
 2. Write down pronouns for the headmate.

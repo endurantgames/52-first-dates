@@ -340,7 +340,7 @@ a:hover { color: black; text-decoration: none; }
 .systemlist ul li span:before { width: 18pt; text-align: center; }
 
 :matches(.spin, .dera, .carline, .ora, .val, .fox):before { display: inline-block; font-family: var(--font-emoji); }
-:matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; font-size: var(--small);}
+:matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; line-height: 1.25; }
 :matches(.spin, .dera, .carline, .ora, .val, .fox):empty { float: none; font-size: 100%; }
 
 .spin { prince-tooltip: 'This comment was made by Cadera.'; }
@@ -468,8 +468,12 @@ a:hover { color: black; text-decoration: none; }
 .diamonds { content: '\2666'; color: red; }
 .spades   { content: '\2660'; }
 
-.spectrum figure { float: top; margin-top: -48pt; margin-outside: -192pt; }
+.spectrum figure { float: top; margin-top: -48pt; margin-outside: -192pt; margin-bottom: 18pt; }
 .spectrum figure img { width: 100%; height: 192pt; object-fit: cover; object-position: center; }
+
+.spectrum figure img.bottom { object-position: bottom center; }
+.spectrum figure img.top { object-position: top center; }
+
 .spectrum figure figcaption { 
   position: absolute; 
   top: 160pt; 
@@ -477,12 +481,11 @@ a:hover { color: black; text-decoration: none; }
   right: 0;
   color: gray;
   margin-outside: -174pt;
+  line-height: 1.25;
   margin-inside: 338pt;
   font-family: var(--font);
-  font-size: var(--smaller);
   font-weight: normal;
 }
-
 
 .cardhand   { font-size: var(--cardsize); text-align: center; vertical-align: bottom; }
 .cardhand .card { display: inline-block; margin-left: -0.1em; margin-right: -0.1em; } 

@@ -1,7 +1,11 @@
 # Appendix: Plural Resources {#resources}
 
 A number of resources on plurality are linked on the [More Than One](#more) site.
-Those links and others are presented here for easy reference.
+Those links, and other useful resources, are presented here for easy reference.
+
+::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::
+![You're encouraged to learn more about plurality by following these links.](art/spectrum/laptop.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) by Vickis

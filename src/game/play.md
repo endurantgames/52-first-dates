@@ -1,4 +1,8 @@
-# Playing a Card {#game-card}
+# Playing a Card {#game-card .breakbefore}
+
+::::::::::::::::::::: spectrum  ::::::::::::::::::::::::::::
+![You play cards onto the three Date Status stacks and describe what your character is saying or doing.](art/spectrum/tarot.jpg){.bottom}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 When it's your turn, you can *play* a card by laying it on one of the three
 Date Status stacks.

@@ -228,7 +228,7 @@ Encourage everyone to practice their own forms of
 self-care and remind them that their mental health
 comes first.
 
-### DebriefingA {#toolkit-debriefing}
+### Debriefing {#toolkit-debriefing}
 
 Debriefing as a group is a great way to reflect on
 the game, identify possible issues, highlight the
@@ -282,5 +282,9 @@ the details or trauma to justify why someone felt
 uncomfortable or unsafe during the game, as long
 as the discussion moves towards how to address
 the issues going forward.
+
+:::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
+![It's important to share what you enjoyed about a game, as well as what you'd like to see changed.](art/spectrum/party.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

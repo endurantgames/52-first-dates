@@ -1,4 +1,8 @@
-# Creating the System {#setup-system}
+# Creating the System {#setup-system .breakbefore}
+
+::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![Everyone gets in a say in the System character.](art/spectrum/celebrate.jpg){.top}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 

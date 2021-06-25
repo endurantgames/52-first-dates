@@ -34,13 +34,12 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#toolkit-before"></a>
     - <a href="#toolkit-during"></a>
     - <a href="#toolkit-after"></a>
-- <a href="#what-is-plurality"></a>
-  - <a href="#more"></a>
-    - <a href="#more-terms"></a>
-    - <a href="#more-causes"></a>
-    - <a href="#more-myths"></a>
-    - <a href="#more-what"></a>
-    - <a href="#more-etiquette"></a>
+- <a href="#more"></a>
+  - <a href="#more-terms"></a>
+  - <a href="#more-causes"></a>
+  - <a href="#more-myths"></a>
+  - <a href="#more-what"></a>
+  - <a href="#more-etiquette"></a>
 - <a href="#game"></a>
   - <a href="#game-choosing"></a>
   - <a href="#game-card"></a>
@@ -212,11 +211,14 @@ which can be found at the end of the rules.
 
 
 Cover image from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carte_da_gioco1.jpg),
-licensed under [CreativeCommons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+licensed under [Creative Commons Attribution - Share-Alike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+
+All other photographs are courtesy of [The Gender Spectrum Collection](https://genderphotos.vice.com/)
+and are used under a [Creative Commons Attribution - NonCommercial - NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
 licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
->Creative Commons Attribution Share-Alike 4.0</a>.
+>Creative Commons Attribution - Share-Alike 4.0</a>.
 
 
 
@@ -251,15 +253,15 @@ Specific items in the toolkit are credited as follows:
 Definitions in the Lexicon are adapted from
 [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
 and are used under a
-[Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) license.
+[Creative Commons Attribution - Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) license.
 (Retrieved 2021-06-20)
 
 
 ## Safety Tools {#safety}
 
-::::::::::::::::::::: .spectrum ::::::::::::::::::::::::::::::::::
+::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![Honest, open, and empathic communication is essential to playing safely.](art/spectrum/comfort.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 
@@ -502,7 +504,7 @@ Encourage everyone to practice their own forms of
 self-care and remind them that their mental health
 comes first.
 
-##### DebriefingA {#toolkit-debriefing}
+##### Debriefing {#toolkit-debriefing}
 
 Debriefing as a group is a great way to reflect on
 the game, identify possible issues, highlight the
@@ -557,17 +559,17 @@ uncomfortable or unsafe during the game, as long
 as the discussion moves towards how to address
 the issues going forward.
 
+:::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
+![It's important to share what you enjoyed about a game, as well as what you'd like to see changed.](art/spectrum/party.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## What is plurality?
-
-The following section contains information about plurality that should be read
-and understood by the players before playing []{.gamename}. It's adapted
-from [MoreThanOne.info](https://morethanone.info/).
-
-:::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## More Than One: A Plural 101 {#more}
+
+*The following section contains information about plurality that should be read
+and understood by the players before playing []{.gamename}. It's adapted
+from [MoreThanOne.info](https://morethanone.info/).*
 
 [Plurality (or multiplicity) is the existence of multiple self-aware entities 
 inside one physical brain.]{.bigpara}
@@ -677,6 +679,10 @@ actors who were pretending to have DID.
 
 There have been no such studies done on non-clinical plurality yet, but interest has 
 been growing in the field.
+
+::::::::::::: spectrum :::::::::::::::
+![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
+::::::::::::::::::::::::::::::::::::::
 
 #### Myth: Plurality is a miserable state of being / a gift with no downsides.
 
@@ -824,11 +830,6 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
-- [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
-- [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
-- [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Using the Cards {#game}
 
@@ -862,12 +863,13 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-## Matching
+### Matching Cards {.breakbefore}
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.
 
 These cards match suits:
+
 ::::::::::: cardgroup :::::::::::::::::::
 [7 of Spades]{.card .s .seven}
 [King of Spades]{.card .s .king}
@@ -880,7 +882,7 @@ Two cards *match colors* if their suits are the same color -- black or red.
 These cards match colors:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[Ace of Clubs]{.card .c. .ace}
+[Ace of Clubs]{.card .c .ace}
 [Jack of Spades]{.card .s .jack}
 :::::::::::::::::::::::::::::::::::::::::
 
@@ -890,14 +892,14 @@ such as Ace, 2, or Queen.
 These cards match ranks:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[Nine of Clubs]{.card .c. .nine}
+[Nine of Clubs]{.card .c .nine}
 [Nine of Diamonds]{.card .d .nine}
 :::::::::::::::::::::::::::::::::::::::::
 
 These cards don't match each other at all:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[2 of Diamonds]{.card .d .two}
+[Two of Diamonds]{.card .d .deuce}
 [Queen of Spades]{.card .s .queen}
 :::::::::::::::::::::::::::::::::::::::::
 
@@ -1051,7 +1053,11 @@ than the other roles.]{.dera}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-### Playing a Card {#game-card}
+### Playing a Card {#game-card .breakbefore}
+
+::::::::::::::::::::: spectrum  ::::::::::::::::::::::::::::
+![You play cards onto the three Date Status stacks and describe what your character is saying or doing.](art/spectrum/tarot.jpg){.bottom}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 When it's your turn, you can *play* a card by laying it on one of the three
 Date Status stacks.
@@ -1165,7 +1171,11 @@ When that happens, the date moves to the resolution phase.
 
 []{.lorem}
 
-### Creating the System {#setup-system}
+### Creating the System {#setup-system .breakbefore}
+
+::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![Everyone gets in a say in the System character.](art/spectrum/celebrate.jpg){.top}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
@@ -1184,10 +1194,9 @@ When that happens, the date moves to the resolution phase.
 
 []{.lorem}
 
-### Creating the Headmates {#setup-headmates}
+### Creating the Headmates {#setup-headmates .breakbefore}
 
 Once you've created the System, you need to create Headmates.
-
 
 1. Write down a name or nickname for the headmate.
 2. Write down pronouns for the headmate.
@@ -1208,7 +1217,11 @@ Once you've created the System, you need to create Headmates.
 []{.lorem}
 
 
-### Setting the Scene {#date-scene}
+### Setting the Scene {#date-scene .breakbefore}
+
+::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
+![A date doesn't have to be fancy -- you could just agree to meet in a bar, for example.](art/spectrum/bar.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
@@ -1222,29 +1235,102 @@ Once you've created the System, you need to create Headmates.
 []{.lorem}
 
 
-### Playing as the Date {#date-date}
+### Starting the Date {#date-start .breakbefore}
+
+::::::::::::::::::: spectrum :::::::::::::::::::::::::::
+![Let's get this party started!](art/spectrum/group-cards-2.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+[]{.lorem}
+[]{.lorem}
+[]{.lorem}
+
+### Turn Order {#game-order}
+
+- **Date player plays a card**
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 1 plays a card**
+  - Outside Opposition may play a card
+  - System player one draws a card
+- **Date player plays a card** *4+ players only*
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 2 plays a card** *4+ players only*
+  - Outside Opposition may play a card
+  - System player two draws a card
+- **Date player plays a card** *5+ players only*
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 3 plays a card** *6+ players only*
+  - Outside Opposition may play a card
+  - System player three draws a card
+- **Date player plays a card**
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 4 plays a card** *7+ players only*
+  - Outside Opposition may play a card
+  - System player three draws a card
+- **Back to start**
+
+During the Date Night part of the game, the Date character and the System 
+character alternate turns back and forth.
+
+If you have more than three players, two or more players will be sharing the
+System character, and will take turns in alternating order.
+
+The Outside Opposition player doesn't have a turn in the turn order, but can
+act in response to cards played by the other players.
+
+#### Stood Up? {#date-stood .breakbefore}
+
+:::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::
+![If the first three cards dealt to create the Date Status stack match, that means you've been stood up!](art/spectrum/watch.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
 
-### Playing the Fronter {#date-fronter}
+### Playing as the Date {#date-date .breakbefore}
+
+:::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![The Date usually wants to make a good impression.](art/spectrum/brush.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
+
+
+### Playing the Fronter {#date-fronter .breakbefore}
+
+[]{.lorem}
+
+::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![Likewise, the System wants to make a good impression on the Date.](art/spectrum/mirror.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Switching Fronters {#date-switch}
 
 []{.lorem}
 
-### Playing the Outside Interference {#date-outside}
+### Playing the Outside Interference {#date-outside .breakbefore }
 
+::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
+![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+[]{.lorem}
 []{.lorem}
 
 #### Named NPCs {#date-npcs}
 
 []{.lorem}
+[]{.lorem}
 
 #### Recurring NPCs {#date-recurring}
 
+[]{.lorem}
 []{.lorem}
 
 #### I Just Met You and This Song is Ableist {#date-maybe}
@@ -1258,29 +1344,51 @@ Once you've created the System, you need to create Headmates.
 [Not you.]{.dera}
 [:p]{.ora}
 
+[]{.lorem}
 
-### When the Date Ends {#date-end}
+:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+![If your date doesn't go well but you met someone else -- be sure to get *their* number!](art/spectrum/phone.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+### When the Date Ends {#date-end .breakbefore}
+
+:::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::
+![Intimacy can mean different things to different couples.](art/spectrum/video-game.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
 []{.lorem}
 
 #### Date-Ending Events {#date-end-events}
 
 []{.lorem}
+[]{.lorem}
 
 #### Achieving Intimacy {#date-intimacy}
 
+[]{.lorem}
 []{.lorem}
 
 #### A Second Date {#date-second}
 
 []{.lorem}
-
-#### Getting Ghosted {#date-ghosted}
-
 []{.lorem}
 
+#### Getting Ghosted {#date-ghosted .breakbefore}
 
-### Playing Another Round {#date-next}
+[]{.lorem}
+[]{.lorem}
+
+::::::::::::::::::::: spectrum :::::::::::::::::::::::::
+![Getting ghosted is never fun, but sometimes it's for the best.](art/spectrum/distance.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Playing Another Date {#date-next .breakbefore}
+
+:::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
+![This date looks like it went well.](art/spectrum/bed-eyes.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem} 
 
@@ -1322,6 +1430,9 @@ After a game session of []{.gamename}, it's very strongly recommended that you h
 wrap-up discussion. Some groups might want to do this after every date, to reflect and
 talk about whatever issues arose.
 
+:::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![It's all but required that you talk about this game once you finish it.](art/spectrum/conversation.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ### Aftercare {#wrap-after}
@@ -1357,6 +1468,10 @@ us [an email](mailto:caderaspindrift@gmail)!</span>
 
 This section presents alternate rules for playing []{.gamename] in different ways.
 
+::::::::::::::::: spectrum ::::::::::::::::::::::::::::
+![There isn't a variant for using a ouija board to play 52 Second Dates ... yet.](art/spectrum/ouija.jpg){.bottom}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### System to System {#variant-system}
 
 []{.lorem}
@@ -1373,7 +1488,11 @@ This section presents alternate rules for playing []{.gamename] in different way
 ## Appendix: Plural Resources {#resources}
 
 A number of resources on plurality are linked on the [More Than One](#more) site.
-Those links and others are presented here for easy reference.
+Those links, and other useful resources, are presented here for easy reference.
+
+::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::
+![You're encouraged to learn more about plurality by following these links.](art/spectrum/laptop.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) by Vickis
@@ -1507,6 +1626,10 @@ order to play the game. These definitions are adapted from
   main or central influences on the system. This doesn't necessarily mean they front 
   often.  A main can be a leader, teacher, or another authoritative figure that has 
   an influence over the system. They may also be someone that others draw energy from.
+
+:::::::::::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
+![These are just a handful of the terms used by plural people to describe our experiences. Different systems, or even different members of the same systems, might use different terminology.](art/spectrum/newspaper.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 - **Median**
   A median system (also called midcontinuum) is a system where members are not as 

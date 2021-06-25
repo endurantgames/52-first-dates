@@ -1,13 +1,21 @@
-# Playing the Outside Interference {#date-outside}
+# Playing the Outside Interference {#date-outside .breakbefore }
 
+::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
+![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+[]{.lorem}
 []{.lorem}
 
 ## Named NPCs {#date-npcs}
 
 []{.lorem}
+[]{.lorem}
 
 ## Recurring NPCs {#date-recurring}
 
+[]{.lorem}
 []{.lorem}
 
 ## I Just Met You and This Song is Ableist {#date-maybe}
@@ -20,4 +28,10 @@
 [wait, *who* is right?]{.ora}
 [Not you.]{.dera}
 [:p]{.ora}
+
+[]{.lorem}
+
+:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+![If your date doesn't go well but you met someone else -- be sure to get *their* number!](art/spectrum/phone.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

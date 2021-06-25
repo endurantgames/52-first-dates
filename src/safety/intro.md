@@ -1,8 +1,8 @@
 # Safety Tools {#safety}
 
-::::::::::::::::::::: .spectrum ::::::::::::::::::::::::::::::::::
+::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![Honest, open, and empathic communication is essential to playing safely.](art/spectrum/comfort.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 

@@ -30,12 +30,13 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-# Matching
+## Matching Cards {.breakbefore}
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.
 
 These cards match suits:
+
 ::::::::::: cardgroup :::::::::::::::::::
 [7 of Spades]{.card .s .seven}
 [King of Spades]{.card .s .king}
@@ -48,7 +49,7 @@ Two cards *match colors* if their suits are the same color -- black or red.
 These cards match colors:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[Ace of Clubs]{.card .c. .ace}
+[Ace of Clubs]{.card .c .ace}
 [Jack of Spades]{.card .s .jack}
 :::::::::::::::::::::::::::::::::::::::::
 
@@ -58,14 +59,14 @@ such as Ace, 2, or Queen.
 These cards match ranks:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[Nine of Clubs]{.card .c. .nine}
+[Nine of Clubs]{.card .c .nine}
 [Nine of Diamonds]{.card .d .nine}
 :::::::::::::::::::::::::::::::::::::::::
 
 These cards don't match each other at all:
 
 ::::::::::: cardgroup :::::::::::::::::::
-[2 of Diamonds]{.card .d .two}
+[Two of Diamonds]{.card .d .deuce}
 [Queen of Spades]{.card .s .queen}
 :::::::::::::::::::::::::::::::::::::::::
 

@@ -1,4 +1,8 @@
-# Playing Another Round {#date-next}
+# Playing Another Date {#date-next .breakbefore}
+
+:::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
+![This date looks like it went well.](art/spectrum/bed-eyes.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem} 
 

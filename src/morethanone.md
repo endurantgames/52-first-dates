@@ -1,12 +1,8 @@
-# What is plurality?
-
-The following section contains information about plurality that should be read
-and understood by the players before playing []{.gamename}. It's adapted
-from [MoreThanOne.info](https://morethanone.info/).
-
-:::::::::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 # More Than One: A Plural 101 {#more}
+
+*The following section contains information about plurality that should be read
+and understood by the players before playing []{.gamename}. It's adapted
+from [MoreThanOne.info](https://morethanone.info/).*
 
 [Plurality (or multiplicity) is the existence of multiple self-aware entities 
 inside one physical brain.]{.bigpara}
@@ -116,6 +112,10 @@ actors who were pretending to have DID.
 
 There have been no such studies done on non-clinical plurality yet, but interest has 
 been growing in the field.
+
+::::::::::::: spectrum :::::::::::::::
+![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
+::::::::::::::::::::::::::::::::::::::
 
 ### Myth: Plurality is a miserable state of being / a gift with no downsides.
 
@@ -263,8 +263,3 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
-- [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
-- [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
-- [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

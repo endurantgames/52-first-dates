@@ -110,6 +110,10 @@ order to play the game. These definitions are adapted from
   often.  A main can be a leader, teacher, or another authoritative figure that has 
   an influence over the system. They may also be someone that others draw energy from.
 
+:::::::::::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
+![These are just a handful of the terms used by plural people to describe our experiences. Different systems, or even different members of the same systems, might use different terminology.](art/spectrum/newspaper.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 - **Median**
   A median system (also called midcontinuum) is a system where members are not as 
   distinct or separate from each other. It can be considered being somewhere 
