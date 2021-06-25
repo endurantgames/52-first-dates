@@ -1,6 +1,6 @@
 # Variants and Hacks {#variant}
 
-[]{.lorem}
+This section presents alternate rules for playing []{.gamename] in different ways.
 
 ## System to System {#variant-system}
 
