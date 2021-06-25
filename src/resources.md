@@ -18,6 +18,7 @@ Those links and others are presented here for easy reference.
 - [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
 - [Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
 - [Plurality Resource](https://pluralityresource.org/plurality-information/) by Eclectic Tech
+- [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/), a wiki
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
 - [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis

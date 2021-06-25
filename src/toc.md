@@ -54,13 +54,17 @@
   - <a href="#wrap-discuss"></a>
   - <a href="#wrap-wait"></a>
 - <a href="#variant"></a>
+  - <a href="#variant-system"></a>
+  - <a href="#variant-singlet"></a>
+  - <a href="#variant-platonic"></a>
 - <a href="#lexicon"></a>
 - <a href="#resources"></a>
 - <a href="#anchor-license"></a>
-- <a href="#sheets"></a>
-  - <a href="#sheet-system"></a>
+- <a href="#handouts"></a>
   - <a href="#sheet-date"></a>
+  - <a href="#sheet-outside"></a>
   - <a href="#sheet-headmate"></a>
+  - <a href="#sheet-system"></a>
   - <a href="#sheet-reference"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

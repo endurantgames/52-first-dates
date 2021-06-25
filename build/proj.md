@@ -14,126 +14,12 @@ title: 52 First Dates
 
 # 52 First Dates
 
-A rules-light tabletop roleplaying game about going on 52 blind dates while plural.
+[]{.gamename} is a rules-light tabletop roleplaying game for 4 or more players
+about going on 52 blind dates while plural.
 
-*Well.* 
-You probably won't play out 52 dates in one session. More like a few, until all 
-the players agree they've enjoyed playing and are ready to stop for the day.
-
-## What You Need
-
-Okay, you need to get the following together:
-
-- At least 3 players, preferably 4 to 6
-- Two decks of standard poker cards, they should have different backs
-- A copy of the System Sheet
-- One Date Sheet per player
-- Six Headmate Sheets
-- A copy of the Outside Interference Sheet
-- One Game Reference Sheet per player
-- Pencils
-- *optional* extra paper for notetaking
-
-## The Purpose of []{.gamename}
-
-This game attempts to do four things at once. It's up to you, the players, to determine
-if it succeeds at any of those. The four goals are to be a game that:
-
-1. Has multiple players playing the same character
-2. Educates about plural systems
-3. Functions as an interesting dating sim
-4. Is actually fun to play
-
-## A System Introduction
-
-Like many tabletop roleplaying games, []{.gamename} is a collaboration between
-a group of people.  Unlike many, that group are all in the same body.
-
-Hello! We're the Spindrift Crew!
-
-This is a departure from the way we normally write TTRPGs, which is to try and
-maintain a consistent voice throughout. We're purposely doing things differently
-for []{.gamename} because we think it's important for this game, and thematically
-sound.
-
-Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each signed with an emoji so you know you who's speaking.
-
-This is who we are:
-
-:::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
-- []{.ora} **Aura**, flirty lesbian disaster (she/her)
-- []{.val} **Valorie**, generally quiet protector (she/her)
-- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-# The Purpose of []{.gamename}
-
-This game attempts to do four things at once. It's up to you, the players, to determine
-if it succeeds at any of those. The four goals are to be a game that:
-
-1. Has multiple players playing the same character
-2. Educates about plural systems
-3. Functions as an interesting dating sim
-4. Is actually fun to play
-
-## Game Design Philosophy
-
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
-is that of an ongoing conversation where a number of
-different voices weave in and out with their contributions that answer the question,
-"What *is* a roleplaying game? What *can* a roleplaying game *be*?"
-
-All of our games are made with that in mind: this is our part in the conversation,
-right here, right now. We may have more to add later, but this is what we want to say
-now.
-
-Very few concepts in the game are *completely* new. For example, card-based games 
-have long been a part of the hobby, to varying degrees of success. Romance/dating 
-sim tabletop RPGs aren't as common, but they're out there -- most notably by
-[Emily Care Boss](http://www.blackgreengames.com/) in her
-[*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
-
-Games where many players run the same character are even more rare; and I don't
-know of any that address it from the standpoint of a plural, shared character.
-If you do, let me know!
-
-But just as nobody invents all the words they speak, the magic isn't in the parts
-you use but how you assemble them -- or even beyond that, in what you *actually*
-say with those words.
-
-Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
-
-### Game Design Philosophy
-
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
-is that of an ongoing conversation where a number of
-different voices weave in and out with their contributions that answer the question,
-"What *is* a roleplaying game? What *can* a roleplaying game *be*?"
-
-All of our games are made with that in mind: this is our part in the conversation,
-right here, right now. We may have more to add later, but this is what we want to say
-now.
-
-Very few concepts in the game are *completely* new. For example, card-based games 
-have long been a part of the hobby, to varying degrees of success. Romance/dating 
-sim tabletop RPGs aren't as common, but they're out there -- most notably by
-[Emily Care Boss](http://www.blackgreengames.com/) in her
-[*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
-
-Games where many players run the same character are even more rare; and I don't
-know of any that address it from the standpoint of a plural, shared character.
-If you do, let me know!
-
-But just as nobody invents all the words they speak, the magic isn't in the parts
-you use but how you assemble them -- or even beyond that, in what you *actually*
-say with those words.
-
-Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
-
+*Well.* You probably won't play out 52 dates in one session (or even ever)!
+More likely you'll just play out a few, either a pre-arranged number or until
+the players agree they've enjoyed playing and are ready to stop.
 
 
 :::::::::::::::::::::::::::: { .sidebar #toc } ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -192,16 +78,98 @@ Hopefully we'll be able to communicate our message to you as you play []{.gamena
   - <a href="#wrap-discuss"></a>
   - <a href="#wrap-wait"></a>
 - <a href="#variant"></a>
+  - <a href="#variant-system"></a>
+  - <a href="#variant-singlet"></a>
+  - <a href="#variant-platonic"></a>
 - <a href="#lexicon"></a>
 - <a href="#resources"></a>
 - <a href="#anchor-license"></a>
 - <a href="#sheets"></a>
-  - <a href="#sheet-system"></a>
   - <a href="#sheet-date"></a>
   - <a href="#sheet-headmate"></a>
+  - <a href="#sheet-outside"></a>
   - <a href="#sheet-reference"></a>
+  - <a href="#sheet-system"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## What You Need {.nobreak}
+
+Okay, you need to get the following together:
+
+- At least three players; preferably four to six, and usually no more than eight
+- Two decks of standard poker cards; they should have different backs
+- One copy of the System Sheet
+- One copy of the Outside Interference Sheet
+- One Date Sheet per player
+- One Headmate Sheet per player
+- One Game Reference Sheet per player
+- Pencils
+- *optional, but recommended* Extra paper for notetaking
+
+## The Purpose of []{.gamename} {.nobreak}
+
+This game attempts to do four things at once. It's up to you, the players, to determine
+if it succeeds at any of those. The four goals are to be a game that:
+
+1. Has multiple players playing the same character
+2. Educates about plural systems
+3. Functions as an interesting dating sim
+4. Is actually fun to play
+
+## Game Design Philosophy
+
+Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
+is that of an ongoing conversation where a number of
+different voices weave in and out with their contributions that answer the question,
+"What *is* a roleplaying game? What *can* a roleplaying game *be*?"
+
+All of our games are made with that in mind: this is our part in the conversation,
+right here, right now. We may have more to add later, but this is what we want to say
+now.
+
+Very few concepts in the game are *completely* new. For example, card-based games 
+have long been a part of the hobby, to varying degrees of success. Romance/dating 
+sim tabletop RPGs aren't as common, but they're out there -- most notably by
+[Emily Care Boss](http://www.blackgreengames.com/) in her
+[*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
+
+Games where many players run the same character are even more rare; and I don't
+know of any that address it from the standpoint of a plural, shared character.
+If you do, let me know!
+
+But just as nobody invents all the words they speak, the magic isn't in the parts
+you use but how you assemble them -- or even beyond that, in what you *actually*
+say with those words.
+
+Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
+
+## A System Introduction {.nobreak}
+
+Like many tabletop roleplaying games, []{.gamename} is a collaboration between
+a group of people.  Unlike many, that group are all in the same body.
+
+Hello! We're the Spindrift Crew!
+
+This is a departure from the way we normally write TTRPGs, which is to try and
+maintain a consistent voice throughout. We're purposely doing things differently
+for []{.gamename} because we think it's important for this game, and thematically
+sound.
+
+Rather than interjecting comments into the flow of the text, we decided to use
+sidenotes in the gutters, each signed with an emoji so you know you who's speaking.
+
+This is who we are:
+
+:::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
+- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
+- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
+- []{.ora} **Aura**, flirty lesbian disaster (she/her)
+- []{.val} **Valorie**, generally quiet protector (she/her)
+- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 [No Fascists]{.sidehead .inclu}
@@ -218,19 +186,30 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Credits
+## Credits {.nobreak}
 
 []{.gamename} was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>
+[You might notice that there's a lot of the game manual that we didn't write ourselves -- 
+such as the TTRPG Safety Toolkit, More Than One, the definitions in the Lexicon, and the
+Anti-Capitalist Attribution Cooperative License. This wasn't to save time or to increase
+the page count, but because we think these are important topics, and we doubt we could do 
+them justice ourselves.<span class="ora">see, I told you she's wordy!</span>]{.dera} 
+[Aura, you can't put a footnote on a footnote.<span class="ora">oh, *yeah?* just *watch* me!</span>]{.dera} 
 as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
 hosted by [Metaparadox](https://metaparadox.itch.io/).
+
+The contents of the game are covered by the
+*Anti-Capitalist Attribution Cooperative License*, written 
+by <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>]{.spin}; a copy of
+which can be found at the end of the rules.
+
+
+Cover image from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carte_da_gioco1.jpg),
+licensed under [CreativeCommons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
 *No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
 licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
 >Creative Commons Attribution Share-Alike 4.0</a>.
-
-
-The contents of the game are covered by the
-*Anti-Capitalist Attribution Cooperative License*[By <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>!]{.spin} found at the end of the rules.
 
 
 
@@ -273,9 +252,10 @@ and are used under a
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 
-To ensure that everyone has an enjoyable experience, we recommend the *TTRPG Safety Toolkit*,
-which we've included below. You should not play []{.gamename} without using at least
-one such tool in your game.
+To help ensure that everyone has an enjoyable experience, we recommend the 
+*TTRPG Safety Toolkit*, which we've included below. You should *not* play []{.gamename} 
+without using at least one such tool in your game.
+
 
 In addition, we specifically call out certain points in the rules that need special attention
 from Game Guides and players. These are marked with an [alert symbol]{.cw}.
@@ -701,11 +681,6 @@ All of this is true for plural collectives as well. It can be challenging to mak
 every member is heard and taken care of. It can also be rewarding, when everyone supports 
 each other to achieve things they couldn't alone.
 
-[]{.seealso}
-
-- [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
-- [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
-
 ### What is it like? {#more-what}
 
 [There are many ways to be plural, and many dimensions to living as plural.]{.bigpara}
@@ -803,15 +778,6 @@ Very few collectives run themselves without any rules at all — some degree of 
 even if it's as simple as a shared agreement to harm none outside or inside, 
 is vital to successfully living together.
 
-[]{.seealso}
-
-- [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
-- [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
-- [Non-Binary Plural: Language/Concepts for OSDD and Median Experience](https://smallcedarforest.org/non-binary-plural-language-and-concepts-for-osdd-and-median-experience/) by cedars
-- [I am Mr. Robot](https://medium.com/@pluraldoxa/i-am-mr-robot-defe6ee93edf) by pluraldoxa
-- [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
-- [The Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
-
 ### Etiquette {#more-etiquette}
 
 [Every system has their own preferences on how they would like to be treated, but the 
@@ -847,12 +813,6 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
-[]{.seealso}
-
-- [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
-- [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee (don't be the next Shyalaman!)
-- [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
-
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) and [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
 - [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality.
@@ -869,6 +829,7 @@ in order to make ends meet. Being invited backstage is a great act of trust — 
 
 ### Playing a Card {#game-card}
 
+[]{.lorem}
 
  Suit                  Positive Uses             Negative Uses
 ------                 ------------------------- -------------------------
@@ -877,7 +838,7 @@ in order to make ends meet. Being invited backstage is a great act of trust — 
 []{.hearts} Hearts     Earnest and heartfelt     Thoughtless and inconsiderate
 []{.spades} Spades     Clever and witty          Mocking and hurtful
 
-#### Date End
+#### Ending a Date
 
 A date ends when the cards match one of these:
 
@@ -936,6 +897,9 @@ All of the same rank
 []{.lorem}
 
 ### Creating the Headmates {#setup-headmates}
+
+Once you've created the System, you need to create Headmates.
+
 
 1. Write down a name or nickname for the headmate.
 2. Write down pronouns for the headmate.
@@ -1066,9 +1030,11 @@ moving in together.
 
 ## Part 3: The Wrap-Up {#wrap}
 
-[]{.lorem}
+After a game session of []{.gamename}, it's very strongly recommended that you have a
+wrap-up discussion. Some groups might want to do this after every date, to reflect and
+talk about whatever issues arose.
 
-[]{.lorem}
+
 
 ### Aftercare {#wrap-after}
 
@@ -1080,14 +1046,28 @@ moving in together.
 []{.lorem}
 
 
-### Wait, *Am* I Plural?  {#wrap-wait}
+### Wait, Am *I* Plural?  {#wrap-wait}
 
-[]{.lorem}
+For some people, playing []{.gamename} might line up some dots in your life, and you might
+question whether not you might be plural yourself.
+Before we go any further, we want to say something very important:
+
+***This game was not designed for helping you discover if you're plural or not.***
+We didn't design it that way.[Among other reasons, we don't have the expertise to do so.]{.carline}
+[]{.gamename} is a simulation that might give you empathy for what it's like being
+plural, and reading the game materials could educate you -- especially the 
+[More Than One](#more) section.
+
+That said, if you want to investigate further, the [Plural Resources](#resources) 
+appendix has a number of links that can help you learn more about the plural experience
+and what it might mean in your life.<span class="carline">If this game does play a 
+role in any way determining if you're plural -- or *not!* -- drop 
+us [an email](mailto:caderaspindrift@gmail)!</span>
 
 
 ## Variants and Hacks {#variant}
 
-[]{.lorem}
+This section presents alternate rules for playing []{.gamename] in different ways.
 
 ### System to System {#variant-system}
 
@@ -1104,17 +1084,28 @@ moving in together.
 
 ## Appendix: Plural Resources {#resources}
 
-[]{.lorem}
+A number of resources on plurality are linked on the [More Than One](#more) site.
+Those links and others are presented here for easy reference.
 
-- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
-
-- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
-
-- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
-
-- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
-
-- [MoreThanOne.Info](https://morethanone.info/) []{.lorem}
+- [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
+- [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) by Vickis
+- [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality
+- [How do I know I'm multiple?](https://sarahkreece.com/2011/11/16/how-do-i-know-im-multiple/) by Sarah K. Reece
+- [How to Write Multi](http://healthymultiplicity.com/loonybrain/Info/WritingMulti.html) by LB Lee
+- [I am Mr. Robot](https://medium.com/@pluraldoxa/i-am-mr-robot-defe6ee93edf) by pluraldoxa
+- [I am not Sarah](https://sarahkreece.com/2012/07/15/i-am-not-sarah/) and [Love](https://sarahkreece.com/2015/07/22/love/) by Sarah K. Reece
+- [MPD For You and Me](http://healthymultiplicity.com/loonybrain/Comics/MPD/MPD01.html) by LB Lee
+- [MoreThanOne.Info](https://morethanone.info/) by anonymous
+- [Non-Binary Plural: Language/Concepts for OSDD and Median Experience](https://smallcedarforest.org/non-binary-plural-language-and-concepts-for-osdd-and-median-experience/) by cedars
+- [Plural Dictionary](https://system-dictionary.carrd.co/) by Mala
+- [Our Plural Experience](http://www.exunoplures.org/main/articles/our-plural-experience/) by Yavari of Sylvans
+- [Plural Etiquette Questionnaire](https://write.as/i9kkgvg5hp70gauw.md) by Hungry Ghosts
+- [Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
+- [Plurality Resource](https://pluralityresource.org/plurality-information/) by Eclectic Tech
+- [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/), a wiki
+- [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
+- [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
+- [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 
 
 ## Appendix: A Plural Lexicon {#lexicon}
@@ -1667,29 +1658,22 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
-
-::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[Handouts]{#sheets .anchor} [System Sheet]{#sheet-system .anchor}
-
-Here's the system sheet.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+## [Handouts]{#sheets .anchor}
 
 ::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[Date Sheet]{#sheet-date .anchor}
+### Date Sheet {#sheet-date}
 
 Here's the date sheet.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
-[Headmate Sheets]{#sheet-headmate .anchor}
-
 ::::::::::::::::::: one ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+### []{.gamename} Headmate Sheet {#sheet-headmate}
+
+here's the headmate sheet.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1703,5 +1687,12 @@ Here's the outside interference sheet.
 [Card and Move Reference]{#sheet-reference .anchor}
 
 Here's the reference sheet.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::: {.sheet} ::::::::::::::::::::::::::::::::::::::::::::::::
+[Handouts]{#sheets .anchor} [System Sheet]{#sheet-system .anchor}
+
+Here's the system sheet.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

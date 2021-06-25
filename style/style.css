@@ -7,12 +7,12 @@ header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
 
-@page:left { margin-left: 196pt; margin-right: 96pt; }
-@page:right { margin-right: 196pt; margin-left: 96pt; }
+@page:left { margin-left: 192pt; margin-right: 96pt; }
+@page:right { margin-right: 192pt; margin-left: 96pt; }
 
 @page { @footnote { position: absolute; width: 138pt; } }
 
-@page :left  { @footnote { left: -150pt; } }
+@page :left  { @footnote { left: -160pt; } }
 @page :right { @footnote { right: -168pt; } }
 
 *::footnote-marker {
@@ -77,12 +77,13 @@ header h1     { string-set: gamename content()       }
   --h5:        13pt;
   --h6:        12pt;
   --th:        11pt;
+  --pagenum:   28pt;
   --toolkit:    9pt; 
   --morethanone: 11pt;
 
-  --color-accent: teal;
-  /* --color-line:    gray; */
-  --color-line:    teal;
+  --color-accent: cadetblue;
+  --color-pagenum: cadetblue;
+  --color-line:    cadetblue;
   --color-light:   silver;
   --color-toolkit: #006600;
 
@@ -134,9 +135,9 @@ h3, h4, h5, h6     { font-weight: normal; }
 h2:first-of-type { break-before: avoid; }
 h2 { break-before: page; }
 
-#cover + h1   { counter-reset: page; counter-increment: page; break-before: right; }
+#cover + h1 { counter-reset: page; counter-increment: page; }
+#cover + h1 { break-before: right; }
 
-/* ul, ol       { break-inside: avoid; } */
 li           { break-inside: avoid; }
 ul, ol       { margin-left: 1em;    margin-top: 6pt; margin-bottom: 6pt; }
 ul li, ul ol { margin-left: 1em;    }
@@ -162,41 +163,39 @@ img { -prince-image-resolution: 96;
 
 p, li { orphans: 3; line-height: 1.40; }
 
-@page { @bottom-center {
-  content:         counter(page);
+@page { @left-bottom { 
   font-family:     var(--font-headline);
   font-size:       var(--big);
-  margin-top:      18pt;
-  margin-bottom:   18pt;
-  text-align:      outside;
+  font-size:       var(--pagenum);
+  text-align:      center;
+  color: var(--color-pagenum);
 } }
 
-@page :left { @bottom-left {
-  content:         string(gamename) ' Draft by Spindrift Crew';
-  font-family:     var(--font);
-  font-size:       var(--small);
-  margin-top:      18pt;
-  margin-bottom:   18pt;
-  color:           var(--color-light);
-  text-align:      left;
-  margin-left:     -138pt; 
+@page { @right-bottom {
+  font-family:     var(--font-headline);
+  font-size:       var(--big);
+  font-size:       var(--pagenum);
+  text-align:      center;
+  color: var(--color-pagenum);
 } }
 
-@page :right { @bottom-right {
+@page:left  { @left-bottom  { content: counter(page); } } 
+@page:right { @right-bottom { content: counter(page); } } 
+
+@page:nth(3) { margin-left: 96pt; margin-right: 96pt; }
+@page:nth(4) { margin-left: 60pt; margin-right: 96pt; }
+@page:nth(3) { @right-bottom { margin-left:  -96pt; } }
+@page:nth(4) { @left-bottom  { margin-right: -134pt; } }
+
+@page { @bottom-center {
   content:         'Version ' string(date);
   font-family:     var(--font);
   font-size:       var(--small);
   margin-top:      18pt;
   margin-bottom:   18pt;
   color:           var(--color-light);
-  text-align:      right;
-  margin-right:     -138pt; 
+  text-align:      center;
 } }
-
-@page:nth(3) { margin-top: 36pt; }
-@page:nth(3) { @bottom-center { content: normal; }  }
-@page:nth(3) { @top-left      { content: normal; }  }
-@page:nth(3) { @top-right     { content: normal; }  }
 
 figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
 table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
@@ -210,25 +209,20 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 .section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
 .chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
 
-/* @page toc:left { margin-left: 96pt; margin-right: 96pt; }
-@page toc:right { margin-left: 96pt; margin-right: 96pt; } */
-@page:nth(3) { margin-left: 96pt; margin-right: 96pt; }
-@page:nth(4) { margin-left: 96pt; margin-right: 96pt; }
-@page:nth(4) { @bottom-center { content: normal; } }
-@page:nth(4) { @bottom-left { content: normal; } }
-
-#toc { column-count: 2; column-gap: 16pt; column-width: auto; padding-bottom: 6pt; padding-top: 6pt; }
-
+#toc { column-count: 2; column-gap: 16pt; column-width: auto; }
+#toc { background: none; border: none; }
 #toc .sidehead { column-span: all; display: block; margin-bottom: 9pt; }
-#toc { float: page top; }
-#toc a:before    { content: target-content(attr(href)) ' ';                        }
-#toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
-#toc ul          { margin-left: 0; break-inside: auto;                             }
-#toc ul li       { list-style-type: none; line-height: 1.1; break-inside: auto;    }
-#toc ul ul li    { margin-left: 8pt; font-weight: normal; break-inside: avoid;     }
-#toc ul ul ul li { font-size: var(--smaller);                                      }
+#toc { float: page top; float-defer-page: 1; }
+#toc a:before       { content: target-content(attr(href)) ' ';                        }
+#toc a:after        { content: leader('. ') target-counter(attr(href), page);         }
+#toc ul             { margin: 0; break-inside: auto;                             }
+#toc ul li          { list-style-type: none; line-height: 1.1; break-inside: auto;    }
+#toc ul ul li       { margin-left: 8pt; font-weight: normal; break-inside: avoid;     }
+#toc ul ul ul li    { font-size: var(--smaller);                                      }
 #toc ul ul ul ul li { font-size: var(--small); font-style: italic; }
-#toc > ul > li   { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger) }
+#toc > ul > li      { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger); }
+#toc ul ul  { margin-top: 4pt; } 
+#toc ul ul ul { margin-bottom: 4pt; break-after: avoid-column; }
 a:link,
 a:visited,
 a:active,
@@ -264,7 +258,7 @@ a:hover { color: black; text-decoration: none; }
 
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
 .tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
-.tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
+.tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; line-height: none; font-size: 87%; }
 
 .tstoolkit .rewind:after { content: '\f04a'; }
 .tstoolkit .ff:after     { content: '\f050'; }
@@ -273,7 +267,7 @@ a:hover { color: black; text-decoration: none; }
 
 .license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
 
-.anchor { position: absolute; color: transparent; }
+.anchor { position: absolute; color: transparent; float-defer-page: 1; }
 
 .license h2      { font-size: var(--large); column-span: all; margin-top: 0; margin-bottom: 3pt; color: black; }
 .license h3      { font-size: var(--larger);          }
@@ -284,18 +278,26 @@ a:hover { color: black; text-decoration: none; }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
 
-@page license    { margin: 48pt 36pt;; padding: 0; }
-@page license { @top-left  { content: normal; }  }
-@page license { @top-right { content: normal; }  }
+@page license    { margin: 48pt 36pt; padding: 0; }
+@page license { @left-bottom { content: normal; } @right-bottom { content: normal; } }
 
-.gamename:before { font-family: var(--font-header); content: string(gamename); line-height: none; font-size: 85%; color: var(--color-accent); }
+.gamename:before { 
+  font-family: var(--font-header); 
+  content: string(gamename); 
+  line-height: none; 
+  font-size: 85%; 
+  color: var(--color-accent); 
+}
+
+:matches(h1, h2, h3, h4, h5, h6) .gamename:before { font-size: 100%; }
 
 .cw:before {  /* content warning */
   font-family: var(--icon-solid);
   content: '\f071';
   display: inline-block;
   margin-right: 0.5em;
-  color: #EEDD00;
+  color: #f5c71a;
+  line-height: none;
 }
 
 .inclu:before { /* notes on inclusion */
@@ -304,12 +306,11 @@ a:hover { color: black; text-decoration: none; }
   display: inline-block;
   margin-right: 0.5em;
   color: #BB00BB;
+  line-height: none;
 }
 
 @page :first { margin: 0; }
-@page :first { @top-left      { content: normal; } }
-@page :first { @top-right     { content: normal; } }
-@page :first { @bottom-center { content: normal; } }
+@page :first { @bottom-center { content: normal; } @right-bottom { content: normal; } @left-bottom { content: normal; } }
 
 #cover { break-after: page; width: 8.5in; height: 11in; position: relative; background: black; }
 #cover :matches(h1, h2, h3) {
@@ -320,24 +321,19 @@ a:hover { color: black; text-decoration: none; }
   color: white;
 }
 
-#cover h1 { top: 1.0in; font-size: var(--title);       }
-#cover h2 { top: 8.25in; font-size: var(--subtitle);    }
-#cover h3 { top: 9.0in; font-size: var(--subsubtitle); }
+#cover h1 { top: 1.0in; font-size: var(--title); }
+#cover h2 { top: 8.25in; font-size: var(--subtitle); }
+#cover h3 { top: 9.0in; font-size: var(--subsubtitle); border-bottom: none; }
 
 #cover img { position: absolute; top: 3.0in; left: 1.0in; width: 6.5in; height: auto; }
 
-@page:blank { @top-left { content: normal; } }
-@page:blank { @top-right { content: normal; } }
-@page:blank { @bottom-center { content: normal; } }
+@page:blank { @left-bottom { content: normal; } }
+@page:nth(2) { @left-bottom { content: 'i'; } }
 
-@page:nth(2) { @bottom-center { content: 'i'; } }
+.sheetpage { page: charsheet; break-before: page; }
 
-.sheet { page: charsheet; height: 11in; width: 8.5in; }
-
-@page charsheet { margin: 0; }
-@page charsheet { @top-right     { content: normal; } }
-@page charsheet { @top-left      { content: normal; } }
-@page charsheet { @bottom-center { content: normal; } }
+@page charsheet { margin: 0; padding: 0;}
+@page charsheet { @left-bottom { content: normal; }  @right-bottom { content: normal; } }
 
 .lexicon ul li { list-style-type: none; margin-left: 0; break-inside: auto; }
 .lexicon ul { margin-left: 9pt; }
@@ -373,12 +369,7 @@ a:hover { color: black; text-decoration: none; }
 .val:after { content: ' \1f517'; }
 .fox:after { content: ' \1f98a'; }
 
-.spin:empty:after { content: normal; }
-.dera:empty:after { content: normal; }
-.carline:empty:after { content: normal; }
-.ora:empty:after { content: normal; }
-.val:empty:after { content: normal; }
-.fox:empty:after { content: normal; }
+:matches(.spin, .dera, .carline, .ora, .val, .fox):empty:after { content: normal; }
 
 /*
 .morethanone :matches(h1, h2, h3, h4, h5, h6) { 
