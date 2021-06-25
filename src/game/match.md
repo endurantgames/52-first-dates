@@ -1,22 +1,6 @@
-# Playing a Card {#game-card}
+# Matching the Color {#game-match}
 
-[]{.lorem}
+Two cards *match* if their suits are the same color -- black or red.
+[]{.clubs} Clubs and []{.spades} are black suits, and
+[]{.diamonds} Diamonds and []{.hearts} are red suits.
 
- Suit                  Positive Uses             Negative Uses
-------                 ------------------------- -------------------------
-[]{.clubs} Clubs       Direct and clear          Blunt and tactless
-[]{.diamonds} Diamonds Flirty and coy            Evasive and guarded
-[]{.hearts} Hearts     Earnest and heartfelt     Thoughtless and inconsiderate
-[]{.spades} Spades     Clever and witty          Mocking and hurtful
-
-## Ending a Date
-
-A date ends when the cards match one of these:
-
- Cards
--------                               
-[]{.clubs} []{.clubs} []{.clubs}
-[]{.diamonds} []{.diamonds} []{.diamonds}
-[]{.hearts} []{.hearts} []{.hearts}
-[]{.spades} []{.spades} []{.spades}
-All of the same rank

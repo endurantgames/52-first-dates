@@ -55,6 +55,7 @@ header h1     { string-set: gamename content()       }
   --font-header: "Cherry Swash";
   --font-toolkit: "Montserrat";
   --font-morethanone: "Source Sans Pro";
+  --font-cards: 'Unicode Upper';
 
   --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
@@ -81,6 +82,7 @@ header h1     { string-set: gamename content()       }
   --pagenum:   28pt;
   --toolkit:    9pt; 
   --morethanone: 11pt;
+  --cardsize: 32pt; 
 
   --color-accent: cadetblue;
   --color-pagenum: cadetblue;
@@ -480,3 +482,84 @@ a:hover { color: black; text-decoration: none; }
   font-size: var(--smaller);
   font-weight: normal;
 }
+
+
+.cardhand   { font-size: var(--cardsize); text-align: center; }
+.cardhand .card { display: inline-block; } 
+.cardhand .card:nth-child(1) { transform: rotate(-30deg); }
+.cardhand .card:nth-child(2) { transform: rotate(-15deg); }
+.cardhand .card:nth-child(4) { transform: rotate(15deg); }
+.cardhand .card:nth-child(5) { transform: rotate(15deg); }
+
+.cardstacks { font-size: var(--cardsize); text-align: center; }
+.card       { font-family: var(--font-cards); }
+
+.card.s { color: black; }
+.card.c { color: black; }
+.card.d { color: red; }
+.card.h { color: red; }
+
+.card.s.ace    { content: '\1f0a1'; }
+.card.s.deuce  { content: '\1f0a2'; }
+.card.s.three  { content: '\1f0a3'; }
+.card.s.four   { content: '\1f0a4'; }
+.card.s.five   { content: '\1f0a5'; }
+.card.s.six    { content: '\1f0a6'; }
+.card.s.seven  { content: '\1f0a7'; }
+.card.s.eight  { content: '\1f0a8'; }
+.card.s.nine   { content: '\1f0a9'; }
+.card.s.ten    { content: '\1f0aa'; }
+.card.s.jack   { content: '\1f0ab'; }
+.card.s.knight { content: '\1f0ac'; }
+.card.s.queen  { content: '\1f0ad'; }
+.card.s.king   { content: '\1f0ae'; }
+
+.card.h.ace    { content: '\1f0b1'; }
+.card.h.deuce  { content: '\1f0b2'; }
+.card.h.three  { content: '\1f0b3'; }
+.card.h.four   { content: '\1f0b4'; }
+.card.h.five   { content: '\1f0b5'; }
+.card.h.six    { content: '\1f0b6'; }
+.card.h.seven  { content: '\1f0b7'; }
+.card.h.eight  { content: '\1f0b8'; }
+.card.h.nine   { content: '\1f0b9'; }
+.card.h.ten    { content: '\1f0ba'; }
+.card.h.jack   { content: '\1f0bb'; }
+.card.h.knight { content: '\1f0bc'; }
+.card.h.queen  { content: '\1f0bd'; }
+.card.h.king   { content: '\1f0be'; }
+
+.card.c.ace    { content: '\1f0c1'; }
+.card.c.deuce  { content: '\1f0c2'; }
+.card.c.three  { content: '\1f0c3'; }
+.card.c.four   { content: '\1f0c4'; }
+.card.c.five   { content: '\1f0c5'; }
+.card.c.six    { content: '\1f0c6'; }
+.card.c.seven  { content: '\1f0c7'; }
+.card.c.eight  { content: '\1f0c8'; }
+.card.c.nine   { content: '\1f0c9'; }
+.card.c.ten    { content: '\1f0ca'; }
+.card.c.jack   { content: '\1f0cb'; }
+.card.c.knight { content: '\1f0cc'; }
+.card.c.queen  { content: '\1f0cd'; }
+.card.c.king   { content: '\1f0ce'; }
+
+.card.d.ace    { content: '\1f0d1'; }
+.card.d.deuce  { content: '\1f0d2'; }
+.card.d.three  { content: '\1f0d3'; }
+.card.d.four   { content: '\1f0d4'; }
+.card.d.five   { content: '\1f0d5'; }
+.card.d.six    { content: '\1f0d6'; }
+.card.d.seven  { content: '\1f0d7'; }
+.card.d.eight  { content: '\1f0d8'; }
+.card.d.nine   { content: '\1f0d9'; }
+.card.d.ten    { content: '\1f0da'; }
+.card.d.jack   { content: '\1f0db'; }
+.card.d.knight { content: '\1f0dc'; }
+.card.d.queen  { content: '\1f0dd'; }
+.card.d.king   { content: '\1f0de'; }
+
+.card.joker { content: '\1f0df'; }
+.card.joker.red { content: '\1f0bf'; color: red; }
+.card.joker.black { content: '\1f0cf'; }
+
