@@ -193,8 +193,15 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 such as the TTRPG Safety Toolkit, More Than One, the definitions in the Lexicon, and the
 Anti-Capitalist Attribution Cooperative License. This wasn't to save time or to increase
 the page count, but because we think these are important topics, and we doubt we could do 
-them justice ourselves.<span class="ora">see, I told you she's wordy!</span>]{.dera} 
-[Aura, you can't put a footnote on a footnote.<span class="ora">oh, *yeah?* just *watch* me!</span>]{.dera} 
+them justice ourselves.
+<span class="ora">see, I told you she's wordy!
+ <span class="dera">
+   Aura, you can't put a footnote on a footnote.
+     <span class="ora">oh, *yeah?* just *watch* me!</span>
+   </span>
+  </span>
+</span>
+]{.dera} 
 as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
 hosted by [Metaparadox](https://metaparadox.itch.io/).
 
@@ -249,6 +256,10 @@ and are used under a
 
 
 ## Safety Tools {#safety}
+
+::::::::::::::::::::: .spectrum ::::::::::::::::::::::::::::::::::
+![Honest, open, and empathic communication is essential to playing safely.](art/spectrum/comfort.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Playing the []{.gamename} RPG should be enjoyable for everyone.
 
@@ -819,53 +830,225 @@ in order to make ends meet. Being invited backstage is a great act of trust — 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Game Mechanics {#game}
-
-[]{.lorem}
+## Using the Cards {#game}
 
 :::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![Instead of dice like many tabletop roleplaying games, 52 First Dates uses playing cards.](art/spectrum/group-cards.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Choosing a Player {#game-choosing}
-
-[]{.lorem}
-
-### The Cards {#game-decks}
-
 You need to have two decks of cards to play []{.gamename}.
 
-One deck is called the *Date's Deck* and is shared between the players
+One deck is called the ***Date's Deck*** and is shared between the players
 in the roles of the Date and the Outside Interference.
 
-The other deck is called the *System's Deck* and is shared between players
+The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
 
 At the beginning of each date, shuffle each deck and then lay out a row of
 three cards on the table, from the top of the Date's Deck.
-
-These are known as the *Date Status stacks*. During the course of the date,
+These are known as the ***Date Status stacks***. 
+During the course of the date,
 you'll play cards from your hand onto one of the stacks.
 [The two decks will end up mixed together, which is why we recommend that
 you use two decks with different backs -- it's easier to sort out after the
 date!]{.spin}
 
-#### Your Hand
+### Your Hand
 
 Each player, no matter which role they're playing, has a hand of five cards.
 The hands of the Date and the Outside Interference are drawn from the top
 of the Date's Deck, while the other players' hands are drawn from the
 System's Deck.
 
-At the end of your turn, drawn enough cards from the appropriate until you
-five cards in your hand again.
+After you play a card, draw another card from the appropriate deck.
+
+## Matching
+
+Two cards **match suits** if their suits are the same -- such as clubs
+or diamonds.
+
+These cards match suits:
+::::::::::: cardgroup :::::::::::::::::::
+[7 of Spades]{.card .s .seven}
+[King of Spades]{.card .s .king}
+:::::::::::::::::::::::::::::::::::::::::
+
+Two cards *match colors* if their suits are the same color -- black or red.
+[]{.clubs} Clubs and []{.spades} spades are black suits, and
+[]{.diamonds} diamonds and []{.hearts} hearts are red suits.
+
+These cards match colors:
+
+::::::::::: cardgroup :::::::::::::::::::
+[Ace of Clubs]{.card .c. .ace}
+[Jack of Spades]{.card .s .jack}
+:::::::::::::::::::::::::::::::::::::::::
+
+Two cards ***match ranks*** if their ranks are the same number or word,
+such as Ace, 2, or Queen.
+
+These cards match ranks:
+
+::::::::::: cardgroup :::::::::::::::::::
+[Nine of Clubs]{.card .c. .nine}
+[Nine of Diamonds]{.card .d .nine}
+:::::::::::::::::::::::::::::::::::::::::
+
+These cards don't match each other at all:
+
+::::::::::: cardgroup :::::::::::::::::::
+[2 of Diamonds]{.card .d .two}
+[Queen of Spades]{.card .s .queen}
+:::::::::::::::::::::::::::::::::::::::::
+
+### Choosing a Player {#game-choosing}
+
+When you need to choose a player, such determining which role someone will
+play in a date, all players turn over a card from the top of Date's Deck.
+The player with the highest-ranked card is the one chosen.
+
+To break a tie, players tied for the highest rank card draw a second card 
+from the top of System's Deck.
 
 
-### Matching the Color {#game-match}
+### Roles and Cards {#game-roles .breakbefore}
 
-Two cards *match* if their suits are the same color -- black or red.
-[]{.clubs} Clubs and []{.spades} are black suits, and
-[]{.diamonds} Diamonds and []{.hearts} are red suits.
+Each role has different rules for drawing and playing cards.
+
+#### The System
+
+If you're the System, you draw your cards from the *System's Deck*. You can
+play a given card on a Date Status stack only if the card ***matches***
+either the suit or rank of the top card on that stack.
+
+You play one card per turn, when your turn comes up in the turn order. 
+In games with more than three players, at least two players will share the System 
+role, and you alternate turns.
+
+For example, if the Date Status stacks look like this ...
+
+::::::: cardstacks :::::::::
+[Ten of Diamonds]{.card .d .ten}
+[Three of Diamonds]{.card .d .three}
+[Jack of Spades]{.card .s .jack}
+::::::::::::::::::::::::::::
+
+... and you have these cards in your hand...
+
+:::::: cardhand :::::::::
+[]{.card .c .ten}
+[]{.card .h .three}
+[]{.card .c .four}
+[]{.card .s .five}
+[]{.card .d .jack}
+:::::::::::::::::::::::::
+
+...you could play your cards on these stacks:
+[You can't play the <span class="card c five"></span> at all, since it doesn't
+match either the suit or the rank of a stack.]{.dera}
+
+:::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
+
+                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
+---                  ---                    ---                      ----
+[]{.card .c .ten}    **yes** (rank matches) *no*                     *no*   
+[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
+[]{.card .c .four}   *no*                   *no*                     *no*   
+[]{.card .s .five}   *no*                   *no*                     **yes** (suit matches)
+[]{.card .d .jack}   **yes** (suit matches) **yes** (suit matches)   **yes** (rank matches)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### The Date {.breakbefore}
+
+If you're the Date, you draw your cards from the *Date's Deck*. You can
+play a given card on a Date Status stack only if the card ***does not***
+match the suit or rank of the top card on that stack. This is the opposite
+of the rules for the System role.
+
+You play one card per turn, when your turn comes up in the turn order. 
+In games with more than three players, you will be taking turns more
+frequently than the players in the System role.
+
+For example, if the Date Status stacks look like this ...
+
+::::::: cardstacks :::::::::
+[]{.card .d .ten}
+[]{.card .d .three}
+[]{.card .s .jack}
+::::::::::::::::::::::::::::
+
+... and you have these cards in your hand...
+
+:::::: cardhand :::::::::
+[]{.card .c .ten}
+[]{.card .h .three}
+[]{.card .c .four}
+[]{.card .s .five}
+[]{.card .d .jack}
+:::::::::::::::::::::::::
+
+...you could play your cards on these stacks:
+[You can't play the <span class="card d jack"></span> at all, because it
+matches either the suit or the rank of the card on each stack.]{.dera}
+
+:::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
+
+                     []{.card .d .ten}   []{.card .d .three}   []{.card .s .jack}
+---                  ---                 ---                   ----
+[]{.card .c .ten}    *no* (rank matches) **yes**               **yes**
+[]{.card .h .three}  **yes**             *no* (rank matches)   **yes**
+[]{.card .c .four}   **yes**             **yes**               **yes**
+[]{.card .s .five}   **yes**             **yes**               *no* (suit matches)
+[]{.card .d .jack}   *no* (suit matches) *no* (suit matches)   *no* (rank matches)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### The Outside Interference {.breakbefore}
+
+If you're the Outside Interference, you draw your cards from the *Date's Deck*. You can
+play a given card on a Date Status stack only if the card's 
+***rank matches the last card played***.
+
+You can play a card **immediately after any other player** plays a card to a stack.
+When you do, instead of providing dialog, you introduce a complication into the
+scenario determined by the card you played.
+
+For example, if the Date Status stacks look like this, with the last-played card shown
+in red ...
+
+::::::: cardstacks :::::::::
+[]{.card .d .ten .gray}
+[]{.card .d .three}
+[]{.card .s .jack .gray}
+::::::::::::::::::::::::::::
+
+... and you have these cards in your hand...
+
+:::::: cardhand :::::::::
+[]{.card .c .ten}
+[]{.card .h .three}
+[]{.card .c .four}
+[]{.card .s .five}
+[]{.card .d .jack}
+:::::::::::::::::::::::::
+
+...you could play your cards on these stacks:
+[It's entirely likely that you can't play a card every time you potentially could -- 
+that's by design.  The Outside Interference has more opportunities to play cards 
+than the other roles.]{.dera}
+
+:::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
+
+                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
+---                  ---                    ---                      ----
+[]{.card .c .ten}    *no*                   *no*                     *no*   
+[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
+[]{.card .c .four}   *no*                   *no*                     *no*   
+[]{.card .s .five}   *no*                   *no*                     *no*                  
+[]{.card .d .jack}   *no*                   *no*                     *no*                  
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ### Playing a Card {#game-card}
@@ -902,69 +1085,66 @@ For example, if the player in the Date role has
 no []{.diamonds} Diamonds cards in their hand, then the Date character can't
 act in a *flirty and coy, or evasive and guarded* manner.
 
+#### You *Must* Play If You Can
+
+If you're the **Date** or the **System** and you have at least one card 
+you can play from your hand, you must play one of those cards on your
+turn.
+
+If you're the **Outside Interference**, you aren't required to play 
+cards when you have the option to do so.
+
+#### At a Loss for Words
+
+If you're the **Date** or the **System** and you *can't* legally play
+any cards from your hand onto the current stack, then your character is
+**at a loss for words**. You can describe how that character is taken
+aback.
+
+If you're the **Outside Interference** and *another player* is at a
+loss for words, then you can immediately play a card from your hand
+on any of the cards on the Date Status stack -- not just the card
+most recently played.
+
+#### The Outside Interference
+
+When you're playing the **Outside Interference**, you don't have a turn in
+the turn order -- you can play one of your cards any time the rank
+on that card matches **the last card played** by another player.
+
+Instead of describing what one of the characters says, you describe an
+event that happens to the two characters, throwing their date into
+uncertain territory. 
+
+The type of event is based on **the rank of the card you play**,
+but you can decide the details of the event as you please.
+
+#### Responding to Outside Interference
+
+If you're the **Date** or the **System** and the player in the role of the
+Outside Interference plays a card on a card you just played, you have the 
+option to play a card in response, following your normal rules playing cards.
+
+When that happens, you also get to describe how your character reacted 
+to the event in a way that minimized the problem.
+
+You ***aren't required*** to play a card in response to Outside
+Interference; if you don't wish to, even if you have a card you
+*could* play, tell the other players that you pass.
+
+#### Drawing New Cards
+
+Normally, you get to draw a new card after you play one.
+However, if the Outside Interference plays a card, you don't draw
+a card until after you've either responded or passed on responding.
+
 #### Ending a Date
 
 After someone plays a card onto one of the Date Status stacks, they should
 check to see if a date-ending condition has happened -- either all of the
-suits on the stack match, or all of the ranks match.
+**suits on the stack match**, or **all of the ranks match.**
 
-A date ends when the cards match one of these:
-
-- []{.clubs} []{.clubs} []{.clubs}                         
-- []{.diamonds} []{.diamonds} []{.diamonds}
-- []{.hearts} []{.hearts} []{.hearts}
-- []{.spades} []{.spades} []{.spades}
-- All of the same rank
-
-#### After Your Turn
-
-When you finish taking your turn, you can draw enough cards until you have a
-full hand of 5 cards.
-
-
-### Roles {#game-roles}
-
-When you play out a date in []{.gamename}, each player takes on one of the
-roles in the date. The three roles are
-**The Date**, 
-**The Outside Interference**, and
-**The System**. 
-
-Each role has different rules for drawing and playing cards.
-
-#### The Date
-
-If you're the Date, you draw your cards from the *Date's Deck*. You can
-play a given card on a Date Status stack only if the card *does not*
-match the suit or rank of the top card on that stack.
-
-For example, if you have these cards in your hand...
-
-:::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
-:::::::::::::::::::::::::
-
-
-...and the Date Status stacks look like this ...
-
-::::::: cardstacks :::::::::
-[]{.card .d .ten}
-[]{.card .d .three}
-[]{.card .s .jack}
-::::::::::::::::::::::::::::
-
-
-### Testing a Quality {#game-test}
-
-A *test* is a special kind of card match. Either the suits of
-two cards must exactly match, or the ranks of each card must exactly match.
-
-Tests are used when creating a Date and seeing if they match the qualities
-in a headmate's ideal partner.
+When that happens, the date moves to the resolution phase.
 
 
 ## Part 1: The Set-Up {#setup}

@@ -32,22 +32,64 @@ For example, if the player in the Date role has
 no []{.diamonds} Diamonds cards in their hand, then the Date character can't
 act in a *flirty and coy, or evasive and guarded* manner.
 
+## You *Must* Play If You Can
+
+If you're the **Date** or the **System** and you have at least one card 
+you can play from your hand, you must play one of those cards on your
+turn.
+
+If you're the **Outside Interference**, you aren't required to play 
+cards when you have the option to do so.
+
+## At a Loss for Words
+
+If you're the **Date** or the **System** and you *can't* legally play
+any cards from your hand onto the current stack, then your character is
+**at a loss for words**. You can describe how that character is taken
+aback.
+
+If you're the **Outside Interference** and *another player* is at a
+loss for words, then you can immediately play a card from your hand
+on any of the cards on the Date Status stack -- not just the card
+most recently played.
+
+## The Outside Interference
+
+When you're playing the **Outside Interference**, you don't have a turn in
+the turn order -- you can play one of your cards any time the rank
+on that card matches **the last card played** by another player.
+
+Instead of describing what one of the characters says, you describe an
+event that happens to the two characters, throwing their date into
+uncertain territory. 
+
+The type of event is based on **the rank of the card you play**,
+but you can decide the details of the event as you please.
+
+## Responding to Outside Interference
+
+If you're the **Date** or the **System** and the player in the role of the
+Outside Interference plays a card on a card you just played, you have the 
+option to play a card in response, following your normal rules playing cards.
+
+When that happens, you also get to describe how your character reacted 
+to the event in a way that minimized the problem.
+
+You ***aren't required*** to play a card in response to Outside
+Interference; if you don't wish to, even if you have a card you
+*could* play, tell the other players that you pass.
+
+## Drawing New Cards
+
+Normally, you get to draw a new card after you play one.
+However, if the Outside Interference plays a card, you don't draw
+a card until after you've either responded or passed on responding.
+
 ## Ending a Date
 
 After someone plays a card onto one of the Date Status stacks, they should
 check to see if a date-ending condition has happened -- either all of the
-suits on the stack match, or all of the ranks match.
+**suits on the stack match**, or **all of the ranks match.**
 
-A date ends when the cards match one of these:
-
-- []{.clubs} []{.clubs} []{.clubs}                         
-- []{.diamonds} []{.diamonds} []{.diamonds}
-- []{.hearts} []{.hearts} []{.hearts}
-- []{.spades} []{.spades} []{.spades}
-- All of the same rank
-
-## After Your Turn
-
-When you finish taking your turn, you can draw enough cards until you have a
-full hand of 5 cards.
+When that happens, the date moves to the resolution phase.
 

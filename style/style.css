@@ -82,7 +82,7 @@ header h1     { string-set: gamename content()       }
   --pagenum:   28pt;
   --toolkit:    9pt; 
   --morethanone: 11pt;
-  --cardsize: 32pt; 
+  --cardsize: 24pt; 
 
   --color-accent: cadetblue;
   --color-pagenum: cadetblue;
@@ -484,20 +484,53 @@ a:hover { color: black; text-decoration: none; }
 }
 
 
-.cardhand   { font-size: var(--cardsize); text-align: center; }
-.cardhand .card { display: inline-block; } 
-.cardhand .card:nth-child(1) { transform: rotate(-30deg); }
-.cardhand .card:nth-child(2) { transform: rotate(-15deg); }
-.cardhand .card:nth-child(4) { transform: rotate(15deg); }
-.cardhand .card:nth-child(5) { transform: rotate(15deg); }
+.cardhand   { font-size: var(--cardsize); text-align: center; vertical-align: bottom; }
+.cardhand .card { display: inline-block; margin-left: -0.1em; margin-right: -0.1em; } 
+.cardhand .card:nth-child(1) { transform: skew(15deg); }
+.cardhand .card:nth-child(2) { transform: skew(7.5deg); }
+.cardhand .card:nth-child(3) {  }
+.cardhand .card:nth-child(4) { transform: skew(-7.5deg); }
+.cardhand .card:nth-child(5) { transform: skew(-15deg); }
 
-.cardstacks { font-size: var(--cardsize); text-align: center; }
+.cardgroup, .cardstacks { font-size: var(--cardsize); text-align: center; }
 .card       { font-family: var(--font-cards); }
+
+.cardmatrix table thead { border-bottom: none; }
+.cardmatrix th { 
+  font-size: var(--cardsize); 
+  font-weight: normal; 
+  border-bottom: 1pt solid var(--color-accent); 
+}
+.cardmatrix th:first-child { border-bottom: none; }
+
+.cardmatrix td strong { color: green; }
+.cardmatrix td em { color: red; }
+
+.cardmatrix td { 
+  border-right: 0.25pt solid silver; 
+  border-bottom: 0.25pt solid silver; 
+  padding: 4pt; 
+  text-align: center; 
+  vertical-align: middle;
+}
+.cardmatrix td:last-child { border-right: none; }
+.cardmatrix tr:last-child td { border-bottom: none; }
+
+.cardmatrix td:first-child { 
+  font-size: var(--cardsize); 
+  border-right: 1pt solid var(--color-accent);
+  border-bottom: none; 
+}
 
 .card.s { color: black; }
 .card.c { color: black; }
 .card.d { color: red; }
 .card.h { color: red; }
+
+.card.s.gray { color: gray; }
+.card.c.gray { color: gray; }
+.card.d.gray { color: gray; }
+.card.h.gray { color: gray; }
 
 .card.s.ace    { content: '\1f0a1'; }
 .card.s.deuce  { content: '\1f0a2'; }
