@@ -11,10 +11,10 @@ credits/no_fascists
 credits/morethanone
 credits/safety
 credits/lexicon
-safety/intro
-safety/cw
-safety/toolkit
-morethanone
+# safety/intro
+# safety/cw
+# safety/toolkit
+# morethanone
 game/*
 setup/
 setup/safely
