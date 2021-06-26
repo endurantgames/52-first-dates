@@ -10,14 +10,14 @@ As of 2021-06-25:
   [x] Update role from "The System" to "The Fronter"
   [x] Update character from "The Date" to "The Prospect"
 [ ] The Set-Up
-  [ ] Game Safely
-    [ ] The meaning of intimacy
+  [x] Game Safely
+    [x] The meaning of intimacy
   [ ] Setting and Themes
   [ ] Creating the System
     [ ] Game Assumptions
     [ ] Gender and Sexuality
   [ ] Creating the Headmates
-  [ ] Move the following to Set-Up
+  [ ] Move the following to Set-Up:
   [ ] Setting the Scene
   [ ] Creating the Date
     [ ] Personality cards 
@@ -47,10 +47,10 @@ As of 2021-06-25:
     [ ] A new Date
     [ ] The Second Date
     [ ] Going Steady
-[ ] The Wrap-Up
-  [ ] Aftercare
-  [ ] Discussion
-  [ ] Wait, am *I* plural?
+[x] The Wrap-Up
+  [x] Aftercare
+  [x] Discussion
+  [x] Wait, am *I* plural?
 [ ] Variants and Hacks
   [ ] System to System
   [ ] Singlet on Singlet Action

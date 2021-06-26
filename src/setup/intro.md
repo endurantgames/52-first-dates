@@ -6,5 +6,16 @@ the game is set up.
 up the game, but the whole conceit of the game is that it's a blind
 date that you were *set up* on]{.ora}
 
-[]{.lorem}
+Before the first Date Night, you have to do the following:
+
+- Go over basic safety procedures
+- Decide on the setting and themes of the game
+- Create the System
+- Create the Headmates
+
+Before *each* Date Night, including the first, you need to:
+
+- Create the Prospect
+- Assign Roles
+- Set the Scene
 

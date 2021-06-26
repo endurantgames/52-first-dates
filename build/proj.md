@@ -939,8 +939,6 @@ in the role of the System.
 
 At the beginning of each Date Night, shuffle each deck and then lay out a row of
 three cards on the table, from the top of the Date's Deck.
-See [this is a test](#game-roles){.xref-see}.
-
 These are known as the ***Date Status stacks***. 
 During the course of the date,
 you'll play cards from your hand onto one of the stacks.
@@ -1278,16 +1276,103 @@ the game is set up.
 up the game, but the whole conceit of the game is that it's a blind
 date that you were *set up* on]{.ora}
 
-[]{.lorem}
+Before the first Date Night, you have to do the following:
+
+- Go over basic safety procedures
+- Decide on the setting and themes of the game
+- Create the System
+- Create the Headmates
+
+Before *each* Date Night, including the first, you need to:
+
+- Create the Prospect
+- Assign Roles
+- Set the Scene
 
 
 ### Game Safely {#setup-safely}
 
-[]{.lorem}
+Dating can be an emotional rollercoaster for most of us
+[even those of us already in an ongoing relationship!]{.ora},
+and when dealing with issues of attraction, gender, sexuality,
+and desire, those emotions might come to the surface just
+by playing a roleplaying game.
+
+For that reason, we strongly recommend that you use some of the
+tools in the TTRPG Safety Toolkit, which starts on [](#the-toolkit){.page}.
+
+**Lines and Veils** (see [](#toolkit-lines-and-veils){.page}) are the
+first place to start, by defining which things you don't want to see at
+all in []{.gamename}, and which things you're okay with occuring -- but
+only off-screen.
+
+Some specific examples that you might to consider for lines or veils include:
+
+- Sexual banter and innuendo
+- References to explicit sex acts
+- Queerphobia of any kind, including as outside interference
+- Other forms of bigotry and oppression, such as ableism or racism
+- Abusive relationships, either past or present
+- Infidelity
+- BDSM, kink, and fetishes
+- "Negging" and other insults
+
+The **Script Change Ratings** ([](#toolkit-script-change-rating){.page})
+tool lets you rate the game in the same way movies, television shows, or
+comic books are rated. You can use those to decide when to fast forward,
+rewind, pause, or resume the date.
+
+(Most people in the United States are familiar with 
+[MPAA movie ratings](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system), 
+but they're a very coarse tool when looking at tabletop roleplaying scenarios.
+(Many of the ratings rely on determining whether a parent should be present,
+how is that supposed to work here?)
+[Oh, I should add that <span class="gamename"></span> is not a game intended
+for small children. Our assumption is that all participants are adults]{.carline}
+The [television content advisory system](https://en.wikipedia.org/wiki/United_States_pay_television_content_advisory_system)
+isn't much better, parsing out "four uses of at least two expletives" in a way
+that's unworkable for gaming and concerning itself with visual imagery.)
+
+One of the most widespread safety tools in the tabletop RPG hobby is the 
+**X Card** ([](#toolkit-xno-cards)) that players can use to signal when they
+need something to stop. We also recommend the use of the **N and O cards**
+as well, to stave off problems before they become an issue.
 
 #### The Meaning of Intimacy {#setup-safely-intimacy}
 
-[]{.lorem}
+One of the two primary outcomes in []{.gamename} -- and one of the presumed
+goals of the protagonist System -- is to become intimate with another person.
+
+The word "intimacy" was specifically chosen instead of the more crass "get laid"
+not just because it sounds more high-falutin', but also because it's *not*
+true that most people going on dates want *sex*.
+
+It *is* fair to say that for the most part, people going on dates are hoping to
+find someone with whom they feel enough of a conneciton that they can let down
+their normal barriers and share who they are and what matters to them.
+
+That's what we're labeling *intimacy* here. 
+
+It could be any of these, or more:
+[Or playing a roleplaying game together!
+<span class="ora">only you would find that "intimate", Dera"</span>]{.dera}
+
+- A wild night of kinky sex
+- Opening up about a deep-seated trauma in your past
+- Taking the Prospect home to meet your family
+- Staying up late talking about everything and anything
+- Binge-watching your favorite television show together
+- Telling your Prospect about being a System
+
+When you have the pre-game discussion about safety, especially lines and
+veils, be sure to ask what kinds of intimacy the players are okay with
+exploring, and which types they'd rather avoid.
+
+The assumption in []{.gamename} is that Date Night ends long *before*
+any actual intimacy occurs -- we're not expecting groups to play out either
+sex scenes or deep conversations until dawn. But you might want to either
+pull the veil a little sooner, or drop a line and not cross it, based on
+some types of intimacy that might arise.
 
 
 ### Setting and Themes {#setup-setting}
@@ -1330,9 +1415,215 @@ Once you've created the System, you need to create Headmates.
 7. Introduce us to this headmate.
 
 
-## Part 2: Date Night {#date}
+#### Creating the Date Character {#date-create}
 
 []{.lorem}
+
+##### Personality Cards {#date-create-cards}
+
+[]{.lorem}
+
+
+#### The Date
+
+
+1. Their 2 hidden cards -> personality traits
+2. Name
+3. Pronouns
+4. Appearance - one per player
+
+Pronouns:
+
+
+H - he/him
+S - she/her
+D - they/them
+C - neopronouns
+
+
+H, H -> he/her
+H, S -> he/she
+H, D -> he/them
+H, C -> he/neo
+S, H -> she/he
+S, S -> she/her
+S, D -> she/them
+S, C -> she/neo
+D, H -> them/he
+D, S -> them/she
+D, D -> them/them
+D, C -> them/neo
+C, H -> neo/he
+C, S -> neo/she
+C, D -> neo/they
+C, C -> neo/neo
+
+Neopronouns:
+
+A - ae/aer
+2 - ze/hir
+3 - xe/xem
+4 - ey/em
+5 - zie/zim
+6 - ze/zir
+7 - ve/vir
+8 - it/its
+9 - per/per
+10 - 
+J - fae/faer
+Q - 
+K - no pronouns
+
+
+
+ Card                Personality Trait
+-----------------    -------------------------------------------
+A []{.clubs}         
+2 []{.clubs}         
+3 []{.clubs}         
+4 []{.clubs}         
+5 []{.clubs}         
+6 []{.clubs}         
+7 []{.clubs}         
+8 []{.clubs}         
+9 []{.clubs}         
+10 []{.clubs}         
+J []{.clubs}         
+K []{.clubs}         
+Q []{.clubs}         
+
+A []{.diamonds}         
+2 []{.diamonds}         
+3 []{.diamonds}         
+4 []{.diamonds}         
+5 []{.diamonds}         
+6 []{.diamonds}         
+7 []{.diamonds}         
+8 []{.diamonds}         
+9 []{.diamonds}         
+10 []{.diamonds}         
+J []{.diamonds}         
+K []{.diamonds}         
+Q []{.diamonds}         
+
+A []{.hearts}         
+2 []{.hearts}         
+3 []{.hearts}         
+4 []{.hearts}         
+5 []{.hearts}         
+6 []{.hearts}         
+7 []{.hearts}         
+8 []{.hearts}         
+9 []{.hearts}         
+10 []{.hearts}         
+J []{.hearts}         
+K []{.hearts}         
+Q []{.hearts}         
+
+A []{.spades}         
+2 []{.spades}         
+3 []{.spades}         
+4 []{.spades}         
+5 []{.spades}         
+6 []{.spades}         
+7 []{.spades}         
+8 []{.spades}         
+9 []{.spades}         
+10 []{.spades}         
+J []{.spades}         
+K []{.spades}         
+Q []{.spades}         
+
+ Card             Name
+------            ---------------
+A []{.clubs     } Ari
+2 []{.clubs     } Blu
+3 []{.clubs     } Page
+4 []{.clubs     } Taylor
+5 []{.clubs     } Bee
+6 []{.clubs     } Nova
+7 []{.clubs     } Kris
+8 []{.clubs     } Fox
+9 []{.clubs     } River
+10 []{.clubs    } Crow
+J []{.clubs     } Leaf
+Q []{.clubs     } Noel
+K []{.clubs     } Sparrow
+A []{.diamonds  } Aeden
+2 []{.diamonds  } Rook
+3 []{.diamonds  } Jae
+4 []{.diamonds  } Wren
+5 []{.diamonds  } Landry
+6 []{.diamonds  } Rain
+7 []{.diamonds  } Kai
+8 []{.diamonds  } Ember
+9 []{.diamonds  } Clio
+10 []{.diamonds } Lynx
+J []{.diamonds  } Jan
+Q []{.diamonds  } Lumen
+K []{.diamonds  } Thyme
+A []{.hearts    } Avery
+2 []{.hearts    } Jordan
+3 []{.hearts    } Star
+4 []{.hearts    } Quinn
+5 []{.hearts    } Archer
+6 []{.hearts    } Milan
+7 []{.hearts    } Aspen
+8 []{.hearts    } Mint
+9 []{.hearts    } Zev
+10 []{.hearts   } Parker
+J []{.hearts    } Sky
+Q []{.hearts    } Riley
+K []{.hearts    } Alva
+A []{.spades    } Ash
+2 []{.spades    } Van
+3 []{.spades    } Roan
+4 []{.spades    } Finch
+5 []{.spades    } Kerry
+6 []{.spades    } Lark
+7 []{.spades    } Storm
+8 []{.spades    } Jalen
+9 []{.spades    } Kirby
+10 []{.spades   } Sage
+J []{.spades    } Harper
+Q []{.spades    } Rory
+K []{.spades    } Angel
+
+ 
+ Cards                        Pronouns
+-------                       ---------
+[]{.hearts   } []{.hearts   } he/him
+[]{.hearts   } []{.spades   } any pronouns
+[]{.hearts   } []{.diamonds } he/him + they/them
+[]{.hearts   } []{.clubs    } he/him + chart
+[]{.spades   } []{.hearts   } any pronouns
+[]{.spades   } []{.spades   } she/her
+[]{.spades   } []{.diamonds } she/her + they/them
+[]{.spades   } []{.clubs    } she/her + chart
+[]{.diamonds } []{.hearts   } they/them + he/him
+[]{.diamonds } []{.spades   } they/them + she/her
+[]{.diamonds } []{.diamonds } they/them
+[]{.diamonds } []{.clubs    } theythem + chart
+[]{.clubs    } []{.hearts   } chart + he
+[]{.clubs    } []{.spades   } chart + she
+[]{.clubs    } []{.diamonds } chart + they
+[]{.clubs    } []{.clubs    } chart + chart
+
+ Card          Pronouns
+------         ---------
+A []{.clubs  } ae/aer/aers/aerself
+2 []{.clubs  } ze/hir/hirs/hirself
+3 []{.clubs  } xe/xem/xyr/xyrself
+4 []{.clubs  } ey/em/eir/eirself
+5 []{.clubs  } zie/zim/zir/zirself
+6 []{.clubs  } per/pers/perself
+7 []{.clubs  } ve/ver/vis/verself
+8 []{.clubs  } it/its/itself
+9 []{.clubs  } sie/hir/hirself
+10 []{.clubs } e/em/eir/emself
+J []{.clubs  } fae/faer/faerself
+Q []{.clubs  } ne/nem/nirs/nemself
+K []{.clubs  } no pronouns
 
 
 ### Determining Roles {#date-roles}
@@ -1349,11 +1640,7 @@ Once you've created the System, you need to create Headmates.
 []{.lorem}
 
 
-### Creating the Date Character {#date-create}
-
-[]{.lorem}
-
-#### Personality Cards {#date-create-cards}
+## Part 2: Date Night {#date}
 
 []{.lorem}
 
@@ -1413,6 +1700,44 @@ act in response to cards played by the other players.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
+
+
+### Turn Order {#game-order}
+
+- **Date player plays a card**
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 1 plays a card**
+  - Outside Opposition may play a card
+  - System player one draws a card
+- **Date player plays a card** *4+ players only*
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 2 plays a card** *4+ players only*
+  - Outside Opposition may play a card
+  - System player two draws a card
+- **Date player plays a card** *5+ players only*
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 3 plays a card** *6+ players only*
+  - Outside Opposition may play a card
+  - System player three draws a card
+- **Date player plays a card**
+  - Outside Opposition may play a card
+  - Date draws a card
+- **System player 4 plays a card** *7+ players only*
+  - Outside Opposition may play a card
+  - System player three draws a card
+- **Back to start**
+
+During the Date Night part of the game, the Date character and the System 
+character alternate turns back and forth.
+
+If you have more than three players, two or more players will be sharing the
+System character, and will take turns in alternating order.
+
+The Outside Opposition player doesn't have a turn in the turn order, but can
+act in response to cards played by the other players.
 
 
 ### Playing as the Date {#date-date .breakbefore}
@@ -1560,25 +1885,64 @@ talk about whatever issues arose.
 
 ### Aftercare {#wrap-after}
 
-[]{.lorem}
+In the TTRPG Safety Toolkit (on [](#toolkit-aftercare){.xref-page}),
+they describe *aftercare* as checking in with everyone to see how
+they're feeling. As the authors of the Toolkit write,
+
+> Encourage everyone to practice their own forms of self-care and
+> remind them that their mental health comes first.
+
+This is probably a good time to take a break, giving everyone time
+to use the toilet, step outside, stretch their legs, or get a drink
+of water.
 
 
-### Topics of Discussion {#wrap-discuss}
 
-[]{.lorem}
+### Post-Game Discussion {#wrap-discuss}
+
+If none of you wish to sit around talking after the game,
+you can obviously skip this part!
+But if your group is interested in discussing what happened
+in the game, here are some ideas for discussion topics:
+
+- How did this compare to your own experience, if any, with dating?
+
+- Did the fronting Headmate change during the course of Date Night?
+  If so, how do you feel that changed the story?
+
+- What did you think of the Prospect? Apart from what the System 
+  members might want, would *you* date them?
+
+- This game gives you less control over your characters than in most
+  roleplaying games. Did you feel constrained your choices by the
+  cards in your hand, and if so, how does feel compared to more
+  traditional TTRPGs?
+
+- Have you learned anything about being plural by playing this game,
+  even if it's just learning new terminology?
+
+- *Optional* If you're plural and feel like sharing
+  [Nobody should be put on the spot to answer this!]{.carline}, 
+  how does this game relate to your lived experience?
+  In what ways is it similar and in what ways is it really different? 
+  What part of your life wasn't accurately portrayed in the game?
+  [We know that we took shortcuts in making 
+  <span class="gamename"></span> for playability's sake.]{.carline}
 
 
 ### Wait, Am *I* Plural?  {#wrap-wait}
 
-For some people, playing []{.gamename} might line up some dots in your life, and you might
-question whether not you might be plural yourself.
+For some people, playing []{.gamename} might line up some dots in your life, and 
+you might question whether not you might be plural yourself.
 Before we go any further, we want to say something very important:
 
 ***This game was not designed for helping you discover if you're plural or not.***
-We didn't design it that way.[Among other reasons, we don't have the expertise to do so.]{.carline}
-[]{.gamename} is a simulation that might give you empathy for what it's like being
-plural, and reading the game materials could educate you -- especially the 
-[More Than One](#more) section.
+We didn't design it that way.
+[Among other reasons, we don't have the expertise to do so.]{.carline}
+[]{.gamename} is a simulation that might give the players some empathy for what it's 
+like being plural, and reading the game materials could educate you -- especially the 
+[More Than One](#more) and [Plural Lexicon](#lexicon) sections. But it's just a handbook
+for a game, not for being plural.
 
 That said, if you want to investigate further, the [Plural Resources](#resources) 
 appendix has a number of links that can help you learn more about the plural experience
