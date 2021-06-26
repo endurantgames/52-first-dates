@@ -939,6 +939,8 @@ in the role of the System.
 
 At the beginning of each Date Night, shuffle each deck and then lay out a row of
 three cards on the table, from the top of the Date's Deck.
+See [this is a test](#game-roles){.xref-see}.
+
 These are known as the ***Date Status stacks***. 
 During the course of the date,
 you'll play cards from your hand onto one of the stacks.

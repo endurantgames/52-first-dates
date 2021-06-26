@@ -138,6 +138,8 @@ table td           { vertical-align: top;                                   }
 table              { width: 100%;                                           }
 h3, h4, h5, h6     { font-weight: normal; }
 
+h1, h2, h3, h4, h5, h6 { string-set: section content(); }
+
 h2:first-of-type { break-before: avoid; }
 h2 { break-before: page; }
 
@@ -236,29 +238,6 @@ a:hover { color: black; text-decoration: none; }
 
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
-
-/* 
-
-.tstoolkit { 
-  background: linear-gradient(to right, white 0, var(--bgcolor-toolkit) white);
-  border: none;
-  border-radius: 3pt; 
-}
-
-
-.tstoolkit p { font-family: var(--font-toolkit); font-size: var(--toolkit); text-align: justify; }
-.tstoolkit :matches(h1, h2, h3, h4, h5, h6) { 
-  font-family: var(--font-toolkit); 
-  color: var(--color-toolkit); 
-  margin-bottom: 3pt; margin-top: 3pt; 
-  font-weight: bold;
-}
-.tstoolkit h3 { font-size: var(--h5); border-bottom: none; }
-.tstoolkit h4 { font-size: var(--h6); border-bottom: none; }
-.tstoolkit h5 { font-size: var(--larger); }
-.tstoolkit h6 { font-size: var(--body); }
-
-*/
 
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
 .tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
@@ -620,3 +599,9 @@ a:hover { color: black; text-decoration: none; }
 .card.joker.red { content: '\1f0bf'; color: red; }
 .card.joker.black { content: '\1f0cf'; }
 
+a.xref-section { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
+
+a.xref-see:before { content: 'see '; font-style: normal; }
+a.xref-see { content: target-content(attr(href url)); font-style: italic; }
+a.xref-see:after { content: ' on page ' target-counter(attr(href url), page); font-style: normal; }
+a.xref-page { content: 'page ' target-cunter(attr(href url), page); }
