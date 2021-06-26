@@ -71,9 +71,9 @@
 - <a href="#anchor-license"></a>
 - <a href="#handouts"></a>
   - <a href="#sheet-system"></a>
+  - <a href="#sheet-reference"></a>
+  - <a href="#sheet-headmate"></a>
   - <a href="#sheet-outside"></a>
   - <a href="#sheet-date"></a>
-  - <a href="#sheet-headmate"></a>
-  - <a href="#sheet-reference"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

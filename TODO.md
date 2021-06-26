@@ -59,11 +59,11 @@ As of 2021-06-25:
 [x] A Plural Lexicon 
   [x] Footnotes
 [x] Colophon
-[ ] Character Sheets
-  [ ] System
-  [ ] Outside Interference
-  [ ] Headmate Sheet
-  [ ] Date Sheet
-  [ ] Game Reference
+[x] Character Sheets
+  [x] System
+  [x] Outside Interference
+  [x] Headmate Sheet
+  [-] Date Sheet
+  [x] Game Reference
 
 
