@@ -6,15 +6,5 @@ This section presents alternate rules for playing []{.gamename] in different way
 ![There isn't a variant for using a ouija board to play 52 Second Dates ... yet.](art/spectrum/ouija.jpg){.bottom}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## System to System {#variant-system}
-
-[]{.lorem}
-
-## Singlet on Singlet Action {#variant-singlet}
-
-[]{.lorem}
-
-## Queerplatonic Relationships {#variant-platonic}
-
-[]{.lorem}
-
+(The lorem-ipsums here indicate that further work is needed to flesh out the rules
+for these variants.)

@@ -38,6 +38,7 @@ have long been a part of the hobby, to varying degrees of success. Romance/datin
 sim tabletop RPGs aren't as common, but they're out there -- most notably by
 [Emily Care Boss](http://www.blackgreengames.com/) in her
 [*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
+<a name="anchor-ecb"></a>
 
 Games where many players run the same character are even more rare; and I don't
 know of any that address it from the standpoint of a plural, shared character.
@@ -49,7 +50,7 @@ say with those words.
 
 Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
 
-# A System Introduction {.nobreak}
+# A System Introduction {#our-system .nobreak}
 
 Like many tabletop roleplaying games, []{.gamename} is a collaboration between
 a group of people.  Unlike many, that group are all in the same body.

@@ -51,10 +51,10 @@ As of 2021-06-25:
   [x] Aftercare
   [x] Discussion
   [x] Wait, am *I* plural?
-[ ] Variants and Hacks
-  [ ] System to System
-  [ ] Singlet on Singlet Action
-  [ ] Queerplatonic Relationships
+[x] Variants and Hacks
+  [x] System to System
+  [x] Singlet on Singlet Action
+  [x] Queerplatonic Relationships
 [x] Plural Resources
 [ ] A Plural Lexicon 
   [ ] Footnotes

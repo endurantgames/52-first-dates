@@ -30,7 +30,6 @@ setup/assign_roles
 setup/set_the_scene
 date_night/
 date_night/start_date
-date_night/turn_order
 date_night/role_date
 date_night/role_fronter
 date_night/role_outside
@@ -42,6 +41,9 @@ wrap/aftercare
 wrap/discuss
 wrap/wait
 variant/
+variant/variant_system
+variant/variant_singlet
+variant/variant_platonic
 resources
 lexicon
 license
