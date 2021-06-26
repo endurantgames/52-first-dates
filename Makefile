@@ -188,6 +188,7 @@ clean:
 	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
 	@ rm    $(BACKDIR)/README*
 	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
+	@ mkdir $(OUTDIR)/pages
 	@ echo '$(ltyelo)Moved to $(BACKDIR).$(resetc)'
 
 # make purge
@@ -198,6 +199,7 @@ purge:
 	@ cp    $(DOCSDIR)/README_OUT.md     $(OUTDIR)
 	@ cp    $(DOCSDIR)/README_BUILD.md   $(BUILDDIR)
 	@ cp    $(DOCSDIR)/README_BACKUPS.md $(BACKDIR)
+	@ mkdir $(OUTDIR)/pages
 	@ echo '$(dkredd)Purged.$(resetc)'
 
 # make ls
