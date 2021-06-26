@@ -52,8 +52,8 @@ CHARSHEET_CSS = --css=$(STYLEDIR)/charsheet.css
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS) $(PRINCEFLAGS)
-LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS) $(PRINCEFLAGS)
+DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS) $(PRINCEFLAGS_DYSL)
+LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS) $(PRINCEFLAGS_LOWV)
 CHARSHEET_FLAGS = $(FLAGS) $(CHARSHEET_CSS) $(PRINCEFLAGS_CHARSHEET)
 
 # Application Configruation #############################################################################
@@ -70,6 +70,8 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/page_%d.png
 # PRINCEFLAGS = 
 PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
+PRINCEFLAGS_DYSL = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/dysl_%d.png
+PRINCEFLAGS_LOWV = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/lowv_%d.png
 PRINCEFLAGS = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 
 # Pdfinfo Config
