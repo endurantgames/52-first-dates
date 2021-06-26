@@ -82,6 +82,7 @@ header h1     { string-set: gamename content()       }
   --toolkit:    9pt; 
   --morethanone: 11pt;
   --cardsize: 24pt; 
+  --sheetsize: 15pt;
 
   --color-accent: cadetblue;
   --color-pagenum: cadetblue;
@@ -384,34 +385,110 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 		  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
 		  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
 
+/* character sheets **************************************************************************************** */
+
+@page charsheet { margin: 0; padding: 0; size: letter landscape; }
+@page charsheet { @left-bottom { content: normal; }  @right-bottom { content: normal; } }
+
 .sheetpage { 
   page: charsheet; 
   break-before: page; 
-  height: 11in; 
-  width: 8.5in; 
+  height: 8.5in; 
+  width: 11in; 
   column-count: 2; 
   column-gap: 0; 
   column-width: auto; 
 }
 
-@page charsheet { margin: 0; padding: 0;}
-@page charsheet { @left-bottom { content: normal; }  @right-bottom { content: normal; } }
-
-.sheetpage .sheet.wide { 
-  column-span: all; 
-  column-count: 2;
-  column-width: auto;
-  column-gap: 9pt;
-}
 .sheetpage .sheet { 
   position: relative;
   margin: 0; 
   padding: 18pt; 
-  height: 5.5in; 
+  height: 8.5in; 
   display: block; 
   border: none; 
   box-sizing: border-box; 
+  overflow: clip;
 }
+
+.sheetpage .sheet.wide { column-span: all; }
+.sheetpage .sheet.full { column-span: all; height: 8.5in; }
+.sheetpage .sheet:matches(.wide, .full) :matches(.instruct, h3) { column-span: all; }
+.sheetpage .sheet .gamename:before { content: string(gamename) ' '; }
+.sheetpage .sheet h3 { 
+  margin-top: 0; 
+  border-bottom: none; 
+  text-align: center; 
+  font-size: var(--h2); 
+}
+
+.sheetpage .needlist { font-size: var(--sheetsize); }
+.sheetpage .instruct { font-size: var(--sheetsize); }
+
+.sheetpage .inputline ul { margin-left: 0; }
+
+.sheetpage .inputline li { 
+  list-style-type: none;
+  margin-left: 0;
+  font-size: var(--sheetsize);
+  border: 0.5pt solid var(--color-line); 
+  margin-bottom: 6pt;
+  padding: 6pt;
+  border-radius: 1pt;
+  font-family: var(--font-header);
+}
+
+.sheetpage .grid table { border-collapse: separate; border-spacing: 6pt 3pt; }
+.sheetpage .grid tbody tr { margin-bottom: 6pt; }
+.sheetpage .grid td {
+  font-size: var(--sheetsize);
+  border: 0.5pt solid var(--color-line);
+  padding: 3pt; 
+  border-radius: 1pt;
+}
+
+.sheetpage .grid th { font-size: var(--larger); }
+
+.sheetpage .grid td:first-child { border: none; }
+.sheetpage #qualitymatrix.grid td:first-child { width: 24pt; }
+.sheetpage #npcroster.grid td:first-child { width: 48pt; }
+
+.sheetpage .check { 
+  display: block;
+  content: '';
+  height: 1em; width: 1em;
+  border: 0.5pt solid black;
+  border-radius: 1pt;
+}
+
+.sheetpage h4 { text-align: center; }
+
+.sheetpage .inputbox h4 { color: black; margin: 0; text-align: left; }
+.sheetpage .inputbox {
+  height: 144pt;
+  padding: 6pt;
+  margin-top: 3pt;
+  margin-bottom: 9pt;
+  border-radius: 1pt;
+  border: 0.5pt solid var(--color-line);
+}
+
+.sheetpage .sheet.full { columns: 2 auto; column-gap: 12pt; break-before: page; }
+.sheetpage #sheet-date.sheet .traitlist {
+	display: none;
+  column-span: all;
+  columns: 4 auto;
+  float: column bottom;
+  column-gap: 6pt;
+  margin: 18pt;
+}
+
+.sheetpage #sheet-date.sheet .traitlist table { break-inside: avoid; }
+.sheetpage #sheet-date.sheet .traitlist table :matches(th, td) { 
+  font-size: var(--small); 
+}
+
+/* 
 .sheetpage .sheet:nth-child(5) { border-left: 0.5pt dashed gray; }
 .sheetpage .sheet:nth-child(3n+3) { border-top: 0.5pt dashed gray; } 
 
@@ -440,19 +517,9 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   display: block;
   width: auto;
   background: white;
-}
+} */
 
-.sheetpage .sheet .gamename:before { content: string(gamename) ' '; }
-
-.sheetpage .sheet h3 { 
-  margin-top: 0; 
-  border-bottom: none;
-  text-align: center;
-}
-
-.sheetpage .sheet.wide h3 {
-  column-span: all;
-}
+/* ********************************************************************************************************* */
 
 .anchor { position: absolute; color: transparent; margin: 0; padding: 0; }
 
@@ -619,3 +686,6 @@ a.xref-page { content: 'page ' target-cunter(attr(href url), page); }
   column-gap: 9pt;
   column-width: auto; 
 }
+
+
+

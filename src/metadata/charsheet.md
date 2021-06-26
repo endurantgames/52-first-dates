@@ -1,4 +1,4 @@
 ---
 lang: en-US
-title: 52 First Dates Handouts
+title: 52 First Dates
 ...

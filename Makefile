@@ -137,7 +137,8 @@ blorng := $(shell tput setab 208)
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
-default: pdf
+# default: pdf
+default: charsheet
 # default: all
 
 # Make Help #############################################################################################
@@ -284,4 +285,5 @@ dyslexia: pdf-dysl
 lowv:    pdf-lowv
 lowvis:  pdf-lowv
 sheet: charsheet
+sheets: charsheet
 # game: all
