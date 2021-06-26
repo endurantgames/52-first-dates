@@ -6,7 +6,7 @@ As of 2021-06-25:
 [x] Segue from info dump to game
   [x] Glossary maybe?
 [x] Using the Cards
-  [-] ~~Possibly relocate?~~
+  [x] ~~Possibly relocate?~~
   [x] Update role from "The System" to "The Fronter"
   [x] Update character from "The Date" to "The Prospect"
 [ ] The Set-Up
@@ -17,24 +17,24 @@ As of 2021-06-25:
     [ ] Game Assumptions
     [ ] Gender and Sexuality
   [ ] Creating the Headmates
-  [ ] Move the following to Set-Up:
+  [x] Move the following to Set-Up:
+  [ ] Determining Roles
   [ ] Setting the Scene
   [ ] Creating the Date
-    [ ] Personality cards 
+    [ ] Personality traits
       [ ] List
       [ ] Rename these
     [ ] Gender and sexuality
     [ ] Checking for desired qualities
 [ ] Date Night
   [ ] Starting the Date
-    [ ] Determining Roles
   [ ] Turn order
-    [ ] Relocate?
+    [x] ~~Relocate?~~
   [ ] Stood Up?
   [ ] Playing as the Date
   [ ] Playing as the Fronter
     [ ] Switching Fronters
-  [ ] Playing the Outside Interference
+  [-] Playing the Outside Interference
     [ ] Named NPCs
     [ ] Recurring NPCs
     [ ] I just met you and this song is ableist
@@ -51,16 +51,16 @@ As of 2021-06-25:
   [x] Aftercare
   [x] Discussion
   [x] Wait, am *I* plural?
-[x] Variants and Hacks
+[-] Variants and Hacks
   [x] System to System
-  [x] Singlet on Singlet Action
-  [x] Queerplatonic Relationships
+  [-] Singlet on Singlet Action
+  [-] Queerplatonic Relationships
 [x] Plural Resources
 [x] A Plural Lexicon 
   [x] Footnotes
 [x] Colophon
-[x] Character Sheets
-  [x] System
+[-] Character Sheets
+  [-] System
   [x] Outside Interference
   [x] Headmate Sheet
   [-] Date Sheet
