@@ -450,8 +450,13 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 .sheetpage .grid th { font-size: var(--larger); }
 
 .sheetpage .grid td:first-child { border: none; }
-.sheetpage #qualitymatrix.grid td:first-child { width: 24pt; }
-.sheetpage #npcroster.grid td:first-child { width: 48pt; }
+
+.sheetpage #npcroster.grid td:nth-child(1) { width: 24pt; }
+.sheetpage #npcroster.grid td:nth-child(2) { width: 108pt; }
+.sheetpage #npcroster.grid td:nth-child(3) { width: 72pt; }
+
+.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 12pt; }
+.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt; }
 
 .sheetpage .check { 
   display: block;
@@ -463,29 +468,36 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 
 .sheetpage h4 { text-align: center; }
 
-.sheetpage .inputbox h4 { color: black; margin: 0; text-align: left; }
+.sheetpage .inputbox h4 { color: black; margin: 0; text-align: left; break-after: auto; }
 .sheetpage .inputbox {
   height: 144pt;
   padding: 6pt;
   margin-top: 3pt;
-  margin-bottom: 9pt;
+  margin-bottom: 6pt;
   border-radius: 1pt;
   border: 0.5pt solid var(--color-line);
+  break-inside: avoid;
 }
 
+.sheetpage #sheet-system .inputbox { height: 108pt; }
+
+.sheetpage th { font-weight: normal; }
+
+.sheetpage #sheet-date .inputbox { height: 72pt; }
 .sheetpage .sheet.full { columns: 2 auto; column-gap: 12pt; break-before: page; }
 .sheetpage #sheet-date.sheet .traitlist {
-	display: none;
   column-span: all;
   columns: 4 auto;
-  float: column bottom;
+  float: bottom;
   column-gap: 6pt;
-  margin: 18pt;
+  margin: 6pt;
 }
 
-.sheetpage #sheet-date.sheet .traitlist table { break-inside: avoid; }
+.sheet #outsidechart table :matches(th, td) { font-size: var(--sheetsize); }
+
+.sheetpage #sheet-date.sheet .traitlist table { }
 .sheetpage #sheet-date.sheet .traitlist table :matches(th, td) { 
-  font-size: var(--small); 
+  font-size: var(--smaller);
 }
 
 /* 
