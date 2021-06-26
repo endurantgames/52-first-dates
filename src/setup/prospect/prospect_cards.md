@@ -2,6 +2,7 @@
 
 []{.lorem}
 
+:::::::::::::::::::: traitlist :::::::::::::::::::::::::::::::::::::::::
  Card                Personality Trait
 -----------------    -------------------------------------------
 A []{.clubs}         
@@ -18,6 +19,8 @@ J []{.clubs}
 K []{.clubs}         
 Q []{.clubs}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.diamonds}         
 2 []{.diamonds}         
 3 []{.diamonds}         
@@ -32,6 +35,8 @@ J []{.diamonds}
 K []{.diamonds}         
 Q []{.diamonds}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.hearts}         
 2 []{.hearts}         
 3 []{.hearts}         
@@ -46,6 +51,8 @@ J []{.hearts}
 K []{.hearts}         
 Q []{.hearts}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.spades}         
 2 []{.spades}         
 3 []{.spades}         
@@ -59,3 +66,5 @@ A []{.spades}
 J []{.spades}         
 K []{.spades}         
 Q []{.spades}         
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

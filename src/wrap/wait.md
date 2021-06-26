@@ -1,4 +1,4 @@
-# Wait, Am *I* Plural?  {#wrap-wait}
+# Wait, Am *I* Plural?  {#wrap-wait .breakbefore}
 
 For some people, playing []{.gamename} might line up some dots in your life, and 
 you might question whether not you might be plural yourself.

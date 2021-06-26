@@ -82,3 +82,7 @@ sex scenes or deep conversations until dawn. But you might want to either
 pull the veil a little sooner, or drop a line and not cross it, based on
 some types of intimacy that might arise.
 
+::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+!["Intimacy" might just mean spending quality time with someone you like.](art/spectrum/magazine.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

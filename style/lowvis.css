@@ -1,0 +1,138 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@import "style.css";
+
+:root {
+  --font: 'APHont';
+  --font-header: 'APHont';
+  --cardsize: 48pt;
+  --color-accent: black;
+  --color-pagenum: black;
+  --color-footnote: black;
+  --body:      15pt;
+  --larger:    17pt;
+  --smaller:   14pt;
+  --small:     13pt;
+  --large:     19pt;
+
+  --title:     64pt;
+  --subtitle:  36pt;
+  --subsubtitle: 28pt;
+  --h1:        36pt;
+  --h2:        26pt;
+  --h3:        24pt;
+  --h4:        22pt;
+  --h5:        20pt;
+  --h6:        19pt;
+  --th:        15pt;
+  --pagenum:   28pt;
+  --toolkit:    9pt;
+  --morethanone: 11pt;
+  --cardsize: 28pt;
+}
+
+#toc { column-count: 1; float: none; }
+#toc li { margin-bottom: 9pt; }
+@page { @bottom-center { content: normal; } }
+.sidebar { float: none; background: none; border: none; }
+:matches(.ora, .carline, .fox, .dera, .spin, .val) { float: none; }
+#cover :matches(h1, h2, h3) { color: black; }
+#cover { background: white; }
+#cover img { display: none; }
+#toc a:after { content: ' page ' target-counter(attr(href), page); }
+.gamename:before { font-size: 100%; }
+.namelist, .pronounlist { column-count: 1; }
+.cardstacks { margin-left: 24pt; margin-right: 24pt; } 
+.spectrum { display: none; }
+.breakbefore { break-before: auto; }
+
+/* -prince-alt-text --------------------------------------------------------------- */
+
+.gamename:before { -prince-alt-text: string(gamename); }
+.cw:before { -prince-alt-text: "Content Warning: "; }
+.emoji-ora { -prince-alt-text: "Aura's Rose"; }
+.emoji-carline { -prince-alt-text: "Carline's Leaf"; }
+.emoji-fox { -prince-alt-text: "Fox's Fox"; }
+.emoji-dera { -prince-alt-text: "Dera's Antenna Dish"; }
+.emoji-spin { -prince-alt-text: "Cadera Spindrift's Cyclone"; }
+.emoji-val { -prince-alt-text: "Valorie's Chain Link"; }
+
+.ora:before { -prince-alt-text: "Comment by Aura:"; }
+.carline:before { -prince-alt-text: "Comment by Carline:"; }
+.fox:before { -prince-alt-text: "Comment by Fox:"; }
+.dera:before { -prince-alt-text: "Comment by Dera:"; }
+.spin:before { -prince-alt-text: "Comment by Cadera Spindrift:"; }
+.val:before { -prince-alt-text: "Comment by Valorie:"; }
+
+:matches(.ora, .carline, .fox, .dera, .spin, .val):after { -prince-alt-text: "End of Comment"; }
+
+.spades   { -prince-alt-text: "Spades"; }
+.clubs    { -prince-alt-text: "Clubs"; }
+.hearts   { -prince-alt-text: "Hearts"; }
+.diamonds { -prince-alt-text: "Diamonds"; }
+
+.card.s.ace    { -prince-alt-text: 'Ace of Spades'; }
+.card.s.deuce  { -prince-alt-text: 'Deuce of Spades'; }
+.card.s.three  { -prince-alt-text: 'Three of Spades'; }
+.card.s.four   { -prince-alt-text: 'Four of Spades'; }
+.card.s.five   { -prince-alt-text: 'Five of Spades'; }
+.card.s.six    { -prince-alt-text: 'Six of Spades'; }
+.card.s.seven  { -prince-alt-text: 'Seven of Spades'; }
+.card.s.eight  { -prince-alt-text: 'Eight of Spades'; }
+.card.s.nine   { -prince-alt-text: 'Nine of Spades'; }
+.card.s.ten    { -prince-alt-text: 'Ten of Spades'; }
+.card.s.jack   { -prince-alt-text: 'Jack of Spades'; }
+.card.s.knight { -prince-alt-text: 'Knight of Spades'; }
+.card.s.queen  { -prince-alt-text: 'Queen of Spades'; }
+.card.s.king   { -prince-alt-text: 'King of Spades'; }
+
+.card.h.ace    { -prince-alt-text: 'Ace of Hearts'; }
+.card.h.deuce  { -prince-alt-text: 'Deuce of Hearts'; }
+.card.h.three  { -prince-alt-text: 'Three of Hearts'; }
+.card.h.four   { -prince-alt-text: 'Four of Hearts'; }
+.card.h.five   { -prince-alt-text: 'Five of Hearts'; }
+.card.h.six    { -prince-alt-text: 'Six of Hearts'; }
+.card.h.seven  { -prince-alt-text: 'Seven of Hearts'; }
+.card.h.eight  { -prince-alt-text: 'Eight of Hearts'; }
+.card.h.nine   { -prince-alt-text: 'Nine of Hearts'; }
+.card.h.ten    { -prince-alt-text: 'Ten of Hearts'; }
+.card.h.jack   { -prince-alt-text: 'Jack of Hearts'; }
+.card.h.knight { -prince-alt-text: 'Knight of Hearts'; }
+.card.h.queen  { -prince-alt-text: 'Queen of Hearts'; }
+.card.h.king   { -prince-alt-text: 'King of Hearts'; }
+
+.card.c.ace    { -prince-alt-text: 'Ace of Clubs'; }
+.card.c.deuce  { -prince-alt-text: 'Deuce of Clubs'; }
+.card.c.three  { -prince-alt-text: 'Three of Clubs'; }
+.card.c.four   { -prince-alt-text: 'Four of Clubs'; }
+.card.c.five   { -prince-alt-text: 'Five of Clubs'; }
+.card.c.six    { -prince-alt-text: 'Six of Clubs'; }
+.card.c.seven  { -prince-alt-text: 'Seven of Clubs'; }
+.card.c.eight  { -prince-alt-text: 'Eight of Clubs'; }
+.card.c.nine   { -prince-alt-text: 'Nine of Clubs'; }
+.card.c.ten    { -prince-alt-text: 'Ten of Clubs'; }
+.card.c.jack   { -prince-alt-text: 'Jack of Clubs'; }
+.card.c.knight { -prince-alt-text: 'Knight of Clubs'; }
+.card.c.queen  { -prince-alt-text: 'Queen of Clubs'; }
+.card.c.king   { -prince-alt-text: 'King of Clubs'; }
+
+.card.d.ace    { -prince-alt-text: 'Ace of Diamonds'; }
+.card.d.deuce  { -prince-alt-text: 'Deuce of Diamonds'; }
+.card.d.three  { -prince-alt-text: 'Three of Diamonds'; }
+.card.d.four   { -prince-alt-text: 'Four of Diamonds'; }
+.card.d.five   { -prince-alt-text: 'Five of Diamonds'; }
+.card.d.six    { -prince-alt-text: 'Six of Diamonds'; }
+.card.d.seven  { -prince-alt-text: 'Seven of Diamonds'; }
+.card.d.eight  { -prince-alt-text: 'Eight of Diamonds'; }
+.card.d.nine   { -prince-alt-text: 'Nine of Diamonds'; }
+.card.d.ten    { -prince-alt-text: 'Ten of Diamonds'; }
+.card.d.jack   { -prince-alt-text: 'Jack of Diamonds'; }
+.card.d.knight { -prince-alt-text: 'Knight of Diamonds'; }
+.card.d.queen  { -prince-alt-text: 'Queen of Diamonds'; }
+.card.d.king   { -prince-alt-text: 'King of Diamonds'; }
+
+.card.joker { -prince-alt-text: "White Joker"; }
+.card.joker.red { -prince-alt-text: "Red Joker"; }
+.card.joker.black { -prince-alt-text: "Black Joker"; }
+

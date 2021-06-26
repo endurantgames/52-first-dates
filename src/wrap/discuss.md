@@ -1,4 +1,8 @@
-# Post-Game Discussion {#wrap-discuss}
+# Post-Game Discussion {#wrap-discuss .breakbefore}
+
+:::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::
+![Sometimes you just need a hug, you know?](art/spectrum/sit-embrace.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 If none of you wish to sit around talking after the game,
 you can obviously skip this part!

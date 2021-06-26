@@ -33,17 +33,23 @@ PROJ_RECIPE = $(PROJ)
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 # PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_OUT    = $(OUTDIR)/52-first-dates.pdf
+DYSL_OUT    = $(OUTDIR)/52-first-dates-dysl.pdf
+LOWV_OUT    = $(OUTDIR)/52-first-dates-lowv.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
 PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
+DYSL_CSS = --css=$(STYLEDIR)/dyslexic.css
+LOWV_CSS = --css=$(STYLEDIR)/lowvis.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS)
+DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS)
+LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS)
 
 # Application Configruation #############################################################################
 #
@@ -137,6 +143,8 @@ help:
 	@ echo   '$(dkcyan)make$(resetc) arguments:'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)markdown   $(resetc)- collect markdown'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf        $(resetc)- create pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf-dysl   $(resetc)- create PDF with dyslexia fonts'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf-lowv   $(resetc)- create PDF (low vision)'
 	@ echo '  $(dkcyan)make$(resetc) $(ltcyan)html       $(resetc)- create html'
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, html'
 	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
@@ -222,6 +230,18 @@ pdf: markdown
 	@       $(PDFINFO) $(PROJ_OUT)
 	@      -$(EXPLORER)
 
+pdf-dysl: markdown
+	@ echo '$(ltblue)Making PDF (Dyslexia).$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(DYSL_FLAGS) -o $(DYSL_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(DYSL_OUT)
+	@      -$(EXPLORER)
+
+pdf-lowv: markdown
+	@ echo '$(ltblue)Making PDF (Low Vision).$(resetc)'
+	        $(PANDOC) $(PANDOCFLAGS) $(LOWV_FLAGS) -o $(LOWV_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(LOWV_OUT)
+	@      -$(EXPLORER)
+
 # make HTML
 #   Edit: if you are making more than one html
 html: markdown
@@ -232,7 +252,7 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf html
+all: pdf html pdf-dysl pdf-lowv
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
@@ -241,4 +261,8 @@ game:   pdf
 backup: backups
 vi:     edit
 vim:    edit
+dysl:   pdf-dysl
+dyslexia: pdf-dysl
+lowv:    pdf-lowv
+lowvis:  pdf-lowv
 # game: all

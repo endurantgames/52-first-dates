@@ -2,6 +2,7 @@
 
 []{.lorem}
 
+::::::::::::::::: pronounlist ::::::::::::::::::::::::::::::::::::
  Cards                        Pronouns
 -------                       ---------
 []{.hearts   } []{.hearts   } he/him
@@ -37,3 +38,4 @@ J []{.clubs  } fae/faer/faerself
 Q []{.clubs  } ne/nem/nirs/nemself
 K []{.clubs  } no pronouns
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

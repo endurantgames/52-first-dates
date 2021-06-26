@@ -18,6 +18,9 @@ A []{.clubs     } Ari
 J []{.clubs     } Leaf
 Q []{.clubs     } Noel
 K []{.clubs     } Sparrow
+
+ Card             Name
+------            ---------------
 A []{.diamonds  } Aeden
 2 []{.diamonds  } Rook
 3 []{.diamonds  } Jae
@@ -31,6 +34,9 @@ A []{.diamonds  } Aeden
 J []{.diamonds  } Jan
 Q []{.diamonds  } Lumen
 K []{.diamonds  } Thyme
+
+ Card             Name
+------            ---------------
 A []{.hearts    } Avery
 2 []{.hearts    } Jordan
 3 []{.hearts    } Star
@@ -44,6 +50,9 @@ A []{.hearts    } Avery
 J []{.hearts    } Sky
 Q []{.hearts    } Riley
 K []{.hearts    } Alva
+
+ Card             Name
+------            ---------------
 A []{.spades    } Ash
 2 []{.spades    } Van
 3 []{.spades    } Roan

@@ -1,0 +1,20 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@import "style.css";
+
+:root {
+  --font: 'Open Dyslexic';
+  --font-header: 'Open Dyslexic';
+  --cardsize: 48pt;
+}
+
+#cover h1 { top: 0; }
+
+.cardstacks { margin-left: 24pt; margin-right: 24pt; } 
+.spectrum { display: none; }
+
+
+.spades, .clubs, .hearts, .diamonds { font-size: 200%; line-height: normal; display: inline-block; height: 2em; }
+
+

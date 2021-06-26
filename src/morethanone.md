@@ -86,6 +86,10 @@ compassionate healthcare, and frequent retraumatization from social stigma and i
 There are no statistics released for plurals outside the clinical scope, but it is 
 safe to say that they are unlikely to be violent either, no more than any other marginalized group.
 
+::::::::::::: spectrum :::::::::::::::
+![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
+::::::::::::::::::::::::::::::::::::::
+
 ### Myth: Plurals are mentally ill and need to merge to become healthy.
 
 While it was once commonly believed in psychiatry that plurality was inherently 
@@ -112,10 +116,6 @@ actors who were pretending to have DID.
 
 There have been no such studies done on non-clinical plurality yet, but interest has 
 been growing in the field.
-
-::::::::::::: spectrum :::::::::::::::
-![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
-::::::::::::::::::::::::::::::::::::::
 
 ### Myth: Plurality is a miserable state of being / a gift with no downsides.
 

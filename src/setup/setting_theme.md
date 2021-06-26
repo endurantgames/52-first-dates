@@ -1,7 +1,11 @@
-# Setting and Themes {#setup-setting}
+# Setting and Themes {#setup-setting .breakbefore}
+
+:::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
+!["Let's just meet over coffee?"](art/spectrum/coffee.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.gamename} is a game about people. Plural people, singlet people, and the
-random people we bump into on the street.
+random people we bump into on on a date.
 
 It's not a game about dragons, dungeons, wars, stars, lasers, spells, or anything
 else like that.
@@ -39,8 +43,12 @@ non-white cultures for "play" in games is rather, uh, colonialist.
 
 That said, it's also okay to stick to the default. It's easier and more comfortable
 if you aren't trying to figure out what the high elf view of gender might be, or
-whether Trills are inherently plural [I mean, they kind of *are*.]{.dera}, or 
-what-have-you. 
+whether Trills are inherently plural 
+[I mean, Trills kind of *are* plural.]{.dera}
+[...]{.ora}
+[I HAPPEN TO HAVE STRONG OPINIONS ABOUT TRILLS, OKAY?]{.dera}
+[...]{.ora}, 
+or what-have-you. 
 
 In addition to the setting, you can add on themes to the game, which usually means
 there's something that one or more of you want to focus on with the characters.

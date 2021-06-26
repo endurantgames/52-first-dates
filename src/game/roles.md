@@ -23,11 +23,11 @@ For example, if the Status Stacks look like this ...
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -36,13 +36,13 @@ match either the suit or the rank of a stack.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
----                  ---                    ---                      ----
-[]{.card .c .ten}    **yes** (rank matches) *no*                     *no*   
-[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
-[]{.card .c .four}   *no*                   *no*                     *no*   
-[]{.card .s .five}   *no*                   *no*                     **yes** (suit matches)
-[]{.card .d .jack}   **yes** (suit matches) **yes** (suit matches)   **yes** (rank matches)
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       **yes** (rank matches)           *no*                                 *no*   
+[Three of Hearts]{.card .h .three}  *no*                             **yes** (rank matches)               *no*   
+[Four of Clubs]{.card .c .four}     *no*                             *no*                                 *no*   
+[Five of Spades]{.card .s .five}    *no*                             *no*                                 **yes** (suit matches)
+[Jack of Diamonds]{.card .d .jack}  **yes** (suit matches)           **yes** (suit matches)               **yes** (rank matches)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -60,19 +60,19 @@ frequently than the players in the System role.
 For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
-[]{.card .d .ten}
-[]{.card .d .three}
-[]{.card .s .jack}
+[Ten of Diamonds]{.card .d .ten}
+[Three of Diamonds]{.card .d .three}
+[Jack of Spades]{.card .s .jack}
 ::::::::::::::::::::::::::::
 
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -81,13 +81,13 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}   []{.card .d .three}   []{.card .s .jack}
----                  ---                 ---                   ----
-[]{.card .c .ten}    *no* (rank matches) **yes**               **yes**
-[]{.card .h .three}  **yes**             *no* (rank matches)   **yes**
-[]{.card .c .four}   **yes**             **yes**               **yes**
-[]{.card .s .five}   **yes**             **yes**               *no* (suit matches)
-[]{.card .d .jack}   *no* (suit matches) *no* (suit matches)   *no* (rank matches)
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       *no* (rank matches)              **yes**                              **yes**
+[Three of Hearts]{.card .h .three}  **yes**                          *no* (rank matches)                  **yes**
+[Four of Clubs]{.card .c .four}     **yes**                          **yes**                              **yes**
+[Five of Spades]{.card .s .five}    **yes**                          **yes**                              *no* (suit matches)
+[Jack of Diamonds]{.card .d .jack}  *no* (suit matches)              *no* (suit matches)                  *no* (rank matches)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -105,19 +105,19 @@ For example, if the Status Stacks look like this, with the last-played card show
 in red ...
 
 ::::::: cardstacks :::::::::
-[]{.card .d .ten .gray}
-[]{.card .d .three}
-[]{.card .s .jack .gray}
+[Ten of Diamonds]{.card .d .ten .gray}
+[Three of Diamonds]{.card .d .three}
+[Jack of Spades]{.card .s .jack .gray}
 ::::::::::::::::::::::::::::
 
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -127,13 +127,13 @@ than the other roles.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
----                  ---                    ---                      ----
-[]{.card .c .ten}    *no*                   *no*                     *no*   
-[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
-[]{.card .c .four}   *no*                   *no*                     *no*   
-[]{.card .s .five}   *no*                   *no*                     *no*                  
-[]{.card .d .jack}   *no*                   *no*                     *no*                  
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       *no*                             *no*                                 *no*   
+[Three of Hearts]{.card .h .three}  *no*                             **yes** (rank matches)               *no*   
+[Four of Clubs]{.card .c .four}     *no*                             *no*                                 *no*   
+[Five of Spades]{.card .s .five}    *no*                             *no*                                 *no*                  
+[Jack of Diamonds]{.card .d .jack}  *no*                             *no*                                 *no*                  
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

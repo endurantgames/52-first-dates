@@ -54,7 +54,6 @@ header h1     { string-set: gamename content()       }
   --font: "Bellefair";
   --font-header: "Cherry Swash";
   --font-toolkit: "Montserrat";
-  --font-morethanone: "Source Sans Pro";
   --font-cards: 'Unicode Upper';
 
   --icon-thin: 'Font Awesome 5 Free Regular';
@@ -62,6 +61,7 @@ header h1     { string-set: gamename content()       }
   --icon-game: 'game-icons';
   --font-emoji: 'Noto Color Emoji';
   --font-suits: 'Noto Emoji';
+  --font-dyslexic: 'Open Dyslexic';
 
   --body:      12pt;
   --larger:    13pt;
@@ -89,6 +89,7 @@ header h1     { string-set: gamename content()       }
   --color-line:    cadetblue;
   --color-light:   silver;
   --color-toolkit: #006600;
+  --color-footnote: gray;
 
   --bgcolor-sidebar: #EEEEEE;
   --bgcolor-toolkit: #F8FFF8;
@@ -172,7 +173,7 @@ img { -prince-image-resolution: 96;
 p, li { orphans: 3; line-height: 1.40; }
 
 @page { @left-bottom { 
-  font-family:     var(--font-headline);
+  font-family:     var(--font-header);
   font-size:       var(--big);
   font-size:       var(--pagenum);
   text-align:      center;
@@ -180,7 +181,7 @@ p, li { orphans: 3; line-height: 1.40; }
 } }
 
 @page { @right-bottom {
-  font-family:     var(--font-headline);
+  font-family:     var(--font-header);
   font-size:       var(--big);
   font-size:       var(--pagenum);
   text-align:      center;
@@ -328,7 +329,7 @@ p+p .cw { margin-left: -1.0em; }
 .systemlist dl { margin-left: 24pt; margin-right: 24pt; }
 
 :matches(.spin, .dera, .carline, .ora, .val, .fox) { 
-  color:         gray; 
+  color:         var(--color-footnote);
   float:         footnote; 
   line-height:   1.25; 
   display:       inline-block; 
@@ -597,3 +598,9 @@ a.xref-see:before { content: 'see '; font-style: normal; }
 a.xref-see { content: target-content(attr(href url)); font-style: italic; }
 a.xref-see:after { content: ' on page ' target-counter(attr(href url), page); font-style: normal; }
 a.xref-page { content: 'page ' target-cunter(attr(href url), page); }
+
+.pronounlist, .namelist { 
+  column-count: 2;
+  column-gap: 9pt;
+  column-width: auto; 
+}

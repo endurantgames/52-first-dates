@@ -682,6 +682,10 @@ compassionate healthcare, and frequent retraumatization from social stigma and i
 There are no statistics released for plurals outside the clinical scope, but it is 
 safe to say that they are unlikely to be violent either, no more than any other marginalized group.
 
+::::::::::::: spectrum :::::::::::::::
+![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
+::::::::::::::::::::::::::::::::::::::
+
 #### Myth: Plurals are mentally ill and need to merge to become healthy.
 
 While it was once commonly believed in psychiatry that plurality was inherently 
@@ -708,10 +712,6 @@ actors who were pretending to have DID.
 
 There have been no such studies done on non-clinical plurality yet, but interest has 
 been growing in the field.
-
-::::::::::::: spectrum :::::::::::::::
-![You can't tell if someone's plural just by looking at them. Is this one person or six?](art/spectrum/alone-bed.jpg)
-::::::::::::::::::::::::::::::::::::::
 
 #### Myth: Plurality is a miserable state of being / a gift with no downsides.
 
@@ -1059,11 +1059,11 @@ For example, if the Status Stacks look like this ...
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -1072,13 +1072,13 @@ match either the suit or the rank of a stack.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
----                  ---                    ---                      ----
-[]{.card .c .ten}    **yes** (rank matches) *no*                     *no*   
-[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
-[]{.card .c .four}   *no*                   *no*                     *no*   
-[]{.card .s .five}   *no*                   *no*                     **yes** (suit matches)
-[]{.card .d .jack}   **yes** (suit matches) **yes** (suit matches)   **yes** (rank matches)
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       **yes** (rank matches)           *no*                                 *no*   
+[Three of Hearts]{.card .h .three}  *no*                             **yes** (rank matches)               *no*   
+[Four of Clubs]{.card .c .four}     *no*                             *no*                                 *no*   
+[Five of Spades]{.card .s .five}    *no*                             *no*                                 **yes** (suit matches)
+[Jack of Diamonds]{.card .d .jack}  **yes** (suit matches)           **yes** (suit matches)               **yes** (rank matches)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1096,19 +1096,19 @@ frequently than the players in the System role.
 For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
-[]{.card .d .ten}
-[]{.card .d .three}
-[]{.card .s .jack}
+[Ten of Diamonds]{.card .d .ten}
+[Three of Diamonds]{.card .d .three}
+[Jack of Spades]{.card .s .jack}
 ::::::::::::::::::::::::::::
 
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -1117,13 +1117,13 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}   []{.card .d .three}   []{.card .s .jack}
----                  ---                 ---                   ----
-[]{.card .c .ten}    *no* (rank matches) **yes**               **yes**
-[]{.card .h .three}  **yes**             *no* (rank matches)   **yes**
-[]{.card .c .four}   **yes**             **yes**               **yes**
-[]{.card .s .five}   **yes**             **yes**               *no* (suit matches)
-[]{.card .d .jack}   *no* (suit matches) *no* (suit matches)   *no* (rank matches)
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       *no* (rank matches)              **yes**                              **yes**
+[Three of Hearts]{.card .h .three}  **yes**                          *no* (rank matches)                  **yes**
+[Four of Clubs]{.card .c .four}     **yes**                          **yes**                              **yes**
+[Five of Spades]{.card .s .five}    **yes**                          **yes**                              *no* (suit matches)
+[Jack of Diamonds]{.card .d .jack}  *no* (suit matches)              *no* (suit matches)                  *no* (rank matches)
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1141,19 +1141,19 @@ For example, if the Status Stacks look like this, with the last-played card show
 in red ...
 
 ::::::: cardstacks :::::::::
-[]{.card .d .ten .gray}
-[]{.card .d .three}
-[]{.card .s .jack .gray}
+[Ten of Diamonds]{.card .d .ten .gray}
+[Three of Diamonds]{.card .d .three}
+[Jack of Spades]{.card .s .jack .gray}
 ::::::::::::::::::::::::::::
 
 ... and you have these cards in your hand...
 
 :::::: cardhand :::::::::
-[]{.card .c .ten}
-[]{.card .h .three}
-[]{.card .c .four}
-[]{.card .s .five}
-[]{.card .d .jack}
+[Ten of Clubs]{.card .c .ten}
+[Three of Hearts]{.card .h .three}
+[Four of Clubs]{.card .c .four}
+[Five of Spades]{.card .s .five}
+[Jack of Diamonds]{.card .d .jack}
 :::::::::::::::::::::::::
 
 ...you could play your cards on these stacks:
@@ -1163,13 +1163,13 @@ than the other roles.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
-                     []{.card .d .ten}      []{.card .d .three}      []{.card .s .jack}
----                  ---                    ---                      ----
-[]{.card .c .ten}    *no*                   *no*                     *no*   
-[]{.card .h .three}  *no*                   **yes** (rank matches)   *no*   
-[]{.card .c .four}   *no*                   *no*                     *no*   
-[]{.card .s .five}   *no*                   *no*                     *no*                  
-[]{.card .d .jack}   *no*                   *no*                     *no*                  
+                                    [Ten of Diamonds]{.card .d .ten} [Three of Diamonds]{.card .d .three} [Jack of Spades]{.card .s .jack}
+---                                 ---                              ---                                  ----
+[Ten of Clubs]{.card .c .ten}       *no*                             *no*                                 *no*   
+[Three of Hearts]{.card .h .three}  *no*                             **yes** (rank matches)               *no*   
+[Four of Clubs]{.card .c .four}     *no*                             *no*                                 *no*   
+[Five of Spades]{.card .s .five}    *no*                             *no*                                 *no*                  
+[Jack of Diamonds]{.card .d .jack}  *no*                             *no*                                 *no*                  
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1299,10 +1299,14 @@ These are examples of Status Stacks that end the date:
 
 ## Part 1: The Set-Up {#setup}
 
+:::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::
+![Nobody wants to have a panic attack just from playing a roleplaying game.](art/spectrum/panic.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Now that you know how the cards work, we're going to tell you how 
 the game is set up.
-["the set-up" has a double meaning, see, because not only is it setting
-up the game, but the whole conceit of the game is that it's a blind
+["the set-up" has a double meaning, see, because not only is this section about
+preparing the game, but the whole conceit of the game is that it's a blind
 date that you were *set up* on]{.ora}
 
 Before the first Date Night, you have to do the following:
@@ -1403,11 +1407,19 @@ sex scenes or deep conversations until dawn. But you might want to either
 pull the veil a little sooner, or drop a line and not cross it, based on
 some types of intimacy that might arise.
 
+::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+!["Intimacy" might just mean spending quality time with someone you like.](art/spectrum/magazine.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Setting and Themes {#setup-setting}
+
+### Setting and Themes {#setup-setting .breakbefore}
+
+:::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
+!["Let's just meet over coffee?"](art/spectrum/coffee.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.gamename} is a game about people. Plural people, singlet people, and the
-random people we bump into on the street.
+random people we bump into on on a date.
 
 It's not a game about dragons, dungeons, wars, stars, lasers, spells, or anything
 else like that.
@@ -1445,8 +1457,12 @@ non-white cultures for "play" in games is rather, uh, colonialist.
 
 That said, it's also okay to stick to the default. It's easier and more comfortable
 if you aren't trying to figure out what the high elf view of gender might be, or
-whether Trills are inherently plural [I mean, they kind of *are*.]{.dera}, or 
-what-have-you. 
+whether Trills are inherently plural 
+[I mean, Trills kind of *are* plural.]{.dera}
+[...]{.ora}
+[I HAPPEN TO HAVE STRONG OPINIONS ABOUT TRILLS, OKAY?]{.dera}
+[...]{.ora}, 
+or what-have-you. 
 
 In addition to the setting, you can add on themes to the game, which usually means
 there's something that one or more of you want to focus on with the characters.
@@ -1507,7 +1523,13 @@ Once you've created the System, you need to create Headmates.
 7. Introduce us to this headmate.
 
 
-### Creating the Prospect {#setup-prospect}
+### Creating the Prospect {#setup-prospect .breakbefore} 
+
+::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
+![Everyone is involved in creating the Prospect.](art/spectrum/selfies.jpg){.bottom}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
 
 []{.lorem}
 
@@ -1531,6 +1553,9 @@ A []{.clubs     } Ari
 J []{.clubs     } Leaf
 Q []{.clubs     } Noel
 K []{.clubs     } Sparrow
+
+ Card             Name
+------            ---------------
 A []{.diamonds  } Aeden
 2 []{.diamonds  } Rook
 3 []{.diamonds  } Jae
@@ -1544,6 +1569,9 @@ A []{.diamonds  } Aeden
 J []{.diamonds  } Jan
 Q []{.diamonds  } Lumen
 K []{.diamonds  } Thyme
+
+ Card             Name
+------            ---------------
 A []{.hearts    } Avery
 2 []{.hearts    } Jordan
 3 []{.hearts    } Star
@@ -1557,6 +1585,9 @@ A []{.hearts    } Avery
 J []{.hearts    } Sky
 Q []{.hearts    } Riley
 K []{.hearts    } Alva
+
+ Card             Name
+------            ---------------
 A []{.spades    } Ash
 2 []{.spades    } Van
 3 []{.spades    } Roan
@@ -1576,6 +1607,7 @@ K []{.spades    } Angel
 
 []{.lorem}
 
+::::::::::::::::: pronounlist ::::::::::::::::::::::::::::::::::::
  Cards                        Pronouns
 -------                       ---------
 []{.hearts   } []{.hearts   } he/him
@@ -1611,11 +1643,13 @@ J []{.clubs  } fae/faer/faerself
 Q []{.clubs  } ne/nem/nirs/nemself
 K []{.clubs  } no pronouns
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### The Prospect's Personality Traits {#setup-prospect-cards}
 
 []{.lorem}
 
+:::::::::::::::::::: traitlist :::::::::::::::::::::::::::::::::::::::::
  Card                Personality Trait
 -----------------    -------------------------------------------
 A []{.clubs}         
@@ -1632,6 +1666,8 @@ J []{.clubs}
 K []{.clubs}         
 Q []{.clubs}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.diamonds}         
 2 []{.diamonds}         
 3 []{.diamonds}         
@@ -1646,6 +1682,8 @@ J []{.diamonds}
 K []{.diamonds}         
 Q []{.diamonds}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.hearts}         
 2 []{.hearts}         
 3 []{.hearts}         
@@ -1660,6 +1698,8 @@ J []{.hearts}
 K []{.hearts}         
 Q []{.hearts}         
 
+ Card                Personality Trait
+-----------------    -------------------------------------------
 A []{.spades}         
 2 []{.spades}         
 3 []{.spades}         
@@ -1673,6 +1713,8 @@ A []{.spades}
 J []{.spades}         
 K []{.spades}         
 Q []{.spades}         
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Is This an Ideal Partner? {#setup-prospect-qualities}
 
@@ -1783,17 +1825,39 @@ act in response to cards played by the other players.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
+
 []{.lorem}
-[]{.lorem}
+
+:::::::::::::::::::: outsidechart ::::::::::::::::::::::::::::::::::::::
+
+ Card Rank      Outside Interference
+-----------     ------------------------------------------------------
+    Ace         something happens
+     2          something happens
+     3          something happens
+     4          something happens
+     5          something happens
+     6          something happens
+     7          something happens
+     8          something happens
+     9          something happens
+    10          something happens
+   Jack         something happens
+   Queen        something happens
+   King         something happens
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Named NPCs {#date-npcs}
 
 []{.lorem}
+
 []{.lorem}
 
 #### Recurring NPCs {#date-recurring}
 
 []{.lorem}
+
 []{.lorem}
 
 #### I Just Met You and This Song is Ableist {#date-maybe}
@@ -1810,7 +1874,7 @@ act in response to cards played by the other players.
 []{.lorem}
 
 :::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
-![If your date doesn't go well but you met someone else -- be sure to get *their* number!](art/spectrum/phone.jpg)
+![If your date doesn't go well but you meet someone else you like -- be sure to get *their* number!](art/spectrum/phone.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -1920,7 +1984,11 @@ If the Date is up for a third date, then you are officially Going Steady.
 Unless the system (or its members) are lesbians -- in which case you're 
 moving in together.
 
-### Post-Game Discussion {#wrap-discuss}
+### Post-Game Discussion {#wrap-discuss .breakbefore}
+
+:::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::
+![Sometimes you just need a hug, you know?](art/spectrum/sit-embrace.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 If none of you wish to sit around talking after the game,
 you can obviously skip this part!
@@ -1952,7 +2020,7 @@ in the game, here are some ideas for discussion topics:
   <span class="gamename"></span> for playability's sake.]{.carline}
 
 
-### Wait, Am *I* Plural?  {#wrap-wait}
+### Wait, Am *I* Plural?  {#wrap-wait .breakbefore}
 
 For some people, playing []{.gamename} might line up some dots in your life, and 
 you might question whether not you might be plural yourself.
