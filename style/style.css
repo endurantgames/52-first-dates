@@ -10,7 +10,7 @@ header h1     { string-set: gamename content()       }
 @page:left { margin-left: 192pt; margin-right: 96pt; }
 @page:right { margin-right: 192pt; margin-left: 96pt; }
 
-@page { @footnote { position: absolute; width: 138pt; vertical-align: bottom; bottom: 54pt; } }
+@page { @footnote { position: absolute; width: 138pt; vertical-align: bottom; bottom: 68pt; } }
 
 @page :left  { @footnote { left: -160pt; } }
 @page :right { @footnote { right: -168pt; } }
@@ -125,7 +125,10 @@ h1                 { column-span: all; text-align: center;                  }
 .colspan           { column-span: all;                                      }
 .bottom            { column-span: all; float: page-bottom;                  }
 p+table            { break-before: avoid-page;                              }
+p+p                { text-indent: 1.5em; }
 table              { border-collapse: collapse; break-inside: avoid-page;   }
+table              { margin-bottom: 9pt; }
+p                  { margin-top: 6pt; margin-bottom: 9pt; }
 table tr           { break-inside: avoid-page;                              }
 table thead        { break-after: avoid;                                    }
 table thead        { border-bottom: 0.5pt solid var(--color-line);          }
@@ -259,7 +262,15 @@ a:hover { color: black; text-decoration: none; }
 
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
 .tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
-.tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; line-height: none; font-size: 87%; }
+.tstoolkit .icon:after { 
+  font-family: var(--icon-solid); 
+  padding-left: 0.25em; 
+  display: inline-block; 
+  font-weight: normal; 
+  line-height: none; 
+  font-size: 87%; 
+  margin-left: -1.7em; /* 1.5 * 1 / 87% */
+}
 
 .tstoolkit .rewind:after { content: '\f04a'; }
 .tstoolkit .ff:after     { content: '\f050'; }
@@ -340,7 +351,7 @@ a:hover { color: black; text-decoration: none; }
 .systemlist ul li span:before { width: 18pt; text-align: center; }
 
 :matches(.spin, .dera, .carline, .ora, .val, .fox):before { display: inline-block; font-family: var(--font-emoji); }
-:matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; line-height: 1.25; }
+:matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; line-height: 1.25; display: inline-block; margin-bottom: 12pt; }
 :matches(.spin, .dera, .carline, .ora, .val, .fox):empty { float: none; font-size: 100%; }
 
 .spin { prince-tooltip: 'This comment was made by Cadera.'; }
@@ -496,7 +507,17 @@ a:hover { color: black; text-decoration: none; }
 .cardhand .card:nth-child(5) { transform: skew(-15deg); }
 
 .cardgroup, .cardstacks { font-size: var(--cardsize); text-align: center; }
-.card       { font-family: var(--font-cards); }
+.card { font-family: var(--font-cards); }
+
+.cardstacks { 
+  border: 0.5pt solid var(--color-line);
+  padding: 3pt; 
+  margin-top: 3pt;
+  margin-left: 72pt;
+  margin-right: 72pt;
+  margin-bottom: 3pt;
+  border-radius: 6pt;
+}
 
 .cardmatrix table thead { border-bottom: none; }
 .cardmatrix th { 

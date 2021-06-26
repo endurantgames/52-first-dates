@@ -12,7 +12,7 @@ in the roles of the Date and the Outside Interference.
 The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
 
-At the beginning of each date, shuffle each deck and then lay out a row of
+At the beginning of each Date Night, shuffle each deck and then lay out a row of
 three cards on the table, from the top of the Date's Deck.
 These are known as the ***Date Status stacks***. 
 During the course of the date,

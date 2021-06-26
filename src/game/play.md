@@ -5,10 +5,11 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 When it's your turn, you can *play* a card by laying it on one of the three
-Date Status stacks.
+Status Stacks.
 
 Playing a card is tied to dialogue or action
-taken by the character you're playing -- be it the System or the Date.
+taken by the character you're playing -- be it the System character or the 
+Prospect character.
 You can describe what your character says and does and then play a
 card, or you can play the card first and then declare what happened.
 
@@ -38,16 +39,17 @@ act in a *flirty and coy, or evasive and guarded* manner.
 
 ## You *Must* Play If You Can
 
-If you're the **Date** or the **System** and you have at least one card 
-you can play from your hand, you must play one of those cards on your
-turn.
+If you're the **Date** or a **Fronterm** and you have at least one card 
+you can play from your hand, you must play one of those cards on your turn.
+[This could mean you might end the date even if you don't want to.]{.dera}
+[That's how dating goes sometimes ... sigh]{.ora}
 
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.
 
 ## At a Loss for Words
 
-If you're the **Date** or the **System** and you *can't* legally play
+If you're the **Date** or a **Fronter** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
 **at a loss for words**. You can describe how that character is taken
 aback.
@@ -72,7 +74,7 @@ but you can decide the details of the event as you please.
 
 ## Responding to Outside Interference
 
-If you're the **Date** or the **System** and the player in the role of the
+If you're the **Date** or a **Fronter** and the player in the role of the
 Outside Interference plays a card on a card you just played, you have the 
 option to play a card in response, following your normal rules playing cards.
 
@@ -86,14 +88,35 @@ Interference; if you don't wish to, even if you have a card you
 ## Drawing New Cards
 
 Normally, you get to draw a new card after you play one.
-However, if the Outside Interference plays a card, you don't draw
-a card until after you've either responded or passed on responding.
+However, if the Outside Interference plays a card, neither you nor
+the Outside Interference draw a replacement card until
+after you've either responded or passed on responding.
 
 ## Ending a Date
 
-After someone plays a card onto one of the Date Status stacks, they should
+After someone plays a card onto one of the Status Stacks, they should
 check to see if a date-ending condition has happened -- either all of the
 **suits on the stack match**, or **all of the ranks match.**
 
 When that happens, the date moves to the resolution phase.
+
+These are examples of Status Stacks that end the date:
+
+:::: cardstacks ::::
+[]{.card .queen .h}
+[]{.card .four .h}
+[]{.card .ace .h}
+::::::::::::::::::::
+
+:::: cardstacks ::::::::
+[]{.card .ten .s}
+[]{.card .seven .s}
+[]{.card .deuce .s}
+::::::::::::::::::::::::
+
+:::::: cardstacks ::::::
+[]{.card .six .c}
+[]{.card .six .d}
+[]{.card .six .h}
+::::::::::::::::::::::::
 

@@ -831,6 +831,98 @@ one person with multiple personalities. Or a troupe putting on a show of singlet
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
 
+## Glossary of Game Terms
+
+Before we dive into game mechanics, these are the terms used in the game.
+
+Player
+~   This means what you think it means -- one of you who are reading this
+    and, hopefully, playing the game at some point. There are no 
+    gamemasters in this game, only players.
+
+The System
+~   A fictional character created by all the players and played jointly between
+    all of them. This character is a plural system, and has been set up
+    on a date by a friend.
+
+Headmates
+~   One of the members of the System's plural system. While there are as
+    many headmates as there are players, a headmate is *not* tied to one
+    player as "their" character.
+
+Date Night
+~   This is the actual event of the blind date between the System and the
+    Date character. It doesn't have to take place at night; you can have
+    it happen at any time. 
+    When Date Night occurs, the Prospect character is created (or carries over
+    from a previous date), and the roles are assigned.
+
+The Prospect
+~   For any given Date Night, this is the fictional character the System
+    has been set up with for a blind date. The Prospect has their own desires
+    and personality, separate from those of the System.
+
+Roles
+~   For Date Night, there are three roles: **The Date**, **The Fronters**,
+    and **The Outside Interference**. These change between dates, and may
+    change during a date as well. Roles are determined randomly at the
+    start of Date Night.
+
+The Date
+~   The player who is currently controlling the fictional actions of the
+    Prospect character, playing their cards to help describe how the
+    Prospect acts toward, and reacts to, the System.
+
+The Fronter(s)
+~   The player or players (for a game with 4+ players) who are actively
+    controlling the System by playing cards. With more than one Fronter,
+    they alternate turns between each other. The Fronters roleplay the
+    System as whichever Headmate is fronting at the time, which can
+    change during the game.
+
+The Outside Interference
+~   The player who is controlling "the rest of the world", and introducing
+    elements into the fictional Date Night to complicate the potential
+    love connection between the System character and the Date character.
+
+The Date Deck
+~   The deck of cards from which both the Date and the Outside Interference
+    draw their cards.
+
+The System Deck
+~   The deck of cards from which all the Fronters draw their cards. It's
+    a good idea to a System Deck with a different card back than the 
+    Date Deck, as the two will get mixed together frequently.
+
+The Date Status Stacks
+~   A row of three cards, situated between the players, upon which they
+    play their cards. Only the top card matters, so the Status Stacks
+    don't need to be laid out like solitaire game -- just as three 
+    distinct piles.
+
+End of the Date
+~   When all of the cards on the Status Stack show the same suit or the
+    same rank, it's time to wrap up that Date Night. The cards determine
+    if the System and the Date share an intimate moment, want to date
+    again, both, or neither.
+
+Achieving Intimacy
+~   One of the two main outcomes of Date Night. "Intimacy" is a deliberately
+    broad term, allowing this to include everything from physical sex to
+    a long night talking about feelings, at the option of the players.
+
+Getting a Second Date
+~   The other main outcome of Date Night. The Prospect character is willing to
+    see the System again, and the players collectively can decide if they'd
+    like to do that, or go on a date with someone else.
+
+Aftercare
+~   This is another broad term, adapted from the TTRPG Safety Toolkit.
+    It's a recognition that even dating vicariously through a fictional
+    character can stir up emotions, and players may need time to process
+    those.
+
+
 ## Using the Cards {#game}
 
 :::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
@@ -845,7 +937,7 @@ in the roles of the Date and the Outside Interference.
 The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
 
-At the beginning of each date, shuffle each deck and then lay out a row of
+At the beginning of each Date Night, shuffle each deck and then lay out a row of
 three cards on the table, from the top of the Date's Deck.
 These are known as the ***Date Status stacks***. 
 During the course of the date,
@@ -917,17 +1009,17 @@ from the top of System's Deck.
 
 Each role has different rules for drawing and playing cards.
 
-#### The System
+#### The Fronters
 
-If you're the System, you draw your cards from the *System's Deck*. You can
-play a given card on a Date Status stack only if the card ***matches***
+If you're one of the Fronters, you draw your cards from the *System's Deck*. You can
+play a given card on a Status Stack only if the card ***matches***
 either the suit or rank of the top card on that stack.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, at least two players will share the System 
 role, and you alternate turns.
 
-For example, if the Date Status stacks look like this ...
+For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
 [Ten of Diamonds]{.card .d .ten}
@@ -964,15 +1056,15 @@ match either the suit or the rank of a stack.]{.dera}
 #### The Date {.breakbefore}
 
 If you're the Date, you draw your cards from the *Date's Deck*. You can
-play a given card on a Date Status stack only if the card ***does not***
+play a given card on a Status Stack only if the card ***does not***
 match the suit or rank of the top card on that stack. This is the opposite
-of the rules for the System role.
+of the rules for the Fronter role.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, you will be taking turns more
 frequently than the players in the System role.
 
-For example, if the Date Status stacks look like this ...
+For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
 []{.card .d .ten}
@@ -1008,15 +1100,15 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 #### The Outside Interference {.breakbefore}
 
-If you're the Outside Interference, you draw your cards from the *Date's Deck*. You can
-play a given card on a Date Status stack only if the card's 
+If you're the Outside Interference, you draw your cards from the *Date's Deck*. 
+You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
 You can play a card **immediately after any other player** plays a card to a stack.
-When you do, instead of providing dialog, you introduce a complication into the
-scenario determined by the card you played.
+When you do, instead of providing dialog for a character, you introduce a 
+complication into the scenario determined by the card you played.
 
-For example, if the Date Status stacks look like this, with the last-played card shown
+For example, if the Status Stacks look like this, with the last-played card shown
 in red ...
 
 ::::::: cardstacks :::::::::
@@ -1060,10 +1152,11 @@ than the other roles.]{.dera}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 When it's your turn, you can *play* a card by laying it on one of the three
-Date Status stacks.
+Status Stacks.
 
 Playing a card is tied to dialogue or action
-taken by the character you're playing -- be it the System or the Date.
+taken by the character you're playing -- be it the System character or the 
+Prospect character.
 You can describe what your character says and does and then play a
 card, or you can play the card first and then declare what happened.
 
@@ -1093,16 +1186,17 @@ act in a *flirty and coy, or evasive and guarded* manner.
 
 #### You *Must* Play If You Can
 
-If you're the **Date** or the **System** and you have at least one card 
-you can play from your hand, you must play one of those cards on your
-turn.
+If you're the **Date** or a **Fronterm** and you have at least one card 
+you can play from your hand, you must play one of those cards on your turn.
+[This could mean you might end the date even if you don't want to.]{.dera}
+[That's how dating goes sometimes ... sigh]{.ora}
 
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.
 
 #### At a Loss for Words
 
-If you're the **Date** or the **System** and you *can't* legally play
+If you're the **Date** or a **Fronter** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
 **at a loss for words**. You can describe how that character is taken
 aback.
@@ -1127,7 +1221,7 @@ but you can decide the details of the event as you please.
 
 #### Responding to Outside Interference
 
-If you're the **Date** or the **System** and the player in the role of the
+If you're the **Date** or a **Fronter** and the player in the role of the
 Outside Interference plays a card on a card you just played, you have the 
 option to play a card in response, following your normal rules playing cards.
 
@@ -1141,19 +1235,46 @@ Interference; if you don't wish to, even if you have a card you
 #### Drawing New Cards
 
 Normally, you get to draw a new card after you play one.
-However, if the Outside Interference plays a card, you don't draw
-a card until after you've either responded or passed on responding.
+However, if the Outside Interference plays a card, neither you nor
+the Outside Interference draw a replacement card until
+after you've either responded or passed on responding.
 
 #### Ending a Date
 
-After someone plays a card onto one of the Date Status stacks, they should
+After someone plays a card onto one of the Status Stacks, they should
 check to see if a date-ending condition has happened -- either all of the
 **suits on the stack match**, or **all of the ranks match.**
 
 When that happens, the date moves to the resolution phase.
 
+These are examples of Status Stacks that end the date:
+
+:::: cardstacks ::::
+[]{.card .queen .h}
+[]{.card .four .h}
+[]{.card .ace .h}
+::::::::::::::::::::
+
+:::: cardstacks ::::::::
+[]{.card .ten .s}
+[]{.card .seven .s}
+[]{.card .deuce .s}
+::::::::::::::::::::::::
+
+:::::: cardstacks ::::::
+[]{.card .six .c}
+[]{.card .six .d}
+[]{.card .six .h}
+::::::::::::::::::::::::
+
 
 ## Part 1: The Set-Up {#setup}
+
+Now that you know how the cards work, we're going to tell you how 
+the game is set up.
+["the set-up" has a double meaning, see, because not only is it setting
+up the game, but the whole conceit of the game is that it's a blind
+date that you were *set up* on]{.ora}
 
 []{.lorem}
 

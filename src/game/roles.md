@@ -2,17 +2,17 @@
 
 Each role has different rules for drawing and playing cards.
 
-## The System
+## The Fronters
 
-If you're the System, you draw your cards from the *System's Deck*. You can
-play a given card on a Date Status stack only if the card ***matches***
+If you're one of the Fronters, you draw your cards from the *System's Deck*. You can
+play a given card on a Status Stack only if the card ***matches***
 either the suit or rank of the top card on that stack.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, at least two players will share the System 
 role, and you alternate turns.
 
-For example, if the Date Status stacks look like this ...
+For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
 [Ten of Diamonds]{.card .d .ten}
@@ -49,15 +49,15 @@ match either the suit or the rank of a stack.]{.dera}
 ## The Date {.breakbefore}
 
 If you're the Date, you draw your cards from the *Date's Deck*. You can
-play a given card on a Date Status stack only if the card ***does not***
+play a given card on a Status Stack only if the card ***does not***
 match the suit or rank of the top card on that stack. This is the opposite
-of the rules for the System role.
+of the rules for the Fronter role.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, you will be taking turns more
 frequently than the players in the System role.
 
-For example, if the Date Status stacks look like this ...
+For example, if the Status Stacks look like this ...
 
 ::::::: cardstacks :::::::::
 []{.card .d .ten}
@@ -93,15 +93,15 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 ## The Outside Interference {.breakbefore}
 
-If you're the Outside Interference, you draw your cards from the *Date's Deck*. You can
-play a given card on a Date Status stack only if the card's 
+If you're the Outside Interference, you draw your cards from the *Date's Deck*. 
+You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
 You can play a card **immediately after any other player** plays a card to a stack.
-When you do, instead of providing dialog, you introduce a complication into the
-scenario determined by the card you played.
+When you do, instead of providing dialog for a character, you introduce a 
+complication into the scenario determined by the card you played.
 
-For example, if the Date Status stacks look like this, with the last-played card shown
+For example, if the Status Stacks look like this, with the last-played card shown
 in red ...
 
 ::::::: cardstacks :::::::::
