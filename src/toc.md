@@ -2,7 +2,7 @@
 [Table of Contents]{.sidehead}
 
 - <a href="#what-you-need"></a>
-- <a href="#a-system-introduction"></a>
+- <a href="#our-system"></a>
 - <a href="#credits"></a>
 - <a href="#safety"></a>
   - <a href="#what-are-safety-tools"></a>
@@ -16,6 +16,7 @@
   - <a href="#more-myths"></a>
   - <a href="#more-what"></a>
   - <a href="#more-etiquette"></a>
+- <a href="#glossary"></a>
 - <a href="#game"></a>
   - <a href="#game-choosing"></a>
   - <a href="#game-card"></a>
@@ -29,14 +30,19 @@
     - <a href="#setup-gender"></a>
     - <a href="#setup-neuro"></a>
   - <a href="#setup-headmates"></a>
+  - <a href="#setup-scene"></a>
+  - <a href="#setup-prospect"></a>
+    - <a href="#setup-prospect-name"></a>
+    - <a href="#setup-prospect-pronouns"></a>
+    - <a href="#setup-prospect-cards"></a>
+    - <a href="#setup-prospect-qualities"></a>
 - <a href="#date"></a>
-  - <a href="#date-scene"></a>
-  - <a href="#date-create"></a>
-    - <a href="#date-create-cards"></a>
-  - <a href="#date-date"></a>
-  - <a href="#date-fronter"></a>
+  - <a href="#date-start"></a>
+    - <a href="#date-turn-order"></a>
+  - <a href="#date-role-date"></a>
+  - <a href="#date-role-fronter"></a>
     - <a href="#date-switch"></a>
-  - <a href="#date-outside"></a>
+  - <a href="#date-role-outside"></a>
     - <a href="#date-npcs"></a>
     - <a href="#date-recurring"></a>
     - <a href="#date-maybe"></a>
@@ -46,6 +52,7 @@
     - <a href="#date-second"></a>
     - <a href="#date-ghosted"></a>
   - <a href="#date-next"></a>
+    - <a href="#date-next-new"></a>
     - <a href="#date-next-same"></a>
     - <a href="#date-next-steady"></a>
 - <a href="#wrap"></a>

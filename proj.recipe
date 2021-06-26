@@ -25,7 +25,11 @@ setup/game_safely
 setup/setting_theme
 setup/create_system
 setup/create_headmates
-setup/prospect/*
+setup/prospect/
+setup/prospect/prospect_name
+setup/prospect/prospect_pronouns
+setup/prospect/prospect_cards
+setup/prospect/prospect_qualities
 setup/assign_roles
 setup/set_the_scene
 date_night/

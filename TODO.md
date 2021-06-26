@@ -12,7 +12,7 @@ As of 2021-06-25:
 [ ] The Set-Up
   [x] Game Safely
     [x] The meaning of intimacy
-  [ ] Setting and Themes
+  [x] Setting and Themes
   [ ] Creating the System
     [ ] Game Assumptions
     [ ] Gender and Sexuality
@@ -56,8 +56,8 @@ As of 2021-06-25:
   [x] Singlet on Singlet Action
   [x] Queerplatonic Relationships
 [x] Plural Resources
-[ ] A Plural Lexicon 
-  [ ] Footnotes
+[x] A Plural Lexicon 
+  [x] Footnotes
 [ ] Character Sheets
   [ ] System
   [ ] Outside Interference

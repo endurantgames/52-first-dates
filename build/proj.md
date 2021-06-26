@@ -26,7 +26,7 @@ the players agree they've enjoyed playing and are ready to stop.
 [Table of Contents]{.sidehead}
 
 - <a href="#what-you-need"></a>
-- <a href="#a-system-introduction"></a>
+- <a href="#our-system"></a>
 - <a href="#credits"></a>
 - <a href="#safety"></a>
   - <a href="#what-are-safety-tools"></a>
@@ -40,6 +40,7 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#more-myths"></a>
   - <a href="#more-what"></a>
   - <a href="#more-etiquette"></a>
+- <a href="#glossary"></a>
 - <a href="#game"></a>
   - <a href="#game-choosing"></a>
   - <a href="#game-card"></a>
@@ -53,14 +54,19 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#setup-gender"></a>
     - <a href="#setup-neuro"></a>
   - <a href="#setup-headmates"></a>
+  - <a href="#setup-scene"></a>
+  - <a href="#setup-prospect"></a>
+    - <a href="#setup-prospect-name"></a>
+    - <a href="#setup-prospect-pronouns"></a>
+    - <a href="#setup-prospect-cards"></a>
+    - <a href="#setup-prospect-qualities"></a>
 - <a href="#date"></a>
-  - <a href="#date-scene"></a>
-  - <a href="#date-create"></a>
-    - <a href="#date-create-cards"></a>
-  - <a href="#date-date"></a>
-  - <a href="#date-fronter"></a>
+  - <a href="#date-start"></a>
+    - <a href="#date-turn-order"></a>
+  - <a href="#date-role-date"></a>
+  - <a href="#date-role-fronter"></a>
     - <a href="#date-switch"></a>
-  - <a href="#date-outside"></a>
+  - <a href="#date-role-outside"></a>
     - <a href="#date-npcs"></a>
     - <a href="#date-recurring"></a>
     - <a href="#date-maybe"></a>
@@ -70,6 +76,7 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#date-second"></a>
     - <a href="#date-ghosted"></a>
   - <a href="#date-next"></a>
+    - <a href="#date-next-new"></a>
     - <a href="#date-next-same"></a>
     - <a href="#date-next-steady"></a>
 - <a href="#wrap"></a>
@@ -132,6 +139,7 @@ have long been a part of the hobby, to varying degrees of success. Romance/datin
 sim tabletop RPGs aren't as common, but they're out there -- most notably by
 [Emily Care Boss](http://www.blackgreengames.com/) in her
 [*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
+<a name="anchor-ecb"></a>
 
 Games where many players run the same character are even more rare; and I don't
 know of any that address it from the standpoint of a plural, shared character.
@@ -143,7 +151,7 @@ say with those words.
 
 Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
 
-## A System Introduction {.nobreak}
+## A System Introduction {#our-system .nobreak}
 
 Like many tabletop roleplaying games, []{.gamename} is a collaboration between
 a group of people.  Unlike many, that group are all in the same body.
@@ -1482,66 +1490,110 @@ Once you've created the System, you need to create Headmates.
 
 []{.lorem}
 
-#### Creating the Date Character {#date-create}
+#### The Prospect's Name {#setup-prospect-name}
 
 []{.lorem}
 
-##### Personality Cards {#date-create-cards}
+:::::::::::: namelist :::::::::::::::::::::::::::::::::
+ Card             Name
+------            ---------------
+A []{.clubs     } Ari
+2 []{.clubs     } Blu
+3 []{.clubs     } Page
+4 []{.clubs     } Taylor
+5 []{.clubs     } Bee
+6 []{.clubs     } Nova
+7 []{.clubs     } Kris
+8 []{.clubs     } Fox
+9 []{.clubs     } River
+10 []{.clubs    } Crow
+J []{.clubs     } Leaf
+Q []{.clubs     } Noel
+K []{.clubs     } Sparrow
+A []{.diamonds  } Aeden
+2 []{.diamonds  } Rook
+3 []{.diamonds  } Jae
+4 []{.diamonds  } Wren
+5 []{.diamonds  } Landry
+6 []{.diamonds  } Rain
+7 []{.diamonds  } Kai
+8 []{.diamonds  } Ember
+9 []{.diamonds  } Clio
+10 []{.diamonds } Lynx
+J []{.diamonds  } Jan
+Q []{.diamonds  } Lumen
+K []{.diamonds  } Thyme
+A []{.hearts    } Avery
+2 []{.hearts    } Jordan
+3 []{.hearts    } Star
+4 []{.hearts    } Quinn
+5 []{.hearts    } Archer
+6 []{.hearts    } Milan
+7 []{.hearts    } Aspen
+8 []{.hearts    } Mint
+9 []{.hearts    } Zev
+10 []{.hearts   } Parker
+J []{.hearts    } Sky
+Q []{.hearts    } Riley
+K []{.hearts    } Alva
+A []{.spades    } Ash
+2 []{.spades    } Van
+3 []{.spades    } Roan
+4 []{.spades    } Finch
+5 []{.spades    } Kerry
+6 []{.spades    } Lark
+7 []{.spades    } Storm
+8 []{.spades    } Jalen
+9 []{.spades    } Kirby
+10 []{.spades   } Sage
+J []{.spades    } Harper
+Q []{.spades    } Rory
+K []{.spades    } Angel
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### The Prospect's Pronouns {#setup-prospect-pronouns}
 
 []{.lorem}
 
+ Cards                        Pronouns
+-------                       ---------
+[]{.hearts   } []{.hearts   } he/him
+[]{.hearts   } []{.spades   } any pronouns
+[]{.hearts   } []{.diamonds } he/him + they/them
+[]{.hearts   } []{.clubs    } he/him + chart
+[]{.spades   } []{.hearts   } any pronouns
+[]{.spades   } []{.spades   } she/her
+[]{.spades   } []{.diamonds } she/her + they/them
+[]{.spades   } []{.clubs    } she/her + chart
+[]{.diamonds } []{.hearts   } they/them + he/him
+[]{.diamonds } []{.spades   } they/them + she/her
+[]{.diamonds } []{.diamonds } they/them
+[]{.diamonds } []{.clubs    } theythem + chart
+[]{.clubs    } []{.hearts   } chart + he
+[]{.clubs    } []{.spades   } chart + she
+[]{.clubs    } []{.diamonds } chart + they
+[]{.clubs    } []{.clubs    } chart + chart
 
-#### The Date
-
-
-1. Their 2 hidden cards -> personality traits
-2. Name
-3. Pronouns
-4. Appearance - one per player
-
-Pronouns:
-
-
-H - he/him
-S - she/her
-D - they/them
-C - neopronouns
-
-
-H, H -> he/her
-H, S -> he/she
-H, D -> he/them
-H, C -> he/neo
-S, H -> she/he
-S, S -> she/her
-S, D -> she/them
-S, C -> she/neo
-D, H -> them/he
-D, S -> them/she
-D, D -> them/them
-D, C -> them/neo
-C, H -> neo/he
-C, S -> neo/she
-C, D -> neo/they
-C, C -> neo/neo
-
-Neopronouns:
-
-A - ae/aer
-2 - ze/hir
-3 - xe/xem
-4 - ey/em
-5 - zie/zim
-6 - ze/zir
-7 - ve/vir
-8 - it/its
-9 - per/per
-10 - 
-J - fae/faer
-Q - 
-K - no pronouns
+ Card          Pronouns
+------         ---------
+A []{.clubs  } ae/aer/aers/aerself
+2 []{.clubs  } ze/hir/hirs/hirself
+3 []{.clubs  } xe/xem/xyr/xyrself
+4 []{.clubs  } ey/em/eir/eirself
+5 []{.clubs  } zie/zim/zir/zirself
+6 []{.clubs  } per/pers/perself
+7 []{.clubs  } ve/ver/vis/verself
+8 []{.clubs  } it/its/itself
+9 []{.clubs  } sie/hir/hirself
+10 []{.clubs } e/em/eir/emself
+J []{.clubs  } fae/faer/faerself
+Q []{.clubs  } ne/nem/nirs/nemself
+K []{.clubs  } no pronouns
 
 
+#### The Prospect's Personality Traits {#setup-prospect-cards}
+
+[]{.lorem}
 
  Card                Personality Trait
 -----------------    -------------------------------------------
@@ -1601,96 +1653,9 @@ J []{.spades}
 K []{.spades}         
 Q []{.spades}         
 
- Card             Name
-------            ---------------
-A []{.clubs     } Ari
-2 []{.clubs     } Blu
-3 []{.clubs     } Page
-4 []{.clubs     } Taylor
-5 []{.clubs     } Bee
-6 []{.clubs     } Nova
-7 []{.clubs     } Kris
-8 []{.clubs     } Fox
-9 []{.clubs     } River
-10 []{.clubs    } Crow
-J []{.clubs     } Leaf
-Q []{.clubs     } Noel
-K []{.clubs     } Sparrow
-A []{.diamonds  } Aeden
-2 []{.diamonds  } Rook
-3 []{.diamonds  } Jae
-4 []{.diamonds  } Wren
-5 []{.diamonds  } Landry
-6 []{.diamonds  } Rain
-7 []{.diamonds  } Kai
-8 []{.diamonds  } Ember
-9 []{.diamonds  } Clio
-10 []{.diamonds } Lynx
-J []{.diamonds  } Jan
-Q []{.diamonds  } Lumen
-K []{.diamonds  } Thyme
-A []{.hearts    } Avery
-2 []{.hearts    } Jordan
-3 []{.hearts    } Star
-4 []{.hearts    } Quinn
-5 []{.hearts    } Archer
-6 []{.hearts    } Milan
-7 []{.hearts    } Aspen
-8 []{.hearts    } Mint
-9 []{.hearts    } Zev
-10 []{.hearts   } Parker
-J []{.hearts    } Sky
-Q []{.hearts    } Riley
-K []{.hearts    } Alva
-A []{.spades    } Ash
-2 []{.spades    } Van
-3 []{.spades    } Roan
-4 []{.spades    } Finch
-5 []{.spades    } Kerry
-6 []{.spades    } Lark
-7 []{.spades    } Storm
-8 []{.spades    } Jalen
-9 []{.spades    } Kirby
-10 []{.spades   } Sage
-J []{.spades    } Harper
-Q []{.spades    } Rory
-K []{.spades    } Angel
+#### Is This an Ideal Partner? {#setup-prospect-qualities}
 
- 
- Cards                        Pronouns
--------                       ---------
-[]{.hearts   } []{.hearts   } he/him
-[]{.hearts   } []{.spades   } any pronouns
-[]{.hearts   } []{.diamonds } he/him + they/them
-[]{.hearts   } []{.clubs    } he/him + chart
-[]{.spades   } []{.hearts   } any pronouns
-[]{.spades   } []{.spades   } she/her
-[]{.spades   } []{.diamonds } she/her + they/them
-[]{.spades   } []{.clubs    } she/her + chart
-[]{.diamonds } []{.hearts   } they/them + he/him
-[]{.diamonds } []{.spades   } they/them + she/her
-[]{.diamonds } []{.diamonds } they/them
-[]{.diamonds } []{.clubs    } theythem + chart
-[]{.clubs    } []{.hearts   } chart + he
-[]{.clubs    } []{.spades   } chart + she
-[]{.clubs    } []{.diamonds } chart + they
-[]{.clubs    } []{.clubs    } chart + chart
-
- Card          Pronouns
-------         ---------
-A []{.clubs  } ae/aer/aers/aerself
-2 []{.clubs  } ze/hir/hirs/hirself
-3 []{.clubs  } xe/xem/xyr/xyrself
-4 []{.clubs  } ey/em/eir/eirself
-5 []{.clubs  } zie/zim/zir/zirself
-6 []{.clubs  } per/pers/perself
-7 []{.clubs  } ve/ver/vis/verself
-8 []{.clubs  } it/its/itself
-9 []{.clubs  } sie/hir/hirself
-10 []{.clubs } e/em/eir/emself
-J []{.clubs  } fae/faer/faerself
-Q []{.clubs  } ne/nem/nirs/nemself
-K []{.clubs  } no pronouns
+[]{.lorem}
 
 
 ### Determining Roles {#date-roles}
@@ -1767,44 +1732,6 @@ act in response to cards played by the other players.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
-
-
-### Turn Order {#game-order}
-
-- **Date player plays a card**
-  - Outside Opposition may play a card
-  - Date draws a card
-- **System player 1 plays a card**
-  - Outside Opposition may play a card
-  - System player one draws a card
-- **Date player plays a card** *4+ players only*
-  - Outside Opposition may play a card
-  - Date draws a card
-- **System player 2 plays a card** *4+ players only*
-  - Outside Opposition may play a card
-  - System player two draws a card
-- **Date player plays a card** *5+ players only*
-  - Outside Opposition may play a card
-  - Date draws a card
-- **System player 3 plays a card** *6+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
-- **Date player plays a card**
-  - Outside Opposition may play a card
-  - Date draws a card
-- **System player 4 plays a card** *7+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
-- **Back to start**
-
-During the Date Night part of the game, the Date character and the System 
-character alternate turns back and forth.
-
-If you have more than three players, two or more players will be sharing the
-System character, and will take turns in alternating order.
-
-The Outside Opposition player doesn't have a turn in the turn order, but can
-act in response to cards played by the other players.
 
 
 ### Playing as the Date {#date-date .breakbefore}
@@ -2026,15 +1953,64 @@ This section presents alternate rules for playing []{.gamename] in different way
 ![There isn't a variant for using a ouija board to play 52 Second Dates ... yet.](art/spectrum/ouija.jpg){.bottom}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+(The lorem-ipsums here indicate that further work is needed to flesh out the rules
+for these variants.)
+
 ### System to System {#variant-system}
+
+One of the more interesting exercises would be playing this as a game of
+two systems going on a date. We haven't tried it, and to be honest, it could
+get somewhat overwhelming.
+
+As both systems would be effectively protagonized by the game, the idea of
+multiple dates with several people should probably be set aside -- under
+these game mechanics, plural systems take considerably more time to create
+than a one-off singlet character.
+
+The exact size of each system, and how members of those systems are created
+by the players, can get tricky. Part of the reason for the group creation
+of headmates was to give all players a sense of investiture -- but that
+might not work if you're simultaneously building two sets of headmates.
+
+Ah, Aura wishes to jump in. I defer to her.
+[that was Dera droning on and on by the way]{.ora}
+
+So -- here's what I []{.ora} think! I think if there are two groups playing
+[]{.gamename} at the same time, it would be really cute and awesome if
+the groups came together and played out a date between the two systems!
+[Hm. That *could* work.
+<span class="ora">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
+
+And they *FELL IN LOOOOOOOOOOOOVE* ...
 
 []{.lorem}
 
+
 ### Singlet on Singlet Action {#variant-singlet}
+
+You don't *have* to make this a game about plurality. It could just be a platform for
+telling stories about singlet couples that fall in love.
+
+It would probably work best as a three-player game.
+In such a case, two of the players acts in both the Date and "Fronter" roles simultaneously,
+while a third plays the Outside Interference.
+
+The game *would* lose something in translation, because a key part of []{.gamename} is
+about group creation of the main characters ... but if you're looking for a dating sim
+and you haven't followed our [](#anchor-ecb){.page} advice to check out 
+Emily Care Boss's *Romance Trilogy* -- it might work. Maybe!
 
 []{.lorem}
 
 ### Queerplatonic Relationships {#variant-platonic}
+
+[]{.gamename} assumes that the date is meant to lead a potential to romantic and/or 
+sexual relationship.
+
+But what if it's just a story about friendship? 
+
+This variant looks at using the same rules to show a budding friendship between a 
+plural system and a singlet friend.
 
 []{.lorem}
 
@@ -2074,238 +2050,243 @@ Those links, and other useful resources, are presented here for easy reference.
 These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from
 [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
+As always, our own notes are included in the footnotes, marked by 
+our identifying emoji ([](#our-system){.page}).
 
 ::::::::::::::::::::::::::::: lexicon ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-- **Amnesiac System**
-  An amnesiac system is one with limited or no memory sharing. Headmates don't 
-  remember the time while other headmates are fronting and may experience this 
-  gap as time loss.
+Blending
+~   Blending is when the boundary between headmates becomes blurred, and it can be hard 
+    to tell them apart, or even who is present. This can happen to the active fronters, 
+    or to anyone else who is co-conscious at the time.
+    [Our own median system does this a lot; part of why we didn't recognize ourself
+     as a system was because we blend from to the other and don't even notice that
+     our fronter has changed]{.ora}
 
-- **Blending**
-  Blending is when the boundary between headmates becomes blurred, and it can be hard 
-  to tell them apart, or even who is present. This can happen to the active fronters, 
-  or to anyone else who is co-conscious at the time.
+Blurian
+~   Blurian refers to easier or complete memory sharing, having a lack of 
+    significant amnesic barriers. 
+    Blurian is usually paired up with the terms median or multiple, in 
+    contrast to partitionary, to indicate both the distinction of system 
+    members and memory sharing.
+    [For game purposes, we assume the protagonist System to be blurian.]{.dera}
 
-- **Blurian**
-  Blurian refers to easier or complete memory sharing, having a lack of 
-  significant amnesic barriers. This term is usually paired with other terms 
-  to describe a system, and itself has no correlation to the identities 
-  within the given system.
+Co-Conscious 
+~   Co-conscious (also called "co-aware") refers to when 
+    multiple headmates are active at once. This is distinct from co-fronting in 
+    that these headmates aren't necessarily fronting, they may be in headspace 
+    or otherwise experiencing the outside world such as through internal communication.
 
-  Blurian is usually paired up with the terms median or multiple, in 
-  contrast to partitionary, to indicate both the distinction of system 
-  members and memory sharing.
+Co-Fronting
+~   Co-fronting is when two or more headmates are fronting. This can result in 
+    them having to coordinate actions, or for their personalities to blend together.
 
-- **Co-Conscious** Co-conscious (also called "co-aware") refers to when 
-  multiple headmates are active at once. This is distinct from co-fronting in 
-  that these headmates aren't necessarily fronting, they may be in headspace 
-  or otherwise experiencing the outside world such as through internal communication.
+Core
+~   The core is a headmate with a direct connection to the body's pre-plural self. 
+    Not every system has one, and not every system had a point at which they were 
+    not plural.  The core often inherits the personality, identity, and/or 
+    memories of the pre-plural self.
 
-- **Co-Fronting**
-  Co-fronting is when two or more headmates are fronting. This can result in 
-  them having to coordinate actions, or for their personalities to blend together.
+Endogenic
+~   Endogenic is an umbrella term that refers to all systems that are not completely 
+    traumagenic in origin, it encompasses many experiences. It is often seen as the 
+    opposite to the pathologized views of plurality, although can exist in harmony, 
+    even within the same system.
 
-- **Core**
-  The core is a headmate with a direct connection to the body's pre-plural self. 
-  Not every system has one, and not every system had a point at which they were 
-  not plural.  The core often inherits the personality, identity, and/or 
-  memories of the pre-plural self.
+Fronting
+~   Fronting is an activity performed by one or more headmates, where they 
+    take control of the body and handle daily activities and communication. 
+    This can often include allowing other headmates to speak via internal 
+    communication.
 
-- **Endogenic**
-  Endogenic is an umbrella term that refers to all systems that are not completely 
-  traumagenic in origin, it encompasses many experiences. It is often seen as the 
-  opposite to the pathologized views of plurality, although can exist in harmony, 
-  even within the same system.
+Frontstuck
+~   A headmate is frontstuck when they are in front and unable to leave.
+    More than one headmate may be stuck at once.
 
-- **Fronting**
-  Fronting is an activity performed by one or more headmates, where they 
-  take control of the body and handle daily activities and communication. 
-  This can often include allowing other headmates to speak via internal 
-  communication.
-  In some cases, it's possible for no one to be fronting, in which case 
-  some type of default behavior takes over the body. This can surface in 
-  multiple ways, such as becoming unresponsive.
+Front Trigger
+~   Front triggers are the people, places, things, ideas, and scenarios that may 
+    cause a system member to front or be drawn near the front.
+    These can be both negative and positive.
 
-- **Frontstuck**
-  A headmate is frontstuck when they are in front and unable to leave.
-  More than one headmate may be stuck at once.
+Forced Fronting
+~   Forced fronting is when one headmate takes front against the will of others 
+    in the system.
+    This is not the same as frontstuck (c.f.) as the headmate is not unable to 
+    leave front; they simply don't want to.
 
-- **Front Trigger**
-  Front triggers are the people, places, things, ideas, and scenarios that may 
-  cause a system member to front or be drawn near the front.
-  These can be both negative and positive.
+Headmate
+~   A headmate is a singular person or entity in a plural system or collective. 
+    They can be clearly separated (like in DID or OSDD-1b, called a multiple or 
+    partitionary system) or more blurry and fluid (like in median or OSDD-1a).
 
-- **Forced Fronting**
-  Forced fronting is when one headmate takes front against the will of others 
-  in the system.
-  This is not the same as frontstuck as the headmate is not unable to leave front; 
-  they simply don't want to.
+Headspace
+~   A headspace (also known as inner world or wonderland) is a place that 
+    members of a system can visit or inhabit, where they can talk to other headmates.
+    Not every system has one, but many do. It is also not unique to systems. 
+    Singlets may have a headspace as well.
+    [We don't have a headspace. We tried making one as a pirate ship, but that didn't
+     work out.]{.dera}
 
-- **Headmate**
-  A headmate is a singular person or entity in a plural system or collective. 
-  They can be clearly separated (like in DID or OSDD-1b, called a multiple or 
-  partitionary system) or more blurry and fluid (like in median or OSDD-1a).
+Host
+~   A host is the headmate who is most active, most responsible for day-to-day 
+    activities, or otherwise is fronting most often.
+    Not all systems have hosts, and some may have a rotating team for the role. 
 
-- **Headspace**
-  A headspace (also known as inner world or wonderland) is a place that 
-  members of a system can visit or inhabit, where they can talk to other headmates.
-  Not every system has one, but many do. It is also not unique to systems. 
-  Singlets may have a headspace as well.
+Introject
+~   Introjects are headmates who have an original source that their personality, 
+    identity, and memories may be based partially or fully on. They can join a 
+    system for any number of reasons: having similar traumas to an individual, 
+    seeing strengths in the individual that the collective would benefit from, etc.
 
-- **Host**
-  A host is the headmate who is most active, most responsible for day-to-day 
-  activities, or otherwise is fronting most often.
-  Not all systems have hosts, and some may have a rotating team for the role. 
-  In addition, some do not like the term "host", and choose to use alternatives; 
-  specifically, outernaut.
+    The term can be considered medical terminology and as such may not be used by 
+    every system. 
 
-- **Introject**
-  Introjects are headmates who have an original source that their personality, 
-  identity, and memories may be based partially or fully on. They can join a 
-  system for any number of reasons: having similar traumas to an individual, 
-  seeing strengths in the individual that the collective would benefit from, etc.
+Little
+~   A little is a headmate that behaves or otherwise feels like they are a young age. 
+    This often approximately caps at age twelve, but may vary personally between 
+    systems based on their body's age.
+    [We decided that having headmates who are littles actively participate in a
+     dating sim game was ... not a great idea. So if the System has any littles
+     in it, we consider them "offscreen" during the game.]{.carline}
 
-  The term can be considered medical terminology and as such may not be used by 
-  every system. It should be checked first if a system is comfortable being 
-  referred to as such or not.
-
-- **Little**
-  A little is a headmate that behaves or otherwise feels like they are a young age. 
-  This often approximately caps at age twelve, but may vary personally between 
-  systems based on their body's age.
-
-- **Main**
-  The main is a headmate who is considered by the rest of the system to be one the 
-  main or central influences on the system. This doesn't necessarily mean they front 
-  often.  A main can be a leader, teacher, or another authoritative figure that has 
-  an influence over the system. They may also be someone that others draw energy from.
+Main
+~   The main is a headmate who is considered by the rest of the system to be one the 
+    main or central influences on the system.
+    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.ora}
+    This doesn't necessarily mean they front 
+    often.  A main can be a leader, teacher, or another authoritative figure that has 
+    an influence over the system. They may also be someone that others draw energy from.
 
 :::::::::::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::
 ![These are just a handful of the terms used by plural people to describe our experiences. Different systems, or even different members of the same systems, might use different terminology.](art/spectrum/newspaper.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-- **Median**
-  A median system (also called midcontinuum) is a system where members are not as 
-  distinct or separate from each other. It can be considered being somewhere 
-  between multiple and singlet.
+Median
+~   A median system (also called midcontinuum) is a system where members are not as 
+    distinct or separate from each other.
+    [This is what we are! a median system]{.ora}
+    It can be considered being somewhere 
+    between multiple and singlet.
 
-  Some are dependent on a single individual, or the dependence can be mutual 
-  in that there is no central individual. Some median systems feel more blurred 
-  between themselves. Others may also be based around a shared identity or kin.
+    Some are dependent on a single individual, or the dependence can be mutual 
+    in that there is no central individual. Some median systems feel more blurred 
+    between themselves. Others may also be based around a shared identity or kin.
 
-  The entities which inhabit a median system are known as "aspects" or "facets". 
-  Some median systems may identify as different archetypes. Despite being more 
-  fluid and similar, median systems can be very diverse.
+    Median is often used as opposed to multiple, where members in a multiple 
+    system are distinct.
 
-  Median is often used as opposed to multiple, where members in a multiple 
-  system are distinct.
+Memory Sharing
+~   Memory sharing is a system function whereby headmates can share their own 
+    memories with others in the same system.
+    This may happen automatically or may require deliberate action by headmates. 
+    Not all systems have memory sharing and those that do may have it to varying degrees.
+    [For the sake of the game, we decided that the System's members all have
+     shared memories.]{.dera}
 
-- **Memory Sharing**
-  Memory sharing is a system function whereby headmates can share their own 
-  memories with others in the same system.
-  This may happen automatically or may require deliberate action by headmates. 
-  Not all systems have memory sharing and those that do may have it to varying degrees.
+Mixed Origin 
+~   Mixed origin refers to a system that has multiple different 
+    system origins. This could be because their system formed from a combination of 
+    factors, or that not all of their headmates are of the same origin.
 
-- **Mixed Origin** Mixed origin refers to a system that has multiple different 
-  system origins. This could be because their system formed from a combination of 
-  factors, or that not all of their headmates are of the same origin.
+Multiple
+~   A multiple system is the state of being more than one entity in one 
+    physical body where the identites of headmates are more distinct.
+    The term is sometimes used as opposed to median, where distinction between 
+    system members is less distinct than with a multiple system.
 
-- **Multiple**
-  A multiple system is the state of being more than one entity in one 
-  physical body where the identites of headmates are more distinct.
-  The term is sometimes used as opposed to median, where distinction between 
-  system members is less distinct than with a multiple system.
+Parogenic
+~   Parogenic refers to systems or headmates that were created using thought-based 
+    or metaphysical means, usually deliberately.
+    Tulpamancy (c.f.) is a related concept, but the term is avoided by some systems 
+    due to its origins or other reasons. 
 
-- **Parogenic**
-  Parogenic refers to systems or headmates that were created using thought-based 
-  or metaphysical means, usually deliberately.
-  Tulpamancy is a related concept, but the term is avoided by some systems 
-  due to its origins or other reasons. Similarly, parogenic may be avoided by 
-  some systems in favor of tulpamancy/tulpagenic.
+Partitionary
+~   A partitionary system is one where the divisions between headmates are 
+    particularly solidly defined. This may include other attributes, like lack of 
+    memory sharing, lack of internal communication, or lack of co-consciousness 
+    and resulting time loss.
+    Systems may become more or less partitionary over time. It is also possible 
+    for different headmates to have different levels of partitioning from the 
+    rest of the system or subsystem.
+    [The assumption for the *game* is that the System is not overly partitionary,
+     so that players don't have to roleplay lack of memory and such.]{.dera}
 
-- **Partitionary**
-  A partitionary system is one where the divisions between headmates are 
-  particularly solidly defined. This may include other attributes, like lack of 
-  memory sharing, lack of internal communication, or lack of co-consciousness 
-  and resulting time loss.
-  Systems may become more or less partitionary over time. It is also possible 
-  for different headmates to have different levels of partitioning from the 
-  rest of the system or subsystem.
+Persecutor [We used to have a persecutor, but we worked some things out.]{.spin}
+~   A persecutor is a headmate who acts harmfully towards other system members, the 
+    body, or to others. This is usually out of a misguided attempt to protect the system. 
+    Persecutors often hold internalized trauma and act in reaction to it, 
+    and the harm they cause may be unintentional. This can include aligning with 
+    abusers, engaging in self-harm or suicidal behaviors, abusing drugs, lashing out, etc. 
 
-- **Persecutor**
-  A **persecutor** is a headmate who acts harmfully towards other system members, the 
-  body, or to others. This is usually out of a misguided attempt to protect the system. 
-  Persecutors often hold internalized trauma and act in reaction to it, 
-  and the harm they cause may be unintentional. This can include aligning with 
-  abusers, engaging in self-harm or suicidal behaviors, abusing drugs, lashing out, etc. 
+Plurality
+~   Plurality is the state of having multiple headmates collectively sharing a 
+    single body. Plural experiences are extremely diverse. 
+    Systems may be spiritual in nature or secular, median or partitionary, 
+    small systems or ones with thousands of headmates.
 
-- **Plurality**
-  Plurality is the state of having multiple headmates collectively sharing a 
-  single body. Plural experiences are extremely diverse. 
-  Systems may be spiritual in nature or secular, median or partitionary, 
-  small systems or ones with thousands of headmates.
+Pluralphobe
+~   A pluralphobe is someone, typically a singlet, who actively seeks to remove 
+    systems and open plurality from their lives, for any number of reasons.
 
-- **Pluralphobe**
-  A pluralphobe is someone, typically a singlet, who actively seeks to remove 
-  systems and open plurality from their lives, for any number of reasons.
+Protector[Valorie is a protector in our system.]{.spin}
+~   A protector is a headmate whose role is to protect other members of the system 
+    from external harm, traumatic memories, harmful members of the system, or other threats.
 
-- **Protector**
-  A **protector** is a headmate whose role is to protect other members of the system 
-  from external harm, traumatic memories, harmful members of the system, or other threats.
+Quoigenic 
+~   Quoigenic is an origin term that means the user does not want 
+    to share their origins, does not think it's relevant, or thinks it's 
+    the wrong question to ask.  It's derived from the French word "quoi", 
+    which approximately means "what".
 
-- **Quoigenic** Quoigenic is an origin term that means the user does not want 
-  to share their origins, does not think it's relevant, or thinks it's 
-  the wrong question to ask.  It's derived from the French word "quoi", 
-  which approximately means "what".
+Role[This isn't the same a "role" in the game sense.]{.dera}
+~   A role is the position a member takes within their system.
+    This can be something with a specific focus such as a protector or a gatekeeper, 
+    or more of a general purpose such as a primary fronter.
 
-- **Role**
-  A role is the position a member takes within their system.
-  This can be something with a specific focus such as a protector or a gatekeeper, 
-  or more of a general purpose such as a primary fronter.
+Singlet 
+~   Singlet refers to a person who isn't plural, or in other words 
+    doesn't share their body with anyone else.  It's not a binary distinction, as 
+    people may be questioning being plural, and median can be viewed as a 
+    continuum with singlet at one end.
 
-- **Singlet** Singlet refers to a person who isn't plural, or in other words 
-  doesn't share their body with anyone else.  It's not a binary distinction, as 
-  people may be questioning being plural, and median can be viewed as a 
-  continuum with singlet at one end.
+Switching 
+~   Switching is when the current fronter(s) of the system changes.
+    This can vary between something that happens constantly, or by accident, to 
+    something that requires much effort or happens only once a day or once a week. 
+    The experience of what switching is like also varies between systems.
+    Switching can also take varying amounts of time, which can sometimes 
+    result in blend states in the in-between time.
 
-- **Switching** Switching is when the current fronter(s) of the system changes.
-  This can vary between something that happens constantly, or by accident, to 
-  something that requires much effort or happens only once a day or once a week. 
-  The experience of what switching is like also varies between systems.
-  Switching can also take varying amounts of time, which can sometimes 
-  result in blend states in the in-between time.
+System
+    A system is the collection of people and entities, often called headmates, 
+    that share a single physical plural body.
+    The experiences of plural systems are very diverse, and every system is 
+    different. 
 
-- **System**
-  A system is the collection of people and entities, often called headmates, 
-  that share a single physical plural body.
-  The experiences of plural systems are very diverse, and every system is 
-  different. 
+    Systems often have a dedicated name, separate from the body's or members' 
+    names. It's common for systems to have names that are more like titles 
+    than given names, such as being named after flowers, or cosmic themes, 
+    with adjectives applied.
+    [Our system name is "The Spindrift Crew".]{.spin}
 
-  Systems often have a dedicated name, separate from the body's or members' 
-  names. It's common for systems to have names that are more like titles 
-  than given names, such as being named after flowers, or cosmic themes, 
-  with adjectives applied.
+System Exclusionist[Don't be one of these. They suck.]{.val}
+~   A system exclusionist is an individual or system that holds strict beliefs 
+    about plurality and enforces those ideas on others, often in relation to causation. 
+    'Sysmed' or 'sysmedicalist' is a synonym that refers in particular to systems that 
+    apply outdated and misapplied medical ideas about plurality. 
+    
 
-- **System Exclusionist**
-  A system exclusionist is an individual or system that holds strict beliefs 
-  about plurality and enforces those ideas on others, often in relation to causation. 
-  'Sysmed' or 'sysmedicalist' is a synonym that refers in particular to systems that 
-  apply outdated and misapplied medical ideas about plurality. 
+Traumagenic
+~   Traumagenic refers to a system whose creation/origin is the result of one or 
+    more traumatic events. Often, these systems have lingering trauma, and may 
+    fall under a diagnosis like DID or OSDD-1.
 
-- **Traumagenic**
-  Traumagenic refers to a system whose creation/origin is the result of one or 
-  more traumatic events. Often, these systems have lingering trauma, and may 
-  fall under a diagnosis like DID or OSDD-1.
-
-- **Tulpamancy**
-  Tulpamancy is the art of purposefully creating headmates through various 
-  techniques. A headmate created in this way is called a "tulpa". 
-  A tulpamancer is a practitioner of tulpamancy.
-  Parogenic is a related concept, but the term may be avoided by some systems 
-  in favor of tulpamancy/tulpagenic or tuplamancy/tuplagenic. Similarly, 
-  tulpamancy/tulpagenic or tuplamancy/tuplagenic may be avoided by some 
-  systems in favor of parogenic.
+Tulpamancy
+~   Tulpamancy is the art of purposefully creating headmates through various 
+    techniques. A headmate created in this way is called a "tulpa". 
+    A tulpamancer is a practitioner of tulpamancy.
+    Parogenic (c.f.) is a related concept, but the term may be avoided by some systems 
+    in favor of tulpamancy/tulpagenic or tuplamancy/tuplagenic. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
