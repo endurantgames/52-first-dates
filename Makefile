@@ -30,12 +30,15 @@ BACKUPS = --backup=numbered
 # File Locations
 #   Edit: probably unnecessary
 PROJ_RECIPE = $(PROJ)
+CHARSHEET_RECIPE = charsheet
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
+CHARSHEET_SRC = $(BUILDDIR)/charsheet.md
 # PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_OUT    = $(OUTDIR)/52-first-dates.pdf
 DYSL_OUT    = $(OUTDIR)/52-first-dates-dysl.pdf
 LOWV_OUT    = $(OUTDIR)/52-first-dates-lowv.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+CHARSHEET_OUT = $(OUTDIR)/52-first-dates-charsheet.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
@@ -43,6 +46,7 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
 DYSL_CSS = --css=$(STYLEDIR)/dyslexic.css
 LOWV_CSS = --css=$(STYLEDIR)/lowvis.css
+CHARSHEET_CSS = --css=$(STYLEDIR)/charsheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -50,6 +54,7 @@ FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR)
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS)
 DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS)
 LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS)
+CHARSHEET_FLAGS = $(FLAGS) $(CHARSHEET_CSS)
 
 # Application Configruation #############################################################################
 #
@@ -145,6 +150,7 @@ help:
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf        $(resetc)- create pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf-dysl   $(resetc)- create PDF with dyslexia fonts'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf-lowv   $(resetc)- create PDF (low vision)'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)charsheet  $(resetc)- create charsheet (PDF)'
 	@ echo '  $(dkcyan)make$(resetc) $(ltcyan)html       $(resetc)- create html'
 	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, html'
 	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
@@ -222,6 +228,10 @@ markdown:
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 
+markdown-charsheet:
+	@ echo '$(ltmagn)Collecting character sheet markdown.$(resetc)'
+	@       $(MAKE_MD) $(CHARSHEET_RECIPE)
+
 # make pdf
 #   Edit: if you are making more than one pdf
 pdf: markdown
@@ -238,8 +248,14 @@ pdf-dysl: markdown
 
 pdf-lowv: markdown
 	@ echo '$(ltblue)Making PDF (Low Vision).$(resetc)'
-	        $(PANDOC) $(PANDOCFLAGS) $(LOWV_FLAGS) -o $(LOWV_OUT) $(PROJ_SRC)
+	@       $(PANDOC) $(PANDOCFLAGS) $(LOWV_FLAGS) -o $(LOWV_OUT) $(PROJ_SRC)
 	@       $(PDFINFO) $(LOWV_OUT)
+	@      -$(EXPLORER)
+
+charsheet: markdown-charsheet
+	@ echo '$(ltblue)Making character sheet (PDF).$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
+	@       $(PDFINFO) $(CHARSHEET_OUT)
 	@      -$(EXPLORER)
 
 # make HTML
@@ -252,7 +268,9 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf html pdf-dysl pdf-lowv
+#   IMPORTANT: html should be last
+# all: pdf html
+all: pdf pdf-dysl pdf-lowv charsheet
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
@@ -265,4 +283,5 @@ dysl:   pdf-dysl
 dyslexia: pdf-dysl
 lowv:    pdf-lowv
 lowvis:  pdf-lowv
+sheet: charsheet
 # game: all
