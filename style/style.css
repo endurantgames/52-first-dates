@@ -408,23 +408,38 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   display: block; 
   border: none; 
   box-sizing: border-box; 
-  overflow: clip;
+  /* overflow: clip; */
 }
 
 .sheetpage .sheet.wide { column-span: all; }
 .sheetpage .sheet.full { column-span: all; height: 8.5in; }
 .sheetpage .sheet:matches(.wide, .full) :matches(.instruct, h3) { column-span: all; }
 .sheetpage .sheet .gamename:before { content: string(gamename) ' '; }
-.sheetpage .sheet h3 { 
+.sheetpage .sheet :matches(h2, h3) { 
   margin-top: 0; 
   border-bottom: none; 
   text-align: center; 
+  font-weight: normal;
   font-size: var(--h2); 
 }
-
+.sheetpage #sheet-handouts h3 { font-size: var(--h4); }
+.sheetpage #sheet-ref { columns: 2 auto; column-gap: 12pt; }
+.sheetpage #sheet-ref .suitmeanings { column-span: all; float: column bottom; margin-top: 18pt; }
+.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre; }
+.sheetpage #sheet-ref .suitmeanings td { font-size: var(--large); }
+.sheetpage #sheet-ref .suitmeanings th { font-size: var(--larger); }
+.sheetpage #sheet-ref h3 { column-span: all; }
+.sheetpage #sheet-ref :matches(ol, ul) { break-inside: avoid; margin-bottom: 0; margin-top: 0;  }
+.sheetpage #sheet-ref ol > li { font-weight: bold; font-size: var(--large); }
+.sheetpage #sheet-ref ul > li { font-size: var(--larger); }
+.sheetpage #sheet-ref li { margin-top: 0; margin-bottom: 0; }
+.sheetpage #sheet-ref .turnorder ul > li { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
+.sheetpage #sheet-ref .turnorder ol > li > em { font-size: var(--body); font-weight: normal; }
+.sheetpage #sheet-ref .gamestruct { margin-left: 9pt; }
+.sheetpage #sheet-ref h4 { padding-top: 9pt; margin-bottom: 3pt; }
+.sheetpage #sheet-ref .rulesremind { column-span: all; }
 .sheetpage .needlist { font-size: var(--sheetsize); }
 .sheetpage .instruct { font-size: var(--sheetsize); }
-
 .sheetpage .inputline ul { margin-left: 0; }
 
 .sheetpage .inputline li { 
@@ -448,15 +463,13 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 }
 
 .sheetpage .grid th { font-size: var(--larger); }
-
 .sheetpage .grid td:first-child { border: none; }
-
-.sheetpage #npcroster.grid td:nth-child(1) { width: 24pt; }
-.sheetpage #npcroster.grid td:nth-child(2) { width: 108pt; }
-.sheetpage #npcroster.grid td:nth-child(3) { width: 72pt; }
-
-.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 12pt; }
+.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt; }
+.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt; }
+.sheetpage #sheet-hm .inputbox { height: 216pt; }
+.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt; }
 .sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt; }
+.sheetpage #sheet-outside .inputbox { height: 108pt; }
 
 .sheetpage .check { 
   display: block;
@@ -467,7 +480,6 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 }
 
 .sheetpage h4 { text-align: center; }
-
 .sheetpage .inputbox h4 { color: black; margin: 0; text-align: left; break-after: auto; }
 .sheetpage .inputbox {
   height: 144pt;
@@ -479,13 +491,13 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   break-inside: avoid;
 }
 
-.sheetpage #sheet-system .inputbox { height: 108pt; }
+.sheetpage #sheet-sys .inputbox { height: 108pt; }
 
 .sheetpage th { font-weight: normal; }
 
-.sheetpage #sheet-date .inputbox { height: 72pt; }
+.sheetpage #sheet-daterole .inputbox { height: 72pt; }
 .sheetpage .sheet.full { columns: 2 auto; column-gap: 12pt; break-before: page; }
-.sheetpage #sheet-date.sheet .traitlist {
+.sheetpage #sheet-daterole.sheet .traitlist {
   column-span: all;
   columns: 4 auto;
   float: bottom;
@@ -493,31 +505,34 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   margin: 6pt;
 }
 
-.sheet #outsidechart table :matches(th, td) { font-size: var(--sheetsize); }
+.outsidechart .eg:before { content: 'e.g. '; }
+.outsidechart .eg, .outsidechart .red { display: inline-block; }
+.outsidechart th .red { font-family: var(--font); }
+.outsidechart .eg { font-size: var(--smaller); font-style: italic; }
+.outsidechart .red { color: red; }
 
-.sheetpage #sheet-date.sheet .traitlist table { }
-.sheetpage #sheet-date.sheet .traitlist table :matches(th, td) { 
-  font-size: var(--smaller);
-}
+.sheet .outsidechart table th { font-size: var(--larger); }
+.sheet .outsidechart table td { font-size: var(--large); }
 
-/* 
-.sheetpage .sheet:nth-child(5) { border-left: 0.5pt dashed gray; }
-.sheetpage .sheet:nth-child(3n+3) { border-top: 0.5pt dashed gray; } 
+.sheetpage #sheet-daterole .traitlist table :matches(th, td) { font-size: var(--smaller); }
 
-.sheetpage .sheet:nth-child(5):before {
+.sheetpage .sheet:matches(#sheet-sys, #sheet-hm) { border-left: 0.5pt dashed gray; }
+.sheetpage :matches(#sheet-sys, #sheet-hm):before {
   content: 'cut here';
   color: gray;
   position: absolute;
-  top: 192pt;
-  left: -24pt;
+  top: 4.25in;
+  left: -20pt;
   padding-left: 4pt;
   padding-right: 4pt;
+  font-size: var(--small);
   display: block;
   width: auto;
   background: white;
   transform: rotate(-90deg);
 }
 
+/*
 .sheetpage .sheet:nth-child(3n+3):before { 
   content: 'cut here';
   color: gray;
@@ -531,7 +546,7 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   background: white;
 } */
 
-/* ********************************************************************************************************* */
+/* ========================================================================================================= */
 
 .anchor { position: absolute; color: transparent; margin: 0; padding: 0; }
 

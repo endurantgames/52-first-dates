@@ -10,21 +10,21 @@
 
 :::::::::::::::::::: outsidechart ::::::::::::::::::::::::::::::::::::::
 
- Card Rank      Outside Interference
------------     ------------------------------------------------------
-    Ace         something happens
-     2          something happens
-     3          something happens
-     4          something happens
-     5          something happens
-     6          something happens
-     7          something happens
-     8          something happens
-     9          something happens
-    10          something happens
-   Jack         something happens
-   Queen        something happens
-   King         something happens
+ Card Rank  Outside Interference
+----------- ------------------------------------------------------
+    Ace     **Happy to Be Here!** switch fronting Headmate; they're pleased with this
+     2      **Stay For the Atmosphere** environmental problem [too loud, bad smell, it's raining]{.eg}
+     3      **See You In the Fall** a physical accident nearby; red card. = affects char. [someone trips]{.eg}
+     4      **Capitalism Ruins Everything** money problem [card declined, lost wallet, work calls]{.eg}
+     5      **Excuse Me...?** harmless interruption at an inconvenient time [small child, wait staff, text message]{.eg}
+     6      **Wardrobe Malfunction** clothing-related problem [lost hat, shoes untied]{.eg}
+     7      **Forget-Me-Nots** char. forgets something; red card = about the other char. [name, the time, lost keys]{.eg}
+     8      **Consuming Passions** food-/drink-related problem arises [fly in soup, wrong order, drink spills]{.eg}
+     9      **Circumstances Beyond Our Control** nobody could have predicted [power goes out, traffic jam]{.eg}
+    10      **Anything But This** switch fronting Headmate; they're not happy about it
+   Jack     **Oh Shit, It's My Ex!** someone char. was involved with; red card = it was a bad breakup
+   Queen    **"Why, Hel*lo* There.** someone takes an interest in char.; red card = they're insistent
+   King     **What are *They* Doing Here?** someone the char. knows; red card = can't stand them
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

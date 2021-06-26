@@ -51,10 +51,10 @@ CHARSHEET_CSS = --css=$(STYLEDIR)/charsheet.css
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
-PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS)
-DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS)
-LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS)
-CHARSHEET_FLAGS = $(FLAGS) $(CHARSHEET_CSS)
+PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS) $(PRINCEFLAGS)
+LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS) $(PRINCEFLAGS)
+CHARSHEET_FLAGS = $(FLAGS) $(CHARSHEET_CSS) $(PRINCEFLAGS_CHARSHEET)
 
 # Application Configruation #############################################################################
 #
@@ -67,7 +67,10 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS    = 
+# PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/page_%d.png
+# PRINCEFLAGS = 
+PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
+PRINCEFLAGS = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -255,7 +258,7 @@ pdf-lowv: markdown
 
 charsheet: markdown-charsheet
 	@ echo '$(ltblue)Making character sheet (PDF).$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
+	       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
 	@       $(PDFINFO) $(CHARSHEET_OUT)
 	@      -$(EXPLORER)
 
