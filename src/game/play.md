@@ -47,7 +47,7 @@ you can play from your hand, you must play one of those cards on your turn.
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.
 
-## At a Loss for Words
+## At a Loss for Words {#game-loss}
 
 If you're the **Date** or a **Fronter** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
@@ -72,7 +72,7 @@ uncertain territory.
 The type of event is based on **the rank of the card you play**,
 but you can decide the details of the event as you please.
 
-## Responding to Outside Interference
+## Responding to Outside Interference {#game-respond}
 
 If you're the **Date** or a **Fronter** and the player in the role of the
 Outside Interference plays a card on a card you just played, you have the 
@@ -85,7 +85,7 @@ You ***aren't required*** to play a card in response to Outside
 Interference; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
-## Drawing New Cards
+## Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
 However, if the Outside Interference plays a card, neither you nor

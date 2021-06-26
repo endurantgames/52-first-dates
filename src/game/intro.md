@@ -21,7 +21,7 @@ you'll play cards from your hand onto one of the stacks.
 you use two decks with different backs -- it's easier to sort out after the
 date!]{.spin}
 
-## Your Hand
+## Your Hand {#your-hand}
 
 Each player, no matter which role they're playing, has a hand of five cards.
 The hands of the Date and the Outside Interference are drawn from the top
@@ -30,7 +30,7 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-## Matching Cards {.breakbefore}
+## Matching Cards {#game-matching .breakbefore}
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.

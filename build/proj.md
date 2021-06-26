@@ -40,12 +40,15 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#more-myths"></a>
   - <a href="#more-what"></a>
   - <a href="#more-etiquette"></a>
-- <a href="#glossary"></a>
+- <a href="#glossary"></a> 
 - <a href="#game"></a>
+  - <a href="#game-matching"></a>
   - <a href="#game-choosing"></a>
   - <a href="#game-card"></a>
-  - <a href="#game-color"></a>
-  - <a href="#game-test"></a>
+    - <a href="#game-loss"></a>
+    - <a href="#game-respond"></a>
+    - <a href="#game-draw"></a>
+  - <a href="#game-roles"></a>
 - <a href="#setup"></a>
   - <a href="#setup-safely"></a>
     - <a href="#setup-safely-intimacy"></a>
@@ -54,7 +57,7 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#setup-gender"></a>
     - <a href="#setup-neuro"></a>
   - <a href="#setup-headmates"></a>
-  - <a href="#setup-scene"></a>
+  - <a href="#setup-scene"></a> 
   - <a href="#setup-prospect"></a>
     - <a href="#setup-prospect-name"></a>
     - <a href="#setup-prospect-pronouns"></a>
@@ -64,23 +67,23 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#date-start"></a>
     - <a href="#date-turn-order"></a>
   - <a href="#date-role-date"></a>
-  - <a href="#date-role-fronter"></a>
+  - <a href="#date-role-fronter"></a> 
     - <a href="#date-switch"></a>
-  - <a href="#date-role-outside"></a>
-    - <a href="#date-npcs"></a>
+  - <a href="#date-role-outside"></a> 
+    - <a href="#date-npcs"></a> 
     - <a href="#date-recurring"></a>
     - <a href="#date-maybe"></a>
-  - <a href="#date-end"></a>
-    - <a href="#date-end-events"></a>
-    - <a href="#date-intimacy"></a>
-    - <a href="#date-second"></a>
-    - <a href="#date-ghosted"></a>
-  - <a href="#date-next"></a>
-    - <a href="#date-next-new"></a>
-    - <a href="#date-next-same"></a>
-    - <a href="#date-next-steady"></a>
 - <a href="#wrap"></a>
+  - <a href="#wrap-date-end"></a>
+    - <a href="#wrap-end-events"></a>
+    - <a href="#wrap-intimacy"></a>
+    - <a href="#wrap-second"></a>
+    - <a href="#wrap-ghosted"></a>
   - <a href="#wrap-after"></a>
+  - <a href="#wrap-next"></a>
+    - <a href="#wrap-next-new"></a> 
+    - <a href="#wrap-next-same"></a> 
+    - <a href="#wrap-next-steady"></a> 
   - <a href="#wrap-discuss"></a>
   - <a href="#wrap-wait"></a>
 - <a href="#variant"></a>
@@ -98,85 +101,6 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#sheet-reference"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-## What You Need {.nobreak}
-
-Okay, you need to get the following together:
-
-- At least three players; preferably four to six, and usually no more than eight
-- Two decks of standard poker cards; they should have different backs
-- One copy of the System Sheet
-- One copy of the Outside Interference Sheet
-- One Date Sheet per player
-- One Headmate Sheet per player
-- One Game Reference Sheet per player
-- Pencils
-- *optional, but recommended* Extra paper for notetaking
-
-## The Purpose of []{.gamename} {.nobreak}
-
-This game attempts to do four things at once. It's up to you, the players, to determine
-if it succeeds at any of those. The four goals are to be a game that:
-
-1. Has multiple players playing the same character
-2. Educates about plural systems
-3. Functions as an interesting dating sim
-4. Is actually fun to play
-
-## Game Design Philosophy
-
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
-is that of an ongoing conversation where a number of
-different voices weave in and out with their contributions that answer the question,
-"What *is* a roleplaying game? What *can* a roleplaying game *be*?"
-
-All of our games are made with that in mind: this is our part in the conversation,
-right here, right now. We may have more to add later, but this is what we want to say
-now.
-
-Very few concepts in the game are *completely* new. For example, card-based games 
-have long been a part of the hobby, to varying degrees of success. Romance/dating 
-sim tabletop RPGs aren't as common, but they're out there -- most notably by
-[Emily Care Boss](http://www.blackgreengames.com/) in her
-[*Romance Trilogy*](http://www.blackgreengames.com/shop/romancetrilogypdf).
-<a name="anchor-ecb"></a>
-
-Games where many players run the same character are even more rare; and I don't
-know of any that address it from the standpoint of a plural, shared character.
-If you do, let me know!
-
-But just as nobody invents all the words they speak, the magic isn't in the parts
-you use but how you assemble them -- or even beyond that, in what you *actually*
-say with those words.
-
-Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
-
-## A System Introduction {#our-system .nobreak}
-
-Like many tabletop roleplaying games, []{.gamename} is a collaboration between
-a group of people.  Unlike many, that group are all in the same body.
-
-Hello! We're the Spindrift Crew!
-
-This is a departure from the way we normally write TTRPGs, which is to try and
-maintain a consistent voice throughout. We're purposely doing things differently
-for []{.gamename} because we think it's important for this game, and thematically
-sound.
-
-Rather than interjecting comments into the flow of the text, we decided to use
-sidenotes in the gutters, each signed with an emoji so you know you who's speaking.
-
-This is who we are:
-
-:::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
-- []{.ora} **Aura**, flirty lesbian disaster (she/her)
-- []{.val} **Valorie**, generally quiet protector (she/her)
-- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 :::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 [No Fascists]{.sidehead .inclu}
@@ -839,7 +763,7 @@ one person with multiple personalities. Or a troupe putting on a show of singlet
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
 
-## Glossary of Game Terms
+## Glossary of Game Terms {#glossary}
 
 Before we dive into game mechanics, these are the terms used in the game.
 
@@ -954,7 +878,7 @@ you'll play cards from your hand onto one of the stacks.
 you use two decks with different backs -- it's easier to sort out after the
 date!]{.spin}
 
-### Your Hand
+### Your Hand {#your-hand}
 
 Each player, no matter which role they're playing, has a hand of five cards.
 The hands of the Date and the Outside Interference are drawn from the top
@@ -963,7 +887,7 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-### Matching Cards {.breakbefore}
+### Matching Cards {#game-matching .breakbefore}
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.
@@ -1202,7 +1126,7 @@ you can play from your hand, you must play one of those cards on your turn.
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.
 
-#### At a Loss for Words
+#### At a Loss for Words {#game-loss}
 
 If you're the **Date** or a **Fronter** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
@@ -1227,7 +1151,7 @@ uncertain territory.
 The type of event is based on **the rank of the card you play**,
 but you can decide the details of the event as you please.
 
-#### Responding to Outside Interference
+#### Responding to Outside Interference {#game-respond}
 
 If you're the **Date** or a **Fronter** and the player in the role of the
 Outside Interference plays a card on a card you just played, you have the 
@@ -1240,7 +1164,7 @@ You ***aren't required*** to play a card in response to Outside
 Interference; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
-#### Drawing New Cards
+#### Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
 However, if the Outside Interference plays a card, neither you nor
@@ -1663,7 +1587,7 @@ Q []{.spades}
 []{.lorem}
 
 
-### Setting the Scene {#date-scene .breakbefore}
+### Setting the Scene {#setup-scene .breakbefore}
 
 ::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![A date doesn't have to be fancy -- you could just agree to meet in a bar, for example.](art/spectrum/bar.jpg)
@@ -1688,7 +1612,7 @@ Q []{.spades}
 []{.lorem}
 []{.lorem}
 
-### Turn Order {#game-order}
+### Turn Order {#date-turn-order}
 
 - **Date player plays a card**
   - Outside Opposition may play a card
@@ -1734,7 +1658,7 @@ act in response to cards played by the other players.
 []{.lorem}
 
 
-### Playing as the Date {#date-date .breakbefore}
+### Playing as the Date {#date-role-date .breakbefore}
 
 :::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
 ![The Date usually wants to make a good impression.](art/spectrum/brush.jpg)
@@ -1743,7 +1667,7 @@ act in response to cards played by the other players.
 []{.lorem}
 
 
-### Playing the Fronter {#date-fronter .breakbefore}
+### Playing the Fronter {#date-role-fronter .breakbefore}
 
 []{.lorem}
 
@@ -1755,7 +1679,7 @@ act in response to cards played by the other players.
 
 []{.lorem}
 
-### Playing the Outside Interference {#date-outside .breakbefore }
+### Playing the Outside Interference {#date-role-outside .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
@@ -1793,7 +1717,18 @@ act in response to cards played by the other players.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-### When the Date Ends {#date-end .breakbefore}
+## Part 3: The Wrap-Up {#wrap}
+
+After a game session of []{.gamename}, it's very strongly recommended that you have a
+wrap-up discussion. Some groups might want to do this after every date, to reflect and
+talk about whatever issues arose.
+
+:::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![It's all but required that you talk about this game once you finish it.](art/spectrum/conversation.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### When the Date Ends {#wrap-date-end .breakbefore}
 
 :::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::
 ![Intimacy can mean different things to different couples.](art/spectrum/video-game.jpg)
@@ -1802,22 +1737,22 @@ act in response to cards played by the other players.
 []{.lorem}
 []{.lorem}
 
-#### Date-Ending Events {#date-end-events}
+#### Date-Ending Events {#wrap-end-events}
 
 []{.lorem}
 []{.lorem}
 
-#### Achieving Intimacy {#date-intimacy}
+#### Achieving Intimacy {#wrap-intimacy}
 
 []{.lorem}
 []{.lorem}
 
-#### A Second Date {#date-second}
+#### A Second Date {#wrap-second}
 
 []{.lorem}
 []{.lorem}
 
-#### Getting Ghosted {#date-ghosted .breakbefore}
+#### Getting Ghosted {#wrap-ghosted .breakbefore}
 
 []{.lorem}
 []{.lorem}
@@ -1826,19 +1761,41 @@ act in response to cards played by the other players.
 ![Getting ghosted is never fun, but sometimes it's for the best.](art/spectrum/distance.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Playing Another Date {#date-next .breakbefore}
+### Aftercare {#wrap-after}
+
+In the TTRPG Safety Toolkit (on [](#toolkit-aftercare){.xref-page}),
+they describe *aftercare* as checking in with everyone to see how
+they're feeling. As the authors of the Toolkit write,
+
+> Encourage everyone to practice their own forms of self-care and
+> remind them that their mental health comes first.
+
+This is probably a good time to take a break, giving everyone time
+to use the toilet, step outside, stretch their legs, or get a drink
+of water.
+
+
+
+### Going on Another Date {#wrap-next .breakbefore}
 
 :::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![This date looks like it went well.](art/spectrum/bed-eyes.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem} 
-
-#### The Second Date {#date-next-same}
+[]{.lorem}
 
 []{.lorem}
 
-Despite the name of the game, it's entirely possible to get a second date. 
+#### A New Prospect {#wrap-next-new}
+
+[]{.lorem} 
+
+#### The Second Date {#wrap-next-same}
+
+[]{.lorem}
+
+Despite the name of the game, it's entirely possible to get a second date 
+in []{.gamename}!
 If the Date didn't ghost you, and the players reach consensus on going out 
 again, play a second date (amd all subsequent dates) with these changes: 
 
@@ -1858,39 +1815,13 @@ again, play a second date (amd all subsequent dates) with these changes:
 
 - **Decide What Happened Between Dates** []{.lorem}
 
-#### Going Steady {#date-next-steady}
+#### Going Steady {#wrap-next-steady}
 
 []{.lorem}
 
 If the Date is up for a third date, then you are officially Going Steady.  
 Unless the system (or its members) are lesbians -- in which case you're 
 moving in together.
-
-## Part 3: The Wrap-Up {#wrap}
-
-After a game session of []{.gamename}, it's very strongly recommended that you have a
-wrap-up discussion. Some groups might want to do this after every date, to reflect and
-talk about whatever issues arose.
-
-:::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
-![It's all but required that you talk about this game once you finish it.](art/spectrum/conversation.jpg)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Aftercare {#wrap-after}
-
-In the TTRPG Safety Toolkit (on [](#toolkit-aftercare){.xref-page}),
-they describe *aftercare* as checking in with everyone to see how
-they're feeling. As the authors of the Toolkit write,
-
-> Encourage everyone to practice their own forms of self-care and
-> remind them that their mental health comes first.
-
-This is probably a good time to take a break, giving everyone time
-to use the toilet, step outside, stretch their legs, or get a drink
-of water.
-
-
 
 ### Post-Game Discussion {#wrap-discuss}
 
@@ -1947,7 +1878,7 @@ us [an email](mailto:caderaspindrift@gmail)!</span>
 
 ## Variants and Hacks {#variant}
 
-This section presents alternate rules for playing []{.gamename] in different ways.
+This section presents alternate rules for playing []{.gamename} in different ways.
 
 ::::::::::::::::: spectrum ::::::::::::::::::::::::::::
 ![There isn't a variant for using a ouija board to play 52 Second Dates ... yet.](art/spectrum/ouija.jpg){.bottom}
@@ -1975,7 +1906,7 @@ might not work if you're simultaneously building two sets of headmates.
 Ah, Aura wishes to jump in. I defer to her.
 [that was Dera droning on and on by the way]{.ora}
 
-So -- here's what I []{.ora} think! I think if there are two groups playing
+So -- here's what I []{.emoji-ora} think! I think if there are two groups playing
 []{.gamename} at the same time, it would be really cute and awesome if
 the groups came together and played out a date between the two systems!
 [Hm. That *could* work.
@@ -2258,7 +2189,7 @@ Switching
     result in blend states in the in-between time.
 
 System
-    A system is the collection of people and entities, often called headmates, 
+~   A system is the collection of people and entities, often called headmates, 
     that share a single physical plural body.
     The experiences of plural systems are very diverse, and every system is 
     different. 

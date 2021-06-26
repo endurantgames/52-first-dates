@@ -1,16 +1,23 @@
-# Playing Another Date {#date-next .breakbefore}
+# Going on Another Date {#wrap-next .breakbefore}
 
 :::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![This date looks like it went well.](art/spectrum/bed-eyes.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem} 
-
-## The Second Date {#date-next-same}
+[]{.lorem}
 
 []{.lorem}
 
-Despite the name of the game, it's entirely possible to get a second date. 
+## A New Prospect {#wrap-next-new}
+
+[]{.lorem} 
+
+## The Second Date {#wrap-next-same}
+
+[]{.lorem}
+
+Despite the name of the game, it's entirely possible to get a second date 
+in []{.gamename}!
 If the Date didn't ghost you, and the players reach consensus on going out 
 again, play a second date (amd all subsequent dates) with these changes: 
 
@@ -30,7 +37,7 @@ again, play a second date (amd all subsequent dates) with these changes:
 
 - **Decide What Happened Between Dates** []{.lorem}
 
-## Going Steady {#date-next-steady}
+## Going Steady {#wrap-next-steady}
 
 []{.lorem}
 

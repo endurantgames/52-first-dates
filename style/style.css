@@ -281,6 +281,8 @@ a:hover { color: black; text-decoration: none; }
 
 :matches(h1, h2, h3, h4, h5, h6) .gamename:before { font-size: 100%; }
 
+p+p .cw { margin-left: -1.0em; }
+
 .cw:before {  /* content warning */
   font-family: var(--icon-solid);
   content: '\f071';
@@ -320,60 +322,50 @@ a:hover { color: black; text-decoration: none; }
 @page:blank { @left-bottom { content: normal; } }
 @page:nth(2) { @left-bottom { content: 'i'; } }
 
-.lexicon ul li { list-style-type: none; margin-left: 0; break-inside: auto; }
-.lexicon ul { margin-left: 9pt; }
-.lexicon ul li strong:first-of-type { font-family: var(--font-header); display: inline-block; margin-left: -9pt; }
+.lexicon dt { break-after: avoid; }
+
 .systemlist { break-before: avoid; break-inside: avoid; }
-.systemlist ul li { list-style-type: none; margin-left: 0; }
-.systemlist ul { margin-left: 20pt; }
-.systemlist ul li span { display: inline-block; margin-left: -20pt; }
-.systemlist ul li span:before { width: 18pt; text-align: center; }
+.systemlist dl { margin-left: 24pt; margin-right: 24pt; }
 
-:matches(.spin, .dera, .carline, .ora, .val, .fox):before { display: inline-block; font-family: var(--font-emoji); }
-:matches(.spin, .dera, .carline, .ora, .val, .fox) { color: gray; float: footnote; line-height: 1.25; display: inline-block; margin-bottom: 12pt; }
-:matches(.spin, .dera, .carline, .ora, .val, .fox):empty { float: none; font-size: 100%; }
+:matches(.spin, .dera, .carline, .ora, .val, .fox) { 
+  color:         gray; 
+  float:         footnote; 
+  line-height:   1.25; 
+  display:       inline-block; 
+  margin-bottom: 12pt; 
+  text-indent:   0; 
+}
+   .spin:after { content: '\1f300'; }
+   .dera:after { content: '\1f4e1'; }
+.carline:after { content: '\1f343'; }
+    .ora:after { content: '\1f339'; }
+    .val:after { content: '\1f517'; }
+    .fox:after { content: '\1f98a'; }
 
-.spin { prince-tooltip: 'This comment was made by Cadera.'; }
-.dera { prince-tooltip: 'This comment was made by Dera.'; }
-.carline { prince-tooltip: 'This comment was made by Carline Stone.'; }
-.ora { prince-tooltip: 'This comment was made by Aura.'; }
-.val { prince-tooltip: 'This comment was made by Valorie.'; }
-.fox { prince-tooltip: 'This comment was made by 🦊.'; }
+p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .emoji-fox) { 
+  margin-left: -1.0em; 
+}
 
-.spin:empty:before { content: '\1f300'; }
-.dera:empty:before { content: '\1f4e1'; }
-.carline:empty:before { content: '\1f343'; }
-.ora:empty:before { content: '\1f339'; }
-.val:empty:before { content: '\1f517'; }
-.fox:empty:before { content: '\1f98a'; }
+:matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .emoji-fox) { 
+  font-family: var(--font-emoji); 
+  line-height: none; 
+}
+   .emoji-spin { content: '\1f300'; }
+   .emoji-dera { content: '\1f4e1'; }
+.emoji-carline { content: '\1f343'; }
+    .emoji-ora { content: '\1f339'; }
+    .emoji-val { content: '\1f517'; }
+    .emoji-fox { content: '\1f98a'; }
 
-.spin:after { content: ' \1f300'; }
-.dera:after { content: ' \1f4e1'; }
-.carline:after { content: ' \1f343'; }
-.ora:after { content: ' \1f339'; }
-.val:after { content: ' \1f517'; }
-.fox:after { content: ' \1f98a'; }
-
-:matches(.spin, .dera, .carline, .ora, .val, .fox):empty:after { content: normal; }
-
-/*
-*/
 .morethanone .bigpara { font-size: var(--h4); }
-
 .morethanone ul { margin-top: 6pt; margin-bottom: 6pt; font-style: italic; }
 .morethanone .seealso { content: 'See also:'; font-style: italic; }
 .morethanone ul li { list-style-type: '-'; }
-
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
-
-/*
-*/
 
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ' 
 	          'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
 		  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
-		  'nunc, laoreet faucibus ex. Vivamus eleifend ligula facilisis laoreet '
-		  'convallis. Vestibulum sollicitudin, est vitae ullamcorper bibendum, '
 		  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
 
 .sheetpage { 

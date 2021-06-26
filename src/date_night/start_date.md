@@ -9,7 +9,7 @@
 []{.lorem}
 []{.lorem}
 
-# Turn Order {#game-order}
+# Turn Order {#date-turn-order}
 
 - **Date player plays a card**
   - Outside Opposition may play a card

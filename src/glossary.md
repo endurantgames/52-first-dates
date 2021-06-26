@@ -1,4 +1,4 @@
-# Glossary of Game Terms
+# Glossary of Game Terms {#glossary}
 
 Before we dive into game mechanics, these are the terms used in the game.
 

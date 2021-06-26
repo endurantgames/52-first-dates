@@ -211,7 +211,7 @@ Switching
     result in blend states in the in-between time.
 
 System
-    A system is the collection of people and entities, often called headmates, 
+~   A system is the collection of people and entities, often called headmates, 
     that share a single physical plural body.
     The experiences of plural systems are very diverse, and every system is 
     different. 

@@ -17,7 +17,7 @@ might not work if you're simultaneously building two sets of headmates.
 Ah, Aura wishes to jump in. I defer to her.
 [that was Dera droning on and on by the way]{.ora}
 
-So -- here's what I []{.ora} think! I think if there are two groups playing
+So -- here's what I []{.emoji-ora} think! I think if there are two groups playing
 []{.gamename} at the same time, it would be really cute and awesome if
 the groups came together and played out a date between the two systems!
 [Hm. That *could* work.

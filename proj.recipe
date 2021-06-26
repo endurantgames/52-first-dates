@@ -2,7 +2,7 @@ metadata
 cover
 intro
 toc
-preface
+# preface
 no_fascists
 credits/intro
 credits/license
@@ -37,11 +37,10 @@ date_night/start_date
 date_night/role_date
 date_night/role_fronter
 date_night/role_outside
-date_night/end_date
-# should this be moved to wrap?
-date_night/next_date
 wrap/
+wrap/end_date
 wrap/aftercare
+wrap/next_date
 wrap/discuss
 wrap/wait
 variant/

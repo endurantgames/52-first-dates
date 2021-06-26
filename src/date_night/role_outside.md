@@ -1,4 +1,4 @@
-# Playing the Outside Interference {#date-outside .breakbefore }
+# Playing the Outside Interference {#date-role-outside .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)

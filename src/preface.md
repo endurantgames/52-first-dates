@@ -68,11 +68,29 @@ sidenotes in the gutters, each signed with an emoji so you know you who's speaki
 This is who we are:
 
 :::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-- []{.spin} **Cadera Spindrift**, primary fronter and project coordinator (she/her)
-- []{.dera} **Dera**, our analytical headmate and game mechanics wonk (she/her)
-- []{.carline} **Carline Stone**, social justice druid and in-house sensitivity reader (she/her)
-- []{.ora} **Aura**, flirty lesbian disaster (she/her)
-- []{.val} **Valorie**, generally quiet protector (she/her)
-- []{.fox} who doesn't speak or write except in emojis; not a fox (fae/him/it/them)
+
+[]{.emoji-spin} Cadera Spindrift
+~    Primary (co-)fronter and project coordinator; she/her
+
+[]{.emoji-dera} Dera
+~    Our self-described analytical headmate and game mechanics wonk; she/her
+
+[]{.emoji-carline} Carline Stone
+~    Social justice druid and in-house sensitivity reader; will be your big gay auntie; she/her
+
+[]{.emoji-ora} Aura
+~    Flirty lesbian disaster; looks like our WoW character; she/her
+
+[]{.emoji-val} Valorie
+~    Our generally quiet protector/warrior; sometimes Fusillade; she/her
+
+[]{.emoji-fox} 
+~    Doesn't speak or write except in emojis; not literally a fox; 
+     fae/faer or
+     he/him or
+     it/its or
+     they/them or
+     []{.emoji-fox}/[]{.emoji-fox}
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
