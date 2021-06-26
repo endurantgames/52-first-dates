@@ -260,7 +260,7 @@ pdf-lowv: markdown
 
 charsheet: markdown-charsheet
 	@ echo '$(ltblue)Making character sheet (PDF).$(resetc)'
-	       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
+	@       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
 	@       $(PDFINFO) $(CHARSHEET_OUT)
 	@      -$(EXPLORER)
 
