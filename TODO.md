@@ -2,7 +2,7 @@
 
 As of 2021-06-25:
 
-[ ] Update TOC
+[x] Update TOC
 [x] Segue from info dump to game
   [x] Glossary maybe?
 [x] Using the Cards
@@ -38,6 +38,7 @@ As of 2021-06-25:
     [ ] Named NPCs
     [ ] Recurring NPCs
     [ ] I just met you and this song is ableist
+[x] The Wrap-Up
   [ ] When the Date Ends
     [ ] Date-Ending Events (change name)
     [ ] Achieving intimacy
@@ -45,9 +46,8 @@ As of 2021-06-25:
     [ ] Getting Ghosted
   [ ] Playing Another Date
     [ ] A new Date
-    [ ] The Second Date
-    [ ] Going Steady
-[x] The Wrap-Up
+    [-] The Second Date
+    [-] Going Steady
   [x] Aftercare
   [x] Discussion
   [x] Wait, am *I* plural?
@@ -58,6 +58,7 @@ As of 2021-06-25:
 [x] Plural Resources
 [x] A Plural Lexicon 
   [x] Footnotes
+[x] Colophon
 [ ] Character Sheets
   [ ] System
   [ ] Outside Interference
