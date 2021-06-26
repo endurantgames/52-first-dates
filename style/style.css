@@ -53,14 +53,13 @@ header h1     { string-set: gamename content()       }
 :root {
   --font: "Bellefair";
   --font-header: "Cherry Swash";
-  --font-toolkit: "Montserrat";
-  --font-cards: 'Unicode Upper';
+  --font-cards: 'Noto Sans';
 
-  --icon-thin: 'Font Awesome 5 Free Regular';
   --icon-solid: 'Font Awesome 5 Free Solid';
-  --icon-game: 'game-icons';
   --font-emoji: 'Noto Color Emoji';
   --font-suits: 'Noto Emoji';
+  --font-icon: 'Noto Emoji';
+  --font-icon-fallback: "Unifont";
   --font-dyslexic: 'Open Dyslexic';
 
   --body:      12pt;
@@ -240,10 +239,16 @@ a:hover { color: black; text-decoration: none; }
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
 
+#colophon { page: colophon; text-align: center; }
+#colophon p { margin-bottom: 12pt; }
+#colophon p + p { text-indent: 0; }
+#colophon h2 { margin-top: 176pt; margin-bottom: 24pt; }
+@page colophon { margin-left: 96pt; margin-right: 96pt; }
+
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
 .tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
 .tstoolkit .icon:after { 
-  font-family: var(--icon-solid); 
+  font-family: var(--font-icon); 
   padding-left: 0.25em; 
   display: inline-block; 
   font-weight: normal; 
@@ -252,10 +257,19 @@ a:hover { color: black; text-decoration: none; }
   margin-left: -1.7em; /* 1.5 * 1 / 87% */
 }
 
+.tstoolkit .rewind:after { content: '\23ea'; }
+.tstoolkit .ff:after     { content: '\23e9'; }
+.tstoolkit .resume:after { content: '\25b6'; }
+/* .tstoolkit .pause:after  { content: '\23f8'; } */ /* this is the correct one, but it isn't being recognized */
+.tstoolkit .pause:after  { content: '\23F8'; font-family: var(--font-icon-fallback); }
+
+
+/*
 .tstoolkit .rewind:after { content: '\f04a'; }
 .tstoolkit .ff:after     { content: '\f050'; }
 .tstoolkit .pause:after  { content: '\f04c'; }
 .tstoolkit .resume:after { content: '\f04b'; }
+*/
 
 .license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
 
@@ -282,22 +296,23 @@ a:hover { color: black; text-decoration: none; }
 
 :matches(h1, h2, h3, h4, h5, h6) .gamename:before { font-size: 100%; }
 
-p+p .cw { margin-left: -1.0em; }
+p+p .cw { margin-left: -1.25em; }
 
 .cw:before {  /* content warning */
-  font-family: var(--icon-solid);
-  content: '\f071';
+  font-family: var(--font-icon);
+  font-family: "Noto Sans";
+  content: '\26a0';
   display: inline-block;
-  margin-right: 0.5em;
+  padding-right: 0.5em;
   color: #f5c71a;
   line-height: none;
 }
 
 .inclu:before { /* notes on inclusion */
-  font-family: var(--icon-solid);
-  content: '\f0ac';
+  font-family: var(--font-icon);
+  content: '\1f310'; 
   display: inline-block;
-  margin-right: 0.5em;
+  padding-right: 0.5em;
   color: #BB00BB;
   line-height: none;
 }
