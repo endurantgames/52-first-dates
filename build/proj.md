@@ -188,7 +188,7 @@ This is who we are:
 []{.emoji-val} Valorie
 ~    Our generally quiet protector/warrior; sometimes Fusillade; she/her
 
-[]{.emoji-fox} 
+[]{.emoji-fox}
 ~    Doesn't speak or write except in emojis; not literally a fox; 
      fae/faer or
      he/him or

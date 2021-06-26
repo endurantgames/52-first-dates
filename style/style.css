@@ -346,7 +346,7 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   margin-left: -1.0em; 
 }
 
-:matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .emoji-fox) { 
+:matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val /*, .emoji-fox */) { 
   font-family: var(--font-emoji); 
   line-height: none; 
 }
@@ -355,7 +355,7 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
 .emoji-carline { content: '\1f343'; }
     .emoji-ora { content: '\1f339'; }
     .emoji-val { content: '\1f517'; }
-    .emoji-fox { content: '\1f98a'; }
+    .emoji-fox { content: '\1f98a'; }  /* for some reason this doesn't throw an error when 🦊 is excluded from font */
 
 .morethanone .bigpara { font-size: var(--h4); }
 .morethanone ul { margin-top: 6pt; margin-bottom: 6pt; font-style: italic; }
