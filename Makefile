@@ -35,8 +35,8 @@ PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 CHARSHEET_SRC = $(BUILDDIR)/charsheet.md
 # PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_OUT    = $(OUTDIR)/52-first-dates.pdf
-DYSL_OUT    = $(OUTDIR)/52-first-dates-dysl.pdf
-LOWV_OUT    = $(OUTDIR)/52-first-dates-lowv.pdf
+DYSL_OUT    = $(OUTDIR)/52-first-dates-dyslexic.pdf
+LOWV_OUT    = $(OUTDIR)/52-first-dates-low-vision.pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 CHARSHEET_OUT = $(OUTDIR)/52-first-dates-charsheet.pdf
 
