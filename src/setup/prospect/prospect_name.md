@@ -1,6 +1,9 @@
 # The Prospect's Name {#setup-prospect-name}
 
-[]{.lorem}
+You can quickly determine a name for the Prospect by drawing a single card from the
+top of the Date's Deck, and comparing it to the following tables.
+
+These names have been chosen to have few gender assumptions attached.
 
 :::::::::::: namelist :::::::::::::::::::::::::::::::::
  Card             Name
