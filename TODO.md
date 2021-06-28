@@ -18,7 +18,7 @@ As of 2021-06-25:
     [ ] Gender and Sexuality
   [ ] Creating the Headmates
   [x] Move the following to Set-Up:
-  [ ] Determining Roles
+  [x] Determining Roles
   [ ] Creating the Prospect
     [ ] Personality traits
       [ ] List
@@ -26,7 +26,7 @@ As of 2021-06-25:
     [ ] Gender and sexuality
     [x] Checking for desired qualities
   [ ] Setting the Scene
-[ ] Date Night
+[-] Date Night
   [ ] Starting Date Night
   [ ] Turn order
     [x] ~~Relocate?~~
