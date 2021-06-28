@@ -13,8 +13,8 @@ Break ties by drawing cards from the System's Deck.
 ## Subsequent Date Nights
 
 The player who was the previous Date Night's Opportunity plays the Date, and the
-previous Date Night's Date plays the Collective. From the previous Date Night's Fronters, 
-each player who hasn't been the Date before draws a card and the player with the 
-highest card plays Opportunity; the rest are the Collective. 
+previous Date Night's Date plays the Collective. From the previous Date Night's 
+Collective, each player who hasn't been the Date before draws a card and the player 
+with the highest card plays Opportunity; the rest are the Collective. 
 Again, break ties with draws from the System's Deck.
 
