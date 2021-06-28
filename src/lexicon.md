@@ -1,4 +1,4 @@
-# Appendix: A Plural Lexicon <a name="lexicon"></a>
+# Appendix: A Plural Lexicon {#lexicon}
 
 These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from

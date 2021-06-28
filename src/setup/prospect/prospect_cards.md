@@ -11,8 +11,7 @@ determine the outcome of Date Night.
 
 :::::::::::::::::::: {.traitlist .text} ::::::::::::::::::::::::::::::::
 
-
- | Card | Trait[These were my suggestions]{.carline} | Card | Trait[Mine.]{.val} [The purpose of this .noprint section is to force Pandoc to use colgroup percentages.]{.noprint} |
+ | Card | Trait[I compiled this list; the rest of our system produced the other lists.]{.dera} | Card | Trait[I wrote this list and it rocks!]{.aura} |
  | :---:                   | :---------    | :---:                       | :---------   |
  | A [of Spades]{.spades}  | Witty         | A [of Diamonds]{.diamonds}  | Teasing      |
  | 2 [of Spades]{.spades}  | Creative      | 2 [of Diamonds]{.diamonds}  | Guarded      |
@@ -28,7 +27,7 @@ determine the outcome of Date Night.
  | Q [of Spades]{.spades}  | Snarky        | Q [of Diamonds]{.diamonds}  | Insincere    |
  | K [of Spades]{.spades}  | Sharp-tongued | K [of Diamonds]{.diamonds}  | Suspicious   |
 
- | Card | Trait[I compiled this list; the rest of our system produced the other lists.]{.dera} | Card | Trait[I wrote this list and it rocks!]{.aura} |
+ | Card | Trait[These were my suggestions]{.carline} | Card | Trait[Mine.]{.val} [The purpose of this .noprint section is to force Pandoc to use colgroup percentages.]{.noprint} |
  | :---:                   | :---------    | :---:                       | :---------   |
  | A [of Hearts]{.hearts}  | Supportive    | A [of Clubs]{.clubs}        | Forthright   |
  | 2 [of Hearts]{.hearts}  | Listening     | 2 [of Clubs]{.clubs}        | Jovial       |

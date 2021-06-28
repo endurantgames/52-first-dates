@@ -2,9 +2,10 @@
 
 Each role has different rules for drawing and playing cards.
 
-## The Fronters
+## The Collective
 
-If you're one of the Fronters, you draw your cards from the *System's Deck*. You can
+If you're one of the Collective players, you draw your cards from the 
+*System's Deck*. You can
 play a given card on a Status Stack only if the card ***matches***
 either the suit or rank of the top card on that stack.
 
@@ -51,7 +52,7 @@ match either the suit or the rank of a stack.]{.dera}
 If you're the Date, you draw your cards from the *Date's Deck*. You can
 play a given card on a Status Stack only if the card ***does not***
 match the suit or rank of the top card on that stack. This is the opposite
-of the rules for the Fronter role.
+of the rules for the Collective role.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, you will be taking turns more
@@ -91,9 +92,9 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Opportunity {.breakbefore}
+## Opportunity {.breakbefore}
 
-If you're the Opportunity, you draw your cards from the *Date's Deck*. 
+If you're Opportunity, you draw your cards from the *Date's Deck*. 
 You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
@@ -122,8 +123,8 @@ in red ...
 
 ...you could play your cards on these stacks:
 [It's entirely likely that you can't play a card every time you potentially could -- 
-that's by design.  The Opportunity has more chances to play cards 
-than the other roles.]{.dera}
+that's by design. Opportunity has more chances to play cards than the other roles,
+but might not always be able to play each time.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 

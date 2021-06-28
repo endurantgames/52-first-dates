@@ -43,9 +43,9 @@
   - <a href="#date-start"></a>
     - <a href="#date-turn-order"></a>
   - <a href="#date-role-date"></a>
-  - <a href="#date-role-fronter"></a> 
+  - <a href="#date-role-collective"></a> 
     - <a href="#date-switch"></a>
-  - <a href="#date-role-outside"></a> 
+  - <a href="#date-role-opportunity"></a> 
     - <a href="#date-npcs"></a> 
     - <a href="#date-recurring"></a>
     - <a href="#date-maybe"></a>

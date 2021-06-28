@@ -1,17 +1,17 @@
-# Playing the Opportunity {#date-role-outside .breakbefore }
+# Playing as Opportunity {#date-role-opportunity .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-As the Opportunity, your job is to introduce events that could make 
+As Opportunity, your job is to introduce events that could make 
 it harder for the parties on the date to make a love connection.
 
 That said -- you're not the *enemy*; you aren't playing *against* the System and the
 Prospect, just trying to make their Date Night more complicated.
 [We talked about this during our playtests; we decided *against*
  calling this the "cock-blocker" role, even though at times it could 
- seem that way. It's the job of the Opportunity to make Date
+ seem that way. It's the job of Opportunity to make Date
  Night *interesting*, and in fact, they might make it *more* likely for
  the System and Prospect to make a connection.]{.val}
 [... also "cock-blocker" is sexist and genital-essentialist language.]{.carline}
@@ -20,24 +20,24 @@ Prospect, just trying to make their Date Night more complicated.
 You can *only* play a card as long as the rank exactly matches the rank of a card played
 by another player. You don't have a spot in the turn order, and it's possible that 
 multiple turns can go by before you get a chance to play. That's okay -- you won't be
-the Opportunity forever, provided that your group plays out more than one Date Night.
+Opportunity forever, provided that your group plays out more than one Date Night.
 
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the table on the following page.
 
 In the table, "the character" refers to the character played by the person
-whose card you just played on -- so the System and its current Headmate if 
-played on one of the Fronters' cards, and the Prospect if played on the Date's
+whose card you just played on -- so the System and its current Fronter 
+played on one of the Collective's cards, and the Prospect if played on the Date's
 card.
 
 If the card you play is a red card -- i.e. []{.hearts} Hearts or
 []{.diamonds} Diamonds -- then the additional details given above come
 into play.
 
-:::::::::::::::::::: {.outsidechart .breakbefore .breakable .text } ::::::::::::::::::
+:::::::::::::::::::: {.eventchart .breakbefore .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
- Rank       Opportunity 
+ Rank       Opportunity Event
 ----------- ----------------------------------------------------------------------
     Ace     **Happy to Be Here!** 
             The character picks one of the Headmates not currently
@@ -84,8 +84,7 @@ into play.
 
      7      **Forget-Me-Nots** 
             Suddenly the character realizes they've forgotten something.
-            The Opportunity gets to decide exactly what that
-            might be.
+            Opportunity gets to decide exactly what that might be.
             [On a red card, they forgot something about their date.]{.red} 
             [For example: they forgot their date's name, they forgot to
             pay attention to the time and missed their bus, they lost the
@@ -105,7 +104,7 @@ into play.
             blocking their route to the park, an earthquake strikes.]{.eg}
 
     10      **Anything But This** 
-            The Opportunity picks one of the Headmates not
+            Opportunity picks one of the Headmates not
             current fronting, who switches to the front and is apathetic 
             about the switch.
             [On a red card, they're upset by this switch.]{.red}
@@ -140,7 +139,7 @@ If that player can play a card on top of yours, they can do so, and if
 so, they can describe how their response prevents the interruption.
 
 ::::::::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::
-Here's an example. Let's say that one of the Fronters just played the 
+Here's an example. Let's say that one of the Collective just played the 
 Two of []{.spades} Spades, and described a witty comment from the System.
 
 But you play the Two of Hearts in response. According to the event table,
@@ -151,7 +150,7 @@ the noise at the restaurant suddenly increased as there's a child's party
 at the next table and they're singing 'Happy Birthday'. 
 The Prospect couldn't hear you."
 
-The Fronter could then respond with another card from the same suit, if
+The Collective could then respond with another card from the same suit, if
 they've got any []{.hearts} Hearts in their hand. If so, then they could
 describe how they're getting around the party song obstacle -- perhaps
 by leaning in closer.
@@ -201,7 +200,7 @@ other player gets to describe why that event is no longer a factor.
 **Exception:** If the fronting Headmate changes, don't rotate the stack.
 
 ::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::::::::
-Let's say that the Fronter couldn't counter the "Happy Birthday" card -- that
+Let's say that the Collective couldn't counter the "Happy Birthday" card -- that
 means the situation is ongoing. While it doesn't automatically interrupt 
 future card plays, there's still this loud child's birthday party one booth
 away.
@@ -334,7 +333,7 @@ If it wasn't a red King, then ask the player:
 The reason you write down the named NPCs is that they might show up again on future Date
 Nights!
 
-If you're playing the Opportunity and the NPC Roster already has a listing for
+If you're playing Opportunity and the NPC Roster already has a listing for
 the card you played, that named NPC could show up instead, under the following 
 circumstances:
 

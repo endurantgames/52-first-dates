@@ -460,13 +460,13 @@ dl dd p { line-height: 1.2; }
 }
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
-/* outsidechart ----------------------------------------------------------------------------------------------- */
-.outsidechart.text td :matches(strong, .red, .eg) { display: block; margin-bottom: 3pt; }
+/* eventchart ----------------------------------------------------------------------------------------------- */
+.eventchart.text td :matches(strong, .red, .eg) { display: block; margin-bottom: 3pt; }
 
-.outsidechart.text td:first-child { font-family: var(--font-header); }
-.outsidechart.text td strong      { font-family: var(--font-header); font-weight: normal; }
-.outsidechart.text td .red        { color: red;                                           }
-.outsidechart.text td .eg         { font-style: italic;                                   }
+.eventchart.text td:first-child { font-family: var(--font-header); }
+.eventchart.text td strong      { font-family: var(--font-header); font-weight: normal; }
+.eventchart.text td .red        { color: red;                                           }
+.eventchart.text td .eg         { font-style: italic;                                   }
 
 /* resourcelist ----------------------------------------------------------------------------------------------- */
 .resourcelist li { margin-bottom: 4pt; }
@@ -641,22 +641,22 @@ dl dd p { line-height: 1.2; }
 .sheetpage #sheet-ref .suitmeanings table          { margin-top: 0; margin-bottom: 0; }
 .sheetpage #sheet-ref .suitmeanings th             { font-size: var(--larger);        }
 
-/* outside interference sheet -------------------------------------------------------------------------------------------- */
+/* opportunity sheet ----------------------------------------------------------------------------------------------------- */
 .sheetpage #npcroster.grid td:nth-child(1) { width: 12pt; vertical-align: middle; }
 .sheetpage #npcroster.grid td:nth-child(3) { width: 108pt;  }
 .sheetpage #npcroster.grid td:nth-child(4) { width: 54pt; font-size: var(--small); border: none; padding: 0; }
 .sheetpage #npcroster.grid td .check { width: 0.75em; height: 0.75em; }
 
-.sheet#sheet-outside .inputbox             { height: 108pt; }
+.sheet#sheet-opportunity .inputbox { height: 108pt; }
 
-.sheet .outsidechart .eg:before { content: 'e.g. ';                              }
-.sheet .outsidechart .eg        { display: inline-block;                         }
-.sheet .outsidechart .red       { display: inline-block;                         }
-.sheet .outsidechart th .red    { font-family: var(--font);                      }
-.sheet .outsidechart .eg        { font-size: var(--smaller); font-style: italic; }
-.sheet .outsidechart .red       { color: red;                                    }
-.sheet .outsidechart table th   { font-size: var(--larger);                      }
-.sheet .outsidechart table td   { font-size: var(--large);                       }
+.sheet .eventchart .eg:before { content: 'e.g. ';                              }
+.sheet .eventchart .eg        { display: inline-block;                         }
+.sheet .eventchart .red       { display: inline-block;                         }
+.sheet .eventchart th .red    { font-family: var(--font);                      }
+.sheet .eventchart .eg        { font-size: var(--smaller); font-style: italic; }
+.sheet .eventchart .red       { color: red;                                    }
+.sheet .eventchart table th   { font-size: var(--larger);                      }
+.sheet .eventchart table td   { font-size: var(--large);                       }
 
 /* headmate sheet -------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-hm .inputbox                 { height: 216pt; }

@@ -44,29 +44,29 @@ act in a *flirty and coy, or evasive and guarded* manner.
 
 ## You *Must* Play If You Can
 
-If you're the **Date** or a **Fronterm** and you have at least one card 
+If you're the **Date** or the **Collective** and you have at least one card 
 you can play from your hand, you must play one of those cards on your turn.
 [This could mean you might end the date even if you don't want to.]{.dera}
 [That's how dating goes sometimes ... sigh]{.aura}
 
-If you're the **Opportunity**, you aren't required to play 
+If you're **Opportunity**, you aren't required to play 
 cards when you have the option to do so.
 
 ## At a Loss for Words {#game-loss}
 
-If you're the **Date** or a **Fronter** and you *can't* legally play
+If you're the **Date** or the **Collective** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
 **at a loss for words**. You can describe how that character is taken
 aback.
 
-If you're the **Opportunity** and *another player* is at a
+If you're **Opportunity** and *another player* is at a
 loss for words, then you can immediately play a card from your hand
 on any of the cards on the Date Status stack -- not just the card
 most recently played.
 
-## The Opportunity
+## Opportunity
 
-When you're playing the **Opportunity**, you don't have a turn in
+When you're playing **Opportunity**, you don't have a turn in
 the turn order -- you can play one of your cards any time the rank
 on that card matches **the last card played** by another player.
 
@@ -79,22 +79,22 @@ but you can decide the details of the event as you please.
 
 ## Responding to Opportunity {#game-respond}
 
-If you're the **Date** or a **Fronter** and the player in the role of the
+If you're the **Date** or the **Collective** and the player in the role of
 Opportunity plays a card on a card you just played, you have the 
 option to play a card in response, following your normal rules playing cards.
 
 When that happens, you also get to describe how your character reacted 
 to the event in a way that minimized the problem.
 
-You ***aren't required*** to play a card in response to the
-Opportunity; if you don't wish to, even if you have a card you
+You ***aren't required*** to play a card in response to an
+Opportunity Event; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
 ## Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
-However, if the Opportunity plays a card, neither you nor
-the Opportunity draw a replacement card until
+However, if Opportunity plays a card, neither you nor
+Opportunity draw a replacement card until
 after you've either responded or passed on responding.
 
 ## Ending a Date

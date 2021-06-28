@@ -30,35 +30,35 @@ The Prospect <a name="glossary-prospect"></a>
     and personality, separate from those of the System.
 
 Roles <a name="glossary-roles"></a>
-~   For Date Night, there are three roles: **The Date**, **The Fronters**,
-    and **The Opportunity**. These change between dates, and may
+~   For Date Night, there are three roles: **The System**, **The Date**, 
+    and **Opportunity**. These change between dates, and may
     change during a date as well. Roles are determined randomly at the
     start of Date Night.
+
+The Collective <a name="glossary-collective"></a>
+~   The player or players (for a game with 4+ players) who are actively
+    controlling the System character by playing cards. With more than one 
+    Collective player, they alternate turns. The Collective roleplay the
+    System character as whichever Headmate is fronting at the time, which can
+    change during Date Night.
 
 The Date <a name="glossary-date"></a>
 ~   The player who is currently controlling the fictional actions of the
     Prospect character, playing their cards to help describe how the
-    Prospect acts toward, and reacts to, the System.
+    Prospect acts toward, and reacts to, the System character.
 
-The Fronter(s) <a name="glossary-fronter"></a>
-~   The player or players (for a game with 4+ players) who are actively
-    controlling the System by playing cards. With more than one Fronter,
-    they alternate turns between each other. The Fronters roleplay the
-    System as whichever Headmate is fronting at the time, which can
-    change during the game.
-
-The Opportunity <a name="glossary-outside-interference"></a>
+Opportunity <a name="glossary-opportunity"></a>
 ~   The player who is controlling "the rest of the world", and introducing
     elements into the fictional Date Night to complicate the potential
     love connection between the System character and the Date character.
 
 The Date's Deck <a name="glossary-date-deck"></a>
-~   The deck of cards from which both the Date and the Opportunity
+~   The deck of cards from which both the Date and Opportunity
     draw their cards.
 
 The System's Deck <a name="glossary-system-deck"></a>
-~   The deck of cards from which all the Fronters draw their cards. It's
-    a good idea to a System Deck with a different card back than the 
+~   The deck of cards from which all Collective players draw their cards. It's
+    a good idea to get a System Deck with a different card back than the 
     Date Deck, as the two will get mixed together frequently.
 
 The Status Stacks <a name="glossary-status-stacks"></a>
@@ -70,7 +70,7 @@ The Status Stacks <a name="glossary-status-stacks"></a>
 End of the Date <a name="glossary-end-date"></a>
 ~   When all of the cards on the Status Stack show the same suit or the
     same rank, it's time to wrap up that Date Night. The cards determine
-    if the System and the Date share an intimate moment, want to date
+    if the System and the Prospect share an intimate moment, want to date
     again, both, or neither.
 
 Achieving Intimacy <a name="glossary-achieving-intimacy"></a>

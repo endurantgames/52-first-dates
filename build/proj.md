@@ -67,9 +67,9 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#date-start"></a>
     - <a href="#date-turn-order"></a>
   - <a href="#date-role-date"></a>
-  - <a href="#date-role-fronter"></a> 
+  - <a href="#date-role-collective"></a> 
     - <a href="#date-switch"></a>
-  - <a href="#date-role-outside"></a> 
+  - <a href="#date-role-opportunity"></a> 
     - <a href="#date-npcs"></a> 
     - <a href="#date-recurring"></a>
     - <a href="#date-maybe"></a>
@@ -886,35 +886,35 @@ The Prospect <a name="glossary-prospect"></a>
     and personality, separate from those of the System.
 
 Roles <a name="glossary-roles"></a>
-~   For Date Night, there are three roles: **The Date**, **The Fronters**,
-    and **The Opportunity**. These change between dates, and may
+~   For Date Night, there are three roles: **The System**, **The Date**, 
+    and **Opportunity**. These change between dates, and may
     change during a date as well. Roles are determined randomly at the
     start of Date Night.
+
+The Collective <a name="glossary-collective"></a>
+~   The player or players (for a game with 4+ players) who are actively
+    controlling the System character by playing cards. With more than one 
+    Collective player, they alternate turns. The Collective roleplay the
+    System character as whichever Headmate is fronting at the time, which can
+    change during Date Night.
 
 The Date <a name="glossary-date"></a>
 ~   The player who is currently controlling the fictional actions of the
     Prospect character, playing their cards to help describe how the
-    Prospect acts toward, and reacts to, the System.
+    Prospect acts toward, and reacts to, the System character.
 
-The Fronter(s) <a name="glossary-fronter"></a>
-~   The player or players (for a game with 4+ players) who are actively
-    controlling the System by playing cards. With more than one Fronter,
-    they alternate turns between each other. The Fronters roleplay the
-    System as whichever Headmate is fronting at the time, which can
-    change during the game.
-
-The Opportunity <a name="glossary-outside-interference"></a>
+Opportunity <a name="glossary-opportunity"></a>
 ~   The player who is controlling "the rest of the world", and introducing
     elements into the fictional Date Night to complicate the potential
     love connection between the System character and the Date character.
 
 The Date's Deck <a name="glossary-date-deck"></a>
-~   The deck of cards from which both the Date and the Opportunity
+~   The deck of cards from which both the Date and Opportunity
     draw their cards.
 
 The System's Deck <a name="glossary-system-deck"></a>
-~   The deck of cards from which all the Fronters draw their cards. It's
-    a good idea to a System Deck with a different card back than the 
+~   The deck of cards from which all Collective players draw their cards. It's
+    a good idea to get a System Deck with a different card back than the 
     Date Deck, as the two will get mixed together frequently.
 
 The Status Stacks <a name="glossary-status-stacks"></a>
@@ -926,7 +926,7 @@ The Status Stacks <a name="glossary-status-stacks"></a>
 End of the Date <a name="glossary-end-date"></a>
 ~   When all of the cards on the Status Stack show the same suit or the
     same rank, it's time to wrap up that Date Night. The cards determine
-    if the System and the Date share an intimate moment, want to date
+    if the System and the Prospect share an intimate moment, want to date
     again, both, or neither.
 
 Achieving Intimacy <a name="glossary-achieving-intimacy"></a>
@@ -955,7 +955,7 @@ Aftercare <a name="glossary-aftercare"></a>
 You need to have two decks of cards to play []{.gamename}.
 
 One deck is called the ***Date's Deck*** and is shared between the players
-in the roles of the Date and the Opportunity.
+in the roles of the Date and Opportunity.
 
 The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
@@ -972,7 +972,7 @@ date!]{.spin}
 ### Your Hand {#your-hand}
 
 Each player, no matter which role they're playing, has a hand of five cards.
-The hands of the Date and the Opportunity are drawn from the top
+The hands of the Date and Opportunity are drawn from the top
 of the Date's Deck, while the other players' hands are drawn from the
 System's Deck.
 
@@ -1074,29 +1074,29 @@ act in a *flirty and coy, or evasive and guarded* manner.
 
 #### You *Must* Play If You Can
 
-If you're the **Date** or a **Fronterm** and you have at least one card 
+If you're the **Date** or the **Collective** and you have at least one card 
 you can play from your hand, you must play one of those cards on your turn.
 [This could mean you might end the date even if you don't want to.]{.dera}
 [That's how dating goes sometimes ... sigh]{.aura}
 
-If you're the **Opportunity**, you aren't required to play 
+If you're **Opportunity**, you aren't required to play 
 cards when you have the option to do so.
 
 #### At a Loss for Words {#game-loss}
 
-If you're the **Date** or a **Fronter** and you *can't* legally play
+If you're the **Date** or the **Collective** and you *can't* legally play
 any cards from your hand onto the current stack, then your character is
 **at a loss for words**. You can describe how that character is taken
 aback.
 
-If you're the **Opportunity** and *another player* is at a
+If you're **Opportunity** and *another player* is at a
 loss for words, then you can immediately play a card from your hand
 on any of the cards on the Date Status stack -- not just the card
 most recently played.
 
-#### The Opportunity
+#### Opportunity
 
-When you're playing the **Opportunity**, you don't have a turn in
+When you're playing **Opportunity**, you don't have a turn in
 the turn order -- you can play one of your cards any time the rank
 on that card matches **the last card played** by another player.
 
@@ -1109,22 +1109,22 @@ but you can decide the details of the event as you please.
 
 #### Responding to Opportunity {#game-respond}
 
-If you're the **Date** or a **Fronter** and the player in the role of the
+If you're the **Date** or the **Collective** and the player in the role of
 Opportunity plays a card on a card you just played, you have the 
 option to play a card in response, following your normal rules playing cards.
 
 When that happens, you also get to describe how your character reacted 
 to the event in a way that minimized the problem.
 
-You ***aren't required*** to play a card in response to the
-Opportunity; if you don't wish to, even if you have a card you
+You ***aren't required*** to play a card in response to an
+Opportunity Event; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
 #### Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
-However, if the Opportunity plays a card, neither you nor
-the Opportunity draw a replacement card until
+However, if Opportunity plays a card, neither you nor
+Opportunity draw a replacement card until
 after you've either responded or passed on responding.
 
 #### Ending a Date
@@ -1160,9 +1160,10 @@ These are examples of Status Stacks that end the date:
 
 Each role has different rules for drawing and playing cards.
 
-#### The Fronters
+#### The Collective
 
-If you're one of the Fronters, you draw your cards from the *System's Deck*. You can
+If you're one of the Collective players, you draw your cards from the 
+*System's Deck*. You can
 play a given card on a Status Stack only if the card ***matches***
 either the suit or rank of the top card on that stack.
 
@@ -1209,7 +1210,7 @@ match either the suit or the rank of a stack.]{.dera}
 If you're the Date, you draw your cards from the *Date's Deck*. You can
 play a given card on a Status Stack only if the card ***does not***
 match the suit or rank of the top card on that stack. This is the opposite
-of the rules for the Fronter role.
+of the rules for the Collective role.
 
 You play one card per turn, when your turn comes up in the turn order. 
 In games with more than three players, you will be taking turns more
@@ -1249,9 +1250,9 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### The Opportunity {.breakbefore}
+#### Opportunity {.breakbefore}
 
-If you're the Opportunity, you draw your cards from the *Date's Deck*. 
+If you're Opportunity, you draw your cards from the *Date's Deck*. 
 You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
@@ -1280,8 +1281,8 @@ in red ...
 
 ...you could play your cards on these stacks:
 [It's entirely likely that you can't play a card every time you potentially could -- 
-that's by design.  The Opportunity has more chances to play cards 
-than the other roles.]{.dera}
+that's by design. Opportunity has more chances to play cards than the other roles,
+but might not always be able to play each time.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1534,15 +1535,16 @@ As described in [](#game-choosing){.section}, you do this by drawing cards.
 
 If this is the first Date Night you're playing, each player draws a card from the Date's Deck
 The player with the highest ranked card plays the Date role, and the player with the
-next highest card plays the Opportunity; all other players play the Fronter role.
+next highest card plays Opportunity; all other players play the Collective role.
 Break ties by drawing cards from the System's Deck.
 
 #### Subsequent Date Nights
 
 The player who was the previous Date Night's Opportunity plays the Date, and the
-previous Date Night's Date is a Fronter. From the previous Date Night's Fronters, each player
-who hasn't been the Date before draws a card and the player with the highest card plays 
-the Opportunity. Again, break ties with draws from the System's Deck.
+previous Date Night's Date plays the Collective. From the previous Date Night's Fronters, 
+each player who hasn't been the Date before draws a card and the player with the 
+highest card plays Opportunity; the rest are the Collective. 
+Again, break ties with draws from the System's Deck.
 
 
 ### Creating the Prospect {#setup-prospect .breakbefore} 
@@ -1689,8 +1691,7 @@ determine the outcome of Date Night.
 
 :::::::::::::::::::: {.traitlist .text} ::::::::::::::::::::::::::::::::
 
-
- | Card | Trait[These were my suggestions]{.carline} | Card | Trait[Mine.]{.val} [The purpose of this .noprint section is to force Pandoc to use colgroup percentages.]{.noprint} |
+ | Card | Trait[I compiled this list; the rest of our system produced the other lists.]{.dera} | Card | Trait[I wrote this list and it rocks!]{.aura} |
  | :---:                   | :---------    | :---:                       | :---------   |
  | A [of Spades]{.spades}  | Witty         | A [of Diamonds]{.diamonds}  | Teasing      |
  | 2 [of Spades]{.spades}  | Creative      | 2 [of Diamonds]{.diamonds}  | Guarded      |
@@ -1706,7 +1707,7 @@ determine the outcome of Date Night.
  | Q [of Spades]{.spades}  | Snarky        | Q [of Diamonds]{.diamonds}  | Insincere    |
  | K [of Spades]{.spades}  | Sharp-tongued | K [of Diamonds]{.diamonds}  | Suspicious   |
 
- | Card | Trait[I compiled this list; the rest of our system produced the other lists.]{.dera} | Card | Trait[I wrote this list and it rocks!]{.aura} |
+ | Card | Trait[These were my suggestions]{.carline} | Card | Trait[Mine.]{.val} [The purpose of this .noprint section is to force Pandoc to use colgroup percentages.]{.noprint} |
  | :---:                   | :---------    | :---:                       | :---------   |
  | A [of Hearts]{.hearts}  | Supportive    | A [of Clubs]{.clubs}        | Forthright   |
  | 2 [of Hearts]{.hearts}  | Listening     | 2 [of Clubs]{.clubs}        | Jovial       |
@@ -1830,41 +1831,41 @@ games, but actively *dislikes* them. This could spell problems for that Headmate
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 1 plays a card**
+- **Collective player 1 plays a card**
   - Opportunity may play a card
-  - Fronter player one draws a card
+  - Collective player one draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*4+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 2 plays a card** (*4+ players only*)
+- **Collective player 2 plays a card** (*4+ players only*)
   - Opportunity may play a card
-  - Fronter player two draws a card
+  - Collective player two draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*5+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 3 plays a card** (*5+ players only*)
+- **Collective player 3 plays a card** (*5+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*6+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 4 plays a card** (*6+ players only*)
+- **Collective player 4 plays a card** (*6+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*7+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 5 plays a card** (*7+ players only*)
+- **Collective player 5 plays a card** (*7+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Back to start**
 
@@ -1895,7 +1896,7 @@ act in response to cards played by the other players.
 []{.lorem}
 
 
-### Playing the Fronter {#date-role-fronter .breakbefore}
+### Playing as the Collective {#date-role-collective .breakbefore}
 
 []{.lorem}
 
@@ -1907,20 +1908,20 @@ act in response to cards played by the other players.
 
 []{.lorem}
 
-### Playing the Opportunity {#date-role-outside .breakbefore }
+### Playing as Opportunity {#date-role-opportunity .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-As the Opportunity, your job is to introduce events that could make 
+As Opportunity, your job is to introduce events that could make 
 it harder for the parties on the date to make a love connection.
 
 That said -- you're not the *enemy*; you aren't playing *against* the System and the
 Prospect, just trying to make their Date Night more complicated.
 [We talked about this during our playtests; we decided *against*
  calling this the "cock-blocker" role, even though at times it could 
- seem that way. It's the job of the Opportunity to make Date
+ seem that way. It's the job of Opportunity to make Date
  Night *interesting*, and in fact, they might make it *more* likely for
  the System and Prospect to make a connection.]{.val}
 [... also "cock-blocker" is sexist and genital-essentialist language.]{.carline}
@@ -1929,24 +1930,24 @@ Prospect, just trying to make their Date Night more complicated.
 You can *only* play a card as long as the rank exactly matches the rank of a card played
 by another player. You don't have a spot in the turn order, and it's possible that 
 multiple turns can go by before you get a chance to play. That's okay -- you won't be
-the Opportunity forever, provided that your group plays out more than one Date Night.
+Opportunity forever, provided that your group plays out more than one Date Night.
 
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the table on the following page.
 
 In the table, "the character" refers to the character played by the person
-whose card you just played on -- so the System and its current Headmate if 
-played on one of the Fronters' cards, and the Prospect if played on the Date's
+whose card you just played on -- so the System and its current Fronter 
+played on one of the Collective's cards, and the Prospect if played on the Date's
 card.
 
 If the card you play is a red card -- i.e. []{.hearts} Hearts or
 []{.diamonds} Diamonds -- then the additional details given above come
 into play.
 
-:::::::::::::::::::: {.outsidechart .breakbefore .breakable .text } ::::::::::::::::::
+:::::::::::::::::::: {.eventchart .breakbefore .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
- Rank       Opportunity 
+ Rank       Opportunity Event
 ----------- ----------------------------------------------------------------------
     Ace     **Happy to Be Here!** 
             The character picks one of the Headmates not currently
@@ -1993,8 +1994,7 @@ into play.
 
      7      **Forget-Me-Nots** 
             Suddenly the character realizes they've forgotten something.
-            The Opportunity gets to decide exactly what that
-            might be.
+            Opportunity gets to decide exactly what that might be.
             [On a red card, they forgot something about their date.]{.red} 
             [For example: they forgot their date's name, they forgot to
             pay attention to the time and missed their bus, they lost the
@@ -2014,7 +2014,7 @@ into play.
             blocking their route to the park, an earthquake strikes.]{.eg}
 
     10      **Anything But This** 
-            The Opportunity picks one of the Headmates not
+            Opportunity picks one of the Headmates not
             current fronting, who switches to the front and is apathetic 
             about the switch.
             [On a red card, they're upset by this switch.]{.red}
@@ -2049,7 +2049,7 @@ If that player can play a card on top of yours, they can do so, and if
 so, they can describe how their response prevents the interruption.
 
 ::::::::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::
-Here's an example. Let's say that one of the Fronters just played the 
+Here's an example. Let's say that one of the Collective just played the 
 Two of []{.spades} Spades, and described a witty comment from the System.
 
 But you play the Two of Hearts in response. According to the event table,
@@ -2060,7 +2060,7 @@ the noise at the restaurant suddenly increased as there's a child's party
 at the next table and they're singing 'Happy Birthday'. 
 The Prospect couldn't hear you."
 
-The Fronter could then respond with another card from the same suit, if
+The Collective could then respond with another card from the same suit, if
 they've got any []{.hearts} Hearts in their hand. If so, then they could
 describe how they're getting around the party song obstacle -- perhaps
 by leaning in closer.
@@ -2110,7 +2110,7 @@ other player gets to describe why that event is no longer a factor.
 **Exception:** If the fronting Headmate changes, don't rotate the stack.
 
 ::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::::::::
-Let's say that the Fronter couldn't counter the "Happy Birthday" card -- that
+Let's say that the Collective couldn't counter the "Happy Birthday" card -- that
 means the situation is ongoing. While it doesn't automatically interrupt 
 future card plays, there's still this loud child's birthday party one booth
 away.
@@ -2243,7 +2243,7 @@ If it wasn't a red King, then ask the player:
 The reason you write down the named NPCs is that they might show up again on future Date
 Nights!
 
-If you're playing the Opportunity and the NPC Roster already has a listing for
+If you're playing Opportunity and the NPC Roster already has a listing for
 the card you played, that named NPC could show up instead, under the following 
 circumstances:
 
@@ -2472,7 +2472,7 @@ Those links, and other useful resources, are presented here for easy reference.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Appendix: A Plural Lexicon <a name="lexicon"></a>
+## Appendix: A Plural Lexicon {#lexicon}
 
 These are important terms about plural systems that you may to understand in
 order to play the game. These definitions are adapted from
@@ -3122,7 +3122,7 @@ were used in the creation of this manuscript.
 ### []{.gamename} Game Reference Sheet {#sheet-reference}
 
 ::::::: rulesremind ::::::::::::
-- **Fronters** draw from System's Deck; can only play cards that match suit or rank; must play a card if they can play at least one card
+- **Collective** players draw from System's Deck; can only play cards that match suit or rank; must play a card if they can play at least one card
 - **Date** draws from Date's Deck; can only play cards that don't match suit and rank; must play a card if they can play at least one card
 - **Opportunity** draws from Date's Deck; can only play cards that match rank, in response to another card played
 - After you play a card, draw a new one (after resolving Opportunity Events)
@@ -3160,13 +3160,13 @@ Suit                   Demeanor
 1. Date plays a card
   - Opportunity can respond
   - Check for Date End
-2. 1st Fronter plays a card
+2. 1st Collective plays a card
   - Opportunity can respond
   - Check for Date End
 3. Date plays a card *(4+ players)*
   - Opportunity can respond
   - Check for Date End
-4. 2nd Fronter plays a card *(4+)*
+4. 2nd Collective plays a card *(4+)*
   - Opportunity can respond
   - Check for Date End
 5. ...
@@ -3199,14 +3199,14 @@ Roleplay this Headmate fairly when they're fronting.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::: {.sheet .full #sheet-out } ::::::::::::::::::::::::::::::::::::::::
-### [Opportunity Sheet]{.gamename #sheet-outside}
+### [Opportunity Sheet]{.gamename #sheet-opportunity}
 
 :::::::::::: instruct :::::::::::::::::::::::::::::::::
 Play a card matching the rank of a card just played.
  Create a named NPC when you play a Jack, a Queen, or a King.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::: {.outsidechart} :::::::::::::::::::::::::::::::::::::::::::
+:::::::::: {.eventchart} :::::::::::::::::::::::::::::::::::::::::::
  Rank  Opportunity Event [plus red text if you play a red card]{.red}
 ------ ---------------------------------------------------------------        
  Ace   **Happy to Be Here!** pick a new Headmate to front [and they're pleased with this]{.red}

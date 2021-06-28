@@ -15,41 +15,41 @@
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 1 plays a card**
+- **Collective player 1 plays a card**
   - Opportunity may play a card
-  - Fronter player one draws a card
+  - Collective player one draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*4+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 2 plays a card** (*4+ players only*)
+- **Collective player 2 plays a card** (*4+ players only*)
   - Opportunity may play a card
-  - Fronter player two draws a card
+  - Collective player two draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*5+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 3 plays a card** (*5+ players only*)
+- **Collective player 3 plays a card** (*5+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*6+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 4 plays a card** (*6+ players only*)
+- **Collective player 4 plays a card** (*6+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Date player plays a card** (*7+ players only*)
   - Opportunity may play a card
   - Date draws a card
   - Check if Date Night ends
-- **Fronter player 5 plays a card** (*7+ players only*)
+- **Collective player 5 plays a card** (*7+ players only*)
   - Opportunity may play a card
-  - Fronter player three draws a card
+  - Collective player three draws a card
   - Check if Date Night ends
 - **Back to start**
 

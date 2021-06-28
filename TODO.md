@@ -2,7 +2,6 @@
 
 As of 2021-06-28:
 
-[x] Update TOC
 [-] The Set-Up
   [ ] Creating the System
     [ ] Game Assumptions
@@ -30,5 +29,3 @@ As of 2021-06-28:
     [ ] Getting Ghosted
   [ ] Playing Another Date
     [ ] A new Date
-    [x] The Second Date
-    [x] Going Steady

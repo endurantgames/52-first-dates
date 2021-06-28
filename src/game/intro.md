@@ -7,7 +7,7 @@
 You need to have two decks of cards to play []{.gamename}.
 
 One deck is called the ***Date's Deck*** and is shared between the players
-in the roles of the Date and the Opportunity.
+in the roles of the Date and Opportunity.
 
 The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
@@ -24,7 +24,7 @@ date!]{.spin}
 ## Your Hand {#your-hand}
 
 Each player, no matter which role they're playing, has a hand of five cards.
-The hands of the Date and the Opportunity are drawn from the top
+The hands of the Date and Opportunity are drawn from the top
 of the Date's Deck, while the other players' hands are drawn from the
 System's Deck.
 

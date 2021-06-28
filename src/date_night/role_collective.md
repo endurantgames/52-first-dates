@@ -1,4 +1,4 @@
-# Playing the Fronter {#date-role-fronter .breakbefore}
+# Playing as the Collective {#date-role-collective .breakbefore}
 
 []{.lorem}
 
