@@ -1747,40 +1747,13 @@ Headmate was looking for in an ideal partner.
 Now it's time to see if the Prospect measures up to that ideal. Here's how you
 do that.
 
-1.  Each player except the player in the Date role takes one of the completed
-    Headmate sheets. This leaves one left-over Headmate, so one of the players
-    should take that and thus have two Headmate sheets in front of them.
- 
-2.  In order, each player reads off the name of the Headmate and their ideal
-    date quality to the Date player.
-
-3.  That player then turns over the top card from the System's Deck.
-
-4.  The Date records the name of the Headmate and that quality on the Date Sheet,
-    on one of the blank lines.
-
-5.  Then the Date turns over the top card of the Date's Deck.
-
-6.  If the cards **don't match at all,** the Date leaves that box blank.
-
-7.  If the two cards **match colors,** then the Date puts a check mark
-    in the box on line of the Date sheet.
-    This means the Prospect possesses that quality to a moderate degree.
-
-8.  If the two cards **match suits,** the Date marks a plus sign ("+") in the box instead; 
-    this means the Prospect has this quality to a high amount.
-
-9.  If the two cards **match ranks and colors,** the Date marks a star instead;
-    this means that the Prospect is a near-perfect match for that quality.
-
-10. If the two cards **are identical** -- which is possible because they're drawn from
-    two different decks -- then the Date marks two stars, one in the box and one to the
-    left of the box. The Date is a perfect match on that quality.
-
-11. If the two cards **match ranks but not colors,** the Date marks a minus sign ("-");
-    this means the Prospect is the exact opposite of the desired quality.
-
-12. Continue this method until all of the Headmates' criteria have been addressed.
+- For each Headmate, the Date writes the Headmate's name and desired quality on a line on the Date Sheet.
+- One player flips the top card from the System's Deck and the Date flips a card from the Date's Deck.
+- If the cards **don't match at all,** the Prospect doesn't have that quality.
+- If the cards **match color,** the Date marks a check on that line; the Prospect has that desired quality.
+- If the cards **match suit,** the Date marks a plus (+); the Prospect has that quality in abundance!
+- If the cards **match suit and rank,** the Date marks a star; the Prospect is a perfect match on that quality!
+- If the cards **match rank but not suit or color,** the Prospect doesn't have that quality at all. The Date marks a minus (-) on that line.
 
 ::::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -1827,11 +1800,7 @@ The cards exactly match, one from each deck.
 [Han Solo is kind of a creep, though.]{.carline}
 We can intrepret this as not only does the Prospect play tabletop RPGs as often as
 the Headmate, *but also* their group is looking for a new player!
-
-The Date player marks a star in the box, and an extra star on the outside. (If the
-Date had drawn the [Two of Diamonds]{.card .deuce .d} instead, they would mark
-just a single star.)
-[There's actually as much of a chance of this happening as matching the suit.]{.dera}
+The Date player marks a star in the box. 
 
 :::::::::::::: cardgroup ::::::::::::::
 [Two of Hearts]{.card .deuce .h}
@@ -1965,7 +1934,7 @@ the Outside Interference forever, provided that your group plays out more than o
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the following table:
 
-:::::::::::::::::::: {.outsidechart .nobreak } ::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::: {.outsidechart .nobreak .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
  Rank       Outside Interference 
@@ -2063,31 +2032,6 @@ card's rank, as shown on the following table:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::: {.sidebar} :::::::::::::::::::::::::::::::::::::
-[The Outside Interference: Should you end the date?]{.sidebar}
-
-If you can play a card and it would result in the date ending --
-all of the suits match or all of the ranks match -- you can certainly
-do so! It might go down like this: 
-
-- "Okay, you see someone approaching the table -- oh, shit, it's your ex!"
-- "Hey, they're all []{.spades} Spades -- so the date ends, right?"
-- "You're right -- so we don't even need to play a card to respond."
-- "Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase."
-- "Sounds good!"
-
-The bigger question is "should you stop the *other* players from ending the date"?
-
-Which you could probably do from time to time. If they've just played the
-third []{.hearts} Hearts card, the date would normally end there, 
-but if you can play on that new card and do so ... you'd be prolonging
-the date.
-
-Which you certainly can do! This is one of the perks of being the 
-Outside Interference. And unless you and the other players are tired
-of the date, you probably *should*. It'll make things more interesting.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 In the table above, "the character" refers to the character played by the person
 whose card you just played on -- so the System and its current Headmate if 
 played on one of the Fronters' cards, and the Prospect if played on the Date's
@@ -2155,6 +2099,34 @@ for a drink. The Date then returns the stack to its upright position.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::: {.sidebar       } :::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+If you can play a card and it would result in the date ending --
+all of the suits match or all of the ranks match -- you can certainly
+do so! It might go down like this: 
+
+"Someone's approaching the table -- oh, shit, it's your ex!" <br/>
+"Hey, they're all []{.spades} Spades -- so the date ends, right?" <br/>
+"You're right -- so we don't even need to play a card to respond." <br/>
+"Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase." <br/>
+"Sounds good!" 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::: {.sidebar .next } :::::::::::::::::::::::::::::::::::::
+[Should you end the date? (continued)]{.sidehead}
+
+The bigger question is "should you stop the *other* players from ending the date"?
+
+Which you could probably do from time to time. If they've just played the
+third []{.hearts} Hearts card, the date would normally end there, 
+but if you can play on that new card and do so ... you'd be prolonging
+the date.
+
+Which you certainly can do! This is one of the perks of being the 
+Outside Interference. And unless you and the other players are tired
+of the date, you probably *should*. It'll make things more interesting.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Named NPCs {#date-npcs}
 
@@ -2242,6 +2214,10 @@ If it wasn't a red Queen, then ask the player:
 
 > What makes this NPC unattractive to your character?
 
+:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+![If your date doesn't go well but you meet someone else you like -- be sure to get *their* number!](art/spectrum/phone.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ##### What are *They* Doing Here?
 
 When you play a King, someone from the character's life shows up. This could be a friend,
@@ -2300,10 +2276,6 @@ completely new one from scratch.
 If that's the case, you can skip the name and pronouns part of the Prospect creation
 process, but still match against the Headmates' ideal partner and draw two Trait Cards
 for the Prospect.
-
-:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
-![If your date doesn't go well but you meet someone else you like -- be sure to get *their* number!](art/spectrum/phone.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ## Part 3: The Wrap-Up {#wrap}

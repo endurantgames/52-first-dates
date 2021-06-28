@@ -153,6 +153,8 @@ h3 { border-bottom: 0.75pt solid var(--color-accent); }
 h4 { color: var(--color-accent);                      }
 h5 { font-style: italic;                              }
 
+h5 em { text-decoration: underline; }
+
 #cover + h1 { counter-reset: page; counter-increment: page; }
 
 /* pagination ------------------------------------------------------------------------------------------------- */
@@ -234,7 +236,7 @@ ul ol { margin-left: 1em;                                      }
   margin-bottom:   9pt;
   background:      var(--bgcolor-sidebar);
 }
-.sidebar.next { float-defer-column: 1; }
+.sidebar.next { float-defer-page: 1; }
 .sidebar p { 
   margin-top:    6pt; 
   margin-bottom: 0; 
@@ -424,6 +426,11 @@ img {
 }
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
+/* outsidechart ----------------------------------------------------------------------------------------------- */
+.outsidechart.text td strong { display: block; font-family: var(--font-header); }
+.outsidechart.text td .red   { display: block; color: red;                      }
+.outsidechart.text td .eg    { display: block; font-style: italic;              }
+
 /* testing / placeholder -------------------------------------------------------------------------------------- */
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ' 
 	          'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
@@ -564,21 +571,23 @@ img {
 .sheetpage #sheet-ref .rulesremind                 { column-span: all;                                                                  }
 
 /* outside interference sheet -------------------------------------------------------------------------------------------- */
-.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt;                                   }
-.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt;                                  }
-.outsidechart .eg:before                   { content: 'e.g. ';                              }
-.outsidechart .eg, .outsidechart .red      { display: inline-block;                         }
-.outsidechart th .red                      { font-family: var(--font);                      }
-.outsidechart .eg                          { font-size: var(--smaller); font-style: italic; }
-.outsidechart .red                         { color: red;                                    }
-.sheet .outsidechart table th              { font-size: var(--larger);                      }
-.sheet .outsidechart table td              { font-size: var(--large);                       }
+.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt;   }
+.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt;  }
+.sheet#sheet-outside .inputbox             { height: 108pt; }
+
+.sheet .outsidechart .eg:before { content: 'e.g. ';                              }
+.sheet .outsidechart .eg        { display: inline-block;                         }
+.sheet .outsidechart .red       { display: inline-block;                         }
+.sheet .outsidechart th .red    { font-family: var(--font);                      }
+.sheet .outsidechart .eg        { font-size: var(--smaller); font-style: italic; }
+.sheet .outsidechart .red       { color: red;                                    }
+.sheet .outsidechart table th   { font-size: var(--larger);                      }
+.sheet .outsidechart table td   { font-size: var(--large);                       }
 
 /* headmate sheet -------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-hm .inputbox                 { height: 216pt; }
 .sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt;   }
 .sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt;  }
-.sheetpage #sheet-outside .inputbox            { height: 108pt; }
 
 .sheetpage h4 { text-align: center; }
 

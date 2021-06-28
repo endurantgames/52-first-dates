@@ -25,7 +25,7 @@ the Outside Interference forever, provided that your group plays out more than o
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the following table:
 
-:::::::::::::::::::: {.outsidechart .nobreak .breakable } ::::::::::::::::::::::::
+:::::::::::::::::::: {.outsidechart .nobreak .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
  Rank       Outside Interference 
@@ -123,31 +123,6 @@ card's rank, as shown on the following table:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::: {.sidebar} :::::::::::::::::::::::::::::::::::::
-[The Outside Interference: Should you end the date?]{.sidehead}
-
-If you can play a card and it would result in the date ending --
-all of the suits match or all of the ranks match -- you can certainly
-do so! It might go down like this: 
-
-- "Okay, you see someone approaching the table -- oh, shit, it's your ex!"
-- "Hey, they're all []{.spades} Spades -- so the date ends, right?"
-- "You're right -- so we don't even need to play a card to respond."
-- "Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase."
-- "Sounds good!"
-
-The bigger question is "should you stop the *other* players from ending the date"?
-
-Which you could probably do from time to time. If they've just played the
-third []{.hearts} Hearts card, the date would normally end there, 
-but if you can play on that new card and do so ... you'd be prolonging
-the date.
-
-Which you certainly can do! This is one of the perks of being the 
-Outside Interference. And unless you and the other players are tired
-of the date, you probably *should*. It'll make things more interesting.
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 In the table above, "the character" refers to the character played by the person
 whose card you just played on -- so the System and its current Headmate if 
 played on one of the Fronters' cards, and the Prospect if played on the Date's
@@ -215,6 +190,34 @@ for a drink. The Date then returns the stack to its upright position.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::: {.sidebar       } :::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+If you can play a card and it would result in the date ending --
+all of the suits match or all of the ranks match -- you can certainly
+do so! It might go down like this: 
+
+"Someone's approaching the table -- oh, shit, it's your ex!" <br/>
+"Hey, they're all []{.spades} Spades -- so the date ends, right?" <br/>
+"You're right -- so we don't even need to play a card to respond." <br/>
+"Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase." <br/>
+"Sounds good!" 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::: {.sidebar .next } :::::::::::::::::::::::::::::::::::::
+[Should you end the date? (continued)]{.sidehead}
+
+The bigger question is "should you stop the *other* players from ending the date"?
+
+Which you could probably do from time to time. If they've just played the
+third []{.hearts} Hearts card, the date would normally end there, 
+but if you can play on that new card and do so ... you'd be prolonging
+the date.
+
+Which you certainly can do! This is one of the perks of being the 
+Outside Interference. And unless you and the other players are tired
+of the date, you probably *should*. It'll make things more interesting.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Named NPCs {#date-npcs}
 
@@ -302,6 +305,10 @@ If it wasn't a red Queen, then ask the player:
 
 > What makes this NPC unattractive to your character?
 
+:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+![If your date doesn't go well but you meet someone else you like -- be sure to get *their* number!](art/spectrum/phone.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### What are *They* Doing Here?
 
 When you play a King, someone from the character's life shows up. This could be a friend,
@@ -360,8 +367,4 @@ completely new one from scratch.
 If that's the case, you can skip the name and pronouns part of the Prospect creation
 process, but still match against the Headmates' ideal partner and draw two Trait Cards
 for the Prospect.
-
-:::::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
-![If your date doesn't go well but you meet someone else you like -- be sure to get *their* number!](art/spectrum/phone.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -5,15 +5,13 @@ Headmate was looking for in an ideal partner.
 Now it's time to see if the Prospect measures up to that ideal. Here's how you
 do that.
 
-- For each Headmate, the Date writes the Headmate's name and desired quality
-  on the Date Sheet.
-- One player flips the top card from the System's Deck and the
-  Date flips a card from the Date's Deck.
+- For each Headmate, the Date writes the Headmate's name and desired quality on a line on the Date Sheet.
+- One player flips the top card from the System's Deck and the Date flips a card from the Date's Deck.
 - If the cards **don't match at all,** the Prospect doesn't have that quality.
-- If the cards **match color,** the Date marks a check; the Prospect has that desired quality.
+- If the cards **match color,** the Date marks a check on that line; the Prospect has that desired quality.
 - If the cards **match suit,** the Date marks a plus (+); the Prospect has that quality in abundance!
 - If the cards **match suit and rank,** the Date marks a star; the Prospect is a perfect match on that quality!
-- If the cards **match rank but not suit or color,** the Prospect doesn't have that quality at all.
+- If the cards **match rank but not suit or color,** the Prospect doesn't have that quality at all. The Date marks a minus (-) on that line.
 
 ::::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -60,11 +58,7 @@ The cards exactly match, one from each deck.
 [Han Solo is kind of a creep, though.]{.carline}
 We can intrepret this as not only does the Prospect play tabletop RPGs as often as
 the Headmate, *but also* their group is looking for a new player!
-
-The Date player marks a star in the box, and an extra star on the outside. (If the
-Date had drawn the [Two of Diamonds]{.card .deuce .d} instead, they would mark
-just a single star.)
-[There's actually as much of a chance of this happening as matching the suit.]{.dera}
+The Date player marks a star in the box. 
 
 :::::::::::::: cardgroup ::::::::::::::
 [Two of Hearts]{.card .deuce .h}
