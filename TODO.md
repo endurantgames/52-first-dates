@@ -1,6 +1,6 @@
 # To Do
 
-As of 2021-06-25:
+As of 2021-06-28:
 
 [x] Update TOC
 [x] Segue from info dump to game
@@ -19,10 +19,10 @@ As of 2021-06-25:
   [ ] Creating the Headmates
   [x] Move the following to Set-Up:
   [x] Determining Roles
-  [ ] Creating the Prospect
-    [ ] Personality traits
-      [ ] List
-      [ ] ~~Rename these~~
+  [-] Creating the Prospect
+    [x] Personality traits
+      [x] List
+      [x] ~~Rename these~~
     [ ] Gender and sexuality
     [x] Checking for desired qualities
   [ ] Setting the Scene
@@ -60,11 +60,11 @@ As of 2021-06-25:
 [x] A Plural Lexicon 
   [x] Footnotes
 [x] Colophon
-[-] Character Sheets
-  [-] System
+[x] Character Sheets
+  [x] System
   [x] Outside Interference
   [x] Headmate Sheet
-  [-] Date Sheet
+  [x] Date Sheet
   [x] Game Reference
 
 
