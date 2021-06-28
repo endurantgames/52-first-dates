@@ -73,7 +73,7 @@ header p.date { string-set: date content()     } /* picking up metadata */
 @page:right  { margin-right: 192pt; margin-left:   96pt; }
 
 /* footnotes -------------------------------------------------------------------------------------------------- */
-@page        { @footnote { position: absolute; width: 138pt; vertical-align: bottom; bottom: 68pt; } }
+@page        { @footnote { position: absolute; width: 128pt; vertical-align: bottom; bottom: 68pt; } }
 @page :left  { @footnote { left: -160pt;  } }
 @page :right { @footnote { right: -168pt; } }
 
@@ -156,23 +156,22 @@ h5 { font-style: italic;                              }
 #cover + h1 { counter-reset: page; counter-increment: page; }
 
 /* pagination ------------------------------------------------------------------------------------------------- */
-h1               { break-inside: avoid; break-after: avoid; }
-h2               { break-inside: avoid; break-after: avoid; }
-h3               { break-inside: avoid; break-after: avoid; }
-h4               { break-inside: avoid; break-after: avoid; }
-h5               { break-inside: avoid; break-after: avoid; }
-h6               { break-inside: avoid; break-after: avoid; }
-p+table          { break-before: avoid-page;                }
-table            { break-inside: avoid-page;                }
-p, li            { orphans: 3; line-height: 1.40;           }
-.breakbefore     { break-before: page;                      }
-.colbefore       { break-before: column;                    }
-.nobreak         { break-before: avoid-page;                }
-.nocolbreak      { break-before: avoid-column;              }
-h2               { break-before: page;                      }
-h2:first-of-type { break-before: avoid;                     }
-#cover + h1      { break-before: right;                     }
-
+h1           { break-inside: avoid; break-after: avoid; }
+h2           { break-inside: avoid; break-after: avoid; }
+h3           { break-inside: avoid; break-after: avoid; }
+h4           { break-inside: avoid; break-after: avoid; }
+h5           { break-inside: avoid; break-after: avoid; }
+h6           { break-inside: avoid; break-after: avoid; }
+p+table      { break-before: avoid-page;                }
+table        { break-inside: avoid-page;                }
+p, li        { orphans: 3; line-height: 1.40;           }
+.breakbefore { break-before: page;                      }
+.colbefore   { break-before: column;                    }
+.nobreak     { break-before: avoid-page;                }
+.nocolbreak  { break-before: avoid-column;              }
+h2           { break-before: page;                      }
+h2.nobreak   { break-before: avoid;                     }
+#cover + h1  { break-before: right;                     }
 
 /* margins ---------------------------------------------------------------------------------------------------- */
 h1 { margin-bottom: 0pt;                  }
@@ -216,9 +215,11 @@ a.xref-see        { content: target-content(attr(href url)); font-style: italic;
 a.xref-see:after  { content: ' on page ' target-counter(attr(href url), page); font-style: normal;                             }
 
 /* lists ------------------------------------------------------------------------------------------------------ */
-li           { break-inside: avoid;                                      }
-ul, ol       { margin-left: 1em;    margin-top: 6pt; margin-bottom: 6pt; }
-ul li, ul ol { margin-left: 1em;                                         }
+li    { break-inside: avoid;                                   }
+ul    { margin-left: 1em; margin-top: 6pt; margin-bottom: 6pt; }
+ol    { margin-left: 2em; margin-top: 6pt; margin-bottom: 6pt; }
+ul li { margin-left: 1em;                                      }
+ul ol { margin-left: 1em;                                      }
 
 /* sidebars --------------------------------------------------------------------------------------------------- */
 .sidebar { 
@@ -282,6 +283,13 @@ img {
   line-height:    none;
 }
 
+:matches(.spin, .dera, .carline, .aura, .val, .fox) { 
+  color:          var(--color-footnote);
+  float:          footnote; 
+  line-height:    1.25; 
+  display:        inline-block; 
+  margin-bottom:  15pt; 
+}
 /* table of contents ------------------------------------------------------------------------------------------ */
 #toc           { column-count: 2; column-gap: 16pt; column-width: auto;  }
 #toc           { background: none; border: none;                         }
@@ -320,7 +328,6 @@ img {
   font-weight:  normal; 
   line-height:  none; 
   font-size:    87%; 
-  margin-left:  -1.7em; /* 1.5 * 1 / 87% */
 }
 .tstoolkit .rewind:after { content: '\23ea'; }
 .tstoolkit .ff:after     { content: '\23e9'; }
@@ -390,13 +397,6 @@ img {
 .systemlist dt { margin-bottom: 3pt;                       }
 
 /* system member icons ---------------------------------------------------------------------------------------- */
-:matches(.spin, .dera, .carline, .aura, .val, .fox) { 
-  color:         var(--color-footnote);
-  float:         footnote; 
-  line-height:   1.25; 
-  display:       inline-block; 
-  margin-bottom: 15pt; 
-}
 :matches(.spin, .dera, .carline, .aura, .val, .fox):after         { margin-left: 0.5em; display: inline-block; line-height: none; }
 :matches(.spin, .dera, .carline, .aura, .val):after               { font: var(--font-emoji);                                      }
 .emoji-spin, .emoji-dera, .emoji-carline, .emoji-aura, .emoji-val { font-family: var(--font-emoji); line-height: none;            }
@@ -415,8 +415,11 @@ img {
   font-size:     var(--h4); 
   margin-bottom: 9pt; 
   text-align:    center; 
-  margin-left:   12pt; 
-  margin-right:  12pt; 
+  margin-left:   24pt; 
+  margin-right:  24pt; 
+  display:       block;
+  break-before:  avoid;
+  break-after:   avoid;
 }
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
@@ -449,18 +452,16 @@ img {
   /* overflow: clip; */
 }
 
-.sheetpage th                      { font-weight: normal;           }
-.sheetpage .sheet .gamename:before { content: string(gamename) ' '; }
-.sheetpage .instruct               { font-size: var(--sheetsize);   }
-
-.sheetpage .sheet.wide           { column-span: all; }
-.sheetpage .sheet.wide h3        { column-span: all; }
-.sheetpage .sheet.wide .instruct { column-span: all; }
-
-.sheetpage .sheet.full           { column-span: all; height: 8.5in;                       }
-.sheetpage .sheet.full           { columns: 2 auto; column-gap: 12pt; break-before: page; }
-.sheetpage .sheet.full .instruct { column-span: all;                                      }
-.sheetpage .sheet.full h3        { column-span: all;                                      }
+.sheetpage th                      { font-weight: normal;                                   }
+.sheetpage .sheet .gamename:before { content: string(gamename) ' ';                         }
+.sheetpage .instruct               { font-size: var(--sheetsize);                           }
+.sheetpage .sheet.wide             { column-span: all;                                      }
+.sheetpage .sheet.wide h3          { column-span: all;                                      }
+.sheetpage .sheet.wide .instruct   { column-span: all;                                      }
+.sheetpage .sheet.full             { column-span: all; height: 8.5in;                       }
+.sheetpage .sheet.full             { columns: 2 auto; column-gap: 12pt; break-before: page; }
+.sheetpage .sheet.full .instruct   { column-span: all;                                      }
+.sheetpage .sheet.full h3          { column-span: all;                                      }
 
 .sheetpage .sheet :matches(h2, h3) { 
   margin-top:    0; 
@@ -545,46 +546,43 @@ img {
 .sheetpage .needlist { font-size: var(--sheetsize); }
 
 /* reference sheet ------------------------------------------------------------------------------------------------------- */
-.sheetpage #sheet-ref { columns: 2 auto; column-gap: 12pt; }
-.sheetpage #sheet-ref .suitmeanings { column-span: all; float: column bottom; margin-top: 18pt; }
-.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre; }
-.sheetpage #sheet-ref .suitmeanings td { font-size: var(--large); }
-.sheetpage #sheet-ref .suitmeanings th { font-size: var(--larger); }
-.sheetpage #sheet-ref h3 { column-span: all; }
-.sheetpage #sheet-ref :matches(ol, ul) { break-inside: avoid; margin-bottom: 0; margin-top: 0;  }
-.sheetpage #sheet-ref ol > li { font-weight: bold; font-size: var(--large); }
-.sheetpage #sheet-ref ul > li { font-size: var(--larger); }
-.sheetpage #sheet-ref li { margin-top: 0; margin-bottom: 0; }
-.sheetpage #sheet-ref .turnorder ul > li { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
-.sheetpage #sheet-ref .turnorder ol > li > em { font-size: var(--body); font-weight: normal; }
-.sheetpage #sheet-ref .gamestruct { margin-left: 9pt; }
-.sheetpage #sheet-ref h4 { padding-top: 9pt; margin-bottom: 3pt; }
-.sheetpage #sheet-ref .rulesremind { column-span: all; }
+.sheetpage #sheet-ref                              { columns: 2 auto; column-gap: 12pt;                                                 }
+.sheetpage #sheet-ref .suitmeanings                { column-span: all; float: column bottom; margin-top: 18pt;                          }
+.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre;                                                                  }
+.sheetpage #sheet-ref .suitmeanings td             { font-size: var(--large);                                                           }
+.sheetpage #sheet-ref .suitmeanings th             { font-size: var(--larger);                                                          }
+.sheetpage #sheet-ref h3                           { column-span: all;                                                                  }
+.sheetpage #sheet-ref :matches(ol, ul)             { break-inside: avoid; margin-bottom: 0; margin-top: 0;                              }
+.sheetpage #sheet-ref ol > li                      { font-weight: bold; font-size: var(--large);                                        }
+.sheetpage #sheet-ref ul > li                      { font-size: var(--larger);                                                          }
+.sheetpage #sheet-ref li                           { margin-top: 0; margin-bottom: 0;                                                   }
+.sheetpage #sheet-ref .turnorder ul > li           { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
+.sheetpage #sheet-ref .turnorder ol > li > em      { font-size: var(--body); font-weight: normal;                                       }
+.sheetpage #sheet-ref .gamestruct                  { margin-left: 9pt;                                                                  }
+.sheetpage #sheet-ref h4                           { padding-top: 9pt; margin-bottom: 3pt;                                              }
+.sheetpage #sheet-ref .rulesremind                 { column-span: all;                                                                  }
 
 /* outside interference sheet -------------------------------------------------------------------------------------------- */
-.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt; }
-.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt; }
-
-.outsidechart .eg:before { content: 'e.g. '; }
-.outsidechart .eg, .outsidechart .red { display: inline-block; }
-.outsidechart th .red { font-family: var(--font); }
-.outsidechart .eg { font-size: var(--smaller); font-style: italic; }
-.outsidechart .red { color: red; }
-
-.sheet .outsidechart table th { font-size: var(--larger); }
-.sheet .outsidechart table td { font-size: var(--large); }
+.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt;                                   }
+.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt;                                  }
+.outsidechart .eg:before                   { content: 'e.g. ';                              }
+.outsidechart .eg, .outsidechart .red      { display: inline-block;                         }
+.outsidechart th .red                      { font-family: var(--font);                      }
+.outsidechart .eg                          { font-size: var(--smaller); font-style: italic; }
+.outsidechart .red                         { color: red;                                    }
+.sheet .outsidechart table th              { font-size: var(--larger);                      }
+.sheet .outsidechart table td              { font-size: var(--large);                       }
 
 /* headmate sheet -------------------------------------------------------------------------------------------------------- */
-.sheetpage #sheet-hm .inputbox { height: 216pt; }
-.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt; }
-.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt; }
-.sheetpage #sheet-outside .inputbox { height: 108pt; }
+.sheetpage #sheet-hm .inputbox                 { height: 216pt; }
+.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt;   }
+.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt;  }
+.sheetpage #sheet-outside .inputbox            { height: 108pt; }
 
 .sheetpage h4 { text-align: center; }
 
 /* system sheet ---------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-sys .inputbox { height: 108pt; }
-
 
 /* date role sheet ------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-daterole .inputbox { height: 72pt; }
@@ -600,10 +598,10 @@ img {
 /* card suits / ranks ==================================================================================================== */
 
 :matches( .clubs, .diamonds, .hearts, .spades) { font-family: var(--font-suits); line-height: none; }
-.clubs    { content: '\2663';               }
-.hearts   { content: '\2665'; color: red;   }
-.diamonds { content: '\2666'; color: red;   }
 .spades   { content: '\2660';               }
+.hearts   { content: '\2665'; color: red;   }
+.clubs    { content: '\2663';               }
+.diamonds { content: '\2666'; color: red;   }
 .card     { font-family: var(--font-cards); }
 
 /* arbitrary grouping of cards ------------------------------------------------------------------------------------------- */
@@ -665,16 +663,16 @@ img {
 .card.h.seven   { content: '\1f0b7'; } .card.h.eight   { content: '\1f0b8'; } .card.h.nine      { content: '\1f0b9'; }
 .card.h.ten     { content: '\1f0ba'; } .card.h.jack    { content: '\1f0bb'; } .card.h.knight    { content: '\1f0bc'; }
 .card.h.queen   { content: '\1f0bd'; } .card.h.king    { content: '\1f0be'; }
-.card.c.ace     { content: '\1f0c1'; } .card.c.deuce   { content: '\1f0c2'; } .card.c.three     { content: '\1f0c3'; }
-.card.c.four    { content: '\1f0c4'; } .card.c.five    { content: '\1f0c5'; } .card.c.six       { content: '\1f0c6'; }
-.card.c.seven   { content: '\1f0c7'; } .card.c.eight   { content: '\1f0c8'; } .card.c.nine      { content: '\1f0c9'; }
-.card.c.ten     { content: '\1f0ca'; } .card.c.jack    { content: '\1f0cb'; } .card.c.knight    { content: '\1f0cc'; }
-.card.c.queen   { content: '\1f0cd'; } .card.c.king    { content: '\1f0ce'; }
-.card.d.ace     { content: '\1f0d1'; } .card.d.deuce   { content: '\1f0d2'; } .card.d.three     { content: '\1f0d3'; }
-.card.d.four    { content: '\1f0d4'; } .card.d.five    { content: '\1f0d5'; } .card.d.six       { content: '\1f0d6'; }
-.card.d.seven   { content: '\1f0d7'; } .card.d.eight   { content: '\1f0d8'; } .card.d.nine      { content: '\1f0d9'; }
-.card.d.ten     { content: '\1f0da'; } .card.d.jack    { content: '\1f0db'; } .card.d.knight    { content: '\1f0dc'; }
-.card.d.queen   { content: '\1f0dd'; } .card.d.king    { content: '\1f0de'; }
+.card.c.ace     { content: '\1f0d1'; } .card.c.deuce   { content: '\1f0d2'; } .card.c.three     { content: '\1f0d3'; }
+.card.c.four    { content: '\1f0d4'; } .card.c.five    { content: '\1f0d5'; } .card.c.six       { content: '\1f0d6'; }
+.card.c.seven   { content: '\1f0d7'; } .card.c.eight   { content: '\1f0d8'; } .card.c.nine      { content: '\1f0d9'; }
+.card.c.ten     { content: '\1f0da'; } .card.c.jack    { content: '\1f0db'; } .card.c.knight    { content: '\1f0dc'; }
+.card.c.queen   { content: '\1f0dd'; } .card.c.king    { content: '\1f0de'; }
+.card.d.ace     { content: '\1f0c1'; } .card.d.deuce   { content: '\1f0c2'; } .card.d.three     { content: '\1f0c3'; }
+.card.d.four    { content: '\1f0c4'; } .card.d.five    { content: '\1f0c5'; } .card.d.six       { content: '\1f0c6'; }
+.card.d.seven   { content: '\1f0c7'; } .card.d.eight   { content: '\1f0c8'; } .card.d.nine      { content: '\1f0c9'; }
+.card.d.ten     { content: '\1f0ca'; } .card.d.jack    { content: '\1f0cb'; } .card.d.knight    { content: '\1f0cc'; }
+.card.d.queen   { content: '\1f0cd'; } .card.d.king    { content: '\1f0ce'; }
 .card.joker     { content: '\1f0df'; } .card.joker.red { content: '\1f0bf'; } .card.joker.black { content: '\1f0cf'; }
 
 /* -prince-alt-text ====================================================================================================== */

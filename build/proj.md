@@ -8,8 +8,8 @@ title: 52 First Dates
 ![Cover Image](art/cover.jpg "Cover Image")
 
 <h1>[]{.gamename}</h1>
-## A Plural Dating Game
-### By the Spindrift Crew
+## A Plural Dating Game {.nobreak}
+### By the Spindrift Crew {.nobreak}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # 52 First Dates
@@ -128,7 +128,7 @@ if it succeeds at any of those. The four goals are to be a game that:
 
 ## Game Design Philosophy
 
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
+Our take on indie game design[Dera totally wrote this section, she's so wordy]{.aura} 
 is that of an ongoing conversation where a number of
 different voices weave in and out with their contributions that answer the question,
 "What *is* a roleplaying game? What *can* a roleplaying game *be*?"
@@ -182,7 +182,7 @@ Dera []{.emoji-dera}
 Carline Stone []{.emoji-carline}
 ~    Social justice druid and in-house sensitivity reader; will be your big gay auntie; she/her
 
-Aura []{.emoji-ora}
+Aura []{.emoji-aura}
 ~    Flirty lesbian disaster; looks like our WoW character; she/her
 
 Valorie []{.emoji-val}
@@ -222,10 +222,10 @@ such as the TTRPG Safety Toolkit, More Than One, the definitions in the Lexicon,
 Anti-Capitalist Attribution Cooperative License. This wasn't to save time or to increase
 the page count, but because we think these are important topics, and we doubt we could do 
 them justice ourselves.
-<span class="ora">see, I told you she's wordy!
+<span class="aura">see, I told you she's wordy!
  <span class="dera">
    Aura, you can't put a footnote on a footnote.
-     <span class="ora">oh, *yeah?* just *watch* me!</span>
+     <span class="aura">oh, *yeah?* just *watch* me!</span>
    </span>
   </span>
 </span>
@@ -251,7 +251,7 @@ licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 
 
-"More Than One: A Plural 101" by anonymous at [MoreThanOne.info](https://morethanone.info);
+*More Than One: A Plural 101* by anonymous at [MoreThanOne.info](https://morethanone.info);
 used under a
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. (Retrieved June 20, 2021.)
 
@@ -280,7 +280,7 @@ Specific items in the toolkit are credited as follows:
 
 
 Definitions in the Lexicon are adapted from
-[Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
+[*Pluralpedia, the collaborative plurality dictionary*](https://pluralpedia.org/).
 and are used under a
 [Creative Commons Attribution - Share-Alike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/) license.
 (Retrieved 2021-06-20)
@@ -590,6 +590,7 @@ the issues going forward.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::: morethanone ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## More Than One: A Plural 101 {#more}
 
 *The following section contains information about plurality that should be read
@@ -855,6 +856,7 @@ identified themselves otherwise, think of them as a group of roommates rather th
 one person with multiple personalities. Or a troupe putting on a show of singlethood 
 in order to make ends meet. Being invited backstage is a great act of trust — don't break it.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Glossary of Game Terms {#glossary}
 
@@ -1219,7 +1221,7 @@ act in a *flirty and coy, or evasive and guarded* manner.
 If you're the **Date** or a **Fronterm** and you have at least one card 
 you can play from your hand, you must play one of those cards on your turn.
 [This could mean you might end the date even if you don't want to.]{.dera}
-[That's how dating goes sometimes ... sigh]{.ora}
+[That's how dating goes sometimes ... sigh]{.aura}
 
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.
@@ -1308,7 +1310,7 @@ Now that you know how the cards work, we're going to tell you how
 the game is set up.
 ["the set-up" has a double meaning, see, because not only is this section about
 preparing the game, but the whole conceit of the game is that it's a blind
-date that you were *set up* on]{.ora}
+date that you were *set up* on]{.aura}
 
 Before the first Date Night, you have to do the following:
 
@@ -1327,7 +1329,7 @@ Before *each* Date Night, including the first, you need to:
 ### Game Safely {#setup-safely}
 
 Dating can be an emotional rollercoaster for most of us
-[even those of us already in an ongoing relationship!]{.ora},
+[even those of us already in an ongoing relationship!]{.aura},
 and when dealing with issues of attraction, gender, sexuality,
 and desire, those emotions might come to the surface just
 by playing a roleplaying game.
@@ -1389,7 +1391,7 @@ That's what we're labeling *intimacy* here.
 
 It could be any of these, or more:
 [Or playing a roleplaying game together!
-<span class="ora">only you would find that "intimate", Dera"</span>]{.dera}
+<span class="aura">only you would find that "intimate", Dera"</span>]{.dera}
 
 - A wild night of kinky sex
 - Opening up about a deep-seated trauma in your past
@@ -1454,15 +1456,15 @@ all-powerful computer in a grim cyberfuture, or an oracle in the mythic past.
 You *certainly* don't have to place your game in North America, I hope that goes without
 saying -- but I would be remiss if I didn't remind you that haphazardly choosing 
 non-white cultures for "play" in games is rather, uh, colonialist.
-[you can totally tell that Carline wrote this section ... well, I can at least]{.ora}
+[you can totally tell that Carline wrote this section ... well, I can at least]{.aura}
 
 That said, it's also okay to stick to the default. It's easier and more comfortable
 if you aren't trying to figure out what the high elf view of gender might be, or
 whether Trills are inherently plural 
 [I mean, Trills kind of *are* plural.]{.dera}
-[...]{.ora}
+[...]{.aura}
 [I HAPPEN TO HAVE STRONG OPINIONS ABOUT TRILLS, OKAY?]{.dera}
-[...]{.ora}, 
+[...]{.aura}, 
 or what-have-you. 
 
 In addition to the setting, you can add on themes to the game, which usually means
@@ -1541,7 +1543,7 @@ top of the Date's Deck, and comparing it to the following tables.
 
 These names have been chosen to have few gender assumptions attached.
 
-:::::::::::: namelist :::::::::::::::::::::::::::::::::
+:::::::::::: {.namelist .nobreak } ::::::::::::::::::::
  Card             Name
 ------            ---------------
 A []{.clubs     } Ari
@@ -1617,24 +1619,27 @@ to determine another set of pronouns they also use.
 "she/her"; **H**earts and "he/him" with an "H"; **C** for both Clubs and
 *chart*. There's no "d" in they/them, though.]{.spin}
 
- Cards                                        Pronouns
--------                                       ---------
-[Hearts  ]{.hearts   } [Hearts  ]{.hearts   } he/him
-[Hearts  ]{.hearts   } [Spades  ]{.spades   } any pronouns
-[Hearts  ]{.hearts   } [Diamonds]{.diamonds } he/him + they/them
-[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart <br/>
-[Spades  ]{.spades   } [Hearts  ]{.hearts   } any pronouns
-[Spades  ]{.spades   } [Spades  ]{.spades   } she/her
-[Spades  ]{.spades   } [Diamonds]{.diamonds } she/her + they/them
-[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart <br/>
-[Diamonds]{.diamonds } [Hearts  ]{.hearts   } they/them + he/him
-[Diamonds]{.diamonds } [Spades  ]{.spades   } they/them + she/her
-[Diamonds]{.diamonds } [Diamonds]{.diamonds } they/them
-[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart <br/>
-[Clubs   ]{.clubs    } [Hearts  ]{.hearts   } chart + he
-[Clubs   ]{.clubs    } [Spades  ]{.spades   } chart + she
-[Clubs   ]{.clubs    } [Diamonds]{.diamonds } chart + they
-[Clubs   ]{.clubs    } [Clubs   ]{.clubs    } chart + chart
+First Card Suit         Second Card Suit        Pronouns
+---                     ---                     ---------
+[]{.hearts   }   Hearts []{.hearts   }   Hearts he/him
+[]{.hearts   }   Hearts []{.spades   }   Spades any pronouns
+[]{.hearts   }   Hearts []{.diamonds } Diamonds he/him + they/them
+[]{.hearts   }   Hearts []{.clubs    }    Clubs he/him + chart <br/>
+[]{.spades   }   Spades []{.hearts   }   Hearts any pronouns
+[]{.spades   }   Spades []{.spades   }   Spades she/her
+[]{.spades   }   Spades []{.diamonds } Diamonds she/her + they/them
+[]{.spades   }   Spades []{.clubs    }    Clubs she/her + chart <br/>
+[]{.diamonds } Diamonds []{.hearts   }   Hearts they/them + he/him
+[]{.diamonds } Diamonds []{.spades   }   Spades they/them + she/her
+[]{.diamonds } Diamonds []{.diamonds } Diamonds they/them
+[]{.diamonds } Diamonds []{.clubs    }    Clubs theythem + chart <br/>
+[]{.clubs    }    Clubs []{.hearts   }   Hearts chart + he
+[]{.clubs    }    Clubs []{.spades   }   Spades chart + she
+[]{.clubs    }    Clubs []{.diamonds } Diamonds chart + they
+[]{.clubs    }    Clubs []{.clubs    }    Clubs chart + chart
+
+If the result above says "chart" (i.e., is Clubs) then check the card's
+rank on the next table.
 
  Card                Pronouns
 ------               ---------
@@ -1813,7 +1818,7 @@ Maybe they're a gamemaster, or just a die-hard roleplayer?
 
 The cards exactly match, one from each deck. 
 [There's a 1 in 52 chance of this happening, which is 1.92% of the time.]{.dera}
-["Never tell me the odds."]{.ora}
+["Never tell me the odds."]{.aura}
 [Han Solo is kind of a creep, though.]{.carline}
 We can intrepret this as not only does the Prospect play tabletop RPGs as often as
 the Headmate, *but also* their group is looking for a new player!
@@ -1979,12 +1984,12 @@ act in response to cards played by the other players.
 
 []{.lorem}
 [The title of that song is ableist.]{.carline}
-[Oh c'mon Carline, you know it's a joke]{.ora}
+[Oh c'mon Carline, you know it's a joke]{.aura}
 [... an *ableist* joke.]{.carline}
 [She's right, you know.]{.dera}
-[wait, *who* is right?]{.ora}
+[wait, *who* is right?]{.aura}
 [Not you.]{.dera}
-[:p]{.ora}
+[:p]{.aura}
 
 []{.lorem}
 
@@ -2184,13 +2189,13 @@ of headmates was to give all players a sense of investiture -- but that
 might not work if you're simultaneously building two sets of headmates.
 
 Ah, Aura wishes to jump in. I defer to her.
-[that was Dera droning on and on by the way]{.ora}
+[that was Dera droning on and on by the way]{.aura}
 
-So -- here's what I []{.emoji-ora} think! I think if there are two groups playing
+So -- here's what I []{.emoji-aura} think! I think if there are two groups playing
 []{.gamename} at the same time, it would be really cute and awesome if
 the groups came together and played out a date between the two systems!
 [Hm. That *could* work.
-<span class="ora">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
+<span class="aura">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
 
 And they *FELL IN LOOOOOOOOOOOOVE* ...
 
@@ -2272,7 +2277,7 @@ Blending
     or to anyone else who is co-conscious at the time.
     [Our own median system does this a lot; part of why we didn't recognize ourself
      as a system was because we blend from to the other and don't even notice that
-     our fronter has changed]{.ora}
+     our fronter has changed]{.aura}
 
 Blurian
 ~   Blurian refers to easier or complete memory sharing, having a lack of 
@@ -2363,7 +2368,7 @@ Little
 Main
 ~   The main is a headmate who is considered by the rest of the system to be one the 
     main or central influences on the system.
-    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.ora}
+    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.aura}
     This doesn't necessarily mean they front 
     often.  A main can be a leader, teacher, or another authoritative figure that has 
     an influence over the system. They may also be someone that others draw energy from.
@@ -2375,7 +2380,7 @@ Main
 Median
 ~   A median system (also called midcontinuum) is a system where members are not as 
     distinct or separate from each other.
-    [This is what we are! a median system]{.ora}
+    [This is what we are! a median system]{.aura}
     It can be considered being somewhere 
     between multiple and singlet.
 

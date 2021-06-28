@@ -2,6 +2,6 @@
 ![Cover Image](art/cover.jpg "Cover Image")
 
 <h1>[]{.gamename}</h1>
-# A Plural Dating Game
-## By the Spindrift Crew
+# A Plural Dating Game {.nobreak}
+## By the Spindrift Crew {.nobreak}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

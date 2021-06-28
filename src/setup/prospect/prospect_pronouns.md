@@ -8,24 +8,27 @@ to determine another set of pronouns they also use.
 "she/her"; **H**earts and "he/him" with an "H"; **C** for both Clubs and
 *chart*. There's no "d" in they/them, though.]{.spin}
 
- Cards                                        Pronouns
--------                                       ---------
-[Hearts  ]{.hearts   } [Hearts  ]{.hearts   } he/him
-[Hearts  ]{.hearts   } [Spades  ]{.spades   } any pronouns
-[Hearts  ]{.hearts   } [Diamonds]{.diamonds } he/him + they/them
-[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart <br/>
-[Spades  ]{.spades   } [Hearts  ]{.hearts   } any pronouns
-[Spades  ]{.spades   } [Spades  ]{.spades   } she/her
-[Spades  ]{.spades   } [Diamonds]{.diamonds } she/her + they/them
-[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart <br/>
-[Diamonds]{.diamonds } [Hearts  ]{.hearts   } they/them + he/him
-[Diamonds]{.diamonds } [Spades  ]{.spades   } they/them + she/her
-[Diamonds]{.diamonds } [Diamonds]{.diamonds } they/them
-[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart <br/>
-[Clubs   ]{.clubs    } [Hearts  ]{.hearts   } chart + he
-[Clubs   ]{.clubs    } [Spades  ]{.spades   } chart + she
-[Clubs   ]{.clubs    } [Diamonds]{.diamonds } chart + they
-[Clubs   ]{.clubs    } [Clubs   ]{.clubs    } chart + chart
+First Card Suit         Second Card Suit        Pronouns
+---                     ---                     ---------
+[]{.hearts   }   Hearts []{.hearts   }   Hearts he/him
+[]{.hearts   }   Hearts []{.spades   }   Spades any pronouns
+[]{.hearts   }   Hearts []{.diamonds } Diamonds he/him + they/them
+[]{.hearts   }   Hearts []{.clubs    }    Clubs he/him + chart <br/>
+[]{.spades   }   Spades []{.hearts   }   Hearts any pronouns
+[]{.spades   }   Spades []{.spades   }   Spades she/her
+[]{.spades   }   Spades []{.diamonds } Diamonds she/her + they/them
+[]{.spades   }   Spades []{.clubs    }    Clubs she/her + chart <br/>
+[]{.diamonds } Diamonds []{.hearts   }   Hearts they/them + he/him
+[]{.diamonds } Diamonds []{.spades   }   Spades they/them + she/her
+[]{.diamonds } Diamonds []{.diamonds } Diamonds they/them
+[]{.diamonds } Diamonds []{.clubs    }    Clubs theythem + chart <br/>
+[]{.clubs    }    Clubs []{.hearts   }   Hearts chart + he
+[]{.clubs    }    Clubs []{.spades   }   Spades chart + she
+[]{.clubs    }    Clubs []{.diamonds } Diamonds chart + they
+[]{.clubs    }    Clubs []{.clubs    }    Clubs chart + chart
+
+If the result above says "chart" (i.e., is Clubs) then check the card's
+rank on the next table.
 
  Card                Pronouns
 ------               ---------

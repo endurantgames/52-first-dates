@@ -5,7 +5,7 @@ top of the Date's Deck, and comparing it to the following tables.
 
 These names have been chosen to have few gender assumptions attached.
 
-:::::::::::: namelist :::::::::::::::::::::::::::::::::
+:::::::::::: {.namelist .nobreak } ::::::::::::::::::::
  Card             Name
 ------            ---------------
 A []{.clubs     } Ari
