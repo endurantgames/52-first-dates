@@ -19,7 +19,7 @@ As of 2021-06-28:
   [ ] Turn order
   [ ] Stood Up?
   [ ] Playing as the Date
-  [ ] Playing as the Fronter
+  [ ] Playing as the Collective
     [ ] Switching Fronters
 [-] The Wrap-Up
   [ ] When the Date Ends

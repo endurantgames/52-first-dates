@@ -9,7 +9,7 @@ Okay, you need to get the following together:
 - One Date Sheet per player
 - One Headmate Sheet per player
 - One Game Reference Sheet per player
-- Pencils
+- Pencils and erasers
 - *optional, but recommended* Extra paper for notetaking
 
 # The Purpose of []{.gamename} {.nobreak}

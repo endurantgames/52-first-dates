@@ -49,7 +49,7 @@ title: 52 First Dates
 ### []{.gamename} Game Reference Sheet {#sheet-reference}
 
 ::::::: rulesremind ::::::::::::
-- **Fronters** draw from System's Deck; can only play cards that match suit or rank; must play a card if they can play at least one card
+- **Collective** players draw from System's Deck; can only play cards that match suit or rank; must play a card if they can play at least one card
 - **Date** draws from Date's Deck; can only play cards that don't match suit and rank; must play a card if they can play at least one card
 - **Opportunity** draws from Date's Deck; can only play cards that match rank, in response to another card played
 - After you play a card, draw a new one (after resolving Opportunity Events)
@@ -87,13 +87,13 @@ Suit                   Demeanor
 1. Date plays a card
   - Opportunity can respond
   - Check for Date End
-2. 1st Fronter plays a card
+2. 1st Collective plays a card
   - Opportunity can respond
   - Check for Date End
 3. Date plays a card *(4+ players)*
   - Opportunity can respond
   - Check for Date End
-4. 2nd Fronter plays a card *(4+)*
+4. 2nd Collective plays a card *(4+)*
   - Opportunity can respond
   - Check for Date End
 5. ...
@@ -126,14 +126,14 @@ Roleplay this Headmate fairly when they're fronting.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::: {.sheet .full #sheet-out } ::::::::::::::::::::::::::::::::::::::::
-### [Opportunity Sheet]{.gamename #sheet-outside}
+### [Opportunity Sheet]{.gamename #sheet-opportunity}
 
 :::::::::::: instruct :::::::::::::::::::::::::::::::::
 Play a card matching the rank of a card just played.
  Create a named NPC when you play a Jack, a Queen, or a King.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::: {.outsidechart} :::::::::::::::::::::::::::::::::::::::::::
+:::::::::: {.eventchart} :::::::::::::::::::::::::::::::::::::::::::
  Rank  Opportunity Event [plus red text if you play a red card]{.red}
 ------ ---------------------------------------------------------------        
  Ace   **Happy to Be Here!** pick a new Headmate to front [and they're pleased with this]{.red}

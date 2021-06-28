@@ -93,7 +93,7 @@ the players agree they've enjoyed playing and are ready to stop.
   - <a href="#sheet-system"></a>
   - <a href="#sheet-reference"></a>
   - <a href="#sheet-headmate"></a>
-  - <a href="#sheet-outside"></a>
+  - <a href="#sheet-opportunity"></a>
   - <a href="#sheet-date"></a>
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -109,7 +109,7 @@ Okay, you need to get the following together:
 - One Date Sheet per player
 - One Headmate Sheet per player
 - One Game Reference Sheet per player
-- Pencils
+- Pencils and erasers
 - *optional, but recommended* Extra paper for notetaking
 
 ## The Purpose of []{.gamename} {.nobreak}
@@ -1541,9 +1541,9 @@ Break ties by drawing cards from the System's Deck.
 #### Subsequent Date Nights
 
 The player who was the previous Date Night's Opportunity plays the Date, and the
-previous Date Night's Date plays the Collective. From the previous Date Night's Fronters, 
-each player who hasn't been the Date before draws a card and the player with the 
-highest card plays Opportunity; the rest are the Collective. 
+previous Date Night's Date plays the Collective. From the previous Date Night's 
+Collective, each player who hasn't been the Date before draws a card and the player 
+with the highest card plays Opportunity; the rest are the Collective. 
 Again, break ties with draws from the System's Deck.
 
 
