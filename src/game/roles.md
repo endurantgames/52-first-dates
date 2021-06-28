@@ -91,9 +91,9 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Outside Interference {.breakbefore}
+## The Opportunity {.breakbefore}
 
-If you're the Outside Interference, you draw your cards from the *Date's Deck*. 
+If you're the Opportunity, you draw your cards from the *Date's Deck*. 
 You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
@@ -122,7 +122,7 @@ in red ...
 
 ...you could play your cards on these stacks:
 [It's entirely likely that you can't play a card every time you potentially could -- 
-that's by design.  The Outside Interference has more opportunities to play cards 
+that's by design.  The Opportunity has more chances to play cards 
 than the other roles.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::

@@ -12,29 +12,45 @@
 # Turn Order {#date-turn-order}
 
 - **Date player plays a card**
-  - Outside Opposition may play a card
+  - Opportunity may play a card
   - Date draws a card
-- **System player 1 plays a card**
-  - Outside Opposition may play a card
-  - System player one draws a card
-- **Date player plays a card** *4+ players only*
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 1 plays a card**
+  - Opportunity may play a card
+  - Fronter player one draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*4+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 2 plays a card** *4+ players only*
-  - Outside Opposition may play a card
-  - System player two draws a card
-- **Date player plays a card** *5+ players only*
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 2 plays a card** (*4+ players only*)
+  - Opportunity may play a card
+  - Fronter player two draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*5+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 3 plays a card** *6+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
-- **Date player plays a card**
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 3 plays a card** (*5+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*6+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 4 plays a card** *7+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
+  - Check if Date Night ends
+- **Fronter player 4 plays a card** (*6+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*7+ players only*)
+  - Opportunity may play a card
+  - Date draws a card
+  - Check if Date Night ends
+- **Fronter player 5 plays a card** (*7+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
 - **Back to start**
 
 During the Date Night part of the game, the Date character and the System 
@@ -43,7 +59,7 @@ character alternate turns back and forth.
 If you have more than three players, two or more players will be sharing the
 System character, and will take turns in alternating order.
 
-The Outside Opposition player doesn't have a turn in the turn order, but can
+The Opportunity player doesn't have a turn in the turn order, but can
 act in response to cards played by the other players.
 
 ## Stood Up? {#date-stood .breakbefore}

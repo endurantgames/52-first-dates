@@ -31,7 +31,7 @@ The Prospect <a name="glossary-prospect"></a>
 
 Roles <a name="glossary-roles"></a>
 ~   For Date Night, there are three roles: **The Date**, **The Fronters**,
-    and **The Outside Interference**. These change between dates, and may
+    and **The Opportunity**. These change between dates, and may
     change during a date as well. Roles are determined randomly at the
     start of Date Night.
 
@@ -47,13 +47,13 @@ The Fronter(s) <a name="glossary-fronter"></a>
     System as whichever Headmate is fronting at the time, which can
     change during the game.
 
-The Outside Interference <a name="glossary-outside-interference"></a>
+The Opportunity <a name="glossary-outside-interference"></a>
 ~   The player who is controlling "the rest of the world", and introducing
     elements into the fictional Date Night to complicate the potential
     love connection between the System character and the Date character.
 
 The Date's Deck <a name="glossary-date-deck"></a>
-~   The deck of cards from which both the Date and the Outside Interference
+~   The deck of cards from which both the Date and the Opportunity
     draw their cards.
 
 The System's Deck <a name="glossary-system-deck"></a>

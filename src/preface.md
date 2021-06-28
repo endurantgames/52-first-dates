@@ -5,7 +5,7 @@ Okay, you need to get the following together:
 - At least three players; preferably four to six, and usually no more than eight
 - Two decks of standard poker cards; they should have different backs
 - One copy of the System Sheet
-- One copy of the Outside Interference Sheet
+- One copy of the Opportunity Sheet
 - One Date Sheet per player
 - One Headmate Sheet per player
 - One Game Reference Sheet per player

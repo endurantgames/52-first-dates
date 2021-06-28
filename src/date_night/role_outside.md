@@ -1,17 +1,17 @@
-# Playing the Outside Interference {#date-role-outside .breakbefore }
+# Playing the Opportunity {#date-role-outside .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-As the Outside Interference, your job is to introduce events that could make 
+As the Opportunity, your job is to introduce events that could make 
 it harder for the parties on the date to make a love connection.
 
 That said -- you're not the *enemy*; you aren't playing *against* the System and the
 Prospect, just trying to make their Date Night more complicated.
 [We talked about this during our playtests; we decided *against*
  calling this the "cock-blocker" role, even though at times it could 
- seem that way. It's the job of the Outside Interference to make Date
+ seem that way. It's the job of the Opportunity to make Date
  Night *interesting*, and in fact, they might make it *more* likely for
  the System and Prospect to make a connection.]{.val}
 [... also "cock-blocker" is sexist and genital-essentialist language.]{.carline}
@@ -20,7 +20,7 @@ Prospect, just trying to make their Date Night more complicated.
 You can *only* play a card as long as the rank exactly matches the rank of a card played
 by another player. You don't have a spot in the turn order, and it's possible that 
 multiple turns can go by before you get a chance to play. That's okay -- you won't be
-the Outside Interference forever, provided that your group plays out more than one Date Night.
+the Opportunity forever, provided that your group plays out more than one Date Night.
 
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the table on the following page.
@@ -37,7 +37,7 @@ into play.
 :::::::::::::::::::: {.outsidechart .breakbefore .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
- Rank       Outside Interference 
+ Rank       Opportunity 
 ----------- ----------------------------------------------------------------------
     Ace     **Happy to Be Here!** 
             The character picks one of the Headmates not currently
@@ -84,7 +84,7 @@ into play.
 
      7      **Forget-Me-Nots** 
             Suddenly the character realizes they've forgotten something.
-            The Outside Interference gets to decide exactly what that
+            The Opportunity gets to decide exactly what that
             might be.
             [On a red card, they forgot something about their date.]{.red} 
             [For example: they forgot their date's name, they forgot to
@@ -105,7 +105,7 @@ into play.
             blocking their route to the park, an earthquake strikes.]{.eg}
 
     10      **Anything But This** 
-            The Outside Inteference picks one of the Headmates not
+            The Opportunity picks one of the Headmates not
             current fronting, who switches to the front and is apathetic 
             about the switch.
             [On a red card, they're upset by this switch.]{.red}
@@ -181,7 +181,7 @@ but if you can play on that new card and do so ... you'd be prolonging
 the date.
 
 Which you certainly can do! This is one of the perks of being the 
-Outside Interference. And unless you and the other players are tired
+Opportunity. And unless you and the other players are tired
 of the date, you probably *should*. It'll make things more interesting.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -245,7 +245,7 @@ and pronouns<span class="dera">
   [Diamonds]{.diamonds} for they/them,<br/>
   [Clubs]{.clubs} for other pronouns.
 </span>,
-record those on the Outside Interference Sheet next to the exact card you played, 
+record those on the Opportunity Sheet next to the exact card you played, 
 and announce those to the other players.
 
 As long as the card you played is active, the named NPC sticks around and interferes
@@ -334,7 +334,7 @@ If it wasn't a red King, then ask the player:
 The reason you write down the named NPCs is that they might show up again on future Date
 Nights!
 
-If you're playing the Outside Interference and the NPC Roster already has a listing for
+If you're playing the Opportunity and the NPC Roster already has a listing for
 the card you played, that named NPC could show up instead, under the following 
 circumstances:
 
