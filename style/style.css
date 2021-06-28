@@ -166,11 +166,16 @@ h5               { break-inside: avoid; break-after: avoid; }
 h6               { break-inside: avoid; break-after: avoid; }
 p+table          { break-before: avoid-page;                }
 table            { break-inside: avoid-page;                }
-p, li            { orphans: 3; line-height: 1.40;           }
+p                { orphans: 3; widows: 2;                   }
+li               { orphans: 2;                              }
+dd               { orphans: 3; widows: 2;                   }
+p                { line-height: 1.40;                       }
+li               { line-height: 1.40;                       }
 .breakbefore     { break-before: page;                      }
 .colbefore       { break-before: column;                    }
 .nobreak         { break-before: avoid-page;                }
 .nocolbreak      { break-before: avoid-column;              }
+p+ul             { break-before: avoid;                     }
 h2               { break-before: page;                      }
 h2.nobreak       { break-before: avoid;                     }
 #cover + h1      { break-before: right;                     }
@@ -211,11 +216,12 @@ a:link, a:visited, a:active, a:hover { color: black; text-decoration: none; }
 /* anchors and cross-references ------------------------------------------------------------------------------- */
 .anchor { position: absolute; color: transparent; margin: 0; padding: 0; }
 
-a.xref-page       { content: 'page ' target-counter(attr(href url), page);                                                     }
-a.xref-section    { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
-a.xref-see:before { content: 'see '; font-style: normal;                                                                       }
-a.xref-see        { content: target-content(attr(href url)); font-style: italic;                                               }
-a.xref-see:after  { content: ' on page ' target-counter(attr(href url), page); font-style: normal;                             }
+a.page:empty:after { content: 'page ' target-counter(attr(href url), page);                                                     }
+a.page:after { content: ' page ' target-counter(attr(href url), page);                                                     }
+a.section    { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
+a.see:before { content: 'see '; font-style: normal;                                                                       }
+a.see        { content: target-content(attr(href url)); font-style: italic;                                               }
+a.see:after  { content: ' on page ' target-counter(attr(href url), page); font-style: normal;                             }
 
 /* lists ------------------------------------------------------------------------------------------------------ */
 li    { break-inside: avoid;                                   }
@@ -242,12 +248,11 @@ ul ol { margin-left: 1em;                                      }
   margin-bottom: 0; 
 }
 .sidehead { 
-  font-weight: bold; 
   font-family: var(--font-header); 
   font-size:   var(--h4); 
 }
 
-/* images ----------------------------------------------------------------------------------------------------- */
+/* images / artwork ------------------------------------------------------------------------------------------- */
 img { 
   -prince-image-resolution: 96;
   -prince-image-magic:      recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; 
@@ -266,7 +271,7 @@ img {
   color:          gray;
   margin-outside: -174pt;
   line-height:    1.25;
-  margin-inside:  338pt;
+  margin-inside:  350pt;
   font-family:    var(--font);
   font-weight:    normal;
 }
@@ -392,7 +397,14 @@ img {
 #cover img { position: absolute; top: 3.0in; left: 1.0in; width: 6.5in; height: auto; }
 
 /* lexicon ---------------------------------------------------------------------------------------------------- */
-.lexicon dt { break-after: avoid; }
+
+/* .lexicon dt { break-after: avoid; }
+.lexicon dl dd { line-height: 1.2; }
+.lexicon dl dd p { line-height: 1.2; } */
+
+dl dt   { break-after: avoid; }
+dl dd   { line-height: 1.2; }
+dl dd p { line-height: 1.2; }
 
 /* systemlist ------------------------------------------------------------------------------------------------- */
 .systemlist    { break-before: avoid; break-inside: avoid; }
@@ -427,9 +439,31 @@ img {
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
 /* outsidechart ----------------------------------------------------------------------------------------------- */
-.outsidechart.text td strong { display: block; font-family: var(--font-header); }
-.outsidechart.text td .red   { display: block; color: red;                      }
-.outsidechart.text td .eg    { display: block; font-style: italic;              }
+.outsidechart.text td :matches(strong, .red, .eg) { display: block; margin-bottom: 3pt; }
+
+.outsidechart.text td:first-child { font-family: var(--font-header); }
+.outsidechart.text td strong      { font-family: var(--font-header); font-weight: normal; }
+.outsidechart.text td .red        { color: red;                                           }
+.outsidechart.text td .eg         { font-style: italic;                                   }
+
+/* resourcelist ----------------------------------------------------------------------------------------------- */
+.resourcelist li { margin-bottom: 4pt; }
+.resourcelist li a { font-weight: bold; }
+
+/* examples --------------------------------------------------------------------------------------------------- */
+/* 
+.example {
+  border:        0.5pt solid var(--color-line);
+  padding:       3pt 9pt;
+  border-radius: 3pt;
+}
+  
+.example > *:first-child {
+  margin-top: 0; 
+}
+
+.example .cardstacks { margin-left: 99pt; margin-right: 99pt; }
+*/
 
 /* testing / placeholder -------------------------------------------------------------------------------------- */
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ' 
@@ -633,8 +667,8 @@ img {
 .cardstacks { 
   padding:        3pt; 
   margin-top:     3pt;
-  margin-left:   72pt;
-  margin-right:  72pt;
+  margin-left:  108pt;
+  margin-right: 108pt;
   margin-bottom:  3pt;
   border-radius:  6pt;
   border:         0.5pt solid var(--color-line);

@@ -7,6 +7,7 @@ Those links, and other useful resources, are presented here for easy reference.
 ![You're encouraged to learn more about plurality by following these links.](art/spectrum/laptop.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::: resourcelist ::::::::::::::::::::::::::::::::::::::
 - [Countering DID Myths](https://sarahkreece.com/2013/09/24/countering-did-myths-were-not-all-the-same/) by Sarah K. Reece
 - [Does it work?](https://web.archive.org/web/19980115121850/http://www.asarian.org:80/~vickis/label.html) by Vickis
 - [Healthy Multiplicity](http://healthymultiplicity.com/), an extensive selves-help resource for plurality
@@ -27,3 +28,4 @@ Those links, and other useful resources, are presented here for easy reference.
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
 - [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

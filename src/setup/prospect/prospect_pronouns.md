@@ -1,7 +1,6 @@
 # The Prospect's Pronouns {#setup-prospect-pronouns}
 
 Once you have the name of the Propect, you'll need their pronouns.
-
 Draw one card to determine their primary pronoun, and then draw a second
 to determine another set of pronouns they also use. 
 [Here's a mnemonic for these -- **S**pades starts with an "S", as does

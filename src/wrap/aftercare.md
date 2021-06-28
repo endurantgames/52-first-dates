@@ -1,6 +1,6 @@
 # Aftercare {#wrap-after}
 
-In the TTRPG Safety Toolkit (on [](#toolkit-aftercare){.xref-page}),
+In the TTRPG Safety Toolkit (on [](#toolkit-aftercare){.page}),
 they describe *aftercare* as checking in with everyone to see how
 they're feeling. As the authors of the Toolkit write,
 

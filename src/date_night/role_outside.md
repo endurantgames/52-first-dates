@@ -23,9 +23,18 @@ multiple turns can go by before you get a chance to play. That's okay -- you won
 the Outside Interference forever, provided that your group plays out more than one Date Night.
 
 Whenever you play a card, you get to describe the event that occurs, as determined by the
-card's rank, as shown on the following table:
+card's rank, as shown on the table on the following page.
 
-:::::::::::::::::::: {.outsidechart .nobreak .breakable .text } ::::::::::::::::::
+In the table, "the character" refers to the character played by the person
+whose card you just played on -- so the System and its current Headmate if 
+played on one of the Fronters' cards, and the Prospect if played on the Date's
+card.
+
+If the card you play is a red card -- i.e. []{.hearts} Hearts or
+[]{.diamonds} Diamonds -- then the additional details given above come
+into play.
+
+:::::::::::::::::::: {.outsidechart .breakbefore .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
  Rank       Outside Interference 
@@ -123,15 +132,6 @@ card's rank, as shown on the following table:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-In the table above, "the character" refers to the character played by the person
-whose card you just played on -- so the System and its current Headmate if 
-played on one of the Fronters' cards, and the Prospect if played on the Date's
-card.
-
-If the card you play is a red card -- i.e. []{.hearts} Hearts or
-[]{.diamonds} Diamonds -- then the additional details given above come
-into play.
-
 After you've played a card, you describe the event that interrupts the
 character of the player whose card you played on, substituting your
 description for whatever they were about to say.
@@ -156,6 +156,34 @@ they've got any []{.hearts} Hearts in their hand. If so, then they could
 describe how they're getting around the party song obstacle -- perhaps
 by leaning in closer.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::: {.sidebar       } :::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+If you can play a card and it would result in the date ending --
+all of the suits match or all of the ranks match -- you can certainly
+do so! It might go down like this: 
+
+"Someone's approaching the table -- oh, shit, it's your ex!" <br/>
+"Hey, they're all []{.spades} Spades -- so the date ends, right?" <br/>
+"You're right -- so we don't even need to play a card to respond." <br/>
+"Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase." <br/>
+"Sounds good!" 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::: {.sidebar .next } :::::::::::::::::::::::::::::::::::::
+[Should you end the date? (continued)]{.sidehead}
+
+The bigger question is "should you stop the *other* players from ending the date"?
+
+Which you could probably do from time to time. If they've just played the
+third []{.hearts} Hearts card, the date would normally end there, 
+but if you can play on that new card and do so ... you'd be prolonging
+the date.
+
+Which you certainly can do! This is one of the perks of being the 
+Outside Interference. And unless you and the other players are tired
+of the date, you probably *should*. It'll make things more interesting.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 After you play a card to a stack, turn that stack on its side to indicate 
 that an event is going on. Like this:
@@ -191,34 +219,6 @@ for a drink. The Date then returns the stack to its upright position.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::: {.sidebar       } :::::::::::::::::::::::::::::::::::::
-[Should you end the date?]{.sidehead}
-
-If you can play a card and it would result in the date ending --
-all of the suits match or all of the ranks match -- you can certainly
-do so! It might go down like this: 
-
-"Someone's approaching the table -- oh, shit, it's your ex!" <br/>
-"Hey, they're all []{.spades} Spades -- so the date ends, right?" <br/>
-"You're right -- so we don't even need to play a card to respond." <br/>
-"Yeah, so how about this -- we duck out the back, quickly, happy to be away from that person. Laughing, we realize that it's getting late anyway ... so now we go to the Wrap-Up phase." <br/>
-"Sounds good!" 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::::::: {.sidebar .next } :::::::::::::::::::::::::::::::::::::
-[Should you end the date? (continued)]{.sidehead}
-
-The bigger question is "should you stop the *other* players from ending the date"?
-
-Which you could probably do from time to time. If they've just played the
-third []{.hearts} Hearts card, the date would normally end there, 
-but if you can play on that new card and do so ... you'd be prolonging
-the date.
-
-Which you certainly can do! This is one of the perks of being the 
-Outside Interference. And unless you and the other players are tired
-of the date, you probably *should*. It'll make things more interesting.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Named NPCs {#date-npcs}
 
 Many of the events assume that other people exist -- such as the serving staff if the date takes place in a 
@@ -238,10 +238,12 @@ Once you've come up with a name<span class="dera">
 </span>
 and pronouns<span class="dera">
   Likewise, you can use the table for the Prospect's pronouns
-  on [](#setup-prospect-pronouns){.page}</span>, 
-  or just flip a single card -- [Spades]{.spades} for she/her,
-  [Hearts]{.hearts} for he/him, [Diamonds]{.diamond} for they/them,
-  and [Clubs]{.clubs} for other pronouns.
+  on [](#setup-prospect-pronouns){.page}, 
+  or just flip a single card -- <br/> 
+  [Spades]{.spades} for she/her,<br/>
+  [Hearts]{.hearts} for he/him,<br/> and
+  [Diamonds]{.diamonds} for they/them,<br/>
+  [Clubs]{.clubs} for other pronouns.
 </span>,
 record those on the Outside Interference Sheet next to the exact card you played, 
 and announce those to the other players.
@@ -249,16 +251,17 @@ and announce those to the other players.
 As long as the card you played is active, the named NPC sticks around and interferes
 with the System and Prospect. During this time, you should roleplay the NPC as a hindrance
 preventing the others from having open communication. 
-[Named NPCs can be risky -- in most cases it's okay to describe the events in an
-over-the-top manner, but named NPCs are implied to have some emotional connection
-to the characters. So you might want to tread carefully and check often with the
-other players.]{.carline}
 
 Once the card is no longer in play, the named NPC leaves -- you can decide exactly how
 and narrate their exit accordingly!
 
 Each kind of named NPC gives you a chance to get input from the other players that you
 can use to shape how you roleplay.
+
+Named NPCs can be risky. Most of the time when you play a card, it's okay to describe 
+the event in an over-the-top manner, but named NPCs by implication have an emotional connection
+to the characters. You should approach this carefully and check often with the
+other players.
 
 ### Oh, Shit, It's My Ex!
 
@@ -312,7 +315,9 @@ If it wasn't a red Queen, then ask the player:
 ### What are *They* Doing Here?
 
 When you play a King, someone from the character's life shows up. This could be a friend,
-a co-worker or boss, someone from school, and so on.
+a co-worker or boss, a relative, 
+[*OH SHIT, IT'S MY MOM.*]{.aura}
+someone from school, and so on.
 
 If you played a red King -- the King of Hearts or the King of Diamonds -- then it's someone
 who the character can't stand. Ask the player whose card you just played on:
@@ -320,6 +325,7 @@ who the character can't stand. Ask the player whose card you just played on:
 > Why can't your character stand this NPC?
 
 If it wasn't a red King, then ask the player:
+[An example of a good answer is "well, because that would cause problems at the office."]{.spin}
 
 > Why won't your character just politely ask them to leave?
 
