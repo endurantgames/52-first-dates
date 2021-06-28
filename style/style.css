@@ -156,22 +156,23 @@ h5 { font-style: italic;                              }
 #cover + h1 { counter-reset: page; counter-increment: page; }
 
 /* pagination ------------------------------------------------------------------------------------------------- */
-h1           { break-inside: avoid; break-after: avoid; }
-h2           { break-inside: avoid; break-after: avoid; }
-h3           { break-inside: avoid; break-after: avoid; }
-h4           { break-inside: avoid; break-after: avoid; }
-h5           { break-inside: avoid; break-after: avoid; }
-h6           { break-inside: avoid; break-after: avoid; }
-p+table      { break-before: avoid-page;                }
-table        { break-inside: avoid-page;                }
-p, li        { orphans: 3; line-height: 1.40;           }
-.breakbefore { break-before: page;                      }
-.colbefore   { break-before: column;                    }
-.nobreak     { break-before: avoid-page;                }
-.nocolbreak  { break-before: avoid-column;              }
-h2           { break-before: page;                      }
-h2.nobreak   { break-before: avoid;                     }
-#cover + h1  { break-before: right;                     }
+h1               { break-inside: avoid; break-after: avoid; }
+h2               { break-inside: avoid; break-after: avoid; }
+h3               { break-inside: avoid; break-after: avoid; }
+h4               { break-inside: avoid; break-after: avoid; }
+h5               { break-inside: avoid; break-after: avoid; }
+h6               { break-inside: avoid; break-after: avoid; }
+p+table          { break-before: avoid-page;                }
+table            { break-inside: avoid-page;                }
+p, li            { orphans: 3; line-height: 1.40;           }
+.breakbefore     { break-before: page;                      }
+.colbefore       { break-before: column;                    }
+.nobreak         { break-before: avoid-page;                }
+.nocolbreak      { break-before: avoid-column;              }
+h2               { break-before: page;                      }
+h2.nobreak       { break-before: avoid;                     }
+#cover + h1      { break-before: right;                     }
+.breakable table { break-inside: auto;                      }
 
 /* margins ---------------------------------------------------------------------------------------------------- */
 h1 { margin-bottom: 0pt;                  }
@@ -603,6 +604,8 @@ img {
 .clubs    { content: '\2663';               }
 .diamonds { content: '\2666'; color: red;   }
 .card     { font-family: var(--font-cards); }
+
+.card.tapped { transform: rotate(-90deg); }
 
 /* arbitrary grouping of cards ------------------------------------------------------------------------------------------- */
 .cardgroup  { font-size: var(--cardsize); text-align: center; }

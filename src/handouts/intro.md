@@ -145,7 +145,7 @@ Play a card matching the rank of a card just played.
      9      **Circumstances Beyond Our Control** nobody could have predicted [power goes out, traffic jam]{.eg}
     10      **Anything But This** switch fronting Headmate [they're not happy about it]{.red}
    Jack     **Oh Shit, It's My Ex!** someone char was involved with [and it was a bad breakup]{.red}
-   Queen    **"Why, Hel*lo* There.** someone interested in char [and they're insistent]{.red}
+   Queen    **"Why, Hel*lo* There.** someone interested in char [and they're attractive]{.red}
    King     **What are *They* Doing Here?** someone char knows [and can't stand]{.red}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

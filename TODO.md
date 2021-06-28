@@ -19,15 +19,15 @@ As of 2021-06-25:
   [ ] Creating the Headmates
   [x] Move the following to Set-Up:
   [ ] Determining Roles
-  [ ] Setting the Scene
-  [ ] Creating the Date
+  [ ] Creating the Prospect
     [ ] Personality traits
       [ ] List
       [ ] Rename these
     [ ] Gender and sexuality
-    [ ] Checking for desired qualities
+    [x] Checking for desired qualities
+  [ ] Setting the Scene
 [ ] Date Night
-  [ ] Starting the Date
+  [ ] Starting Date Night
   [ ] Turn order
     [x] ~~Relocate?~~
   [ ] Stood Up?
@@ -35,10 +35,11 @@ As of 2021-06-25:
   [ ] Playing as the Fronter
     [ ] Switching Fronters
   [-] Playing the Outside Interference
+    [x] Event list
     [ ] Named NPCs
     [ ] Recurring NPCs
     [ ] I just met you and this song is ableist
-[x] The Wrap-Up
+[-] The Wrap-Up
   [ ] When the Date Ends
     [ ] Date-Ending Events (change name)
     [ ] Achieving intimacy
