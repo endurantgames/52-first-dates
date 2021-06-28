@@ -328,7 +328,8 @@ img {
 #toc ul ul li       { margin-left: 8pt; font-weight: normal; break-inside: avoid;                      }
 #toc ul ul ul li    { font-size: var(--smaller);                                                       }
 #toc ul ul ul ul li { font-size: var(--small); font-style: italic;                                     }
-#toc > ul > li      { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger); }
+#toc > ul > li      { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger);  }
+#toc > ul > li > a  { break-after: avoid-column; }
 #toc ul ul          { margin-top: 4pt;                                                                 }
 #toc ul ul ul       { margin-bottom: 4pt; break-after: avoid-column;                                   }
 #toc > ul > li a    { color: var(--color-accent);                                                      }
@@ -690,6 +691,8 @@ dl dd p { line-height: 1.2; }
   border-radius:  6pt;
   border:         0.5pt solid var(--color-line);
 }
+
+.cardstacks + .cardstacks { margin-bottom: 9pt; }
 
 /* card matrix i.e. which cards can be played ---------------------------------------------------------------------------- */
 .cardmatrix td               { padding: 4pt;                                 }

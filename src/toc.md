@@ -33,12 +33,12 @@
     - <a href="#setup-gender"></a>
     - <a href="#setup-neuro"></a>
   - <a href="#setup-headmates"></a>
-  - <a href="#setup-scene"></a> 
   - <a href="#setup-prospect"></a>
     - <a href="#setup-prospect-name"></a>
     - <a href="#setup-prospect-pronouns"></a>
     - <a href="#setup-prospect-cards"></a>
     - <a href="#setup-prospect-qualities"></a>
+  - <a href="#setup-scene"></a> 
 - <a href="#date"></a>
   - <a href="#date-start"></a>
     - <a href="#date-turn-order"></a>
