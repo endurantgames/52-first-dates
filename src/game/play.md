@@ -17,6 +17,11 @@ The suit of each card determines the current demeanor of your character.
 Each suit can be played in generally positive way, such as being *direct or clear*,
 or a less positive way such as being *blunt and tactless*.  
 The demeanors associated with each suit are shown in the following table.
+[Try this as a mnemonic: <br/>
+ Spades: sharp-witted<br/>
+ Hearts: passionate<br/>
+ Clubs: blunt<br/>
+ Diamonds: sparkling]{.spin}
 
 Suit                   Demeanor
 ------                 ------------------------- -------------------------
