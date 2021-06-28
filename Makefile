@@ -67,12 +67,14 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-# PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/page_%d.png
-# PRINCEFLAGS = 
-PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
-PRINCEFLAGS_DYSL = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/dysl_%d.png
-PRINCEFLAGS_LOWV = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/lowv_%d.png
-PRINCEFLAGS = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+PRINCEFLAGS = 
+PRINCEFLAGS_CHARSHEET = 
+PRINCEFLAGS_DYSL = 
+PRINCEFLAGS_LOWV = 
+# PRINCEFLAGS = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+# PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
+# PRINCEFLAGS_DYSL = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/dysl_%d.png
+# PRINCEFLAGS_LOWV = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/lowv_%d.png
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -142,8 +144,8 @@ blorng := $(shell tput setab 208)
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
-# default: pdf
-default: charsheet
+default: pdf
+# default: charsheet
 # default: all
 
 # Make Help #############################################################################################

@@ -1,39 +1,29 @@
-# The Prospect's Personality Traits {#setup-prospect-cards}
+# The Prospect's Traits {#setup-prospect-cards}
 
-[]{.lorem}
+When you create the Prospect, draw two cards off the top of the Date's Deck and place them
+face down, ***without looking at them***, to the side of the deck.
+
+The person playing the role of the Date will look at them and use them as a guideline for
+roleplaying the Prospect. In addition, the trait cards are used in the Wrap-Up phase to 
+determine the outcome of Date Night.
 
 :::::::::::::::::::: traitlist :::::::::::::::::::::::::::::::::::::::::
  Card                Personality Trait
 -----------------    -------------------------------------------
-A []{.clubs}         
-2 []{.clubs}         
-3 []{.clubs}         
-4 []{.clubs}         
-5 []{.clubs}         
-6 []{.clubs}         
-7 []{.clubs}         
-8 []{.clubs}         
-9 []{.clubs}         
-10 []{.clubs}         
-J []{.clubs}         
-K []{.clubs}         
-Q []{.clubs}         
+A []{.spades}         
+2 []{.spades}         
+3 []{.spades}         
+4 []{.spades}         
+5 []{.spades}         
+6 []{.spades}         
+7 []{.spades}         
+8 []{.spades}         
+9 []{.spades}         
+10 []{.spades}         
+J []{.spades}         
+Q []{.spades}         
+K []{.spades}         
 
- Card                Personality Trait
------------------    -------------------------------------------
-A []{.diamonds}         
-2 []{.diamonds}         
-3 []{.diamonds}         
-4 []{.diamonds}         
-5 []{.diamonds}         
-6 []{.diamonds}         
-7 []{.diamonds}         
-8 []{.diamonds}         
-9 []{.diamonds}         
-10 []{.diamonds}         
-J []{.diamonds}         
-K []{.diamonds}         
-Q []{.diamonds}         
 
  Card                Personality Trait
 -----------------    -------------------------------------------
@@ -48,23 +38,39 @@ A []{.hearts}
 9 []{.hearts}         
 10 []{.hearts}         
 J []{.hearts}         
-K []{.hearts}         
 Q []{.hearts}         
+K []{.hearts}         
 
  Card                Personality Trait
 -----------------    -------------------------------------------
-A []{.spades}         
-2 []{.spades}         
-3 []{.spades}         
-4 []{.spades}         
-5 []{.spades}         
-6 []{.spades}         
-7 []{.spades}         
-8 []{.spades}         
-9 []{.spades}         
-10 []{.spades}         
-J []{.spades}         
-K []{.spades}         
-Q []{.spades}         
+A []{.clubs}         
+2 []{.clubs}         
+3 []{.clubs}         
+4 []{.clubs}         
+5 []{.clubs}         
+6 []{.clubs}         
+7 []{.clubs}         
+8 []{.clubs}         
+9 []{.clubs}         
+10 []{.clubs}         
+J []{.clubs}         
+Q []{.clubs}         
+K []{.clubs}         
+
+ Card                Personality Trait
+-----------------    -------------------------------------------
+A []{.diamonds}         
+2 []{.diamonds}         
+3 []{.diamonds}         
+4 []{.diamonds}         
+5 []{.diamonds}         
+6 []{.diamonds}         
+7 []{.diamonds}         
+8 []{.diamonds}         
+9 []{.diamonds}         
+10 []{.diamonds}         
+J []{.diamonds}         
+Q []{.diamonds}         
+K []{.diamonds}         
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

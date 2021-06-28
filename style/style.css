@@ -351,6 +351,7 @@ p+p .cw { margin-left: -1.25em; }
   display:       inline-block; 
   margin-bottom: 12pt; 
   text-indent:   0; 
+  padding-right: 0.5em;
 }
    .spin:after { content: '\1f300'; }
    .dera:after { content: '\1f4e1'; }
@@ -713,7 +714,6 @@ a.xref-page { content: 'page ' target-cunter(attr(href url), page); }
   column-gap: 9pt;
   column-width: auto; 
 }
-
 
 
 /* -prince-alt-text --------------------------------------------------------------- */
