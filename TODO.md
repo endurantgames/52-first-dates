@@ -9,7 +9,7 @@ As of 2021-06-25:
   [x] ~~Possibly relocate?~~
   [x] Update role from "The System" to "The Fronter"
   [x] Update character from "The Date" to "The Prospect"
-[ ] The Set-Up
+[-] The Set-Up
   [x] Game Safely
     [x] The meaning of intimacy
   [x] Setting and Themes
@@ -22,7 +22,7 @@ As of 2021-06-25:
   [ ] Creating the Prospect
     [ ] Personality traits
       [ ] List
-      [ ] Rename these
+      [ ] ~~Rename these~~
     [ ] Gender and sexuality
     [x] Checking for desired qualities
   [ ] Setting the Scene
@@ -34,11 +34,11 @@ As of 2021-06-25:
   [ ] Playing as the Date
   [ ] Playing as the Fronter
     [ ] Switching Fronters
-  [-] Playing the Outside Interference
+  [x] Playing the Outside Interference
     [x] Event list
-    [ ] Named NPCs
-    [ ] Recurring NPCs
-    [ ] I just met you and this song is ableist
+    [x] Named NPCs
+    [x] Recurring NPCs
+    [x] I just met you and this song is ableist
 [-] The Wrap-Up
   [ ] When the Date Ends
     [ ] Date-Ending Events (change name)

@@ -218,10 +218,27 @@ a:link, a:visited, a:active, a:hover { color: black; text-decoration: none; }
 
 a.page:empty:after { content: 'page ' target-counter(attr(href url), page);                                                     }
 a.page:after { content: ' page ' target-counter(attr(href url), page);                                                     }
-a.section    { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
 a.see:before { content: 'see '; font-style: normal;                                                                       }
 a.see        { content: target-content(attr(href url)); font-style: italic;                                               }
 a.see:after  { content: ' on page ' target-counter(attr(href url), page); font-style: normal;                             }
+
+a.defn:before { content: '['; color: black; }
+a.defn:after  { content: ']'; color: black; }
+a.defn { 
+  content:   'definition p. ' target-counter(attr(href url), page); 
+  font-size: 60%; 
+  color:     var(--color-accent); 
+  display:   inline-block; 
+  vertical-align: top;
+  line-height: none; 
+}
+
+a.section    { 
+  content: 'the section "' 
+           target-content(attr(href url)) 
+	   '" on page ' 
+	   target-counter(attr(href url), page); 
+}
 
 /* lists ------------------------------------------------------------------------------------------------------ */
 li    { break-inside: avoid;                                   }

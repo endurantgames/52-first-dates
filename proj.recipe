@@ -4,50 +4,50 @@ intro
 toc
 preface
 no_fascists
-credits/intro
-credits/license
-credits/cover_image
-credits/art
-credits/no_fascists
-credits/morethanone
-credits/safety
-credits/lexicon
-safety/intro
-safety/toolkit
-morethanone
+# credits/intro
+# credits/license
+# credits/cover_image
+# credits/art
+# credits/no_fascists
+# credits/morethanone
+# credits/safety
+# credits/lexicon
+# safety/intro
+# safety/toolkit
+# morethanone
 glossary
-game/intro
-game/roles
-game/play
+# game/intro
+# game/roles
+# game/play
 setup/
-setup/game_safely
-setup/setting_theme
+# setup/game_safely
+# setup/setting_theme
 setup/create_system
 setup/create_headmates
 setup/assign_roles
-setup/prospect/
-setup/prospect/prospect_name
-setup/prospect/prospect_pronouns
-setup/prospect/prospect_cards
-setup/prospect/prospect_qualities
-setup/set_the_scene
-date_night/
-date_night/start_date
-date_night/role_date
-date_night/role_fronter
-date_night/role_outside
-wrap/
-wrap/end_date
-wrap/aftercare
-wrap/next_date
-wrap/discuss
-wrap/wait
-variant/
-variant/variant_system
-variant/variant_singlet
-variant/variant_platonic
-resources
+# setup/prospect/
+# setup/prospect/prospect_name
+# setup/prospect/prospect_pronouns
+# setup/prospect/prospect_cards
+# setup/prospect/prospect_qualities
+# setup/set_the_scene
+# date_night/
+# date_night/start_date
+# date_night/role_date
+# date_night/role_fronter
+# date_night/role_outside
+# wrap/
+# wrap/end_date
+# wrap/aftercare
+# wrap/next_date
+# wrap/discuss
+# wrap/wait
+# variant/
+# variant/variant_system
+# variant/variant_singlet
+# variant/variant_platonic
+# resources
 lexicon
-license
-colophon
-handouts/intro
+# license
+# colophon
+# handouts/intro

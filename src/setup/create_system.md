@@ -12,6 +12,9 @@
 
 []{.lorem}
 
+## System Assumptions
+
+- Not median[](#lexicon-median){.defn}
 
 ## Gender and Sexuality {#setup-gender}
 
