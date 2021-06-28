@@ -6,14 +6,15 @@ As of 2021-06-28:
   [ ] Creating the System
     [ ] Game Assumptions
     [ ] Gender and Sexuality
-  [ ] Creating the Headmates
-  [ ] Creating the Prospect
-    [ ] Gender and sexuality
-  [ ] Setting the Scene
+  [x] Creating the Headmates
+  [x] Creating the Prospect
+    [x] Gender and sexuality
+  [x] Setting the Scene
 [ ] Date Night
+  [x] Who's Fronting?
   [ ] Starting Date Night
-  [ ] Turn order
-  [ ] Stood Up?
+    [ ] Turn order
+    [ ] Stood Up?
   [ ] Playing as the Date
   [ ] Playing as the Collective
     [ ] Switching Fronters

@@ -28,10 +28,12 @@ setup/assign_roles
 setup/prospect/
 setup/prospect/prospect_name
 setup/prospect/prospect_pronouns
-setup/prospect/prospect_cards
 setup/prospect/prospect_qualities
+setup/prospect/prospect_appearance
+setup/prospect/prospect_traits
 setup/set_the_scene
 date_night/
+date_night/fronting
 date_night/start_date
 date_night/role_date
 date_night/role_collective

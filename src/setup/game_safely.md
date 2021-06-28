@@ -48,6 +48,10 @@ as well, to stave off problems before they become an issue.
 
 ## The Meaning of Intimacy {#setup-safely-intimacy}
 
+::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
+!["Intimacy" might just mean spending quality time with someone you like.](art/spectrum/magazine.jpg)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 One of the two primary outcomes in []{.gamename} -- and one of the presumed
 goals of the protagonist System -- is to become intimate with another person.
 
@@ -81,8 +85,4 @@ any actual intimacy occurs -- we're not expecting groups to play out either
 sex scenes or deep conversations until dawn. But you might want to either
 pull the veil a little sooner, or drop a line and not cross it, based on
 some types of intimacy that might arise.
-
-::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
-!["Intimacy" might just mean spending quality time with someone you like.](art/spectrum/magazine.jpg)
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
