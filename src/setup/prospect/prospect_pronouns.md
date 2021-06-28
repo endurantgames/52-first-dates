@@ -9,22 +9,22 @@ to determine another set of pronouns they also use.
 
 First Card Suit         Second Card Suit        Pronouns
 ---                     ---                     ---------
-[]{.hearts   }   Hearts []{.hearts   }   Hearts he/him
-[]{.hearts   }   Hearts []{.spades   }   Spades any pronouns
-[]{.hearts   }   Hearts []{.diamonds } Diamonds he/him + they/them
-[]{.hearts   }   Hearts []{.clubs    }    Clubs he/him + chart <br/>
 []{.spades   }   Spades []{.hearts   }   Hearts any pronouns
 []{.spades   }   Spades []{.spades   }   Spades she/her
 []{.spades   }   Spades []{.diamonds } Diamonds she/her + they/them
 []{.spades   }   Spades []{.clubs    }    Clubs she/her + chart <br/>
-[]{.diamonds } Diamonds []{.hearts   }   Hearts they/them + he/him
-[]{.diamonds } Diamonds []{.spades   }   Spades they/them + she/her
-[]{.diamonds } Diamonds []{.diamonds } Diamonds they/them
-[]{.diamonds } Diamonds []{.clubs    }    Clubs theythem + chart <br/>
+[]{.hearts   }   Hearts []{.hearts   }   Hearts he/him
+[]{.hearts   }   Hearts []{.spades   }   Spades any pronouns
+[]{.hearts   }   Hearts []{.diamonds } Diamonds he/him + they/them
+[]{.hearts   }   Hearts []{.clubs    }    Clubs he/him + chart <br/>
 []{.clubs    }    Clubs []{.hearts   }   Hearts chart + he
 []{.clubs    }    Clubs []{.spades   }   Spades chart + she
 []{.clubs    }    Clubs []{.diamonds } Diamonds chart + they
 []{.clubs    }    Clubs []{.clubs    }    Clubs chart + chart
+[]{.diamonds } Diamonds []{.hearts   }   Hearts they/them + he/him
+[]{.diamonds } Diamonds []{.spades   }   Spades they/them + she/her
+[]{.diamonds } Diamonds []{.diamonds } Diamonds they/them
+[]{.diamonds } Diamonds []{.clubs    }    Clubs theythem + chart <br/>
 
 If the result above says "chart" (i.e., is Clubs) then check the card's
 rank on the next table.

@@ -25,10 +25,10 @@ The demeanors associated with each suit are shown in the following table.
 
 Suit                   Demeanor
 ------                 ------------------------- -------------------------
+[]{.spades} Spades     Clever and witty, or      Mocking and hurtful
+[]{.hearts} Hearts     Earnest and heartfelt, or Thoughtless and inconsiderate
 []{.clubs} Clubs       Direct and clear, or      Blunt and tactless
 []{.diamonds} Diamonds Flirty and coy, or        Evasive and guarded
-[]{.hearts} Hearts     Earnest and heartfelt, or Thoughtless and inconsiderate
-[]{.spades} Spades     Clever and witty, or      Mocking and hurtful
 
 You don't have to announce the exact demeanor you're using when you
 play the card, but should try to make it clear in the words you use or the

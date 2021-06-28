@@ -314,6 +314,10 @@ img {
   line-height:    1.25; 
   display:        inline-block; 
   margin-bottom:  15pt; 
+  font-family:    var(--font);
+  font-weight:    normal;
+  text-align:     left;
+  font-size:      var(--body);
 }
 /* table of contents ------------------------------------------------------------------------------------------ */
 #toc           { column-count: 2; column-gap: 16pt; column-width: auto;  }
@@ -468,6 +472,13 @@ dl dd p { line-height: 1.2; }
 .resourcelist li { margin-bottom: 4pt; }
 .resourcelist li a { font-weight: bold; }
 
+/* traitlist -------------------------------------------------------------------------------------------------- */
+
+.traitlist.text { 
+}
+
+.traitlist .noprint { display: none; -prince-alt-text: ''; }
+
 /* examples --------------------------------------------------------------------------------------------------- */
 /* 
 .example {
@@ -576,13 +587,12 @@ dl dd p { line-height: 1.2; }
 
 /* checkbox  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .sheetpage .check { 
-  display: block;
+  display: inline-block;
   content: '';
   height: 1em; width: 1em;
   border: 0.5pt solid black;
   border-radius: 1pt;
 }
-
 
 /* "cut here" lines ------------------------------------------------------------------------------------------------------ */
 .sheetpage .sheet:matches(#sheet-sys, #sheet-hm) { border-left: 0.5pt dashed gray; }
@@ -606,25 +616,37 @@ dl dd p { line-height: 1.2; }
 .sheetpage .needlist { font-size: var(--sheetsize); }
 
 /* reference sheet ------------------------------------------------------------------------------------------------------- */
-.sheetpage #sheet-ref                              { columns: 2 auto; column-gap: 12pt;                                                 }
-.sheetpage #sheet-ref .suitmeanings                { column-span: all; float: column bottom; margin-top: 18pt;                          }
-.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre;                                                                  }
-.sheetpage #sheet-ref .suitmeanings td             { font-size: var(--large);                                                           }
-.sheetpage #sheet-ref .suitmeanings th             { font-size: var(--larger);                                                          }
-.sheetpage #sheet-ref h3                           { column-span: all;                                                                  }
-.sheetpage #sheet-ref :matches(ol, ul)             { break-inside: avoid; margin-bottom: 0; margin-top: 0;                              }
-.sheetpage #sheet-ref ol > li                      { font-weight: bold; font-size: var(--large);                                        }
-.sheetpage #sheet-ref ul > li                      { font-size: var(--larger);                                                          }
-.sheetpage #sheet-ref li                           { margin-top: 0; margin-bottom: 0;                                                   }
-.sheetpage #sheet-ref .turnorder ul > li           { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
-.sheetpage #sheet-ref .turnorder ol > li > em      { font-size: var(--body); font-weight: normal;                                       }
-.sheetpage #sheet-ref .gamestruct                  { margin-left: 9pt;                                                                  }
-.sheetpage #sheet-ref h4                           { padding-top: 9pt; margin-bottom: 3pt;                                              }
-.sheetpage #sheet-ref .rulesremind                 { column-span: all;                                                                  }
+.sheetpage #sheet-ref    { columns: 2 auto; column-gap: 12pt;                      }
+.sheetpage #sheet-ref h3 { column-span: all;                                       }
+.sheetpage #sheet-ref h4 { padding-top: 9pt; margin-bottom: 3pt; text-align: left; }
+.sheetpage #sheet-ref li { margin-top: 0; margin-bottom: 0;                        }
+.sheetpage #sheet-ref ol { break-inside: avoid; margin-bottom: 0; margin-top: 0;   }
+.sheetpage #sheet-ref ul { break-inside: avoid; margin-bottom: 0; margin-top: 0;   }
+
+.sheetpage #sheet-ref .rulesremind { column-span: all; }
+
+.sheetpage #sheet-ref .gamestruct         { margin-left: 9pt; break-inside: avoid;         }
+.sheetpage #sheet-ref .gamestruct ol > li { font-weight: bold; font-size: var(--large);    }
+.sheetpage #sheet-ref .gamestruct ul li   { margin-left: 2.25em; font-size: var(--larger); }
+
+.sheetpage #sheet-ref .turnorder ul > li      { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 1em; }
+
+.sheetpage #sheet-ref .turnorder ol > li > em { font-size: var(--body); font-weight: normal; }
+.sheetpage #sheet-ref .turnorder ol > li      { font-size: var(--larger); font-weight: bold; }
+
+.sheetpage #sheet-ref .suitmeanings { column-span: all; float: column bottom; margin-top: 12pt; margin-bottom: 0; }
+
+.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre;                }
+.sheetpage #sheet-ref .suitmeanings td             { font-size: var(--large);         }
+.sheetpage #sheet-ref .suitmeanings table          { margin-top: 0; margin-bottom: 0; }
+.sheetpage #sheet-ref .suitmeanings th             { font-size: var(--larger);        }
 
 /* outside interference sheet -------------------------------------------------------------------------------------------- */
-.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt;   }
+.sheetpage #npcroster.grid td:nth-child(1) { width: 12pt; vertical-align: middle; }
 .sheetpage #npcroster.grid td:nth-child(3) { width: 108pt;  }
+.sheetpage #npcroster.grid td:nth-child(4) { width: 54pt; font-size: var(--small); border: none; padding: 0; }
+.sheetpage #npcroster.grid td .check { width: 0.75em; height: 0.75em; }
+
 .sheet#sheet-outside .inputbox             { height: 108pt; }
 
 .sheet .outsidechart .eg:before { content: 'e.g. ';                              }
@@ -638,8 +660,6 @@ dl dd p { line-height: 1.2; }
 
 /* headmate sheet -------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-hm .inputbox                 { height: 216pt; }
-.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt;   }
-.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt;  }
 
 .sheetpage h4 { text-align: center; }
 
@@ -648,14 +668,24 @@ dl dd p { line-height: 1.2; }
 
 /* date role sheet ------------------------------------------------------------------------------------------------------- */
 .sheetpage #sheet-daterole .inputbox { height: 72pt; }
-.sheetpage #sheet-daterole .traitlist table :matches(th, td) { font-size: var(--smaller); }
+.sheetpage #sheet-daterole .traitlist table { margin: 0; }
+.sheetpage #sheet-daterole .traitlist table th { font-size: var(--smaller); padding-bottom: 0; }
+.sheetpage #sheet-daterole .traitlist table td { font-size: var(--larger); padding-bottom: 0; }
+
 .sheetpage #sheet-daterole.sheet .traitlist {
   column-span: all;
   columns: 4 auto;
   float: bottom;
-  column-gap: 6pt;
-  margin: 6pt;
+  column-gap: 0;
+  margin: 0;
+  margin-top: 6pt;
 }
+
+.sheetpage #qualitymatrix.grid tr th:nth-child(1) { border: none; }
+.sheetpage #qualitymatrix.grid tr td { height: 28pt; }
+.sheetpage #qualitymatrix.grid tr :nth-child(1) { width: 28pt; border: 0.5pt solid black; padding: 0; }
+.sheetpage #qualitymatrix.grid td .check { border-color: white;  }
+.sheetpage #qualitymatrix.grid tr :nth-child(2) { width: 108pt;  }
 
 /* card suits / ranks ==================================================================================================== */
 

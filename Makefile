@@ -78,7 +78,8 @@ PRINCEFLAGS_LOWV =
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
-PDFINFO        = /usr/bin/pdfinfo
+PDFINFO = du -b
+# PDFINFO = /usr/bin/pdfinfo
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode
