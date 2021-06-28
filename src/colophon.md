@@ -1,5 +1,5 @@
 ::::::::::::::::::: { #colophon } ::::::::::::::::::::::::::::::::::::::
-# Colophon
+# Colophon {#anchor-colophon}
 
 The primary text font is 
 [Bellefair](https://fonts.google.com/specimen/Bellefair)

@@ -90,9 +90,10 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#wrap-next-steady"></a> 
   - <a href="#wrap-discuss"></a>
   - <a href="#wrap-wait"></a>
-- <a href="#lexicon"></a>
 - <a href="#resources"></a>
+- <a href="#lexicon"></a>
 - <a href="#anchor-license"></a>
+- <a href="#anchor-colophon"></a>
 - <a href="#handouts"></a>
   - <a href="#sheet-system"></a>
   - <a href="#sheet-reference"></a>
@@ -3208,7 +3209,7 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::: { #colophon } ::::::::::::::::::::::::::::::::::::::
-## Colophon
+## Colophon {#anchor-colophon}
 
 The primary text font is 
 [Bellefair](https://fonts.google.com/specimen/Bellefair)
