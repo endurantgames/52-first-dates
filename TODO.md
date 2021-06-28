@@ -2,26 +2,22 @@
 
 As of 2021-06-28:
 
-[-] The Set-Up
+[ ] The Set-Up
   [ ] Creating the System
     [ ] Game Assumptions
     [ ] Gender and Sexuality
   [ ] Creating the Headmates
-  [-] Creating the Prospect
-    [x] Personality traits
-      [x] List
-      [x] ~~Rename these~~
+  [ ] Creating the Prospect
     [ ] Gender and sexuality
-    [x] Checking for desired qualities
   [ ] Setting the Scene
-[-] Date Night
+[ ] Date Night
   [ ] Starting Date Night
   [ ] Turn order
   [ ] Stood Up?
   [ ] Playing as the Date
   [ ] Playing as the Collective
     [ ] Switching Fronters
-[-] The Wrap-Up
+[ ] The Wrap-Up
   [ ] When the Date Ends
     [ ] Date-Ending Events (change name)
     [ ] Achieving intimacy
