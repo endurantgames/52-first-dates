@@ -32,13 +32,16 @@ BACKUPS = --backup=numbered
 # PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_RECIPE = $(PROJ)
 CHARSHEET_RECIPE = charsheet
+GEN_RECIPE = gen
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 CHARSHEET_SRC = $(BUILDDIR)/charsheet.md
+GEN_SRC = $(BUILDDIR)/gen.md
 PROJ_OUT    = $(OUTDIR)/52-first-dates.pdf
 DYSL_OUT    = $(OUTDIR)/52-first-dates-dyslexic.pdf
 LOWV_OUT    = $(OUTDIR)/52-first-dates-low-vision.pdf
-HTML_OUT    = $(OUTDIR)/$(PROJ).html
+HTML_OUT    = $(OUTDIR)/52-first-dates.html
 CHARSHEET_OUT = $(OUTDIR)/52-first-dates-charsheet.pdf
+GEN_OUT = $(OUTDIR)/52fd-prospect-generator.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
@@ -47,6 +50,7 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 DYSL_CSS = --css=$(STYLEDIR)/dyslexic.css
 LOWV_CSS = --css=$(STYLEDIR)/lowvis.css
 CHARSHEET_CSS = --css=$(STYLEDIR)/charsheet.css
+GEN_CSS = --css=$(STYLEDIR)/gen.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -55,6 +59,7 @@ PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
 DYSL_FLAGS  = $(FLAGS) $(DYSL_CSS) $(PRINCEFLAGS_DYSL)
 LOWV_FLAGS  = $(FLAGS) $(LOWV_CSS) $(PRINCEFLAGS_LOWV)
 CHARSHEET_FLAGS = $(FLAGS) $(CHARSHEET_CSS) $(PRINCEFLAGS_CHARSHEET)
+GEN_FLAGS  = $(FLAGS) $(GEN_CSS) $(PRINCEFLAGS)
 
 # Application Configruation #############################################################################
 #
@@ -243,6 +248,10 @@ markdown-charsheet:
 	@ echo '$(ltmagn)Collecting character sheet markdown.$(resetc)'
 	@       $(MAKE_MD) $(CHARSHEET_RECIPE)
 
+markdown-gen:
+	@ echo '$(ltmagn)Collecting prospect generator markdown.$(resetc)'
+	@       $(MAKE_MD) $(GEN_RECIPE)
+
 # make pdf
 #   Edit: if you are making more than one pdf
 pdf: markdown
@@ -267,6 +276,12 @@ charsheet: markdown-charsheet
 	@ echo '$(ltblue)Making character sheet (PDF).$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(CHARSHEET_FLAGS) -o $(CHARSHEET_OUT) $(CHARSHEET_SRC)
 	@       $(PDFINFO) $(CHARSHEET_OUT)
+	@      -$(EXPLORER)
+
+gen: markdown-gen
+	@ echo '$(ltblue)Making prospect generator PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(GEN_FLAGS) -o $(GEN_OUT) $(GEN_SRC)
+	@       $(PDFINFO) $(GEN_OUT)
 	@      -$(EXPLORER)
 
 # make HTML

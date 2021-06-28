@@ -1,0 +1,25 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@import "style.css";
+
+@prince-pdf {
+  -prince-pdf-page-layout: single-page;
+  -prince-pdf-profile: "PDF/A-1a";
+}
+
+.spectrum { display: none; }
+
+@page:first  { margin-left: 96pt; margin-right: 96pt; margin-top: 48pt; margin-bottom: 54pt; }
+@page:nth(3) { margin-left: 96pt; margin-right: 192pt; }
+@page:nth(4) { margin-right: 96pt; margin-left: 192pt; }
+@page:nth(3) { @right-bottom { margin-left: 0; } }
+@page:nth(4) { @left-bottom { margin-right: 0; } }
+@page:nth(2) { @left-bottom { content: counter(page); } }
+@page { @bottom-center { content: normal; } }
+@page:first { @right-bottom { content: counter(page); margin-left: -96pt; } }
+
+a:link, a:visited, a:active, a:hover { color: var(--color-accent); }
+
+.breakbefore { break-before: auto; }
+
