@@ -86,10 +86,6 @@ the players agree they've enjoyed playing and are ready to stop.
     - <a href="#wrap-next-steady"></a> 
   - <a href="#wrap-discuss"></a>
   - <a href="#wrap-wait"></a>
-- <a href="#variant"></a>
-  - <a href="#variant-system"></a>
-  - <a href="#variant-singlet"></a>
-  - <a href="#variant-platonic"></a>
 - <a href="#lexicon"></a>
 - <a href="#resources"></a>
 - <a href="#anchor-license"></a>
@@ -109,7 +105,7 @@ Okay, you need to get the following together:
 - At least three players; preferably four to six, and usually no more than eight
 - Two decks of standard poker cards; they should have different backs
 - One copy of the System Sheet
-- One copy of the Outside Interference Sheet
+- One copy of the Opportunity Sheet
 - One Date Sheet per player
 - One Headmate Sheet per player
 - One Game Reference Sheet per player
@@ -891,7 +887,7 @@ The Prospect <a name="glossary-prospect"></a>
 
 Roles <a name="glossary-roles"></a>
 ~   For Date Night, there are three roles: **The Date**, **The Fronters**,
-    and **The Outside Interference**. These change between dates, and may
+    and **The Opportunity**. These change between dates, and may
     change during a date as well. Roles are determined randomly at the
     start of Date Night.
 
@@ -907,13 +903,13 @@ The Fronter(s) <a name="glossary-fronter"></a>
     System as whichever Headmate is fronting at the time, which can
     change during the game.
 
-The Outside Interference <a name="glossary-outside-interference"></a>
+The Opportunity <a name="glossary-outside-interference"></a>
 ~   The player who is controlling "the rest of the world", and introducing
     elements into the fictional Date Night to complicate the potential
     love connection between the System character and the Date character.
 
 The Date's Deck <a name="glossary-date-deck"></a>
-~   The deck of cards from which both the Date and the Outside Interference
+~   The deck of cards from which both the Date and the Opportunity
     draw their cards.
 
 The System's Deck <a name="glossary-system-deck"></a>
@@ -959,7 +955,7 @@ Aftercare <a name="glossary-aftercare"></a>
 You need to have two decks of cards to play []{.gamename}.
 
 One deck is called the ***Date's Deck*** and is shared between the players
-in the roles of the Date and the Outside Interference.
+in the roles of the Date and the Opportunity.
 
 The other deck is called the ***System's Deck*** and is shared between players
 in the role of the System.
@@ -976,7 +972,7 @@ date!]{.spin}
 ### Your Hand {#your-hand}
 
 Each player, no matter which role they're playing, has a hand of five cards.
-The hands of the Date and the Outside Interference are drawn from the top
+The hands of the Date and the Opportunity are drawn from the top
 of the Date's Deck, while the other players' hands are drawn from the
 System's Deck.
 
@@ -1083,7 +1079,7 @@ you can play from your hand, you must play one of those cards on your turn.
 [This could mean you might end the date even if you don't want to.]{.dera}
 [That's how dating goes sometimes ... sigh]{.aura}
 
-If you're the **Outside Interference**, you aren't required to play 
+If you're the **Opportunity**, you aren't required to play 
 cards when you have the option to do so.
 
 #### At a Loss for Words {#game-loss}
@@ -1093,14 +1089,14 @@ any cards from your hand onto the current stack, then your character is
 **at a loss for words**. You can describe how that character is taken
 aback.
 
-If you're the **Outside Interference** and *another player* is at a
+If you're the **Opportunity** and *another player* is at a
 loss for words, then you can immediately play a card from your hand
 on any of the cards on the Date Status stack -- not just the card
 most recently played.
 
-#### The Outside Interference
+#### The Opportunity
 
-When you're playing the **Outside Interference**, you don't have a turn in
+When you're playing the **Opportunity**, you don't have a turn in
 the turn order -- you can play one of your cards any time the rank
 on that card matches **the last card played** by another player.
 
@@ -1111,24 +1107,24 @@ uncertain territory.
 The type of event is based on **the rank of the card you play**,
 but you can decide the details of the event as you please.
 
-#### Responding to Outside Interference {#game-respond}
+#### Responding to Opportunity {#game-respond}
 
 If you're the **Date** or a **Fronter** and the player in the role of the
-Outside Interference plays a card on a card you just played, you have the 
+Opportunity plays a card on a card you just played, you have the 
 option to play a card in response, following your normal rules playing cards.
 
 When that happens, you also get to describe how your character reacted 
 to the event in a way that minimized the problem.
 
-You ***aren't required*** to play a card in response to Outside
-Interference; if you don't wish to, even if you have a card you
+You ***aren't required*** to play a card in response to the
+Opportunity; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
 #### Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
-However, if the Outside Interference plays a card, neither you nor
-the Outside Interference draw a replacement card until
+However, if the Opportunity plays a card, neither you nor
+the Opportunity draw a replacement card until
 after you've either responded or passed on responding.
 
 #### Ending a Date
@@ -1253,9 +1249,9 @@ matches either the suit or the rank of the card on each stack.]{.dera}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-#### The Outside Interference {.breakbefore}
+#### The Opportunity {.breakbefore}
 
-If you're the Outside Interference, you draw your cards from the *Date's Deck*. 
+If you're the Opportunity, you draw your cards from the *Date's Deck*. 
 You can play a given card on a Status Stack only if the card's 
 ***rank matches the last card played***.
 
@@ -1284,7 +1280,7 @@ in red ...
 
 ...you could play your cards on these stacks:
 [It's entirely likely that you can't play a card every time you potentially could -- 
-that's by design.  The Outside Interference has more opportunities to play cards 
+that's by design.  The Opportunity has more chances to play cards 
 than the other roles.]{.dera}
 
 :::::::::::::::: cardmatrix :::::::::::::::::::::::::::::::::::::::::::::::::
@@ -1538,15 +1534,15 @@ As described in [](#game-choosing){.section}, you do this by drawing cards.
 
 If this is the first Date Night you're playing, each player draws a card from the Date's Deck
 The player with the highest ranked card plays the Date role, and the player with the
-next highest card plays the Outside Interference; all other players play the Fronter role.
+next highest card plays the Opportunity; all other players play the Fronter role.
 Break ties by drawing cards from the System's Deck.
 
 #### Subsequent Date Nights
 
-The player who was the previous Date Night's Outside Interference plays the Date, and the
+The player who was the previous Date Night's Opportunity plays the Date, and the
 previous Date Night's Date is a Fronter. From the previous Date Night's Fronters, each player
 who hasn't been the Date before draws a card and the player with the highest card plays 
-the Outside Interference. Again, break ties with draws from the System's Deck.
+the Opportunity. Again, break ties with draws from the System's Deck.
 
 
 ### Creating the Prospect {#setup-prospect .breakbefore} 
@@ -1831,29 +1827,45 @@ games, but actively *dislikes* them. This could spell problems for that Headmate
 ### Turn Order {#date-turn-order}
 
 - **Date player plays a card**
-  - Outside Opposition may play a card
+  - Opportunity may play a card
   - Date draws a card
-- **System player 1 plays a card**
-  - Outside Opposition may play a card
-  - System player one draws a card
-- **Date player plays a card** *4+ players only*
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 1 plays a card**
+  - Opportunity may play a card
+  - Fronter player one draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*4+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 2 plays a card** *4+ players only*
-  - Outside Opposition may play a card
-  - System player two draws a card
-- **Date player plays a card** *5+ players only*
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 2 plays a card** (*4+ players only*)
+  - Opportunity may play a card
+  - Fronter player two draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*5+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 3 plays a card** *6+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
-- **Date player plays a card**
-  - Outside Opposition may play a card
+  - Check if Date Night ends
+- **Fronter player 3 plays a card** (*5+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*6+ players only*)
+  - Opportunity may play a card
   - Date draws a card
-- **System player 4 plays a card** *7+ players only*
-  - Outside Opposition may play a card
-  - System player three draws a card
+  - Check if Date Night ends
+- **Fronter player 4 plays a card** (*6+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
+- **Date player plays a card** (*7+ players only*)
+  - Opportunity may play a card
+  - Date draws a card
+  - Check if Date Night ends
+- **Fronter player 5 plays a card** (*7+ players only*)
+  - Opportunity may play a card
+  - Fronter player three draws a card
+  - Check if Date Night ends
 - **Back to start**
 
 During the Date Night part of the game, the Date character and the System 
@@ -1862,7 +1874,7 @@ character alternate turns back and forth.
 If you have more than three players, two or more players will be sharing the
 System character, and will take turns in alternating order.
 
-The Outside Opposition player doesn't have a turn in the turn order, but can
+The Opportunity player doesn't have a turn in the turn order, but can
 act in response to cards played by the other players.
 
 #### Stood Up? {#date-stood .breakbefore}
@@ -1895,20 +1907,20 @@ act in response to cards played by the other players.
 
 []{.lorem}
 
-### Playing the Outside Interference {#date-role-outside .breakbefore }
+### Playing the Opportunity {#date-role-outside .breakbefore }
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::::::::::
 ![Text messages are a great way to interrupt the perfect date.](art/spectrum/phone-upset.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-As the Outside Interference, your job is to introduce events that could make 
+As the Opportunity, your job is to introduce events that could make 
 it harder for the parties on the date to make a love connection.
 
 That said -- you're not the *enemy*; you aren't playing *against* the System and the
 Prospect, just trying to make their Date Night more complicated.
 [We talked about this during our playtests; we decided *against*
  calling this the "cock-blocker" role, even though at times it could 
- seem that way. It's the job of the Outside Interference to make Date
+ seem that way. It's the job of the Opportunity to make Date
  Night *interesting*, and in fact, they might make it *more* likely for
  the System and Prospect to make a connection.]{.val}
 [... also "cock-blocker" is sexist and genital-essentialist language.]{.carline}
@@ -1917,7 +1929,7 @@ Prospect, just trying to make their Date Night more complicated.
 You can *only* play a card as long as the rank exactly matches the rank of a card played
 by another player. You don't have a spot in the turn order, and it's possible that 
 multiple turns can go by before you get a chance to play. That's okay -- you won't be
-the Outside Interference forever, provided that your group plays out more than one Date Night.
+the Opportunity forever, provided that your group plays out more than one Date Night.
 
 Whenever you play a card, you get to describe the event that occurs, as determined by the
 card's rank, as shown on the table on the following page.
@@ -1934,7 +1946,7 @@ into play.
 :::::::::::::::::::: {.outsidechart .breakbefore .breakable .text } ::::::::::::::::::
 
 ----------------------------------------------------------------------------------
- Rank       Outside Interference 
+ Rank       Opportunity 
 ----------- ----------------------------------------------------------------------
     Ace     **Happy to Be Here!** 
             The character picks one of the Headmates not currently
@@ -1981,7 +1993,7 @@ into play.
 
      7      **Forget-Me-Nots** 
             Suddenly the character realizes they've forgotten something.
-            The Outside Interference gets to decide exactly what that
+            The Opportunity gets to decide exactly what that
             might be.
             [On a red card, they forgot something about their date.]{.red} 
             [For example: they forgot their date's name, they forgot to
@@ -2002,7 +2014,7 @@ into play.
             blocking their route to the park, an earthquake strikes.]{.eg}
 
     10      **Anything But This** 
-            The Outside Inteference picks one of the Headmates not
+            The Opportunity picks one of the Headmates not
             current fronting, who switches to the front and is apathetic 
             about the switch.
             [On a red card, they're upset by this switch.]{.red}
@@ -2078,7 +2090,7 @@ but if you can play on that new card and do so ... you'd be prolonging
 the date.
 
 Which you certainly can do! This is one of the perks of being the 
-Outside Interference. And unless you and the other players are tired
+Opportunity. And unless you and the other players are tired
 of the date, you probably *should*. It'll make things more interesting.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -2142,7 +2154,7 @@ and pronouns<span class="dera">
   [Diamonds]{.diamonds} for they/them,<br/>
   [Clubs]{.clubs} for other pronouns.
 </span>,
-record those on the Outside Interference Sheet next to the exact card you played, 
+record those on the Opportunity Sheet next to the exact card you played, 
 and announce those to the other players.
 
 As long as the card you played is active, the named NPC sticks around and interferes
@@ -2231,7 +2243,7 @@ If it wasn't a red King, then ask the player:
 The reason you write down the named NPCs is that they might show up again on future Date
 Nights!
 
-If you're playing the Outside Interference and the NPC Roster already has a listing for
+If you're playing the Opportunity and the NPC Roster already has a listing for
 the card you played, that named NPC could show up instead, under the following 
 circumstances:
 
@@ -2351,31 +2363,24 @@ of water.
 
 Despite the name of the game, it's entirely possible to get a second date 
 in []{.gamename}!
-If the Date didn't ghost you, and the players reach consensus on going out 
+If the Prospect didn't ghost you, and the players reach consensus on going out 
 again, play a second date (amd all subsequent dates) with these changes: 
 
-- **Switch Roles** Select a new player to play the Date role, from the
-  players who didn't play the Date. Then select another player to play 
-  the Outside Interference who hasn't played the Outside Interference
-  in this game.
-
-- **Keep the Date's Personality Cards** You don't have to remove them
-  from the Date Deck, just note them down on the on the Second Date part
+- **Keep the Prospects's Trait Cards** You don't have to remove them
+  from the Date Deck, just note them down on the on the part
   of the Date Sheet. These serve as guidelines for roleplaying as the
-  Date.
+  Prospect.
 
-- **Draw Two More Personality Cards for the DAte** In a second date, you're 
+- **Draw Two More Trait Cards for the Prospect** In a second date, you're 
   usually going to be past the initial awkwardness, and you can find out 
-  there's more to your date than you original assumed.
+  there's more to your Prospect than you original assumed.
 
 - **Decide What Happened Between Dates** []{.lorem}
 
 #### Going Steady {#wrap-next-steady}
 
-[]{.lorem}
-
 If the Date is up for a third date, then you are officially Going Steady.  
-Unless the system (or its members) are lesbians -- in which case you're 
+Unless the system (or some of its members) are lesbians -- in which case you're 
 moving in together.
 
 ### Post-Game Discussion {#wrap-discuss .breakbefore}
@@ -2433,76 +2438,6 @@ appendix has a number of links that can help you learn more about the plural exp
 and what it might mean in your life.<span class="carline">If this game does play a 
 role in any way determining if you're plural -- or *not!* -- drop 
 us [an email](mailto:caderaspindrift@gmail)!</span>
-
-
-## Variants and Hacks {#variant}
-
-This section presents alternate rules for playing []{.gamename} in different ways.
-
-::::::::::::::::: spectrum ::::::::::::::::::::::::::::
-![There isn't a variant for using a ouija board to play 52 Second Dates ... yet.](art/spectrum/ouija.jpg){.bottom}
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-(The lorem-ipsums here indicate that further work is needed to flesh out the rules
-for these variants.)
-
-### System to System {#variant-system}
-
-One of the more interesting exercises would be playing this as a game of
-two systems going on a date. We haven't tried it, and to be honest, it could
-get somewhat overwhelming.
-
-As both systems would be effectively protagonized by the game, the idea of
-multiple dates with several people should probably be set aside -- under
-these game mechanics, plural systems take considerably more time to create
-than a one-off singlet character.
-
-The exact size of each system, and how members of those systems are created
-by the players, can get tricky. Part of the reason for the group creation
-of headmates was to give all players a sense of investiture -- but that
-might not work if you're simultaneously building two sets of headmates.
-
-Ah, Aura wishes to jump in. I defer to her.
-[that was Dera droning on and on by the way]{.aura}
-
-So -- here's what I []{.emoji-aura} think! I think if there are two groups playing
-[]{.gamename} at the same time, it would be really cute and awesome if
-the groups came together and played out a date between the two systems!
-[Hm. That *could* work.
-<span class="aura">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
-
-And they *FELL IN LOOOOOOOOOOOOVE* ...
-
-[]{.lorem}
-
-
-### Singlet on Singlet Action {#variant-singlet}
-
-You don't *have* to make this a game about plurality. It could just be a platform for
-telling stories about singlet couples that fall in love.
-
-It would probably work best as a three-player game.
-In such a case, two of the players acts in both the Date and "Fronter" roles simultaneously,
-while a third plays the Outside Interference.
-
-The game *would* lose something in translation, because a key part of []{.gamename} is
-about group creation of the main characters ... but if you're looking for a dating sim
-and you haven't followed our [](#anchor-ecb){.page} advice to check out 
-Emily Care Boss's *Romance Trilogy* -- it might work. Maybe!
-
-[]{.lorem}
-
-### Queerplatonic Relationships {#variant-platonic}
-
-[]{.gamename} assumes that the date is meant to lead a potential to romantic and/or 
-sexual relationship.
-
-But what if it's just a story about friendship? 
-
-This variant looks at using the same rules to show a budding friendship between a 
-plural system and a singlet friend.
-
-[]{.lorem}
 
 
 ## Appendix: Plural Resources {#resources}

@@ -42,10 +42,10 @@ wrap/aftercare
 wrap/next_date
 wrap/discuss
 wrap/wait
-variant/
-variant/variant_system
-variant/variant_singlet
-variant/variant_platonic
+# variant/
+# variant/variant_system
+# variant/variant_singlet
+# variant/variant_platonic
 resources
 lexicon
 license
