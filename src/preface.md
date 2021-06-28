@@ -24,7 +24,7 @@ if it succeeds at any of those. The four goals are to be a game that:
 
 # Game Design Philosophy
 
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.ora} 
+Our take on indie game design[Dera totally wrote this section, she's so wordy]{.aura} 
 is that of an ongoing conversation where a number of
 different voices weave in and out with their contributions that answer the question,
 "What *is* a roleplaying game? What *can* a roleplaying game *be*?"
@@ -69,19 +69,19 @@ This is who we are:
 
 :::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.emoji-spin} Cadera Spindrift
+Cadera Spindrift []{.emoji-spin}
 ~    Primary (co-)fronter and project coordinator; she/her
 
-[]{.emoji-dera} Dera
+Dera []{.emoji-dera}
 ~    Our self-described analytical headmate and game mechanics wonk; she/her
 
-[]{.emoji-carline} Carline Stone
+Carline Stone []{.emoji-carline}
 ~    Social justice druid and in-house sensitivity reader; will be your big gay auntie; she/her
 
-[]{.emoji-ora} Aura
+Aura []{.emoji-aura}
 ~    Flirty lesbian disaster; looks like our WoW character; she/her
 
-[]{.emoji-val} Valorie
+Valorie []{.emoji-val}
 ~    Our generally quiet protector/warrior; sometimes Fusillade; she/her
 
 []{.emoji-fox}
@@ -90,7 +90,7 @@ This is who we are:
      he/him or
      it/its or
      they/them or
-     []{.emoji-fox}/[]{.emoji-fox}
+     []{.emoji-fox .pronouns}/[]{.emoji-fox .pronouns}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

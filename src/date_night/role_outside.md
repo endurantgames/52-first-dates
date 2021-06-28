@@ -44,12 +44,12 @@
 
 []{.lorem}
 [The title of that song is ableist.]{.carline}
-[Oh c'mon Carline, you know it's a joke]{.ora}
+[Oh c'mon Carline, you know it's a joke]{.aura}
 [... an *ableist* joke.]{.carline}
 [She's right, you know.]{.dera}
-[wait, *who* is right?]{.ora}
+[wait, *who* is right?]{.aura}
 [Not you.]{.dera}
-[:p]{.ora}
+[:p]{.aura}
 
 []{.lorem}
 

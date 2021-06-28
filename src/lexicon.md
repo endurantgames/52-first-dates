@@ -14,7 +14,7 @@ Blending
     or to anyone else who is co-conscious at the time.
     [Our own median system does this a lot; part of why we didn't recognize ourself
      as a system was because we blend from to the other and don't even notice that
-     our fronter has changed]{.ora}
+     our fronter has changed]{.aura}
 
 Blurian
 ~   Blurian refers to easier or complete memory sharing, having a lack of 
@@ -105,7 +105,7 @@ Little
 Main
 ~   The main is a headmate who is considered by the rest of the system to be one the 
     main or central influences on the system.
-    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.ora}
+    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.aura}
     This doesn't necessarily mean they front 
     often.  A main can be a leader, teacher, or another authoritative figure that has 
     an influence over the system. They may also be someone that others draw energy from.
@@ -117,7 +117,7 @@ Main
 Median
 ~   A median system (also called midcontinuum) is a system where members are not as 
     distinct or separate from each other.
-    [This is what we are! a median system]{.ora}
+    [This is what we are! a median system]{.aura}
     It can be considered being somewhere 
     between multiple and singlet.
 

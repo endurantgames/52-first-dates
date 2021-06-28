@@ -47,7 +47,7 @@ act in a *flirty and coy, or evasive and guarded* manner.
 If you're the **Date** or a **Fronterm** and you have at least one card 
 you can play from your hand, you must play one of those cards on your turn.
 [This could mean you might end the date even if you don't want to.]{.dera}
-[That's how dating goes sometimes ... sigh]{.ora}
+[That's how dating goes sometimes ... sigh]{.aura}
 
 If you're the **Outside Interference**, you aren't required to play 
 cards when you have the option to do so.

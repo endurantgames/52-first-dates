@@ -4,23 +4,24 @@ Once you have the name of the Propect, you'll need their pronouns.
 
 Draw one card to determine their primary pronoun, and then draw a second
 to determine another set of pronouns they also use. 
-
-[]{.lorem}
+[Here's a mnemonic for these -- **S**pades starts with an "S", as does
+"she/her"; **H**earts and "he/him" with an "H"; **C** for both Clubs and
+*chart*. There's no "d" in they/them, though.]{.spin}
 
  Cards                                        Pronouns
 -------                                       ---------
 [Hearts  ]{.hearts   } [Hearts  ]{.hearts   } he/him
 [Hearts  ]{.hearts   } [Spades  ]{.spades   } any pronouns
 [Hearts  ]{.hearts   } [Diamonds]{.diamonds } he/him + they/them
-[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart
+[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart <br/>
 [Spades  ]{.spades   } [Hearts  ]{.hearts   } any pronouns
 [Spades  ]{.spades   } [Spades  ]{.spades   } she/her
 [Spades  ]{.spades   } [Diamonds]{.diamonds } she/her + they/them
-[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart
+[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart <br/>
 [Diamonds]{.diamonds } [Hearts  ]{.hearts   } they/them + he/him
 [Diamonds]{.diamonds } [Spades  ]{.spades   } they/them + she/her
 [Diamonds]{.diamonds } [Diamonds]{.diamonds } they/them
-[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart
+[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart <br/>
 [Clubs   ]{.clubs    } [Hearts  ]{.hearts   } chart + he
 [Clubs   ]{.clubs    } [Spades  ]{.spades   } chart + she
 [Clubs   ]{.clubs    } [Diamonds]{.diamonds } chart + they

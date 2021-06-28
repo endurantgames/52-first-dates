@@ -8,7 +8,7 @@ Now that you know how the cards work, we're going to tell you how
 the game is set up.
 ["the set-up" has a double meaning, see, because not only is this section about
 preparing the game, but the whole conceit of the game is that it's a blind
-date that you were *set up* on]{.ora}
+date that you were *set up* on]{.aura}
 
 Before the first Date Night, you have to do the following:
 

@@ -6,10 +6,10 @@ such as the TTRPG Safety Toolkit, More Than One, the definitions in the Lexicon,
 Anti-Capitalist Attribution Cooperative License. This wasn't to save time or to increase
 the page count, but because we think these are important topics, and we doubt we could do 
 them justice ourselves.
-<span class="ora">see, I told you she's wordy!
+<span class="aura">see, I told you she's wordy!
  <span class="dera">
    Aura, you can't put a footnote on a footnote.
-     <span class="ora">oh, *yeah?* just *watch* me!</span>
+     <span class="aura">oh, *yeah?* just *watch* me!</span>
    </span>
   </span>
 </span>

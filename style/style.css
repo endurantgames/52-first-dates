@@ -1,201 +1,83 @@
-/* base css file for TTRPG projects */
+/* 52 First Dates */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page         { margin-top: 48pt; margin-bottom: 54pt; }
-/* @page      { size: letter portrait; margin: 18pt; } */
-header        { display: none;                       }
-header p.date { string-set: date content()           }
-header h1     { string-set: gamename content()       }
-
-@page:left { margin-left: 192pt; margin-right: 96pt; }
-@page:right { margin-right: 192pt; margin-left: 96pt; }
-
-@page { @footnote { position: absolute; width: 138pt; vertical-align: bottom; bottom: 68pt; } }
-
-@page :left  { @footnote { left: -160pt; } }
-@page :right { @footnote { right: -168pt; } }
-
-*::footnote-marker {
-  font-weight: bold;
-  color: var(--color-accent); 
-}
-
-*::footnote-call { 
-  content: counter(footnote);
-  font-size: 75%;
-  vertical-align: super;
-  font-weight: bold;
-  color: var(--color-accent); 
-  line-height: none;
-}
-
-@prince-pdf {
+@prince-pdf { /* configuring prince */
   -prince-pdf-page-layout: two-column-right;
-  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
-/*
-  -prince-pdf-profile: "PDF/A-1a+PDF/UA-1";
-  -prince-pdf-profile: "PDF/A-1a";
-  -prince-pdf-profile: "PDF/A-1b";
-  -prince-pdf-profile: "PDF/A-2a";
-  -prince-pdf-profile: "PDF/A-2b";
-  -prince-pdf-profile: "PDF/A-3a";
-  -prince-pdf-profile: "PDF/A-3b";
-  -prince-pdf-profile: "PDF/UA-1";
-  -prince-pdf-profile: "PDF/X-1a:2001";
-  -prince-pdf-profile: "PDF/X-1a:2003";
-  -prince-pdf-profile: "PDF/X-3:2002";
-  -prince-pdf-profile: "PDF/X-3:2003";
-  -prince-pdf-profile: "PDF/X-4";
-  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
-*/
+  -prince-pdf-profile:     "PDF/A-3a+PDF/UA-1";
 }
+
+header        { display: none;                 }
+header h1     { string-set: gamename content() }
+header p.date { string-set: date content()     } /* picking up metadata */
 
 :root {
-  --font: "Bellefair";
-  --font-header: "Cherry Swash";
-  --font-cards: 'Noto Sans';
 
-  --icon-solid: 'Font Awesome 5 Free Solid';
-  --font-emoji: 'Noto Color Emoji';
-  --font-suits: 'Noto Emoji';
-  --font-icon: 'Noto Emoji';
-  --font-icon-fallback: "Unifont";
-  --font-dyslexic: 'Open Dyslexic';
+  /* fonts  - - - - - - - - - - - - - - - - - - */
+  --font:                "Bellefair";
+  --font-header:         "Cherry Swash";
+  --font-cards:          'Noto Sans';
+  --font-emoji:          'Noto Color Emoji';
+  --font-suits:          'Noto Emoji';
+  --font-icon:           'Noto Emoji';
+  --font-icon-fallback:  "Unifont";
 
-  --body:      12pt;
-  --larger:    13pt;
-  --smaller:   11pt;
-  --small:     10pt;
-  --large:     14pt;
+  /* font sizes - - - - - - - - - - - - - - - - */
+  --body:                12pt;
+  --larger:              13pt;
+  --smaller:             11pt;
+  --small:               10pt;
+  --large:               14pt;
+  --title:               64pt;
+  --subtitle:            36pt;
+  --subsubtitle:         28pt;
+  --h1:                  36pt;
+  --h2:                  20pt;
+  --h3:                  18pt;
+  --h4:                  15pt;
+  --h5:                  13pt;
+  --h6:                  12pt;
+  --th:                  11pt;
+  --pagenum:             28pt;
+  --toolkit:             9pt;
+  --morethanone:         11pt;
+  --cardsize:            24pt;
+  --sheetsize:           15pt;
 
-  --title:     64pt;
-  --subtitle:  36pt;
-  --subsubtitle: 28pt;
-  --h1:        36pt; 
-  --h2:        20pt;
-  --h3:        18pt;
-  --h4:        15pt;
-  --h5:        13pt;
-  --h6:        12pt;
-  --th:        11pt;
-  --pagenum:   28pt;
-  --toolkit:    9pt; 
-  --morethanone: 11pt;
-  --cardsize: 24pt; 
-  --sheetsize: 15pt;
+  /* colors - - - - - - - - - - - - - - - - - - */
+  --color-accent:        cadetblue;
+  --color-pagenum:       cadetblue;
+  --color-line:          cadetblue;
+  --color-light:         silver;
+  --color-dark:          gray;
+  --color-toolkit:       #006600;
+  --color-footnote:      gray;
+  --bgcolor-sidebar:     #EEEEEE;
+  --bgcolor-toolkit:     #F8FFF8;
 
-  --color-accent: cadetblue;
-  --color-pagenum: cadetblue;
-  --color-line:    cadetblue;
-  --color-light:   silver;
-  --color-toolkit: #006600;
-  --color-footnote: gray;
+  /* system emojis  - - - - - - - - - - - - - - */
+  --spin:                '\1f300';
+  --dera:                '\1f4e1';
+  --carline:             '\1f343';
+  --aura:                '\1f339';
+  --val:                 '\1f517';
+  --fox:                 '\1f98a';
 
-  --bgcolor-sidebar: #EEEEEE;
-  --bgcolor-toolkit: #F8FFF8;
+  counter-reset:         footnote;
 
-  counter-reset: table figure sidebar footnote;
 }
 
-body               { font-family: var(--font); font-size: var(--body);      }
-td                 { font-size: var(--body); vertical-align: top;           }
-th                 { font-family: var(--font-header); font-size: var(--th); }
-h1                 { font-family: var(--font-header); font-size: var(--h1); }
-h2                 { font-family: var(--font-header); font-size: var(--h2); }
-h3                 { font-family: var(--font-header); font-size: var(--h3); }
-h4                 { font-family: var(--font-header); font-size: var(--h4); }
-h5                 { font-family: var(--font-header); font-size: var(--h5); }
-h6                 { font-family: var(--font-header); font-size: var(--h6); }
-h1                 { break-after: avoid-page; break-inside: avoid;          }
-h1, h2, h4         { color: var(--color-accent);                            }
-h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
-h3                 { border-bottom: 0.75pt solid var(--color-accent);       }
-h5                 { font-style: italic; }
-h1                 { margin-bottom: 0pt; }
-h2                 { margin-top: 9pt; margin-bottom: 6pt; }
-h3                 { margin-top: 9pt; margin-bottom: 6pt; }
-h4                 { margin-top: 9pt; margin-bottom: 6pt; }
-h5                 { margin-top: 9pt; margin-bottom: 6pt; }
-h6                 { margin-top: 9pt; margin-bottom: 6pt; }
-p                  { margin-top: 3pt; margin-bottom: 6pt; }
-h1                 { column-span: all; text-align: center;                  }
-.breakbefore       { break-before: page;                                    }
-.colbefore         { break-before: column;                                  }
-.nobreak           { break-before: avoid-page;                              }
-.nocolbreak        { break-before: avoid-column;                            }
-.colspan           { column-span: all;                                      }
-.bottom            { column-span: all; float: page-bottom;                  }
-p+table            { break-before: avoid-page;                              }
-p+p                { text-indent: 1.5em; }
-table              { border-collapse: collapse; break-inside: avoid-page;   }
-table              { margin-bottom: 9pt; }
-p                  { margin-top: 6pt; margin-bottom: 9pt; }
-table tr           { break-inside: avoid-page;                              }
-table thead        { break-after: avoid;                                    }
-table thead        { border-bottom: 0.5pt solid var(--color-line);          }
-table th, table td { padding: 2pt;                                          }
-table th           { vertical-align: bottom;                                }
-table td           { vertical-align: top;                                   }
-table              { width: 100%;                                           }
-h3, h4, h5, h6     { font-weight: normal; }
+/* @page rules =========================================================================================================== */
 
-h1, h2, h3, h4, h5, h6 { string-set: section content(); }
+@page        { margin-top:    48pt; margin-bottom: 54pt; }
+@page:left   { margin-left:  192pt; margin-right:  96pt; }
+@page:right  { margin-right: 192pt; margin-left:   96pt; }
 
-h2:first-of-type { break-before: avoid; }
-h2 { break-before: page; }
+/* footnotes -------------------------------------------------------------------------------------------------- */
+@page        { @footnote { position: absolute; width: 138pt; vertical-align: bottom; bottom: 68pt; } }
+@page :left  { @footnote { left: -160pt;  } }
+@page :right { @footnote { right: -168pt; } }
 
-#cover + h1 { counter-reset: page; counter-increment: page; }
-#cover + h1 { break-before: right; }
-
-li           { break-inside: avoid; }
-ul, ol       { margin-left: 1em;    margin-top: 6pt; margin-bottom: 6pt; }
-ul li, ul ol { margin-left: 1em;    }
-
-.sidebar p { margin-top: 6pt; margin-bottom: 0; }
-.sidebar { 
-  float-placement:   top;
-  float-reference:   column;
-  border:            0.5pt solid var(--color-line);
-  border-radius:     3pt;
-  padding-left:      9pt;
-  padding-right:     9pt;
-  padding-bottom:    6pt;
-  margin-bottom:     9pt;
-  background:        var(--bgcolor-sidebar);
-}
-
-.sidebar.next { float-defer-column: 1;                                                    }
-.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
-
-img { -prince-image-resolution: 96;
-      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
-
-p, li { orphans: 3; line-height: 1.40; }
-
-@page { @left-bottom { 
-  font-family:     var(--font-header);
-  font-size:       var(--big);
-  font-size:       var(--pagenum);
-  text-align:      center;
-  color: var(--color-pagenum);
-} }
-
-@page { @right-bottom {
-  font-family:     var(--font-header);
-  font-size:       var(--big);
-  font-size:       var(--pagenum);
-  text-align:      center;
-  color: var(--color-pagenum);
-} }
-
-@page:left  { @left-bottom  { content: counter(page); } } 
-@page:right { @right-bottom { content: counter(page); } } 
-
-@page:nth(3) { margin-left: 96pt; margin-right: 96pt; }
-@page:nth(4) { margin-left: 60pt; margin-right: 96pt; }
-@page:nth(3) { @right-bottom { margin-left:  -96pt; } }
-@page:nth(4) { @left-bottom  { margin-right: -134pt; } }
-
+/* draft date numbers -- remove when not draft ---------------------------------------------------------------- */
 @page { @bottom-center {
   content:         'Version ' string(date);
   font-family:     var(--font);
@@ -206,76 +88,261 @@ p, li { orphans: 3; line-height: 1.40; }
   text-align:      center;
 } }
 
-table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
-.sidehead         { counter-increment: sidebar;                                                                       }
-.chapter          { counter-increment: chapter;                                                                       }
-.section          { counter-increment: section;                                                                       }
+/* page numbers ----------------------------------------------------------------------------------------------- */
+@page:left  { @left-bottom  { content: counter(page); } } 
+@page:right { @right-bottom { content: counter(page); } } 
 
-figure caption:before    { content: 'Table ' counter(table) ': ';   }
+@page { @left-bottom  { font-family: var(--font-header);  font-size:  var(--big);
+                        font-size:   var(--pagenum);      text-align: center;
+                        color:       var(--color-pagenum); } }
+@page { @right-bottom { font-family: var(--font-header);  font-size:  var(--big);
+                        font-size:   var(--pagenum);      text-align:      center;
+                        color:       var(--color-pagenum); } }
 
-.section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
-.chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
+/* exceptions by page number ---------------------------------------------------------------------------------- */
+@page:nth(3) { margin-left: 96pt; margin-right: 96pt;  }
+@page:nth(4) { margin-left: 60pt; margin-right: 96pt;  }
+@page:nth(2) { @left-bottom  { content: 'i';         } }
+@page:nth(3) { @right-bottom { margin-left:   -96pt; } }
+@page:nth(4) { @left-bottom  { margin-right: -134pt; } }
+/* @page:blank { @left-bottom { content: normal; } } */
 
-#toc { column-count: 2; column-gap: 16pt; column-width: auto; }
-#toc { background: none; border: none; }
-#toc .sidehead { column-span: all; display: block; margin-bottom: 9pt; }
-#toc { float: page top; float-defer-page: 1; }
-#toc a:before       { content: target-content(attr(href)) ' ';                        }
-#toc a:after        { content: leader('. ') target-counter(attr(href), page);         }
-#toc ul             { margin: 0; break-inside: auto;                             }
-#toc ul li          { list-style-type: none; line-height: 1.1; break-inside: auto;    }
-#toc ul ul li       { margin-left: 8pt; font-weight: normal; break-inside: avoid;     }
-#toc ul ul ul li    { font-size: var(--smaller);                                      }
-#toc ul ul ul ul li { font-size: var(--small); font-style: italic; }
-#toc > ul > li      { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger); }
-#toc ul ul  { margin-top: 4pt; } 
-#toc ul ul ul { margin-bottom: 4pt; break-after: avoid-column; }
-a:link,
-a:visited,
-a:active,
-a:hover { color: black; text-decoration: none; }
-#toc > ul > li a { color: var(--color-accent); }
-#toc > ul > li li a { color: black; } 
+/* cover page ------------------------------------------------------------------------------------------------- */
+@page :first { margin: 0; }
+@page :first { @bottom-center { content: normal; } @right-bottom { content: normal; } @left-bottom { content: normal; } }
 
-#toc ul { -prince-pdf-tag-type: TOC; }
-#toc li { -prince-pdf-tag-type: TOCI; }
+/* specific page types ---------------------------------------------------------------------------------------- */
+@page license   { margin: 48pt 36pt; padding: 0;                         }
+@page charsheet { margin: 0;         padding: 0; size: letter landscape; }
+@page colophon  { margin-left: 96pt; margin-right: 96pt;                 }
+@page license   { @left-bottom { content: normal; } @right-bottom { content: normal; } }
+@page charsheet { @left-bottom { content: normal; } @right-bottom { content: normal; } }
 
-#colophon { page: colophon; text-align: center; }
-#colophon p { margin-bottom: 12pt; }
-#colophon p + p { text-indent: 0; }
-#colophon h2 { margin-top: 176pt; margin-bottom: 24pt; }
-@page colophon { margin-left: 96pt; margin-right: 96pt; }
-
-.tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
-.tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
-.tstoolkit .icon:after { 
-  font-family: var(--font-icon); 
-  padding-left: 0.25em; 
-  display: inline-block; 
-  font-weight: normal; 
+/* ======================================================================================================================= */
+ 
+.gamename:before { 
+  font-family: var(--font-header); 
+  content:     string(gamename); 
   line-height: none; 
-  font-size: 87%; 
-  margin-left: -1.7em; /* 1.5 * 1 / 87% */
+  font-size:   85%; 
+  color:       var(--color-accent); 
+}
+:matches(h1, h2, h3, h4, h5, h6) .gamename:before { font-size: 100%; }
+
+/* fonts ------------------------------------------------------------------------------------------------------ */
+body { font-family: var(--font);        font-size: var(--body); }
+th   { font-family: var(--font-header); font-size: var(--th);   }
+h1   { font-family: var(--font-header); font-size: var(--h1);   }
+h2   { font-family: var(--font-header); font-size: var(--h2);   }
+h3   { font-family: var(--font-header); font-size: var(--h3);   }
+h4   { font-family: var(--font-header); font-size: var(--h4);   }
+h5   { font-family: var(--font-header); font-size: var(--h5);   }
+h6   { font-family: var(--font-header); font-size: var(--h6);   }
+td   { font-family: var(--font);        font-size: var(--body); }
+
+/* header styling --------------------------------------------------------------------------------------------- */
+h3 { font-weight: normal; }
+h4 { font-weight: normal; }
+h5 { font-weight: normal; }
+h6 { font-weight: normal; }
+
+h1 { color: var(--color-accent);                      }
+h1 { column-span: all; text-align: center;            }
+h2 { color: var(--color-accent);                      }
+h3 { border-bottom: 0.75pt solid var(--color-accent); }
+h4 { color: var(--color-accent);                      }
+h5 { font-style: italic;                              }
+
+#cover + h1 { counter-reset: page; counter-increment: page; }
+
+/* pagination ------------------------------------------------------------------------------------------------- */
+h1               { break-inside: avoid; break-after: avoid; }
+h2               { break-inside: avoid; break-after: avoid; }
+h3               { break-inside: avoid; break-after: avoid; }
+h4               { break-inside: avoid; break-after: avoid; }
+h5               { break-inside: avoid; break-after: avoid; }
+h6               { break-inside: avoid; break-after: avoid; }
+p+table          { break-before: avoid-page;                }
+table            { break-inside: avoid-page;                }
+p, li            { orphans: 3; line-height: 1.40;           }
+.breakbefore     { break-before: page;                      }
+.colbefore       { break-before: column;                    }
+.nobreak         { break-before: avoid-page;                }
+.nocolbreak      { break-before: avoid-column;              }
+h2               { break-before: page;                      }
+h2:first-of-type { break-before: avoid;                     }
+#cover + h1      { break-before: right;                     }
+
+
+/* margins ---------------------------------------------------------------------------------------------------- */
+h1 { margin-bottom: 0pt;                  }
+h2 { margin-top: 9pt; margin-bottom: 6pt; }
+h3 { margin-top: 9pt; margin-bottom: 6pt; }
+h4 { margin-top: 9pt; margin-bottom: 6pt; }
+h5 { margin-top: 9pt; margin-bottom: 6pt; }
+h6 { margin-top: 9pt; margin-bottom: 6pt; }
+p  { margin-top: 3pt; margin-bottom: 6pt; }
+p  { margin-top: 6pt; margin-bottom: 9pt; }
+
+/* columns ---------------------------------------------------------------------------------------------------- */
+.colspan  { column-span: all;                                     }
+.bottom   { column-span: all; float: page-bottom;                 }
+.namelist { column-count: 2; column-gap: 9pt; column-width: auto; }
+
+/* paragraphs ------------------------------------------------------------------------------------------------- */
+
+/* tables ----------------------------------------------------------------------------------------------------- */
+table       { border-collapse: collapse;                    }
+table       { margin-bottom: 9pt;                           }
+table       { width: 100%;                                  }
+table tr    { break-inside: avoid-page;                     }
+table thead { break-after: avoid;                           }
+table thead { border-bottom: 0.5pt solid var(--color-line); }
+table th    { padding: 2pt;                                 }
+table th    { vertical-align: bottom;                       }
+table td    { padding: 2pt;                                 }
+table td    { vertical-align: top;                          }
+
+/* links ------------------------------------------------------------------------------------------------------ */
+a:link, a:visited, a:active, a:hover { color: black; text-decoration: none; }
+
+/* anchors and cross-references ------------------------------------------------------------------------------- */
+.anchor { position: absolute; color: transparent; margin: 0; padding: 0; }
+
+a.xref-page       { content: 'page ' target-counter(attr(href url), page);                                                     }
+a.xref-section    { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
+a.xref-see:before { content: 'see '; font-style: normal;                                                                       }
+a.xref-see        { content: target-content(attr(href url)); font-style: italic;                                               }
+a.xref-see:after  { content: ' on page ' target-counter(attr(href url), page); font-style: normal;                             }
+
+/* lists ------------------------------------------------------------------------------------------------------ */
+li           { break-inside: avoid;                                      }
+ul, ol       { margin-left: 1em;    margin-top: 6pt; margin-bottom: 6pt; }
+ul li, ul ol { margin-left: 1em;                                         }
+
+/* sidebars --------------------------------------------------------------------------------------------------- */
+.sidebar { 
+  float-placement: top;
+  float-reference: column;
+  border:          0.5pt solid var(--color-line);
+  border-radius:   3pt;
+  padding-left:    9pt;
+  padding-right:   9pt;
+  padding-bottom:  6pt;
+  margin-bottom:   9pt;
+  background:      var(--bgcolor-sidebar);
+}
+.sidebar.next { float-defer-column: 1; }
+.sidebar p { 
+  margin-top:    6pt; 
+  margin-bottom: 0; 
+}
+.sidehead { 
+  font-weight: bold; 
+  font-family: var(--font-header); 
+  font-size:   var(--h4); 
 }
 
+/* images ----------------------------------------------------------------------------------------------------- */
+img { 
+  -prince-image-resolution: 96;
+  -prince-image-magic:      recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; 
+} 
+
+.spectrum figure            { float: top; margin-top: -48pt; margin-outside: -192pt; margin-bottom: 18pt; }
+.spectrum figure img        { width: 100%; height: 192pt; object-fit: cover; object-position: center;     }
+.spectrum figure img.bottom { object-position: bottom center;                                             }
+.spectrum figure img.top    { object-position: top center;                                                }
+
+.spectrum figure figcaption { 
+  position:       absolute; 
+  top:            160pt; 
+  left:           0;
+  right:          0;
+  color:          gray;
+  margin-outside: -174pt;
+  line-height:    1.25;
+  margin-inside:  338pt;
+  font-family:    var(--font);
+  font-weight:    normal;
+}
+
+/* footnotes -------------------------------------------------------------------------------------------------- */
+*::footnote-marker {
+  font-weight:    bold;
+  color:          var(--color-accent); 
+}
+
+*::footnote-call { 
+  content:        counter(footnote);
+  font-size:      75%;
+  vertical-align: super;
+  font-weight:    bold;
+  color:          var(--color-accent); 
+  line-height:    none;
+}
+
+/* table of contents ------------------------------------------------------------------------------------------ */
+#toc           { column-count: 2; column-gap: 16pt; column-width: auto;  }
+#toc           { background: none; border: none;                         }
+#toc .sidehead { column-span: all; display: block; margin-bottom: 9pt;   }
+#toc           { float: page top; float-defer-page: 1;                   }
+#toc a:before  { content: target-content(attr(href)) ' ';                }
+#toc a:after   { content: leader('. ') target-counter(attr(href), page); }
+
+#toc ul             { margin: 0; break-inside: auto;                                                   }
+#toc ul li          { list-style-type: none; line-height: 1.1; break-inside: auto;                     }
+#toc ul ul li       { margin-left: 8pt; font-weight: normal; break-inside: avoid;                      }
+#toc ul ul ul li    { font-size: var(--smaller);                                                       }
+#toc ul ul ul ul li { font-size: var(--small); font-style: italic;                                     }
+#toc > ul > li      { font-weight: bold; margin-bottom: 4pt; margin-left: 0; font-size: var(--larger); }
+#toc ul ul          { margin-top: 4pt;                                                                 }
+#toc ul ul ul       { margin-bottom: 4pt; break-after: avoid-column;                                   }
+#toc > ul > li a    { color: var(--color-accent);                                                      }
+#toc > ul > li li a { color: black;                                                                    }
+
+#toc ul { -prince-pdf-tag-type: TOC;  }
+#toc li { -prince-pdf-tag-type: TOCI; }
+
+/* colophon --------------------------------------------------------------------------------------------------- */
+#colophon    { page: colophon; text-align: center;     }
+#colophon p  { margin-bottom: 12pt;                    }
+#colophon h2 { margin-top: 176pt; margin-bottom: 24pt; }
+
+/* TTRPG safety toolkit --------------------------------------------------------------------------------------- */
+.tstoolkit strong { white-space: pre; color: var(--color-toolkit);                    }
+.tstoolkit .icon  { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
+
+.tstoolkit .icon:after { 
+  font-family:  var(--font-icon); 
+  padding-left: 0.25em; 
+  display:      inline-block; 
+  font-weight:  normal; 
+  line-height:  none; 
+  font-size:    87%; 
+  margin-left:  -1.7em; /* 1.5 * 1 / 87% */
+}
 .tstoolkit .rewind:after { content: '\23ea'; }
 .tstoolkit .ff:after     { content: '\23e9'; }
 .tstoolkit .resume:after { content: '\25b6'; }
-/* .tstoolkit .pause:after  { content: '\23f8'; } */ /* this is the correct one, but it isn't being recognized */
 .tstoolkit .pause:after  { content: '\23F8'; font-family: var(--font-icon-fallback); }
+/* .tstoolkit .pause:after  { content: '\23f8'; } */ /* this is the correct one, but it isn't being recognized */
 
+/* game license ----------------------------------------------------------------------------------------------- */
+.license { 
+  column-count:  3; 
+  column-gap:    12pt; 
+  font-size:     var(--small); 
+  page:          license; 
+}
+.license h2 { 
+  font-size:     var(--large); 
+  column-span:   all; 
+  margin-top:    0; 
+  margin-bottom: 3pt; 
+  color:         black; 
+}
 
-/*
-.tstoolkit .rewind:after { content: '\f04a'; }
-.tstoolkit .ff:after     { content: '\f050'; }
-.tstoolkit .pause:after  { content: '\f04c'; }
-.tstoolkit .resume:after { content: '\f04b'; }
-*/
-
-.license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
-
-
-.license h2      { font-size: var(--large); column-span: all; margin-top: 0; margin-bottom: 3pt; color: black; }
 .license h3      { font-size: var(--larger);          }
 .license li      { break-inside: auto;                }
 .license > ol    { margin-left: 9pt;                  }
@@ -284,112 +351,82 @@ a:hover { color: black; text-decoration: none; }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
 
-@page license    { margin: 48pt 36pt; padding: 0; }
-@page license { @left-bottom { content: normal; } @right-bottom { content: normal; } }
-
-.gamename:before { 
-  font-family: var(--font-header); 
-  content: string(gamename); 
-  line-height: none; 
-  font-size: 85%; 
-  color: var(--color-accent); 
-}
-
-:matches(h1, h2, h3, h4, h5, h6) .gamename:before { font-size: 100%; }
-
-p+p .cw { margin-left: -1.25em; }
-
-.cw:before {  /* content warning */
-  font-family: var(--font-icon);
-  font-family: "Noto Sans";
-  content: '\26a0';
-  display: inline-block;
+/* inclusiveness callouts ------------------------------------------------------------------------------------- */
+.inclu:before { 
+  font-family:   var(--font-icon);
+  content:       '\1f310'; 
+  display:       inline-block;
   padding-right: 0.5em;
-  color: #f5c71a;
-  line-height: none;
+  color:         #BB00BB;
+  line-height:   none;
 }
 
-.inclu:before { /* notes on inclusion */
-  font-family: var(--font-icon);
-  content: '\1f310'; 
-  display: inline-block;
-  padding-right: 0.5em;
-  color: #BB00BB;
-  line-height: none;
+/* cover page ------------------------------------------------------------------------------------------------- */
+#cover { 
+  break-after: page; 
+  width:       8.5in; 
+  height:      11in; 
+  position:    relative; 
+  background:  black; 
 }
-
-@page :first { margin: 0; }
-@page :first { @bottom-center { content: normal; } @right-bottom { content: normal; } @left-bottom { content: normal; } }
-
-#cover { break-after: page; width: 8.5in; height: 11in; position: relative; background: black; }
 #cover :matches(h1, h2, h3) {
-  position: absolute; 
-  left: 1in; 
-  width: 6.5in; 
-  text-align: center; 
-  color: white;
+  position:    absolute; 
+  left:        1in; 
+  width:       6.5in; 
+  text-align:  center; 
+  color:       white;
 }
-
-#cover h1 { top: 1.0in; font-size: var(--title); }
-#cover h2 { top: 8.25in; font-size: var(--subtitle); }
-#cover h3 { top: 9.0in; font-size: var(--subsubtitle); border-bottom: none; }
-
+#cover h1  { top: 1.00in; font-size: var(--title);                                    }
+#cover h2  { top: 8.25in; font-size: var(--subtitle);                                 }
+#cover h3  { top: 9.00in; font-size: var(--subsubtitle); border-bottom: none;         }
 #cover img { position: absolute; top: 3.0in; left: 1.0in; width: 6.5in; height: auto; }
 
-@page:blank { @left-bottom { content: normal; } }
-@page:nth(2) { @left-bottom { content: 'i'; } }
-
+/* lexicon ---------------------------------------------------------------------------------------------------- */
 .lexicon dt { break-after: avoid; }
 
-.systemlist { break-before: avoid; break-inside: avoid; }
-.systemlist dl { margin-left: 24pt; margin-right: 24pt; }
+/* systemlist ------------------------------------------------------------------------------------------------- */
+.systemlist    { break-before: avoid; break-inside: avoid; }
+.systemlist dl { margin-left: 24pt; margin-right: 24pt;    }
+.systemlist dt { margin-bottom: 3pt;                       }
 
-:matches(.spin, .dera, .carline, .ora, .val, .fox) { 
+/* system member icons ---------------------------------------------------------------------------------------- */
+:matches(.spin, .dera, .carline, .aura, .val, .fox) { 
   color:         var(--color-footnote);
   float:         footnote; 
   line-height:   1.25; 
   display:       inline-block; 
-  margin-bottom: 12pt; 
-  text-indent:   0; 
-  padding-right: 0.5em;
+  margin-bottom: 15pt; 
 }
-   .spin:after { content: '\1f300'; }
-   .dera:after { content: '\1f4e1'; }
-.carline:after { content: '\1f343'; }
-    .ora:after { content: '\1f339'; }
-    .val:after { content: '\1f517'; }
-    .fox:after { content: '\1f98a'; }
+:matches(.spin, .dera, .carline, .aura, .val, .fox):after         { margin-left: 0.5em; display: inline-block; line-height: none; }
+:matches(.spin, .dera, .carline, .aura, .val):after               { font: var(--font-emoji);                                      }
+.emoji-spin, .emoji-dera, .emoji-carline, .emoji-aura, .emoji-val { font-family: var(--font-emoji); line-height: none;            }
+.emoji-fox.pronouns                                               { font-size: 80%;                                               }
+/* for some reason this doesn't throw an error when 🦊 is excluded from font */
 
-p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .emoji-fox) { 
-  margin-left: -1.0em; 
+   .spin:after { content: var(--spin);    }    .emoji-spin { content: var(--spin);    }
+   .dera:after { content: var(--dera);    }    .emoji-dera { content: var(--dera);    }
+.carline:after { content: var(--carline); } .emoji-carline { content: var(--carline); }
+    .val:after { content: var(--val);     }     .emoji-val { content: var(--val);     }
+   .aura:after { content: var(--aura);    }    .emoji-aura { content: var(--aura);    }
+    .fox:after { content: var(--fox);     }     .emoji-fox { content: var(--fox);     }  
+
+/* morethanone ------------------------------------------------------------------------------------------------ */
+.morethanone .bigpara { 
+  font-size:     var(--h4); 
+  margin-bottom: 9pt; 
+  text-align:    center; 
+  margin-left:   12pt; 
+  margin-right:  12pt; 
 }
-
-:matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val /*, .emoji-fox */) { 
-  font-family: var(--font-emoji); 
-  line-height: none; 
-}
-   .emoji-spin { content: '\1f300'; }
-   .emoji-dera { content: '\1f4e1'; }
-.emoji-carline { content: '\1f343'; }
-    .emoji-ora { content: '\1f339'; }
-    .emoji-val { content: '\1f517'; }
-    .emoji-fox { content: '\1f98a'; }  /* for some reason this doesn't throw an error when 🦊 is excluded from font */
-
-.morethanone .bigpara { font-size: var(--h4); }
-.morethanone ul { margin-top: 6pt; margin-bottom: 6pt; font-style: italic; }
-.morethanone .seealso { content: 'See also:'; font-style: italic; }
-.morethanone ul li { list-style-type: '-'; }
 .morethanone a:link, .morethanone a:visited, .morethanone a:active { color: black; text-decoration: underline; }
 
+/* testing / placeholder -------------------------------------------------------------------------------------- */
 .lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ' 
 	          'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
 		  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
 		  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
 
-/* character sheets **************************************************************************************** */
-
-@page charsheet { margin: 0; padding: 0; size: letter landscape; }
-@page charsheet { @left-bottom { content: normal; }  @right-bottom { content: normal; } }
+/* character sheets ====================================================================================================== */
 
 .sheetpage { 
   page: charsheet; 
@@ -412,76 +449,42 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   /* overflow: clip; */
 }
 
-.sheetpage .sheet.wide { column-span: all; }
-.sheetpage .sheet.full { column-span: all; height: 8.5in; }
-.sheetpage .sheet:matches(.wide, .full) :matches(.instruct, h3) { column-span: all; }
+.sheetpage th                      { font-weight: normal;           }
 .sheetpage .sheet .gamename:before { content: string(gamename) ' '; }
-.sheetpage .sheet :matches(h2, h3) { 
-  margin-top: 0; 
-  border-bottom: none; 
-  text-align: center; 
-  font-weight: normal;
-  font-size: var(--h2); 
-}
-.sheetpage #sheet-handouts h3 { font-size: var(--h4); }
-.sheetpage #sheet-ref { columns: 2 auto; column-gap: 12pt; }
-.sheetpage #sheet-ref .suitmeanings { column-span: all; float: column bottom; margin-top: 18pt; }
-.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre; }
-.sheetpage #sheet-ref .suitmeanings td { font-size: var(--large); }
-.sheetpage #sheet-ref .suitmeanings th { font-size: var(--larger); }
-.sheetpage #sheet-ref h3 { column-span: all; }
-.sheetpage #sheet-ref :matches(ol, ul) { break-inside: avoid; margin-bottom: 0; margin-top: 0;  }
-.sheetpage #sheet-ref ol > li { font-weight: bold; font-size: var(--large); }
-.sheetpage #sheet-ref ul > li { font-size: var(--larger); }
-.sheetpage #sheet-ref li { margin-top: 0; margin-bottom: 0; }
-.sheetpage #sheet-ref .turnorder ul > li { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
-.sheetpage #sheet-ref .turnorder ol > li > em { font-size: var(--body); font-weight: normal; }
-.sheetpage #sheet-ref .gamestruct { margin-left: 9pt; }
-.sheetpage #sheet-ref h4 { padding-top: 9pt; margin-bottom: 3pt; }
-.sheetpage #sheet-ref .rulesremind { column-span: all; }
-.sheetpage .needlist { font-size: var(--sheetsize); }
-.sheetpage .instruct { font-size: var(--sheetsize); }
-.sheetpage .inputline ul { margin-left: 0; }
+.sheetpage .instruct               { font-size: var(--sheetsize);   }
 
+.sheetpage .sheet.wide           { column-span: all; }
+.sheetpage .sheet.wide h3        { column-span: all; }
+.sheetpage .sheet.wide .instruct { column-span: all; }
+
+.sheetpage .sheet.full           { column-span: all; height: 8.5in;                       }
+.sheetpage .sheet.full           { columns: 2 auto; column-gap: 12pt; break-before: page; }
+.sheetpage .sheet.full .instruct { column-span: all;                                      }
+.sheetpage .sheet.full h3        { column-span: all;                                      }
+
+.sheetpage .sheet :matches(h2, h3) { 
+  margin-top:    0; 
+  border-bottom: none; 
+  text-align:    center; 
+  font-weight:   normal;
+  font-size:     var(--h2); 
+}
+
+/* inputline - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.sheetpage .inputline ul { margin-left: 0; }
 .sheetpage .inputline li { 
   list-style-type: none;
-  margin-left: 0;
-  font-size: var(--sheetsize);
-  border: 0.5pt solid var(--color-line); 
-  margin-bottom: 6pt;
-  padding: 6pt;
-  border-radius: 1pt;
-  font-family: var(--font-header);
+  margin-left:     0;
+  font-size:       var(--sheetsize);
+  border:          0.5pt solid var(--color-line); 
+  margin-bottom:   6pt;
+  padding:         6pt;
+  border-radius:   1pt;
+  font-family:     var(--font-header);
 }
 
-.sheetpage .grid table { border-collapse: separate; border-spacing: 6pt 3pt; }
-.sheetpage .grid tbody tr { margin-bottom: 6pt; }
-.sheetpage .grid td {
-  font-size: var(--sheetsize);
-  border: 0.5pt solid var(--color-line);
-  padding: 3pt; 
-  border-radius: 1pt;
-}
-
-.sheetpage .grid th { font-size: var(--larger); }
-.sheetpage .grid td:first-child { border: none; }
-.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt; }
-.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt; }
-.sheetpage #sheet-hm .inputbox { height: 216pt; }
-.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt; }
-.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt; }
-.sheetpage #sheet-outside .inputbox { height: 108pt; }
-
-.sheetpage .check { 
-  display: block;
-  content: '';
-  height: 1em; width: 1em;
-  border: 0.5pt solid black;
-  border-radius: 1pt;
-}
-
-.sheetpage h4 { text-align: center; }
-.sheetpage .inputbox h4 { color: black; margin: 0; text-align: left; break-after: auto; }
+/* inputbox  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .sheetpage .inputbox {
   height: 144pt;
   padding: 6pt;
@@ -491,32 +494,36 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   border: 0.5pt solid var(--color-line);
   break-inside: avoid;
 }
-
-.sheetpage #sheet-sys .inputbox { height: 108pt; }
-
-.sheetpage th { font-weight: normal; }
-
-.sheetpage #sheet-daterole .inputbox { height: 72pt; }
-.sheetpage .sheet.full { columns: 2 auto; column-gap: 12pt; break-before: page; }
-.sheetpage #sheet-daterole.sheet .traitlist {
-  column-span: all;
-  columns: 4 auto;
-  float: bottom;
-  column-gap: 6pt;
-  margin: 6pt;
+.sheetpage .inputbox h4 { 
+  color:       black; 
+  margin:      0; 
+  text-align:  left; 
+  break-after: auto; 
 }
 
-.outsidechart .eg:before { content: 'e.g. '; }
-.outsidechart .eg, .outsidechart .red { display: inline-block; }
-.outsidechart th .red { font-family: var(--font); }
-.outsidechart .eg { font-size: var(--smaller); font-style: italic; }
-.outsidechart .red { color: red; }
+/* grid  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.sheetpage .grid table { border-collapse: separate; border-spacing: 6pt 3pt; }
+.sheetpage .grid tbody tr { margin-bottom: 6pt; }
+.sheetpage .grid td {
+  font-size: var(--sheetsize);
+  border: 0.5pt solid var(--color-line);
+  padding: 3pt; 
+  border-radius: 1pt;
+}
+.sheetpage .grid th { font-size: var(--larger); }
+.sheetpage .grid td:first-child { border: none; }
 
-.sheet .outsidechart table th { font-size: var(--larger); }
-.sheet .outsidechart table td { font-size: var(--large); }
+/* checkbox  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.sheetpage .check { 
+  display: block;
+  content: '';
+  height: 1em; width: 1em;
+  border: 0.5pt solid black;
+  border-radius: 1pt;
+}
 
-.sheetpage #sheet-daterole .traitlist table :matches(th, td) { font-size: var(--smaller); }
 
+/* "cut here" lines ------------------------------------------------------------------------------------------------------ */
 .sheetpage .sheet:matches(#sheet-sys, #sheet-hm) { border-left: 0.5pt dashed gray; }
 .sheetpage :matches(#sheet-sys, #sheet-hm):before {
   content: 'cut here';
@@ -533,275 +540,183 @@ p+p :matches(.emoji-spin, .emoji-dera, .emoji-carline, .emoji-ora, .emoji-val, .
   transform: rotate(-90deg);
 }
 
-/*
-.sheetpage .sheet:nth-child(3n+3):before { 
-  content: 'cut here';
-  color: gray;
-  position: absolute;
-  top: -8pt;
-  left: 288pt;
-  padding-left: 4pt;
-  padding-right: 4pt;
-  display: block;
-  width: auto;
-  background: white;
-} */
+/* instruction sheet ----------------------------------------------------------------------------------------------------- */
+.sheetpage #sheet-handouts h3 { font-size: var(--h4); }
+.sheetpage .needlist { font-size: var(--sheetsize); }
 
-/* ========================================================================================================= */
+/* reference sheet ------------------------------------------------------------------------------------------------------- */
+.sheetpage #sheet-ref { columns: 2 auto; column-gap: 12pt; }
+.sheetpage #sheet-ref .suitmeanings { column-span: all; float: column bottom; margin-top: 18pt; }
+.sheetpage #sheet-ref .suitmeanings td:first-child { white-space: pre; }
+.sheetpage #sheet-ref .suitmeanings td { font-size: var(--large); }
+.sheetpage #sheet-ref .suitmeanings th { font-size: var(--larger); }
+.sheetpage #sheet-ref h3 { column-span: all; }
+.sheetpage #sheet-ref :matches(ol, ul) { break-inside: avoid; margin-bottom: 0; margin-top: 0;  }
+.sheetpage #sheet-ref ol > li { font-weight: bold; font-size: var(--large); }
+.sheetpage #sheet-ref ul > li { font-size: var(--larger); }
+.sheetpage #sheet-ref li { margin-top: 0; margin-bottom: 0; }
+.sheetpage #sheet-ref .turnorder ul > li { list-style-type: none; font-size: var(--body); font-style: italic; margin-left: 0; }
+.sheetpage #sheet-ref .turnorder ol > li > em { font-size: var(--body); font-weight: normal; }
+.sheetpage #sheet-ref .gamestruct { margin-left: 9pt; }
+.sheetpage #sheet-ref h4 { padding-top: 9pt; margin-bottom: 3pt; }
+.sheetpage #sheet-ref .rulesremind { column-span: all; }
 
-.anchor { position: absolute; color: transparent; margin: 0; padding: 0; }
+/* outside interference sheet -------------------------------------------------------------------------------------------- */
+.sheetpage #npcroster.grid td:nth-child(1) { width: 18pt; }
+.sheetpage #npcroster.grid td:nth-child(3) { width: 108pt; }
 
-:matches( .clubs, .diamonds, .hearts, .spades) { 
-  font-family: var(--font-suits); 
-  line-height: none;
+.outsidechart .eg:before { content: 'e.g. '; }
+.outsidechart .eg, .outsidechart .red { display: inline-block; }
+.outsidechart th .red { font-family: var(--font); }
+.outsidechart .eg { font-size: var(--smaller); font-style: italic; }
+.outsidechart .red { color: red; }
+
+.sheet .outsidechart table th { font-size: var(--larger); }
+.sheet .outsidechart table td { font-size: var(--large); }
+
+/* headmate sheet -------------------------------------------------------------------------------------------------------- */
+.sheetpage #sheet-hm .inputbox { height: 216pt; }
+.sheetpage #qualitymatrix.grid td:nth-child(1) { width: 10pt; }
+.sheetpage #qualitymatrix.grid td:nth-child(2) { width: 144pt; }
+.sheetpage #sheet-outside .inputbox { height: 108pt; }
+
+.sheetpage h4 { text-align: center; }
+
+/* system sheet ---------------------------------------------------------------------------------------------------------- */
+.sheetpage #sheet-sys .inputbox { height: 108pt; }
+
+
+/* date role sheet ------------------------------------------------------------------------------------------------------- */
+.sheetpage #sheet-daterole .inputbox { height: 72pt; }
+.sheetpage #sheet-daterole .traitlist table :matches(th, td) { font-size: var(--smaller); }
+.sheetpage #sheet-daterole.sheet .traitlist {
+  column-span: all;
+  columns: 4 auto;
+  float: bottom;
+  column-gap: 6pt;
+  margin: 6pt;
 }
 
-.clubs    { content: '\2663'; }
-.hearts   { content: '\2665'; color: red; }
-.diamonds { content: '\2666'; color: red; }
-.spades   { content: '\2660'; }
+/* card suits / ranks ==================================================================================================== */
 
-.spectrum figure { float: top; margin-top: -48pt; margin-outside: -192pt; margin-bottom: 18pt; }
-.spectrum figure img { width: 100%; height: 192pt; object-fit: cover; object-position: center; }
+:matches( .clubs, .diamonds, .hearts, .spades) { font-family: var(--font-suits); line-height: none; }
+.clubs    { content: '\2663';               }
+.hearts   { content: '\2665'; color: red;   }
+.diamonds { content: '\2666'; color: red;   }
+.spades   { content: '\2660';               }
+.card     { font-family: var(--font-cards); }
 
-.spectrum figure img.bottom { object-position: bottom center; }
-.spectrum figure img.top { object-position: top center; }
+/* arbitrary grouping of cards ------------------------------------------------------------------------------------------- */
+.cardgroup  { font-size: var(--cardsize); text-align: center; }
 
-.spectrum figure figcaption { 
-  position: absolute; 
-  top: 160pt; 
-  left: 0;
-  right: 0;
-  color: gray;
-  margin-outside: -174pt;
-  line-height: 1.25;
-  margin-inside: 338pt;
-  font-family: var(--font);
-  font-weight: normal;
-}
+/* hands of cards =------------------------------------------------------------------------------------------------------- */
+.cardhand                    { font-size: var(--cardsize); text-align: center; vertical-align: bottom; }
+.cardhand .card              { display: inline-block; margin-left: -0.1em; margin-right: -0.1em;       }
+.cardhand .card:nth-child(1) { transform: skew(15deg);                                                 }
+.cardhand .card:nth-child(2) { transform: skew(7.5deg);                                                }
+.cardhand .card:nth-child(3) {                                                                         }
+.cardhand .card:nth-child(4) { transform: skew(-7.5deg);                                               }
+.cardhand .card:nth-child(5) { transform: skew(-15deg);                                                }
 
-.cardhand   { font-size: var(--cardsize); text-align: center; vertical-align: bottom; }
-.cardhand .card { display: inline-block; margin-left: -0.1em; margin-right: -0.1em; } 
-.cardhand .card:nth-child(1) { transform: skew(15deg); }
-.cardhand .card:nth-child(2) { transform: skew(7.5deg); }
-.cardhand .card:nth-child(3) {  }
-.cardhand .card:nth-child(4) { transform: skew(-7.5deg); }
-.cardhand .card:nth-child(5) { transform: skew(-15deg); }
-
-.cardgroup, .cardstacks { font-size: var(--cardsize); text-align: center; }
-.card { font-family: var(--font-cards); }
-
+/* showing the card stacks ----------------------------------------------------------------------------------------------- */
+.cardstacks { font-size: var(--cardsize); text-align: center; }
 .cardstacks { 
-  border: 0.5pt solid var(--color-line);
-  padding: 3pt; 
-  margin-top: 3pt;
-  margin-left: 72pt;
-  margin-right: 72pt;
-  margin-bottom: 3pt;
-  border-radius: 6pt;
+  padding:        3pt; 
+  margin-top:     3pt;
+  margin-left:   72pt;
+  margin-right:  72pt;
+  margin-bottom:  3pt;
+  border-radius:  6pt;
+  border:         0.5pt solid var(--color-line);
 }
 
-.cardmatrix table thead { border-bottom: none; }
-.cardmatrix th { 
-  font-size: var(--cardsize); 
-  font-weight: normal; 
-  border-bottom: 1pt solid var(--color-accent); 
-}
-.cardmatrix th:first-child { border-bottom: none; }
+/* card matrix i.e. which cards can be played ---------------------------------------------------------------------------- */
+.cardmatrix td               { padding: 4pt;                                 }
+.cardmatrix td               { vertical-align: middle;                       }
+.cardmatrix td               { text-align: center;                           }
+.cardmatrix th               { font-size: var(--cardsize);                   }
+.cardmatrix td:first-child   { font-size: var(--cardsize);                   }
+.cardmatrix th               { font-weight: normal;                          }
+.cardmatrix td em            { color: red;                                   } /* colors */
+.cardmatrix td strong        { color: green;                                 }
+.cardmatrix td               { border-bottom: 0.25pt solid silver;           } /* borders */
+.cardmatrix td               { border-right:  0.25pt solid silver;           }
+.cardmatrix td:first-child   { border-right:  1pt solid var(--color-accent); }
+.cardmatrix td:first-child   { border-bottom: none;                          }
+.cardmatrix td:last-child    { border-right:  none;                          }
+.cardmatrix tr:last-child td { border-bottom: none;                          }
+.cardmatrix th               { border-bottom: 1pt solid var(--color-accent); }
+.cardmatrix th:first-child   { border-bottom: none;                          }
+.cardmatrix table thead      { border-bottom: none;                          }
 
-.cardmatrix td strong { color: green; }
-.cardmatrix td em { color: red; }
+/* individual card colors ------------------------------------------------------------------------------------------------ */
+.card.s         { color: black; } .card.c      { color: black; } .card.d      { color: red;  } .card.h      { color: red;  }
+.card.s.gray    { color: gray;  } .card.c.gray { color: gray;  } .card.d.gray { color: gray; } .card.h.gray { color: gray; }
+.card.joker.red { color: red;   }
 
-.cardmatrix td { 
-  border-right: 0.25pt solid silver; 
-  border-bottom: 0.25pt solid silver; 
-  padding: 4pt; 
-  text-align: center; 
-  vertical-align: middle;
-}
-.cardmatrix td:last-child { border-right: none; }
-.cardmatrix tr:last-child td { border-bottom: none; }
+/* individual cards ------------------------------------------------------------------------------------------------------ */
+.card.s.ace     { content: '\1f0a1'; } .card.s.deuce   { content: '\1f0a2'; } .card.s.three     { content: '\1f0a3'; }
+.card.s.four    { content: '\1f0a4'; } .card.s.five    { content: '\1f0a5'; } .card.s.six       { content: '\1f0a6'; }
+.card.s.seven   { content: '\1f0a7'; } .card.s.eight   { content: '\1f0a8'; } .card.s.nine      { content: '\1f0a9'; }
+.card.s.ten     { content: '\1f0aa'; } .card.s.jack    { content: '\1f0ab'; } .card.s.knight    { content: '\1f0ac'; }
+.card.s.queen   { content: '\1f0ad'; } .card.s.king    { content: '\1f0ae'; }
+.card.h.ace     { content: '\1f0b1'; } .card.h.deuce   { content: '\1f0b2'; } .card.h.three     { content: '\1f0b3'; }
+.card.h.four    { content: '\1f0b4'; } .card.h.five    { content: '\1f0b5'; } .card.h.six       { content: '\1f0b6'; }
+.card.h.seven   { content: '\1f0b7'; } .card.h.eight   { content: '\1f0b8'; } .card.h.nine      { content: '\1f0b9'; }
+.card.h.ten     { content: '\1f0ba'; } .card.h.jack    { content: '\1f0bb'; } .card.h.knight    { content: '\1f0bc'; }
+.card.h.queen   { content: '\1f0bd'; } .card.h.king    { content: '\1f0be'; }
+.card.c.ace     { content: '\1f0c1'; } .card.c.deuce   { content: '\1f0c2'; } .card.c.three     { content: '\1f0c3'; }
+.card.c.four    { content: '\1f0c4'; } .card.c.five    { content: '\1f0c5'; } .card.c.six       { content: '\1f0c6'; }
+.card.c.seven   { content: '\1f0c7'; } .card.c.eight   { content: '\1f0c8'; } .card.c.nine      { content: '\1f0c9'; }
+.card.c.ten     { content: '\1f0ca'; } .card.c.jack    { content: '\1f0cb'; } .card.c.knight    { content: '\1f0cc'; }
+.card.c.queen   { content: '\1f0cd'; } .card.c.king    { content: '\1f0ce'; }
+.card.d.ace     { content: '\1f0d1'; } .card.d.deuce   { content: '\1f0d2'; } .card.d.three     { content: '\1f0d3'; }
+.card.d.four    { content: '\1f0d4'; } .card.d.five    { content: '\1f0d5'; } .card.d.six       { content: '\1f0d6'; }
+.card.d.seven   { content: '\1f0d7'; } .card.d.eight   { content: '\1f0d8'; } .card.d.nine      { content: '\1f0d9'; }
+.card.d.ten     { content: '\1f0da'; } .card.d.jack    { content: '\1f0db'; } .card.d.knight    { content: '\1f0dc'; }
+.card.d.queen   { content: '\1f0dd'; } .card.d.king    { content: '\1f0de'; }
+.card.joker     { content: '\1f0df'; } .card.joker.red { content: '\1f0bf'; } .card.joker.black { content: '\1f0cf'; }
 
-.cardmatrix td:first-child { 
-  font-size: var(--cardsize); 
-  border-right: 1pt solid var(--color-accent);
-  border-bottom: none; 
-}
+/* -prince-alt-text ====================================================================================================== */
+:matches(.aura, .carline, .fox, .dera, .spin, .val):after { -prince-alt-text: "End of Comment"; }
 
-.card.s { color: black; }
-.card.c { color: black; }
-.card.d { color: red; }
-.card.h { color: red; }
-
-.card.s.gray { color: gray; }
-.card.c.gray { color: gray; }
-.card.d.gray { color: gray; }
-.card.h.gray { color: gray; }
-
-.card.s.ace    { content: '\1f0a1'; }
-.card.s.deuce  { content: '\1f0a2'; }
-.card.s.three  { content: '\1f0a3'; }
-.card.s.four   { content: '\1f0a4'; }
-.card.s.five   { content: '\1f0a5'; }
-.card.s.six    { content: '\1f0a6'; }
-.card.s.seven  { content: '\1f0a7'; }
-.card.s.eight  { content: '\1f0a8'; }
-.card.s.nine   { content: '\1f0a9'; }
-.card.s.ten    { content: '\1f0aa'; }
-.card.s.jack   { content: '\1f0ab'; }
-.card.s.knight { content: '\1f0ac'; }
-.card.s.queen  { content: '\1f0ad'; }
-.card.s.king   { content: '\1f0ae'; }
-
-.card.h.ace    { content: '\1f0b1'; }
-.card.h.deuce  { content: '\1f0b2'; }
-.card.h.three  { content: '\1f0b3'; }
-.card.h.four   { content: '\1f0b4'; }
-.card.h.five   { content: '\1f0b5'; }
-.card.h.six    { content: '\1f0b6'; }
-.card.h.seven  { content: '\1f0b7'; }
-.card.h.eight  { content: '\1f0b8'; }
-.card.h.nine   { content: '\1f0b9'; }
-.card.h.ten    { content: '\1f0ba'; }
-.card.h.jack   { content: '\1f0bb'; }
-.card.h.knight { content: '\1f0bc'; }
-.card.h.queen  { content: '\1f0bd'; }
-.card.h.king   { content: '\1f0be'; }
-
-.card.c.ace    { content: '\1f0c1'; }
-.card.c.deuce  { content: '\1f0c2'; }
-.card.c.three  { content: '\1f0c3'; }
-.card.c.four   { content: '\1f0c4'; }
-.card.c.five   { content: '\1f0c5'; }
-.card.c.six    { content: '\1f0c6'; }
-.card.c.seven  { content: '\1f0c7'; }
-.card.c.eight  { content: '\1f0c8'; }
-.card.c.nine   { content: '\1f0c9'; }
-.card.c.ten    { content: '\1f0ca'; }
-.card.c.jack   { content: '\1f0cb'; }
-.card.c.knight { content: '\1f0cc'; }
-.card.c.queen  { content: '\1f0cd'; }
-.card.c.king   { content: '\1f0ce'; }
-
-.card.d.ace    { content: '\1f0d1'; }
-.card.d.deuce  { content: '\1f0d2'; }
-.card.d.three  { content: '\1f0d3'; }
-.card.d.four   { content: '\1f0d4'; }
-.card.d.five   { content: '\1f0d5'; }
-.card.d.six    { content: '\1f0d6'; }
-.card.d.seven  { content: '\1f0d7'; }
-.card.d.eight  { content: '\1f0d8'; }
-.card.d.nine   { content: '\1f0d9'; }
-.card.d.ten    { content: '\1f0da'; }
-.card.d.jack   { content: '\1f0db'; }
-.card.d.knight { content: '\1f0dc'; }
-.card.d.queen  { content: '\1f0dd'; }
-.card.d.king   { content: '\1f0de'; }
-
-.card.joker { content: '\1f0df'; }
-.card.joker.red { content: '\1f0bf'; color: red; }
-.card.joker.black { content: '\1f0cf'; }
-
-a.xref-section { content: 'the section "' target-content(attr(href url)) '" on page ' target-counter(attr(href url), page); }
-
-a.xref-see:before { content: 'see '; font-style: normal; }
-a.xref-see { content: target-content(attr(href url)); font-style: italic; }
-a.xref-see:after { content: ' on page ' target-counter(attr(href url), page); font-style: normal; }
-a.xref-page { content: 'page ' target-cunter(attr(href url), page); }
-
-.pronounlist, .namelist { 
-  column-count: 2;
-  column-gap: 9pt;
-  column-width: auto; 
-}
-
-
-/* -prince-alt-text --------------------------------------------------------------- */
-
-.gamename:before { -prince-alt-text: string(gamename); }
-.cw:before { -prince-alt-text: "Content Warning: "; }
-.emoji-ora { -prince-alt-text: "Aura's Rose"; }
-.emoji-carline { -prince-alt-text: "Carline's Leaf"; }
-.emoji-fox { -prince-alt-text: "Fox's Fox"; }
-.emoji-dera { -prince-alt-text: "Dera's Antenna Dish"; }
-.emoji-spin { -prince-alt-text: "Cadera Spindrift's Cyclone"; }
-.emoji-val { -prince-alt-text: "Valorie's Chain Link"; }
-
-.ora:before { -prince-alt-text: "Comment by Aura:"; }
-.carline:before { -prince-alt-text: "Comment by Carline:"; }
-.fox:before { -prince-alt-text: "Comment by Fox:"; }
-.dera:before { -prince-alt-text: "Comment by Dera:"; }
-.spin:before { -prince-alt-text: "Comment by Cadera Spindrift:"; }
-.val:before { -prince-alt-text: "Comment by Valorie:"; }
-
-:matches(.ora, .carline, .fox, .dera, .spin, .val):after { -prince-alt-text: "End of Comment"; }
-
-.spades   { -prince-alt-text: "Spades"; }
-.clubs    { -prince-alt-text: "Clubs"; }
-.hearts   { -prince-alt-text: "Hearts"; }
-.diamonds { -prince-alt-text: "Diamonds"; }
-
-.card.s.ace    { -prince-alt-text: 'Ace of Spades'; }
-.card.s.deuce  { -prince-alt-text: 'Deuce of Spades'; }
-.card.s.three  { -prince-alt-text: 'Three of Spades'; }
-.card.s.four   { -prince-alt-text: 'Four of Spades'; }
-.card.s.five   { -prince-alt-text: 'Five of Spades'; }
-.card.s.six    { -prince-alt-text: 'Six of Spades'; }
-.card.s.seven  { -prince-alt-text: 'Seven of Spades'; }
-.card.s.eight  { -prince-alt-text: 'Eight of Spades'; }
-.card.s.nine   { -prince-alt-text: 'Nine of Spades'; }
-.card.s.ten    { -prince-alt-text: 'Ten of Spades'; }
-.card.s.jack   { -prince-alt-text: 'Jack of Spades'; }
-.card.s.knight { -prince-alt-text: 'Knight of Spades'; }
-.card.s.queen  { -prince-alt-text: 'Queen of Spades'; }
-.card.s.king   { -prince-alt-text: 'King of Spades'; }
-
-.card.h.ace    { -prince-alt-text: 'Ace of Hearts'; }
-.card.h.deuce  { -prince-alt-text: 'Deuce of Hearts'; }
-.card.h.three  { -prince-alt-text: 'Three of Hearts'; }
-.card.h.four   { -prince-alt-text: 'Four of Hearts'; }
-.card.h.five   { -prince-alt-text: 'Five of Hearts'; }
-.card.h.six    { -prince-alt-text: 'Six of Hearts'; }
-.card.h.seven  { -prince-alt-text: 'Seven of Hearts'; }
-.card.h.eight  { -prince-alt-text: 'Eight of Hearts'; }
-.card.h.nine   { -prince-alt-text: 'Nine of Hearts'; }
-.card.h.ten    { -prince-alt-text: 'Ten of Hearts'; }
-.card.h.jack   { -prince-alt-text: 'Jack of Hearts'; }
-.card.h.knight { -prince-alt-text: 'Knight of Hearts'; }
-.card.h.queen  { -prince-alt-text: 'Queen of Hearts'; }
-.card.h.king   { -prince-alt-text: 'King of Hearts'; }
-
-.card.c.ace    { -prince-alt-text: 'Ace of Clubs'; }
-.card.c.deuce  { -prince-alt-text: 'Deuce of Clubs'; }
-.card.c.three  { -prince-alt-text: 'Three of Clubs'; }
-.card.c.four   { -prince-alt-text: 'Four of Clubs'; }
-.card.c.five   { -prince-alt-text: 'Five of Clubs'; }
-.card.c.six    { -prince-alt-text: 'Six of Clubs'; }
-.card.c.seven  { -prince-alt-text: 'Seven of Clubs'; }
-.card.c.eight  { -prince-alt-text: 'Eight of Clubs'; }
-.card.c.nine   { -prince-alt-text: 'Nine of Clubs'; }
-.card.c.ten    { -prince-alt-text: 'Ten of Clubs'; }
-.card.c.jack   { -prince-alt-text: 'Jack of Clubs'; }
-.card.c.knight { -prince-alt-text: 'Knight of Clubs'; }
-.card.c.queen  { -prince-alt-text: 'Queen of Clubs'; }
-.card.c.king   { -prince-alt-text: 'King of Clubs'; }
-
-.card.d.ace    { -prince-alt-text: 'Ace of Diamonds'; }
-.card.d.deuce  { -prince-alt-text: 'Deuce of Diamonds'; }
-.card.d.three  { -prince-alt-text: 'Three of Diamonds'; }
-.card.d.four   { -prince-alt-text: 'Four of Diamonds'; }
-.card.d.five   { -prince-alt-text: 'Five of Diamonds'; }
-.card.d.six    { -prince-alt-text: 'Six of Diamonds'; }
-.card.d.seven  { -prince-alt-text: 'Seven of Diamonds'; }
-.card.d.eight  { -prince-alt-text: 'Eight of Diamonds'; }
-.card.d.nine   { -prince-alt-text: 'Nine of Diamonds'; }
-.card.d.ten    { -prince-alt-text: 'Ten of Diamonds'; }
-.card.d.jack   { -prince-alt-text: 'Jack of Diamonds'; }
-.card.d.knight { -prince-alt-text: 'Knight of Diamonds'; }
-.card.d.queen  { -prince-alt-text: 'Queen of Diamonds'; }
-.card.d.king   { -prince-alt-text: 'King of Diamonds'; }
-
-.card.joker { -prince-alt-text: "White Joker"; }
-.card.joker.red { -prince-alt-text: "Red Joker"; }
-.card.joker.black { -prince-alt-text: "Black Joker"; }
+.gamename:before  { -prince-alt-text: string(gamename);               } .cw:before        { -prince-alt-text: "Content Warning: ";            }
+.emoji-aura       { -prince-alt-text: "Aura's Rose";                  } .emoji-carline    { -prince-alt-text: "Carline's Leaf";               }
+.emoji-fox        { -prince-alt-text: "Fox's Fox";                    } .emoji-dera       { -prince-alt-text: "Dera's Antenna Dish";          }
+.emoji-spin       { -prince-alt-text: "Cadera Spindrift's Cyclone";   } .emoji-val        { -prince-alt-text: "Valorie's Chain Link";         }
+.aura:before      { -prince-alt-text: "Comment by Aura:";             } .carline:before   { -prince-alt-text: "Comment by Carline:";          }
+.fox:before       { -prince-alt-text: "Comment by Fox:";              } .dera:before      { -prince-alt-text: "Comment by Dera:";             }
+.spin:before      { -prince-alt-text: "Comment by Cadera Spindrift:"; } .val:before       { -prince-alt-text: "Comment by Valorie:";          }
+.spades           { -prince-alt-text: "Spades";                       } .clubs            { -prince-alt-text: "Clubs";                        }
+.hearts           { -prince-alt-text: "Hearts";                       } .diamonds         { -prince-alt-text: "Diamonds";                     }
+.card.s.ace       { -prince-alt-text: 'Ace of Spades';                } .card.s.deuce     { -prince-alt-text: 'Deuce of Spades';              }
+.card.s.three     { -prince-alt-text: 'Three of Spades';              } .card.s.four      { -prince-alt-text: 'Four of Spades';               }
+.card.s.five      { -prince-alt-text: 'Five of Spades';               } .card.s.six       { -prince-alt-text: 'Six of Spades';                }
+.card.s.seven     { -prince-alt-text: 'Seven of Spades';              } .card.s.eight     { -prince-alt-text: 'Eight of Spades';              }
+.card.s.nine      { -prince-alt-text: 'Nine of Spades';               } .card.s.ten       { -prince-alt-text: 'Ten of Spades';                }
+.card.s.jack      { -prince-alt-text: 'Jack of Spades';               } .card.s.knight    { -prince-alt-text: 'Knight of Spades';             }
+.card.s.queen     { -prince-alt-text: 'Queen of Spades';              } .card.s.king      { -prince-alt-text: 'King of Spades';               }
+.card.h.ace       { -prince-alt-text: 'Ace of Hearts';                } .card.h.deuce     { -prince-alt-text: 'Deuce of Hearts';              }
+.card.h.three     { -prince-alt-text: 'Three of Hearts';              } .card.h.four      { -prince-alt-text: 'Four of Hearts';               }
+.card.h.five      { -prince-alt-text: 'Five of Hearts';               } .card.h.six       { -prince-alt-text: 'Six of Hearts';                }
+.card.h.seven     { -prince-alt-text: 'Seven of Hearts';              } .card.h.eight     { -prince-alt-text: 'Eight of Hearts';              }
+.card.h.nine      { -prince-alt-text: 'Nine of Hearts';               } .card.h.ten       { -prince-alt-text: 'Ten of Hearts';                }
+.card.h.jack      { -prince-alt-text: 'Jack of Hearts';               } .card.h.knight    { -prince-alt-text: 'Knight of Hearts';             }
+.card.h.queen     { -prince-alt-text: 'Queen of Hearts';              } .card.h.king      { -prince-alt-text: 'King of Hearts';               }
+.card.c.ace       { -prince-alt-text: 'Ace of Clubs';                 } .card.c.deuce     { -prince-alt-text: 'Deuce of Clubs';               }
+.card.c.three     { -prince-alt-text: 'Three of Clubs';               } .card.c.four      { -prince-alt-text: 'Four of Clubs';                }
+.card.c.five      { -prince-alt-text: 'Five of Clubs';                } .card.c.six       { -prince-alt-text: 'Six of Clubs';                 }
+.card.c.seven     { -prince-alt-text: 'Seven of Clubs';               } .card.c.eight     { -prince-alt-text: 'Eight of Clubs';               }
+.card.c.nine      { -prince-alt-text: 'Nine of Clubs';                } .card.c.ten       { -prince-alt-text: 'Ten of Clubs';                 }
+.card.c.jack      { -prince-alt-text: 'Jack of Clubs';                } .card.c.knight    { -prince-alt-text: 'Knight of Clubs';              }
+.card.c.queen     { -prince-alt-text: 'Queen of Clubs';               } .card.c.king      { -prince-alt-text: 'King of Clubs';                }
+.card.d.ace       { -prince-alt-text: 'Ace of Diamonds';              } .card.d.deuce     { -prince-alt-text: 'Deuce of Diamonds';            }
+.card.d.three     { -prince-alt-text: 'Three of Diamonds';            } .card.d.four      { -prince-alt-text: 'Four of Diamonds';             }
+.card.d.five      { -prince-alt-text: 'Five of Diamonds';             } .card.d.six       { -prince-alt-text: 'Six of Diamonds';              }
+.card.d.seven     { -prince-alt-text: 'Seven of Diamonds';            } .card.d.eight     { -prince-alt-text: 'Eight of Diamonds';            }
+.card.d.nine      { -prince-alt-text: 'Nine of Diamonds';             } .card.d.ten       { -prince-alt-text: 'Ten of Diamonds';              }
+.card.d.jack      { -prince-alt-text: 'Jack of Diamonds';             } .card.d.knight    { -prince-alt-text: 'Knight of Diamonds';           }
+.card.d.queen     { -prince-alt-text: 'Queen of Diamonds';            } .card.d.king      { -prince-alt-text: 'King of Diamonds';             }
+.card.joker       { -prince-alt-text: "White Joker";                  } .card.joker.red   { -prince-alt-text: "Red Joker";                    }
+.card.joker.black { -prince-alt-text: "Black Joker";                  }
 

@@ -1,7 +1,7 @@
 # Game Safely {#setup-safely}
 
 Dating can be an emotional rollercoaster for most of us
-[even those of us already in an ongoing relationship!]{.ora},
+[even those of us already in an ongoing relationship!]{.aura},
 and when dealing with issues of attraction, gender, sexuality,
 and desire, those emotions might come to the surface just
 by playing a roleplaying game.
@@ -63,7 +63,7 @@ That's what we're labeling *intimacy* here.
 
 It could be any of these, or more:
 [Or playing a roleplaying game together!
-<span class="ora">only you would find that "intimate", Dera"</span>]{.dera}
+<span class="aura">only you would find that "intimate", Dera"</span>]{.dera}
 
 - A wild night of kinky sex
 - Opening up about a deep-seated trauma in your past

@@ -15,13 +15,13 @@ of headmates was to give all players a sense of investiture -- but that
 might not work if you're simultaneously building two sets of headmates.
 
 Ah, Aura wishes to jump in. I defer to her.
-[that was Dera droning on and on by the way]{.ora}
+[that was Dera droning on and on by the way]{.aura}
 
-So -- here's what I []{.emoji-ora} think! I think if there are two groups playing
+So -- here's what I []{.emoji-aura} think! I think if there are two groups playing
 []{.gamename} at the same time, it would be really cute and awesome if
 the groups came together and played out a date between the two systems!
 [Hm. That *could* work.
-<span class="ora">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
+<span class="aura">of course! I *am* pretty clever you know. as much as you are!</span>]{.dera}
 
 And they *FELL IN LOOOOOOOOOOOOVE* ...
 

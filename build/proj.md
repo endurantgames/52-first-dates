@@ -173,19 +173,19 @@ This is who we are:
 
 :::::::::::::: systemlist :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.emoji-spin} Cadera Spindrift
+Cadera Spindrift []{.emoji-spin}
 ~    Primary (co-)fronter and project coordinator; she/her
 
-[]{.emoji-dera} Dera
+Dera []{.emoji-dera}
 ~    Our self-described analytical headmate and game mechanics wonk; she/her
 
-[]{.emoji-carline} Carline Stone
+Carline Stone []{.emoji-carline}
 ~    Social justice druid and in-house sensitivity reader; will be your big gay auntie; she/her
 
-[]{.emoji-ora} Aura
+Aura []{.emoji-ora}
 ~    Flirty lesbian disaster; looks like our WoW character; she/her
 
-[]{.emoji-val} Valorie
+Valorie []{.emoji-val}
 ~    Our generally quiet protector/warrior; sometimes Fusillade; she/her
 
 []{.emoji-fox}
@@ -194,7 +194,7 @@ This is who we are:
      he/him or
      it/its or
      they/them or
-     []{.emoji-fox}/[]{.emoji-fox}
+     []{.emoji-fox .pronouns}/[]{.emoji-fox .pronouns}
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -297,10 +297,6 @@ Playing the []{.gamename} RPG should be enjoyable for everyone.
 To help ensure that everyone has an enjoyable experience, we recommend the 
 *TTRPG Safety Toolkit*, which we've included below. You should *not* play []{.gamename} 
 without using at least one such tool in your game.
-
-
-In addition, we specifically call out certain points in the rules that need special attention
-from Game Guides and players. These are marked with an [alert symbol]{.cw}.
 
 
 ::::::::::::::::::::::::::::::::::::: tstoolkit ::::::::::::::::::::::::::::::::::::::::
@@ -1194,10 +1190,10 @@ Each suit can be played in generally positive way, such as being *direct or clea
 or a less positive way such as being *blunt and tactless*.  
 The demeanors associated with each suit are shown in the following table.
 [Try this as a mnemonic: <br/>
- Spades: sharp-witted<br/>
- Hearts: passionate<br/>
- Clubs: blunt<br/>
- Diamonds: sparkling]{.spin}
+ **Spades:** sharp-witted<br/>
+ **Hearts:** passionate<br/>
+ **Clubs:** blunt<br/>
+ **Diamonds:** sparkling]{.spin}
 
 Suit                   Demeanor
 ------                 ------------------------- -------------------------
@@ -1617,23 +1613,24 @@ Once you have the name of the Propect, you'll need their pronouns.
 
 Draw one card to determine their primary pronoun, and then draw a second
 to determine another set of pronouns they also use. 
-
-[]{.lorem}
+[Here's a mnemonic for these -- **S**pades starts with an "S", as does
+"she/her"; **H**earts and "he/him" with an "H"; **C** for both Clubs and
+*chart*. There's no "d" in they/them, though.]{.spin}
 
  Cards                                        Pronouns
 -------                                       ---------
 [Hearts  ]{.hearts   } [Hearts  ]{.hearts   } he/him
 [Hearts  ]{.hearts   } [Spades  ]{.spades   } any pronouns
 [Hearts  ]{.hearts   } [Diamonds]{.diamonds } he/him + they/them
-[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart
+[Hearts  ]{.hearts   } [Clubs   ]{.clubs    } he/him + chart <br/>
 [Spades  ]{.spades   } [Hearts  ]{.hearts   } any pronouns
 [Spades  ]{.spades   } [Spades  ]{.spades   } she/her
 [Spades  ]{.spades   } [Diamonds]{.diamonds } she/her + they/them
-[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart
+[Spades  ]{.spades   } [Clubs   ]{.clubs    } she/her + chart <br/>
 [Diamonds]{.diamonds } [Hearts  ]{.hearts   } they/them + he/him
 [Diamonds]{.diamonds } [Spades  ]{.spades   } they/them + she/her
 [Diamonds]{.diamonds } [Diamonds]{.diamonds } they/them
-[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart
+[Diamonds]{.diamonds } [Clubs   ]{.clubs    } theythem + chart <br/>
 [Clubs   ]{.clubs    } [Hearts  ]{.hearts   } chart + he
 [Clubs   ]{.clubs    } [Spades  ]{.spades   } chart + she
 [Clubs   ]{.clubs    } [Diamonds]{.diamonds } chart + they
@@ -1656,42 +1653,32 @@ to determine another set of pronouns they also use.
  K [Clubs]{.clubs  } no pronouns
 
 
-#### The Prospect's Personality Traits {#setup-prospect-cards}
+#### The Prospect's Traits {#setup-prospect-cards}
 
-[]{.lorem}
+When you create the Prospect, draw two cards off the top of the Date's Deck and place them
+face down, ***without looking at them***, to the side of the deck.
+
+The person playing the role of the Date will look at them and use them as a guideline for
+roleplaying the Prospect. In addition, the trait cards are used in the Wrap-Up phase to 
+determine the outcome of Date Night.
 
 :::::::::::::::::::: traitlist :::::::::::::::::::::::::::::::::::::::::
  Card                Personality Trait
 -----------------    -------------------------------------------
-A []{.clubs}         
-2 []{.clubs}         
-3 []{.clubs}         
-4 []{.clubs}         
-5 []{.clubs}         
-6 []{.clubs}         
-7 []{.clubs}         
-8 []{.clubs}         
-9 []{.clubs}         
-10 []{.clubs}         
-J []{.clubs}         
-K []{.clubs}         
-Q []{.clubs}         
+A []{.spades}         
+2 []{.spades}         
+3 []{.spades}         
+4 []{.spades}         
+5 []{.spades}         
+6 []{.spades}         
+7 []{.spades}         
+8 []{.spades}         
+9 []{.spades}         
+10 []{.spades}         
+J []{.spades}         
+Q []{.spades}         
+K []{.spades}         
 
- Card                Personality Trait
------------------    -------------------------------------------
-A []{.diamonds}         
-2 []{.diamonds}         
-3 []{.diamonds}         
-4 []{.diamonds}         
-5 []{.diamonds}         
-6 []{.diamonds}         
-7 []{.diamonds}         
-8 []{.diamonds}         
-9 []{.diamonds}         
-10 []{.diamonds}         
-J []{.diamonds}         
-K []{.diamonds}         
-Q []{.diamonds}         
 
  Card                Personality Trait
 -----------------    -------------------------------------------
@@ -1706,30 +1693,147 @@ A []{.hearts}
 9 []{.hearts}         
 10 []{.hearts}         
 J []{.hearts}         
-K []{.hearts}         
 Q []{.hearts}         
+K []{.hearts}         
 
  Card                Personality Trait
 -----------------    -------------------------------------------
-A []{.spades}         
-2 []{.spades}         
-3 []{.spades}         
-4 []{.spades}         
-5 []{.spades}         
-6 []{.spades}         
-7 []{.spades}         
-8 []{.spades}         
-9 []{.spades}         
-10 []{.spades}         
-J []{.spades}         
-K []{.spades}         
-Q []{.spades}         
+A []{.clubs}         
+2 []{.clubs}         
+3 []{.clubs}         
+4 []{.clubs}         
+5 []{.clubs}         
+6 []{.clubs}         
+7 []{.clubs}         
+8 []{.clubs}         
+9 []{.clubs}         
+10 []{.clubs}         
+J []{.clubs}         
+Q []{.clubs}         
+K []{.clubs}         
+
+ Card                Personality Trait
+-----------------    -------------------------------------------
+A []{.diamonds}         
+2 []{.diamonds}         
+3 []{.diamonds}         
+4 []{.diamonds}         
+5 []{.diamonds}         
+6 []{.diamonds}         
+7 []{.diamonds}         
+8 []{.diamonds}         
+9 []{.diamonds}         
+10 []{.diamonds}         
+J []{.diamonds}         
+Q []{.diamonds}         
+K []{.diamonds}         
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Is This an Ideal Partner? {#setup-prospect-qualities}
 
-[]{.lorem}
+During the Headmate creation part of the game, you wrote one quality that the
+Headmate was looking for in an ideal partner.
+Now it's time to see if the Prospect measures up to that ideal. Here's how you
+do that.
+
+1.  Each player except the player in the Date role takes one of the completed
+    Headmate sheets. This leaves one left-over Headmate, so one of the players
+    should take that and thus have two Headmate sheets in front of them.
+ 
+2.  In order, each player reads off the name of the Headmate and their ideal
+    date quality to the Date player.
+
+3.  That player then turns over the top card from the System's Deck.
+
+4.  The Date records the name of the Headmate and that quality on the Date Sheet,
+    on one of the blank lines.
+
+5.  Then the Date turns over the top card of the Date's Deck.
+
+6.  If the cards **don't match at all,** the Date leaves that box blank.
+
+7.  If the two cards **match colors,** then the Date puts a check mark
+    in the box on line of the Date sheet.
+    This means the Prospect possesses that quality to a moderate degree.
+
+8.  If the two cards **match suits,** the Date marks a plus sign ("+") in the box instead; 
+    this means the Prospect has this quality to a high amount.
+
+9.  If the two cards **match ranks and colors,** the Date marks a star instead;
+    this means that the Prospect is a near-perfect match for that quality.
+
+10. If the two cards **are identical** -- which is possible because they're drawn from
+    two different decks -- then the Date marks two stars, one in the box and one to the
+    left of the box. The Date is a perfect match on that quality.
+
+11. If the two cards **match ranks but not colors,** the Date marks a minus sign ("-");
+    this means the Prospect is the exact opposite of the desired quality.
+
+12. Continue this method until all of the Headmates' criteria have been addressed.
+
+::::::::::::::::::::::: example ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Here's an example. Let's say the Headmate's desired criteria is
+"enjoys tabletop RPGs" -- so that they have someone to share their hobby with.
+
+The player holding that sheet and the Date both flip cards; we'll keep the player's card
+consistent, with a Two of []{.hearts} Hearts, and examine different draws by the
+Date.
+
+:::::::::::::: cardgroup ::::::::::::::
+[Two of Hearts]{.card .deuce .h}
+[Nine of Clubs]{.card .nine .c}
+:::::::::::::::::::::::::::::::::::::::
+
+In this case, the cards don't match at all. The Date doesn't put any mark on that line.
+The Prospect isn't into TTRPGs.
+
+:::::::::::::: cardgroup ::::::::::::::
+[Two of Hearts]{.card .deuce .h}
+[Ten of Diamonds]{.card .ten .d}
+:::::::::::::::::::::::::::::::::::::::
+
+The cards' colors match. The Date marks a checkmark in the box. The Prospect plays TTRPGs,
+hooray!
+
+:::::::::::::: cardgroup ::::::::::::::
+[Two of Hearts]{.card .deuce .h}
+[Seven of Hearts]{.card .seven .h}
+:::::::::::::::::::::::::::::::::::::::
+
+The colors match, but more important, the suits also match. The Date puts a "+" on the
+corresponding line. The Prospect not only plays roleplaying games, but really likes the hobby.
+Maybe they're a gamemaster, or just a die-hard roleplayer?
+
+:::::::::::::: cardgroup ::::::::::::::
+[Two of Hearts]{.card .deuce .h}
+[Two of Hearts]{.card .deuce .h}
+:::::::::::::::::::::::::::::::::::::::
+
+The cards exactly match, one from each deck. 
+[There's a 1 in 52 chance of this happening, which is 1.92% of the time.]{.dera}
+["Never tell me the odds."]{.ora}
+[Han Solo is kind of a creep, though.]{.carline}
+We can intrepret this as not only does the Prospect play tabletop RPGs as often as
+the Headmate, *but also* their group is looking for a new player!
+
+The Date player marks a star in the box, and an extra star on the outside. (If the
+Date had drawn the [Two of Diamonds]{.card .deuce .d} instead, they would mark
+just a single star.)
+[There's actually as much of a chance of this happening as matching the suit.]{.dera}
+
+:::::::::::::: cardgroup ::::::::::::::
+[Two of Hearts]{.card .deuce .h}
+[Two of Spades]{.card .deuce .s}
+:::::::::::::::::::::::::::::::::::::::
+
+Uh oh. The ranks match, but the suits don't match either color or suit.
+
+The Date marks a "-" in the box. Not only does the date not play tabletop roleplaying
+games, but actively *dislikes* them. This could spell problems for that Headmate.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ### Determining Roles {#date-roles}

@@ -39,15 +39,15 @@ all-powerful computer in a grim cyberfuture, or an oracle in the mythic past.
 You *certainly* don't have to place your game in North America, I hope that goes without
 saying -- but I would be remiss if I didn't remind you that haphazardly choosing 
 non-white cultures for "play" in games is rather, uh, colonialist.
-[you can totally tell that Carline wrote this section ... well, I can at least]{.ora}
+[you can totally tell that Carline wrote this section ... well, I can at least]{.aura}
 
 That said, it's also okay to stick to the default. It's easier and more comfortable
 if you aren't trying to figure out what the high elf view of gender might be, or
 whether Trills are inherently plural 
 [I mean, Trills kind of *are* plural.]{.dera}
-[...]{.ora}
+[...]{.aura}
 [I HAPPEN TO HAVE STRONG OPINIONS ABOUT TRILLS, OKAY?]{.dera}
-[...]{.ora}, 
+[...]{.aura}, 
 or what-have-you. 
 
 In addition to the setting, you can add on themes to the game, which usually means
