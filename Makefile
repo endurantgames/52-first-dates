@@ -29,11 +29,11 @@ BACKUPS = --backup=numbered
 
 # File Locations
 #   Edit: probably unnecessary
+# PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_RECIPE = $(PROJ)
 CHARSHEET_RECIPE = charsheet
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 CHARSHEET_SRC = $(BUILDDIR)/charsheet.md
-# PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 PROJ_OUT    = $(OUTDIR)/52-first-dates.pdf
 DYSL_OUT    = $(OUTDIR)/52-first-dates-dyslexic.pdf
 LOWV_OUT    = $(OUTDIR)/52-first-dates-low-vision.pdf
@@ -42,8 +42,8 @@ CHARSHEET_OUT = $(OUTDIR)/52-first-dates-charsheet.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
-PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
+PROJ_CSS    = --css=$(STYLEDIR)/style.css
 DYSL_CSS = --css=$(STYLEDIR)/dyslexic.css
 LOWV_CSS = --css=$(STYLEDIR)/lowvis.css
 CHARSHEET_CSS = --css=$(STYLEDIR)/charsheet.css
@@ -68,11 +68,11 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 PRINCEFLAGS = 
-PRINCEFLAGS_CHARSHEET = 
+# PRINCEFLAGS_CHARSHEET = 
 PRINCEFLAGS_DYSL = 
 PRINCEFLAGS_LOWV = 
 # PRINCEFLAGS = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-# PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
+PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charsheet_%d.png
 # PRINCEFLAGS_DYSL = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/dysl_%d.png
 # PRINCEFLAGS_LOWV = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/lowv_%d.png
 
