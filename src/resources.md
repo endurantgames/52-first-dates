@@ -1,4 +1,4 @@
-# Appendix: Plural Resources {#resources}
+# Plural Resources {#resources}
 
 A number of resources on plurality are linked on the [More Than One](#more) site.
 Those links, and other useful resources, are presented here for easy reference.
@@ -24,8 +24,8 @@ Those links, and other useful resources, are presented here for easy reference.
 - [Plurality Playbook](https://www.pluralpride.com/playbook) by Freyas and Irenes
 - [Plurality Resource](https://pluralityresource.org/plurality-information/) by Eclectic Tech
 - [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/), a wiki
+- [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 - [Quick'n'Dirty Plural History](https://lb-lee.dreamwidth.org/1111069.html) by LB Lee
 - [Rules of Engagement](http://www.exunoplures.org/main/articles/rules/) by Em, Hess, and Kerry of Sylvans
-- [The power of naming](https://web.archive.org/web/19980115122056/http://www.asarian.org:80/~vickis/naming.html) by Vickis
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

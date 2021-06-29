@@ -15,8 +15,11 @@ credits/lexicon
 safety/intro
 safety/toolkit
 morethanone
-glossary
+lexicon
+resources
 game/intro
+game/glossary
+game/cards
 game/play
 game/roles
 setup/
@@ -48,8 +51,6 @@ wrap/wait
 # variant/variant_system
 # variant/variant_singlet
 # variant/variant_platonic
-resources
-lexicon
 license
 postface
 colophon

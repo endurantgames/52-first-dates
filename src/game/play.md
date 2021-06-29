@@ -1,4 +1,4 @@
-# Playing a Card {#game-card}
+# Playing a Card {#game-playing}
 
 ::::::::::::::::::::: spectrum  ::::::::::::::::::::::::::::
 ![You play cards onto the three Date Status stacks and describe what your character is saying or doing.](art/spectrum/tarot.jpg){.bottom}

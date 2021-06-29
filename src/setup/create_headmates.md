@@ -43,16 +43,16 @@ a type of object, such as "cars"; it could be a color, such as "orange"; it coul
 a profession or group of people, such as "pirates"; it could be a religion or belief system, 
 such as "Scottish witchcraft."
 
-## Demeanor
+## Personality
 
 This should be a vague statement of what the Headmate's personality is like, under normal
 circumstances. (Note that for most people, a date *isn't* a normal circumstance.)
 [It is for me tho]{.aura}
 
-If you've read up on roles within a system, such as [protector](#lexicon-protector){.defn} 
-or [host](#lexicon-host){.defn}, you could give that role here.
+If you've read up on roles within a system, such as protector[](#lexicon-protector){.defn} 
+or host[](#lexicon-host){.defn}, you could give that role here.
 [We highly advise *against* creating a Headmate with the role of 
-<a href="#lexicon-persecutor" class="defn">persecutor</a>. 
+persecutor<a href="#lexicon-persecutor" class="defn"></a>. 
 While it could lead to interesting roleplay scenarios, it's also very likely that your 
 group won't really understand what's involved with a persecutor and those misconceptions 
 go against the purpose of this game.]{.spin}

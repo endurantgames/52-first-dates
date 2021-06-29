@@ -24,7 +24,7 @@ if it succeeds at any of those. The four goals are to be a game that:
 
 # Game Design Philosophy {.nobreak}
 
-Our take on indie game design[Dera totally wrote this section, she's so wordy]{.aura} 
+Our take on indie game design
 is that of an ongoing conversation where a number of
 different voices weave in and out with their contributions that answer the question,
 "What *is* a roleplaying game? What *can* a roleplaying game *be*?"
@@ -47,6 +47,7 @@ If you do, let me know!
 But just as nobody invents all the words they speak, the magic isn't in the parts
 you use but how you assemble them -- or even beyond that, in what you *actually*
 say with those words.
+[Dera totally wrote this section, she's so wordy]{.aura} 
 
 Hopefully we'll be able to communicate our message to you as you play []{.gamename}!
 

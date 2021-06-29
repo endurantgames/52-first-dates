@@ -1,7 +1,7 @@
-# Appendix: A Plural Lexicon {#lexicon}
+# A Plural Lexicon {#lexicon .nobreak}
 
 These are important terms about plural systems that you may to understand in
-order to play the game. These definitions are adapted from
+order to fully understand the game. These definitions are adapted from
 [Pluralpedia, the collaborative plurality dictionary](https://pluralpedia.org/).
 As always, our own notes are included in the footnotes, marked by 
 our identifying emoji ([](#our-system){.page}).

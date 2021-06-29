@@ -8,10 +8,6 @@ If there are more than 3 people playing, the Collective is a shared role between
 two or more players. One person plays the Date role, another the Opportunity
 role, and the remaining players are in the role of the Collective.
 
-::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
-![Likewise, the System wants to make a good impression on the Date.](art/spectrum/mirror.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 While playing as the Collective, you alternate turns between all of the players
 in that role, in order. Designate one of those players as the first Collective
 member, another as the second, and so on until each has a number; this helps you
@@ -51,6 +47,10 @@ get to roleplay as the System, giving voice to their thoughts and description to
 their actions.
 
 But how should you roleplay that?
+
+::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
+![Likewise, the System wants to make a good impression on the Date.](art/spectrum/mirror.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 At any given time, there will be one Headmate who is fronting[](#lexicon-fronting){.defn};
 that's who you should roleplay. Place the appropriate Headmate Sheet in front of 

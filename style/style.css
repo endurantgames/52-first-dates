@@ -232,7 +232,7 @@ a.defn:before { content: '['; color: black; }
 a.defn:after  { content: ']'; color: black; }
 a.defn { 
   content:   'definition p. ' target-counter(attr(href url), page); 
-  font-size: 60%; 
+  font-size: 75%; 
   color:     var(--color-accent); 
   display:   inline-block; 
   vertical-align: top;
