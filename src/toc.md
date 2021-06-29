@@ -70,6 +70,7 @@
 - <a href="#lexicon"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-colophon"></a>
+- <a href="#anchor-postface"></a>
 - <a href="#handouts"></a>
   - <a href="#sheet-system"></a>
   - <a href="#sheet-reference"></a>

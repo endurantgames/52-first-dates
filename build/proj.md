@@ -94,6 +94,7 @@ the players agree they've enjoyed playing and are ready to stop.
 - <a href="#lexicon"></a>
 - <a href="#anchor-license"></a>
 - <a href="#anchor-colophon"></a>
+- <a href="#anchor-postface"></a>
 - <a href="#handouts"></a>
   - <a href="#sheet-system"></a>
   - <a href="#sheet-reference"></a>
@@ -1530,14 +1531,17 @@ Most of all, go have fun!
 []{.lorem}
 
 1. Name
-2. Appearance -> one per player
-3. Pronouns?
+2. apparent gender
+3. Appearance -> one per player
+4. Pronouns?
 
 []{.lorem}
 
 #### System Assumptions
 
+- "Stealth"/masked[](#lexicon-masked){.defn}
 - Not median[](#lexicon-median){.defn}
+- No littles[](#lexicon-little){.defn}
 
 #### Gender and Sexuality {#setup-gender}
 
@@ -2118,22 +2122,6 @@ Even though the Collective are treated as one role controlling one character, yo
 can only respond to Opportunity Events played on a card that you, the player,
 have played -- not on cards played by your fellow Collective members.
 
-:::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::::
-[Should you end the date?]{.sidehead}
-
-In a game of []{.gamename}, the Collective actually has the least ability of the
-three players to control when a date ends. In some cases, the only play you make
-would result in a match, and you're required to take it -- even if you don't want
-the date to end.
-
-That's okay! Don't sweat it. Your goal shouldn't be prolong the game, or even necessarily
-shoot for a second date or intimacy for the System character. It's to have 
-fun playing the game and tell a (pardon the pun) collective story.
-
-Ending a Date Night also means that the roles change, in which case you could end
-up in the Date role for the next game.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 #### The Goal of the Collective
 
 All players in a game of []{.gamename} have the same ultimate goal: to have fun
@@ -2180,6 +2168,24 @@ with that Prospect -- but only if you've achieved intimacy and your group
 decided that part of that intimacy involved disclosure of the System's
 plural status.
 
+:::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+In a game of []{.gamename}, the Collective actually has the least ability of the
+three players to control when a date ends. In some cases, the only play you make
+would result in a match, and you're required to take it -- even if you don't want
+the date to end.
+
+That's okay! Don't sweat it. Your goal shouldn't be prolong the game, or even necessarily
+shoot for a second date or intimacy for the System character. It's to have 
+fun playing the game and tell a (pardon the pun) collective story.
+
+Ending a Date Night also means that the roles change, in which case you could end
+up in the Date role for the next game.
+
+So in general, yes -- you should end the date if you can. It's more fun that way.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 #### Switching Fronters {#date-switch}
 
 The Opportunity player has two types of cards that can 
@@ -2197,12 +2203,12 @@ put that Headmate Sheet aside, and start playing as the new fronter.
 
 The cards that trigger a switch are summarized in the following table.
 
- Cards                                         Event             Results
+Cards                                          Picks Fronter     New Fronter is...
 ------------                                   ----------------- ------------------------
-A [Spades]{.spades}, A [Clubs]{.clubs}         Happy to Be Here! Collective/Date chooses fronter; fronter is indifferent
-A [Hearts]{.hearts}, A [Diamonds]{.diamonds}   Happy to Be Here! Collective/Date chooses fronter; fronter is pleased 
-10 [Spades]{.spades}, 10 [Clubs]{.clubs}       Anything But This Opportunity chooses fronter; fronter is apathetic
-10 [Hearts]{.hearts}, 10 [Diamonds]{.diamonds} Anything But This Opportunity chooses fronter; fronter is displeased
+A [Spades]{.spades}, A [Clubs]{.clubs}         Collective/Date   ... indifferent
+A [Hearts]{.hearts}, A [Diamonds]{.diamonds}   Collective/Date   ... pleased 
+10 [Spades]{.spades}, 10 [Clubs]{.clubs}       Opportunity       ... apathetic
+10 [Hearts]{.hearts}, 10 [Diamonds]{.diamonds} Opportunity       ...displeased
 
 ##### Happy to Be Here!
 
@@ -2478,8 +2484,8 @@ and pronouns<span class="dera">
   on [](#setup-prospect-pronouns){.page}, 
   or just flip a single card -- <br/> 
   [Spades]{.spades} for she/her,<br/>
-  [Hearts]{.hearts} for he/him,<br/> and
-  [Diamonds]{.diamonds} for they/them,<br/>
+  [Hearts]{.hearts} for he/him,<br/>
+  [Diamonds]{.diamonds} for they/them, and<br/>
   [Clubs]{.clubs} for other pronouns.
 </span>,
 record those on the Opportunity Sheet next to the exact card you played, 
@@ -3366,6 +3372,13 @@ A.  Nothing in this License constitutes or may be interpreted as a limitation
     You, including from the legal processes of any jurisdiction or authority.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::: postface :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Author's Postface {#anchor-postface}
+
+[]{.lorem}
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::: { #colophon } ::::::::::::::::::::::::::::::::::::::
 ## Colophon {#anchor-colophon}

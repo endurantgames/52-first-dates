@@ -7,14 +7,17 @@
 []{.lorem}
 
 1. Name
-2. Appearance -> one per player
-3. Pronouns?
+2. apparent gender
+3. Appearance -> one per player
+4. Pronouns?
 
 []{.lorem}
 
 ## System Assumptions
 
+- "Stealth"/masked[](#lexicon-masked){.defn}
 - Not median[](#lexicon-median){.defn}
+- No littles[](#lexicon-little){.defn}
 
 ## Gender and Sexuality {#setup-gender}
 

@@ -43,22 +43,6 @@ Even though the Collective are treated as one role controlling one character, yo
 can only respond to Opportunity Events played on a card that you, the player,
 have played -- not on cards played by your fellow Collective members.
 
-:::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::::
-[Should you end the date?]{.sidehead}
-
-In a game of []{.gamename}, the Collective actually has the least ability of the
-three players to control when a date ends. In some cases, the only play you make
-would result in a match, and you're required to take it -- even if you don't want
-the date to end.
-
-That's okay! Don't sweat it. Your goal shouldn't be prolong the game, or even necessarily
-shoot for a second date or intimacy for the System character. It's to have 
-fun playing the game and tell a (pardon the pun) collective story.
-
-Ending a Date Night also means that the roles change, in which case you could end
-up in the Date role for the next game.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## The Goal of the Collective
 
 All players in a game of []{.gamename} have the same ultimate goal: to have fun
@@ -105,6 +89,24 @@ with that Prospect -- but only if you've achieved intimacy and your group
 decided that part of that intimacy involved disclosure of the System's
 plural status.
 
+:::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+In a game of []{.gamename}, the Collective actually has the least ability of the
+three players to control when a date ends. In some cases, the only play you make
+would result in a match, and you're required to take it -- even if you don't want
+the date to end.
+
+That's okay! Don't sweat it. Your goal shouldn't be prolong the game, or even necessarily
+shoot for a second date or intimacy for the System character. It's to have 
+fun playing the game and tell a (pardon the pun) collective story.
+
+Ending a Date Night also means that the roles change, in which case you could end
+up in the Date role for the next game.
+
+So in general, yes -- you should end the date if you can. It's more fun that way.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Switching Fronters {#date-switch}
 
 The Opportunity player has two types of cards that can 
@@ -122,12 +124,12 @@ put that Headmate Sheet aside, and start playing as the new fronter.
 
 The cards that trigger a switch are summarized in the following table.
 
- Cards                                         Event             Results
+Cards                                          Picks Fronter     New Fronter is...
 ------------                                   ----------------- ------------------------
-A [Spades]{.spades}, A [Clubs]{.clubs}         Happy to Be Here! Collective/Date chooses fronter; fronter is indifferent
-A [Hearts]{.hearts}, A [Diamonds]{.diamonds}   Happy to Be Here! Collective/Date chooses fronter; fronter is pleased 
-10 [Spades]{.spades}, 10 [Clubs]{.clubs}       Anything But This Opportunity chooses fronter; fronter is apathetic
-10 [Hearts]{.hearts}, 10 [Diamonds]{.diamonds} Anything But This Opportunity chooses fronter; fronter is displeased
+A [Spades]{.spades}, A [Clubs]{.clubs}         Collective/Date   ... indifferent
+A [Hearts]{.hearts}, A [Diamonds]{.diamonds}   Collective/Date   ... pleased 
+10 [Spades]{.spades}, 10 [Clubs]{.clubs}       Opportunity       ... apathetic
+10 [Hearts]{.hearts}, 10 [Diamonds]{.diamonds} Opportunity       ...displeased
 
 ### Happy to Be Here!
 
