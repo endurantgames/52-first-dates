@@ -2,6 +2,8 @@
 
 As of 2021-06-29:
 
+- [ ] CSS
+  - [ ] text-align of card groups/stacks/hands
 - [ ] Game
   - [ ] Intro to section
 - [ ] The Set-Up

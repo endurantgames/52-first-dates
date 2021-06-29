@@ -1294,7 +1294,7 @@ End of the Date <a name="glossary-end-date"></a>
     if the System and the Prospect share an intimate moment, want to date
     again, both, or neither.
 
-Achieving Intimacy <a name="glossary-achieving-intimacy"></a>
+Achieving Intimacy [Bow chicka wow wow]{.aura} [Real mature, Aura.]{.dera} [:p]{.aura} <a name="glossary-achieving-intimacy"></a>
 
 ~   One of the two main outcomes of Date Night. "Intimacy" is a deliberately
     broad term, allowing this to include everything from physical sex to
