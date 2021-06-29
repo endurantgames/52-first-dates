@@ -1,6 +1,6 @@
 # To Do
 
-As of 2021-06-28:
+As of 2021-06-29:
 
 - [ ] The Set-Up
   - [ ] Creating the System
@@ -17,8 +17,8 @@ As of 2021-06-28:
     - [ ] Turn order
     - [ ] Stood Up?
   - [ ] Playing as the Date
-  - [ ] Playing as the Collective
-    - [ ] Switching Fronters
+  - [x] Playing as the Collective
+    - [x] Switching Fronters
 - [ ] The Wrap-Up
   - [ ] When the Date Ends
     - [ ] Date-Ending Events (change name)
