@@ -79,6 +79,32 @@ going to do next -- although you shouldn't spend too much time, in the middle of
 Night, creating an elaborate plan. You *can* show your fellow Collective members the
 cards in your hand, although you can't trade them back and forth.
 
+## What *Can't* You Do?
+
+When you're playing as a member of the Collective, you're relatively free to 
+decide how the System acts, within these three constraints:
+
+- As with the Date, you can't roleplay a mood unless you've got a card to
+  play that matches that mood. 
+  [The first constraint exists to model social pressure.]{.dera}
+
+- You have to roleplay as the Headmate who is fronting. If that Headmate
+  uses she/her pronouns and is into sports, you can't switch to he/they
+  pronouns and roleplay a dislike of sports. 
+  [The second constraint reinforces the idea that each Headmate is a
+   unique person in their own right]{.carline}
+
+- You have to keep the System masked[](#lexicon-masked){.defn}: in other words,
+  you can't just have the System tell the Date or other characters that 
+  they're a system.
+  [The third constraint reflects the widespread misinformation, fear, and
+   bigotry directed against plural systems.]{.val}
+
+On a second date with the same Prospect, you can lift the third constraint
+with that Prospect -- but only if you've achieved intimacy and your group
+decided that part of that intimacy involved disclosure of the System's
+plural status.
+
 ## Switching Fronters {#date-switch}
 
 The Opportunity player has two types of cards that can 
