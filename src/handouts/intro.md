@@ -108,8 +108,8 @@ Roleplay this Headmate fairly when they're fronting.
 - [Name/Nickname]{.label #headmate-name}
 - [Pronouns]{.label #headmate-pronouns}
 - [Sexuality]{.label #headmate-sexuality}
-- [Interest]{.label #headmate-interest}
-- [Demeanor]{.label #headmate-demeanor}
+- [Interests]{.label #headmate-interest}
+- [Personality]{.label #headmate-demeanor}
 - [Ideal Partner]{.label #headmate-quality}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
