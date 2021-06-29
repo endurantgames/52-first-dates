@@ -127,7 +127,7 @@ if it succeeds at any of those. The four goals are to be a game that:
 3. Functions as an interesting dating sim
 4. Is actually fun to play
 
-## Game Design Philosophy
+## Game Design Philosophy {.nobreak}
 
 Our take on indie game design[Dera totally wrote this section, she's so wordy]{.aura} 
 is that of an ongoing conversation where a number of
@@ -1521,7 +1521,7 @@ Be willing to experiment, but don't forget to take care of yourselves.
 Most of all, go have fun!
 
 
-### Creating the System {#setup-system .breakbefore}
+### Creating the System {#setup-system}
 
 ::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
 ![Everyone gets in a say in the System character.](art/spectrum/celebrate.jpg){.top}
@@ -1749,6 +1749,7 @@ A []{.diamonds  } Aeden
 J []{.diamonds  } Jan
 Q []{.diamonds  } Lumen
 K []{.diamonds  } Thyme
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::: {.namelist } :::::::::::::::::::::::::::::
@@ -2009,7 +2010,7 @@ in a [co-conscious](#lexicon-co-conscious){.defn} or
 [co-fronting](#lexicon-co-fronting){.defn} situation.
 
 
-### Starting the Date {#date-start .breakbefore}
+### Starting the Date {#date-start}
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::
 ![Let's get this party started!](art/spectrum/group-cards-2.jpg)
@@ -2182,6 +2183,32 @@ You can also coordinate with other members of the Collective to decide what you'
 going to do next -- although you shouldn't spend too much time, in the middle of Date
 Night, creating an elaborate plan. You *can* show your fellow Collective members the
 cards in your hand, although you can't trade them back and forth.
+
+#### What *Can't* You Do?
+
+When you're playing as a member of the Collective, you're relatively free to 
+decide how the System acts, within these three constraints:
+
+- As with the Date, you can't roleplay a mood unless you've got a card to
+  play that matches that mood. 
+  [The first constraint exists to model social pressure.]{.dera}
+
+- You have to roleplay as the Headmate who is fronting. If that Headmate
+  uses she/her pronouns and is into sports, you can't switch to he/they
+  pronouns and roleplay a dislike of sports. 
+  [The second constraint reinforces the idea that each Headmate is a
+   unique person in their own right]{.carline}
+
+- You have to keep the System masked[](#lexicon-masked){.defn}: in other words,
+  you can't just have the System tell the Date or other characters that 
+  they're a system.
+  [The third constraint reflects the widespread misinformation, fear, and
+   bigotry directed against plural systems.]{.val}
+
+On a second date with the same Prospect, you can lift the third constraint
+with that Prospect -- but only if you've achieved intimacy and your group
+decided that part of that intimacy involved disclosure of the System's
+plural status.
 
 #### Switching Fronters {#date-switch}
 
@@ -2914,10 +2941,15 @@ Little <a name="lexicon-little"></a>
 Main <a name="lexicon-main"></a>
 ~   The main is a headmate who is considered by the rest of the system to be one the 
     main or central influences on the system.
-    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.aura}
+    [Spinny was our main before but we feel more comfortable now with shared responsibility]{.aura}
     This doesn't necessarily mean they front 
     often.  A main can be a leader, teacher, or another authoritative figure that has 
     an influence over the system. They may also be someone that others draw energy from.
+
+Masked <a name="lexicon-masked"></a>
+~   A masked system is one that acts or is covert. It is difficult to distinguish 
+    the fronters of a masked system unless they explicitly tell you because of 
+    the “mask”.
 
 Median <a name="lexicon-median"></a>
 ~   A median system (also called midcontinuum) is a system where members are not as 

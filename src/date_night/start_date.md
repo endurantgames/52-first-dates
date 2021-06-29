@@ -1,4 +1,4 @@
-# Starting the Date {#date-start .breakbefore}
+# Starting the Date {#date-start}
 
 ::::::::::::::::::: spectrum :::::::::::::::::::::::::::
 ![Let's get this party started!](art/spectrum/group-cards-2.jpg)

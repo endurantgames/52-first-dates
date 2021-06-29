@@ -429,7 +429,7 @@ dl dd   { line-height: 1.2; }
 dl dd p { line-height: 1.2; }
 
 /* systemlist ------------------------------------------------------------------------------------------------- */
-.systemlist    { break-before: avoid; break-inside: avoid; }
+.systemlist    { break-before: avoid; }
 .systemlist dl { margin-left: 24pt; margin-right: 24pt;    }
 .systemlist dt { margin-bottom: 3pt;                       }
 
@@ -723,7 +723,7 @@ dl dd p { line-height: 1.2; }
 }
 .cardstacks .card { display: inline-block; }
 
-.cardstacks + .cardstacks { margin-bottom: 9pt; }
+.cardstacks + .cardstacks { margin-top: 9pt; }
 
 /* card matrix i.e. which cards can be played ---------------------------------------------------------------------------- */
 .cardmatrix td               { padding: 4pt;                                 }
