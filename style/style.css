@@ -322,12 +322,12 @@ img {
   margin-bottom:  15pt; 
   font-family:    var(--font);
   font-weight:    normal;
-  text-align:     left;
+  text-align:     justify;
   font-size:      var(--body);
 }
 /* table of contents ------------------------------------------------------------------------------------------ */
 #toc           { column-count: 2; column-gap: 16pt; column-width: auto;  }
-#toc           { background: none; border: none;                         }
+#toc           { background: none; border: none; margin-bottom: 96pt;    }
 #toc .sidehead { column-span: all; display: block; margin-bottom: 9pt;   }
 #toc           { float: page top; float-defer-page: 1;                   }
 #toc a:before  { content: target-content(attr(href)) ' ';                }
@@ -349,9 +349,9 @@ img {
 #toc li { -prince-pdf-tag-type: TOCI; }
 
 /* colophon --------------------------------------------------------------------------------------------------- */
-#colophon    { page: colophon; text-align: center;     }
-#colophon p  { margin-bottom: 12pt;                    }
-#colophon h2 { margin-top: 176pt; margin-bottom: 24pt; }
+#colophon    { page: colophon; }
+#colophon p  { margin-bottom: 12pt; text-align: center; }
+#colophon h2 { margin-top: 176pt; margin-bottom: 24pt; text-align: center; }
 
 /* TTRPG safety toolkit --------------------------------------------------------------------------------------- */
 .tstoolkit strong { white-space: pre; color: var(--color-toolkit);                    }
@@ -393,6 +393,10 @@ img {
 .license > ol li { margin-left: 6pt;                  }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
+
+/* text formatting -------------------------------------------------------------------------------------------- */
+
+p, li, dd, figcaption { text-align: justify; }
 
 /* inclusiveness callouts ------------------------------------------------------------------------------------- */
 .inclu:before { 
@@ -469,6 +473,7 @@ dl dd p { line-height: 1.2; }
 /* eventchart ----------------------------------------------------------------------------------------------- */
 .eventchart.text td :matches(strong, .red, .eg) { display: block; margin-bottom: 3pt; }
 
+.eventchart.text td:nth-child(2) { text-align: justify; }
 .eventchart.text td:first-child { font-family: var(--font-header); }
 .eventchart.text td strong      { font-family: var(--font-header); font-weight: normal; }
 .eventchart.text td .red        { color: red;                                           }
@@ -705,10 +710,10 @@ dl dd p { line-height: 1.2; }
 .card.tapped { transform: rotate(-90deg); }
 
 /* arbitrary grouping of cards ------------------------------------------------------------------------------------------- */
-.cardgroup  { font-size: var(--cardsize); text-align: center; }
+.cardgroup  { font-size: var(--cardsize); display: block; text-align: center; }
 
 /* hands of cards =------------------------------------------------------------------------------------------------------- */
-.cardhand                    { font-size: var(--cardsize); text-align: center; vertical-align: bottom; }
+.cardhand                    { font-size: var(--cardsize); text-align: center; vertical-align: bottom; display: block; }
 .cardhand .card              { display: inline-block; margin-left: -0.1em; margin-right: -0.1em;       }
 .cardhand .card:nth-child(1) { transform: skew(15deg);                                                 }
 .cardhand .card:nth-child(2) { transform: skew(7.5deg);                                                }
