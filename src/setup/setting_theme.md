@@ -1,9 +1,5 @@
 # Setting and Themes {#setup-setting}
 
-:::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
-!["Let's just meet over coffee?"](art/spectrum/coffee.jpg)
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 []{.gamename} is a game about people. Plural people, singlet people, and the
 random people we bump into on on a date.
 
@@ -40,6 +36,10 @@ You *certainly* don't have to place your game in North America, I hope that goes
 saying -- but I would be remiss if I didn't remind you that haphazardly choosing 
 non-white cultures for "play" in games is rather, uh, colonialist.
 [you can totally tell that Carline wrote this section ... well, I can at least]{.aura}
+
+:::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
+!["Let's just meet over coffee?"](art/spectrum/coffee.jpg)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 That said, it's also okay to stick to the default. It's easier and more comfortable
 if you aren't trying to figure out what the high elf view of gender might be, or

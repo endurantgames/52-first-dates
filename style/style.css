@@ -164,6 +164,7 @@ h3               { break-inside: avoid; break-after: avoid; }
 h4               { break-inside: avoid; break-after: avoid; }
 h5               { break-inside: avoid; break-after: avoid; }
 h6               { break-inside: avoid; break-after: avoid; }
+
 p+table          { break-before: avoid-page;                }
 table            { break-inside: avoid-page;                }
 p                { orphans: 3; widows: 2;                   }
@@ -194,7 +195,12 @@ p  { margin-top: 6pt; margin-bottom: 9pt; }
 /* columns ---------------------------------------------------------------------------------------------------- */
 .colspan  { column-span: all;                                     }
 .bottom   { column-span: all; float: page-bottom;                 }
-.namelist { column-count: 2; column-gap: 9pt; column-width: auto; }
+
+.namelist table tr :matches(td, th):nth-child(1) { width: 54pt; }
+.namelist table tr :matches(td, th):nth-child(3) { width: 54pt; }
+
+.pronounlist2 { columns: 2 auto; column-span: 0; }
+.pronounlist2 table { break-inside: auto; margin-left: 0; margin-right: 0; }
 
 /* paragraphs ------------------------------------------------------------------------------------------------- */
 

@@ -240,8 +240,8 @@ and pronouns<span class="dera">
   on [](#setup-prospect-pronouns){.page}, 
   or just flip a single card -- <br/> 
   [Spades]{.spades} for she/her,<br/>
-  [Hearts]{.hearts} for he/him,<br/> and
-  [Diamonds]{.diamonds} for they/them,<br/>
+  [Hearts]{.hearts} for he/him,<br/>
+  [Diamonds]{.diamonds} for they/them, and<br/>
   [Clubs]{.clubs} for other pronouns.
 </span>,
 record those on the Opportunity Sheet next to the exact card you played, 

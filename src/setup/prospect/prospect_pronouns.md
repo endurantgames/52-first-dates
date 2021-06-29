@@ -29,6 +29,7 @@ First Card Suit         Second Card Suit        Pronouns
 If the result above says "chart" (i.e., is Clubs) then check the card's
 rank on the next table.
 
+::::::::::: pronounlist2 :::::::::::::::::::::
  Card                Pronouns
 ------               ---------
  A [Clubs]{.clubs  } ae/aer/aers/aerself
@@ -44,4 +45,5 @@ rank on the next table.
  J [Clubs]{.clubs  } fae/faer/faerself
  Q [Clubs]{.clubs  } ne/nem/nirs/nemself
  K [Clubs]{.clubs  } no pronouns
+::::::::::::::::::::::::::::::::::::::::::::::
 

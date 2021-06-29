@@ -1,4 +1,4 @@
-# Creating the Headmates {#setup-headmates .breakbefore}
+# Creating the Headmates {#setup-headmates }
 
 Once you've created the System, you need to create the members of that system -- the Headmates.
 
