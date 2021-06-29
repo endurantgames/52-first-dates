@@ -38,6 +38,9 @@ A []{.diamonds  } Aeden
 J []{.diamonds  } Jan
 Q []{.diamonds  } Lumen
 K []{.diamonds  } Thyme
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: {.namelist } :::::::::::::::::::::::::::::
 
  Card             Name
 ------            ---------------

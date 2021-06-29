@@ -1,4 +1,4 @@
-# Setting and Themes {#setup-setting .breakbefore}
+# Setting and Themes {#setup-setting}
 
 :::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
 !["Let's just meet over coffee?"](art/spectrum/coffee.jpg)

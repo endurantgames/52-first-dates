@@ -109,10 +109,15 @@ Little <a name="lexicon-little"></a>
 Main <a name="lexicon-main"></a>
 ~   The main is a headmate who is considered by the rest of the system to be one the 
     main or central influences on the system.
-    [Spinny was our main before but we feel more comfortable now with a shared responsibility model]{.aura}
+    [Spinny was our main before but we feel more comfortable now with shared responsibility]{.aura}
     This doesn't necessarily mean they front 
     often.  A main can be a leader, teacher, or another authoritative figure that has 
     an influence over the system. They may also be someone that others draw energy from.
+
+Masked <a name="lexicon-masked"></a>
+~   A masked system is one that acts or is covert. It is difficult to distinguish 
+    the fronters of a masked system unless they explicitly tell you because of 
+    the “mask”.
 
 Median <a name="lexicon-median"></a>
 ~   A median system (also called midcontinuum) is a system where members are not as 

@@ -242,7 +242,7 @@ a.section    {
 
 /* lists ------------------------------------------------------------------------------------------------------ */
 li    { break-inside: avoid;                                   }
-ul    { margin-left: 1em; margin-top: 6pt; margin-bottom: 6pt; }
+ul    { margin-left: 1em; margin-top: 6pt; margin-bottom: 6pt; break-inside: avoid; }
 ol    { margin-left: 2em; margin-top: 6pt; margin-bottom: 6pt; }
 ul li { margin-left: 1em;                                      }
 ul ol { margin-left: 1em;                                      }
@@ -721,6 +721,7 @@ dl dd p { line-height: 1.2; }
   border-radius:  6pt;
   border:         0.5pt solid var(--color-line);
 }
+.cardstacks .card { display: inline-block; }
 
 .cardstacks + .cardstacks { margin-bottom: 9pt; }
 

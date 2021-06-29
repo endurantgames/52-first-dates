@@ -1,4 +1,4 @@
-# Playing a Card {#game-card .breakbefore}
+# Playing a Card {#game-card}
 
 ::::::::::::::::::::: spectrum  ::::::::::::::::::::::::::::
 ![You play cards onto the three Date Status stacks and describe what your character is saying or doing.](art/spectrum/tarot.jpg){.bottom}
@@ -13,30 +13,30 @@ Prospect character.
 You can describe what your character says and does and then play a
 card, or you can play the card first and then declare what happened.
 
-The suit of each card determines the current demeanor of your character.
+The suit of each card determines the current mood your character.
 Each suit can be played in generally positive way, such as being *direct or clear*,
 or a less positive way such as being *blunt and tactless*.  
-The demeanors associated with each suit are shown in the following table.
+The moods associated with each suit are shown in the following table.
 [Try this as a mnemonic: <br/>
  **Spades:** sharp-witted<br/>
  **Hearts:** passionate<br/>
  **Clubs:** blunt<br/>
  **Diamonds:** sparkling]{.spin}
 
-Suit                   Demeanor
+Suit                   Mood       
 ------                 ------------------------- -------------------------
 []{.spades} Spades     Clever and witty, or      Mocking and hurtful
 []{.hearts} Hearts     Earnest and heartfelt, or Thoughtless and inconsiderate
 []{.clubs} Clubs       Direct and clear, or      Blunt and tactless
 []{.diamonds} Diamonds Flirty and coy, or        Evasive and guarded
 
-You don't have to announce the exact demeanor you're using when you
+You don't have to announce the exact mood you're using when you
 play the card, but should try to make it clear in the words you use or the
 way you describe the character's actions.
 
 If you don't have a card of the given suit to play, then you can't take an
-action using that demeanor. 
-[*Tip!* You might want to choose the demeanor before you decide what to say,
+action base on that mood. 
+[*Tip!* You might want to choose the mood before you decide what to say,
 based on the cards in your hand.]{.spin}
 For example, if the player in the Date role has 
 no []{.diamonds} Diamonds cards in their hand, then the Date character can't
@@ -90,12 +90,27 @@ You ***aren't required*** to play a card in response to an
 Opportunity Event; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
+## Persistence of Opportunity Events
+
+Once an Opportunity Event card has been played and not successfully responded
+to, the Opportunity player turns the Status Stack sideways.
+While it doesn't interrupt later card plays, the event is ongoing as long
+as the Stack is still sideways.
+
+When another card is played on that Stack, the event ends, and the player
+who played that card can describe how the situation changed. For example, if
+the event is that a co-worker -- a named NPC -- appeared and started talking
+to the System character in the middle of Date Night, playing a card on that
+stack could indicate that the System and Date managed to slip away from the
+chatty Cathy.
+
 ## Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
 However, if Opportunity plays a card, neither you nor
 Opportunity draw a replacement card until
 after you've either responded or passed on responding.
+
 
 ## Ending a Date
 

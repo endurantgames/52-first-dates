@@ -928,6 +928,20 @@ The Status Stacks <a name="glossary-status-stacks"></a>
     don't need to be laid out like solitaire game -- just as three 
     distinct piles.
 
+Opportunity Event <a name="glossary-opportunity-event"></a>
+~   When Opportunity plays a card on another player's just-played card,
+    Opportunity gets to narrate an event that cancels out whatever the
+    player's character was attempting to do or say. The other player can
+    attempt to respond to this by play an extra card from their hand, but
+    if they can't, the event stays in play until another card is played
+    to that stack.
+
+Named NPC <a name="glossary-named-npc"></a>
+~   The events triggered by a face card -- a Jack, Queen, or King -- played
+    by Opportunity create a non-player character (NPC) with a name and
+    description. Opportunity can roleplay as this NPC as long as the
+    face card is still in play.
+ 
 End of the Date <a name="glossary-end-date"></a>
 ~   When all of the cards on the Status Stack show the same suit or the
     same rank, it's time to wrap up that Date Night. The cards determine
@@ -951,7 +965,7 @@ Aftercare <a name="glossary-aftercare"></a>
     those.
 
 
-## Using the Cards {#game}
+## Using the Cards {#game .nobreak}
 
 :::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![Instead of dice like many tabletop roleplaying games, 52 First Dates uses playing cards.](art/spectrum/group-cards.jpg)
@@ -983,7 +997,7 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-### Matching Cards {#game-matching .breakbefore}
+### Matching Cards {#game-matching }
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.
@@ -1033,7 +1047,7 @@ To break a tie, players tied for the highest rank card draw a second card
 from the top of System's Deck.
 
 
-### Playing a Card {#game-card .breakbefore}
+### Playing a Card {#game-card}
 
 ::::::::::::::::::::: spectrum  ::::::::::::::::::::::::::::
 ![You play cards onto the three Date Status stacks and describe what your character is saying or doing.](art/spectrum/tarot.jpg){.bottom}
@@ -1048,30 +1062,30 @@ Prospect character.
 You can describe what your character says and does and then play a
 card, or you can play the card first and then declare what happened.
 
-The suit of each card determines the current demeanor of your character.
+The suit of each card determines the current mood your character.
 Each suit can be played in generally positive way, such as being *direct or clear*,
 or a less positive way such as being *blunt and tactless*.  
-The demeanors associated with each suit are shown in the following table.
+The moods associated with each suit are shown in the following table.
 [Try this as a mnemonic: <br/>
  **Spades:** sharp-witted<br/>
  **Hearts:** passionate<br/>
  **Clubs:** blunt<br/>
  **Diamonds:** sparkling]{.spin}
 
-Suit                   Demeanor
+Suit                   Mood       
 ------                 ------------------------- -------------------------
 []{.spades} Spades     Clever and witty, or      Mocking and hurtful
 []{.hearts} Hearts     Earnest and heartfelt, or Thoughtless and inconsiderate
 []{.clubs} Clubs       Direct and clear, or      Blunt and tactless
 []{.diamonds} Diamonds Flirty and coy, or        Evasive and guarded
 
-You don't have to announce the exact demeanor you're using when you
+You don't have to announce the exact mood you're using when you
 play the card, but should try to make it clear in the words you use or the
 way you describe the character's actions.
 
 If you don't have a card of the given suit to play, then you can't take an
-action using that demeanor. 
-[*Tip!* You might want to choose the demeanor before you decide what to say,
+action base on that mood. 
+[*Tip!* You might want to choose the mood before you decide what to say,
 based on the cards in your hand.]{.spin}
 For example, if the player in the Date role has 
 no []{.diamonds} Diamonds cards in their hand, then the Date character can't
@@ -1125,12 +1139,27 @@ You ***aren't required*** to play a card in response to an
 Opportunity Event; if you don't wish to, even if you have a card you
 *could* play, tell the other players that you pass.
 
+#### Persistence of Opportunity Events
+
+Once an Opportunity Event card has been played and not successfully responded
+to, the Opportunity player turns the Status Stack sideways.
+While it doesn't interrupt later card plays, the event is ongoing as long
+as the Stack is still sideways.
+
+When another card is played on that Stack, the event ends, and the player
+who played that card can describe how the situation changed. For example, if
+the event is that a co-worker -- a named NPC -- appeared and started talking
+to the System character in the middle of Date Night, playing a card on that
+stack could indicate that the System and Date managed to slip away from the
+chatty Cathy.
+
 #### Drawing New Cards {#game-draw}
 
 Normally, you get to draw a new card after you play one.
 However, if Opportunity plays a card, neither you nor
 Opportunity draw a replacement card until
 after you've either responded or passed on responding.
+
 
 #### Ending a Date
 
@@ -1417,7 +1446,7 @@ pull the veil a little sooner, or drop a line and not cross it, based on
 some types of intimacy that might arise.
 
 
-### Setting and Themes {#setup-setting .breakbefore}
+### Setting and Themes {#setup-setting}
 
 :::::::::::::::::::::::::::::: spectrum ::::::::::::::::::::::::
 !["Let's just meet over coffee?"](art/spectrum/coffee.jpg)
@@ -1720,6 +1749,9 @@ A []{.diamonds  } Aeden
 J []{.diamonds  } Jan
 Q []{.diamonds  } Lumen
 K []{.diamonds  } Thyme
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::: {.namelist } :::::::::::::::::::::::::::::
 
  Card             Name
 ------            ---------------
@@ -2055,7 +2087,7 @@ act in response to cards played by the other players.
 #### Stood Up? {#date-stood .breakbefore}
 
 :::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::
-![If the first three cards dealt to create the Date Status stack match, that means you've been stood up!](art/spectrum/watch.jpg)
+![If the first three cards dealt to create the Status Stacks match, that means you've been stood up!](art/spectrum/watch.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
@@ -2072,15 +2104,140 @@ act in response to cards played by the other players.
 
 ### Playing as the Collective {#date-role-collective .breakbefore}
 
-[]{.lorem}
+When you are playing []{.gamename} as the Collective, you're controlling the 
+words and actions of the System character -- and specifically, of the Headmate 
+who is currently fronting in that system.
+
+If there are more than 3 people playing, the Collective is a shared role between
+two or more players. One person plays the Date role, another the Opportunity
+role, and the remaining players are in the role of the Collective.
 
 ::::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::::::::::::::::
 ![Likewise, the System wants to make a good impression on the Date.](art/spectrum/mirror.jpg)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+While playing as the Collective, you alternate turns between all of the players
+in that role, in order. Designate one of those players as the first Collective
+member, another as the second, and so on until each has a number; this helps you
+keep track of who plays a card next, alternating with the Date.
+
+In some ways the Collective counts as a single role, and in others as a shared
+role between mutiple players -- which isn't necessarily far off from what it's like
+for some systems in real life.
+
+#### Summary of Collective Rules
+
+As members of the Collective, you're responsible for steering the System character
+through the date. You each have a separate hand of cards, drawn from the System's
+Deck[](#glossary-system-deck){.defn}, and when it's your turn, you can play those
+cards on any Status Stack as long as either the **suit** or the **rank** of the
+card matches the top card of the stack.
+
+If you have at least one card that you *could* play, then you're required to play
+one such card on your turn. If you don't have any at all, the System character is
+At A Loss for Words, and the Opportunity player can play a card on *any* stack,
+not just the last card played.
+
+Whenever an Opportunity event card is played on a card you've just played, you can
+respond by playing a card to counter that event. It's not *required* that you do
+so, but if you do, the card must follow your normal rule for playing cards; either
+the suit or the rank has to match.
+
+Even though the Collective are treated as one role controlling one character, you
+can only respond to Opportunity Events played on a card that you, the player,
+have played -- not on cards played by your fellow Collective members.
+
+:::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::::
+[Should you end the date?]{.sidehead}
+
+In a game of []{.gamename}, the Collective actually has the least ability of the
+three players to control when a date ends. In some cases, the only play you make
+would result in a match, and you're required to take it -- even if you don't want
+the date to end.
+
+That's okay! Don't sweat it. Your goal shouldn't be prolong the game, or even necessarily
+shoot for a second date or intimacy for the System character. It's to have 
+fun playing the game and tell a (pardon the pun) collective story.
+
+Ending a Date Night also means that the roles change, in which case you could end
+up in the Date role for the next game.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#### The Goal of the Collective
+
+All players in a game of []{.gamename} have the same ultimate goal: to have fun
+telling a dating story. When you are playing the Collective for a Date Night, you
+get to roleplay as the System, giving voice to their thoughts and description to
+their actions.
+
+But how should you roleplay that?
+
+At any given time, there will be one Headmate who is fronting[](#lexicon-fronting){.defn};
+that's who you should roleplay. Place the appropriate Headmate Sheet in front of 
+you and the other Collective players for reference. Each Headmate has their own
+name, pronouns, sexuality, interests, personality. and desired qualities in a date.
+Use those as a guideline to shape how you play the character.
+
+You can also coordinate with other members of the Collective to decide what you're
+going to do next -- although you shouldn't spend too much time, in the middle of Date
+Night, creating an elaborate plan. You *can* show your fellow Collective members the
+cards in your hand, although you can't trade them back and forth.
+
 #### Switching Fronters {#date-switch}
 
+The Opportunity player has two types of cards that can 
+switch[](#lexicon-switch){.defn} whoever is fronting -- if they play an Ace, that's
+the **Happy to Be Here!** event, and if they play a Ten, that's the **Anything But This**
+event.
+
+Within the fiction of the game, this means that a new Headmate starts fronting; this
+could be an abrupt switch or a gradual one. 
+
+As players of the Collective, you are no longer playing the same character as before;
+while the System's body remains the same, the fictional character controlling that
+body is a different person. This means that you no longer play the previous fronter;
+put that Headmate Sheet aside, and start playing as the new fronter.
+
+The cards that trigger a switch are summarized in the following table.
+
+ Cards                                         Event             Results
+------------                                   ----------------- ------------------------
+A [Spades]{.spades}, A [Clubs]{.clubs}         Happy to Be Here! Collective/Date chooses fronter; fronter is indifferent
+A [Hearts]{.hearts}, A [Diamonds]{.diamonds}   Happy to Be Here! Collective/Date chooses fronter; fronter is pleased 
+10 [Spades]{.spades}, 10 [Clubs]{.clubs}       Anything But This Opportunity chooses fronter; fronter is apathetic
+10 [Hearts]{.hearts}, 10 [Diamonds]{.diamonds} Anything But This Opportunity chooses fronter; fronter is displeased
+
+##### Happy to Be Here!
+
+When Opportunity plays an Ace card, that means the new fronting Headmate is
+chosen by the player whose card was played on. If that player is one of the Collective,
+that person gets to pick the new fronter, and if it was the Date's card, the
+Date player get to choose.
+
+Io Opportunity plays a red Ace, that means that the new fronter is happy to move
+up to the front, and you should roleplay the System character appropriately! On
+a black Ace, the Headmate is indifferent to the switch.
+
+##### Anything But This
+
+Conversely, if a Ten is played, the new fronter is chosen by the Opportunity 
+player. A red Ten means that Headmate definitely is *not* happy to find themselves
+pushed to the front, and on a black Ten, they're merely apathetic about the change.
+In either case, you and the other Collective members should play out those feelings
+as you roleplay the character.
+
+##### Responding to Fronter Changes
+
+You *can* choose to respond to the change of fronter. Unlike other Opportunity Events,
+though, this doesn't stop the switch from happening -- the previously fronting
+Headmate is no longer fronting.
+
+Instead, successfully responding to an *Anything But This* or *Happy to Be Here!*
+event lets you
 []{.lorem}
+
+(This part needs some clarification)
+
 
 ### Playing as Opportunity {#date-role-opportunity .breakbefore }
 

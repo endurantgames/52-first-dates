@@ -67,6 +67,20 @@ The Status Stacks <a name="glossary-status-stacks"></a>
     don't need to be laid out like solitaire game -- just as three 
     distinct piles.
 
+Opportunity Event <a name="glossary-opportunity-event"></a>
+~   When Opportunity plays a card on another player's just-played card,
+    Opportunity gets to narrate an event that cancels out whatever the
+    player's character was attempting to do or say. The other player can
+    attempt to respond to this by play an extra card from their hand, but
+    if they can't, the event stays in play until another card is played
+    to that stack.
+
+Named NPC <a name="glossary-named-npc"></a>
+~   The events triggered by a face card -- a Jack, Queen, or King -- played
+    by Opportunity create a non-player character (NPC) with a name and
+    description. Opportunity can roleplay as this NPC as long as the
+    face card is still in play.
+ 
 End of the Date <a name="glossary-end-date"></a>
 ~   When all of the cards on the Status Stack show the same suit or the
     same rank, it's time to wrap up that Date Night. The cards determine

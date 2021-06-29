@@ -76,7 +76,7 @@ act in response to cards played by the other players.
 ## Stood Up? {#date-stood .breakbefore}
 
 :::::::::::::::::::::::::::: spectrum :::::::::::::::::::::::
-![If the first three cards dealt to create the Date Status stack match, that means you've been stood up!](art/spectrum/watch.jpg)
+![If the first three cards dealt to create the Status Stacks match, that means you've been stood up!](art/spectrum/watch.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}

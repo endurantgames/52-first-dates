@@ -1,4 +1,4 @@
-# Using the Cards {#game}
+# Using the Cards {#game .nobreak}
 
 :::::::::::::: spectrum ::::::::::::::::::::::::::::::::::
 ![Instead of dice like many tabletop roleplaying games, 52 First Dates uses playing cards.](art/spectrum/group-cards.jpg)
@@ -30,7 +30,7 @@ System's Deck.
 
 After you play a card, draw another card from the appropriate deck.
 
-## Matching Cards {#game-matching .breakbefore}
+## Matching Cards {#game-matching }
 
 Two cards **match suits** if their suits are the same -- such as clubs
 or diamonds.

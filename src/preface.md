@@ -22,7 +22,7 @@ if it succeeds at any of those. The four goals are to be a game that:
 3. Functions as an interesting dating sim
 4. Is actually fun to play
 
-# Game Design Philosophy
+# Game Design Philosophy {.nobreak}
 
 Our take on indie game design[Dera totally wrote this section, she's so wordy]{.aura} 
 is that of an ongoing conversation where a number of
