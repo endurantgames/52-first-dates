@@ -2,6 +2,8 @@
 
 As of 2021-06-29:
 
+- [ ] Game
+  - [ ] Intro to section
 - [ ] The Set-Up
   - [ ] Creating the System
     - [ ] Game Assumptions

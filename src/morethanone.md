@@ -49,6 +49,7 @@ mental creations came to life, accidentally or intentionally.
 
 There are also plural collectives who do not know their 
 origin, who have mixed origins, or who do not see origin as relevant at all.
+[That latter describes us fairly well -- see also the definition of "quoigenic" on <a name="#lexicon-quoigenic" class="page">]{.carline}
 
 There are differences in functioning between the various plural origin types. 
 For example, trauma plurals tend to experience more issues with memory and 
@@ -68,7 +69,7 @@ who do not identify within clinical terms.
 While plurals are certainly not a majority, it is highly likely you've encountered 
 at least one over the course of your life without realizing it!
 
-### Myth: Plurals are dangerous.
+### Myth: Plurals are dangerous. [Content warning: discussion of violence and suicide follows]{.carline}
 
 This particular myth is likely due to Hollywood's many portrayals of DID plurals as 
 violent axe-murderers. To say the least, don't believe everything you see on the big screen.
@@ -158,6 +159,7 @@ group of people picked at random off the streets.
 The subjective identities and self-images of collective members might not match 
 their body. There are members who may be internally younger or older than their body's 
 age, members who are of different genders, and even nonhuman members.
+[Dera's some kind of alien. i'm not even joking]{.aura}
 
 ### Communication
 
@@ -176,12 +178,15 @@ writing in journals.
 There are many collectives who fall somewhere in the middle, being only able to 
 communicate through vague impressions. There are also cases where some members of a 
 collective will be able to communicate easily, while others will have much more difficulty.
+[Most of the time we don't communicate directly. When we need to, it's usually easier to 
+leave a discord window open and type parts of the conversation when we're able to.]{.dera}
 
 Even in collectives who can communicate reliably, communication can be disrupted by 
 life stress, improper medication, or other factors, and so many groups have 
 contingency measures for if this happens.
 
 ### Headspace
+
 Internal worlds vary greatly in terms of scope and function. Some headspaces 
 are extremely simple, being nothing more than a single room or field where 
 people can talk. Others are more elaborate: small villages, great mansions, 
@@ -207,7 +212,11 @@ For those groups who switch, there is a spectrum in terms of how much control
 groups have over their switching. Some may be able to switch almost at will, 
 while others have almost no control. Many fall in between: switching can be 
 controlled for the most part, but there are still conditions that will cause members to 
-either involuntarily swap or get “stuck.” As with communication, both establishing a 
+either involuntarily swap or get “stuck.” 
+[This is a pretty good description of how we switch, although as a median system our
+transitions are pretty gradual and it usually takes us a while to notice that we've
+actually switched fronters!]{.carline}
+As with communication, both establishing a 
 greater degree of control over switching and finding ways to manage involuntary 
 switches are major parts of DID therapy.
 
@@ -237,6 +246,10 @@ following tend to be common rules of thumb.]{.bigpara}
 Do not ask if they are dangerous. Hollywood is not a reliable source of information.
 
 Don't ask to meet the “real” person. Everyone in a plural collective is real.
+[A "friend" tried to convince me I'd be happier without those "extra voices" in my head,
+and suggested therapy to get rid of them. they didn't really understand that by any
+reasonable definition, *I'm* an "extra voice" in Cadera's head ... and so they
+were talking about getting rid of *me* :p]{.aura}
 
 Don't assume that members of the collective have the same opinions, preferences, etc.
 
