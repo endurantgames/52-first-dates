@@ -1,8 +1,8 @@
-# Roles and Cards {#game-roles .breakbefore}
+# Roles and Cards {#game-roles}
 
 Each role has different rules for drawing and playing cards.
 
-## The Collective
+## The Collective {.breakbefore}
 
 If you're one of the Collective players, you draw your cards from the 
 *System's Deck*. You can

@@ -48,12 +48,12 @@ as well, to stave off problems before they become an issue.
 
 ## The Meaning of Intimacy {#setup-safely-intimacy}
 
+One of the two primary outcomes in []{.gamename} -- and one of the presumed
+goals of the protagonist System -- is to become intimate with another person.
+
 ::::::::::::::::::: spectrum ::::::::::::::::::::::::::::::::::::::::::::::
 !["Intimacy" might just mean spending quality time with someone you like.](art/spectrum/magazine.jpg)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-One of the two primary outcomes in []{.gamename} -- and one of the presumed
-goals of the protagonist System -- is to become intimate with another person.
 
 The word "intimacy" was specifically chosen instead of the more crass "get laid"
 not just because it sounds more high-falutin', but also because it's *not*
