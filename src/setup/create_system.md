@@ -187,7 +187,7 @@ of.
 We know from both anecdotal evidence and actual studies that plural systems
 can come from all walks of life and are often multiply marginalized --
 it's not uncommon for plural people to be autistic, to be BIPOCs, to be
-physically or mentally disabled.
+physically disabled or mentally ill.
 
 While it would therefore be realistic to portray the System character as
 possessing some or all of those characteristics, this is another place that
@@ -206,7 +206,7 @@ to play this game responsibly.
 
 We're not able to do that with those other characteristics, though. We're not
 autistic, or non-white, or physically disabled
-[We're mentally disabled, with depression and anxiety on top of C-PTSD and
+[We're mentally ill and disabled, with depression and anxiety on top of C-PTSD and
 ADHD -- but this game isn't about that in particular, though.]{.carline},
 so we're not qualified to design the game in a way that would be respectful
 and representative.
@@ -251,8 +251,13 @@ differently entirely?
 Pronouns follow gender identity but that doesn't mean that the two concepts
 map 1:1 with each other. The System could present as a cis male but prefers
 they/them or she/her pronouns. They might prefer a neopronoun such as
-fae/faer[ &#203c; &#1f60d; &#1f57a;]{.fox}
-[... Yes, <span class="fox-emoji"></span>, we know that's one of your pronouns.]{.dera},
+fae/faer[ 
+<span class="emoji-speak">
+  &#x1f57a;
+  &#x1f60d; 
+  &#x203c; 
+</span>]{.fox}
+[Yes, <span class="emoji-fox"></span>, we know that's one of your pronoun sets.]{.dera},
 or maybe they don't like pronouns at all?
 
 If you have several suggestions on the table, remember that it's entirely possible

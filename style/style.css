@@ -457,6 +457,8 @@ dl dd p { line-height: 1.2; }
    .aura:after { content: var(--aura);    }    .emoji-aura { content: var(--aura);    }
     .fox:after { content: var(--fox);     }     .emoji-fox { content: var(--fox);     }  
 
+    .fox .emoji-speak { font-size: 200%; }
+
 /* morethanone ------------------------------------------------------------------------------------------------ */
 .morethanone .bigpara { 
   font-size:     var(--h4); 
