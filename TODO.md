@@ -1,13 +1,13 @@
 # To Do
 
-As of 2021-06-29:
+As of 2021-07-03:
 
 - [ ] CSS
   - [ ] text-align of card groups/stacks/hands
 - [x] Game
   - [x] Intro to section
-- [ ] The Set-Up
-  - [ ] Creating the System
+- [x] The Set-Up
+  - [x] Creating the System
     - [x] Game Assumptions
     - [x] Gender and Sexuality
     - [x] Neurodiversity etc
