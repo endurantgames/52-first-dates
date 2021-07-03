@@ -19,7 +19,7 @@ Before the first Date Night, you have to do the following:
 
 Before *each* Date Night, including the first, you need to:
 
-- Create the Prospect
 - Assign Roles
+- Create the Prospect
 - Set the Scene
 

@@ -83,8 +83,8 @@ PRINCEFLAGS_CHARSHEET = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/charshe
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
-PDFINFO = du -b
-# PDFINFO = /usr/bin/pdfinfo
+# PDFINFO = du -b
+PDFINFO = /usr/bin/pdfinfo
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode

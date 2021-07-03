@@ -4,13 +4,13 @@ As of 2021-06-29:
 
 - [ ] CSS
   - [ ] text-align of card groups/stacks/hands
-- [ ] Game
-  - [ ] Intro to section
+- [x] Game
+  - [x] Intro to section
 - [ ] The Set-Up
   - [ ] Creating the System
-    - [ ] Game Assumptions
-    - [ ] Gender and Sexuality
-    - [ ] Neurodiversity etc
+    - [x] Game Assumptions
+    - [x] Gender and Sexuality
+    - [x] Neurodiversity etc
 - [ ] Date Night
   - [ ] Starting Date Night
     - [ ] Turn order
