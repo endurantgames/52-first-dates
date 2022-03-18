@@ -5,3 +5,6 @@ A rules-light tabletop roleplaying game about going on 52 blind dates while plur
 [52 Blind Dates](https://spindriftgames.itch.io/52-first-dates) was created as part of the [Otherships Jam 3](https://itch.io/jam/otherships-jam-3)
 hosted by [Metaparadox](https://metaparadox.itch.io/).
 
+## Current Status
+
+Development on this project is as completed as it will be, so I am setting this repository as a public archive.
